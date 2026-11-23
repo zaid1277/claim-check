@@ -1,0 +1,39 @@
+.env
+.env.*
+!.env.example
+!.env.test.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.DS_Store
+playwright-report/
+test-results/
+.cache/
+
+# Local runtime data and downloaded model artifacts
+*.log
+*.ses
+*.sqlite*
+*.db
+*.safetensors
+*.onnx
+*.pt
+*.bin
+*.gguf
+uploads/
+
+# Ephemeral local evaluation state (disposable Postgres connection info,
+# written by evaluation/*/run_release.sh; never meaningful outside the
+# machine/session that created it)
+work/
+
+# Claude Code tool-internal session state, not part of the project
+.claude/

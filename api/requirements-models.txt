@@ -1,0 +1,5 @@
+# Direct model dependencies tested on macOS/Python 3.12. Transitives vary by platform.
+sentence-transformers==5.7.0
+transformers==4.57.6
+torch==2.14.0
+rapidocr-onnxruntime==1.4.4
