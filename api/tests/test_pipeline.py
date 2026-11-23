@@ -1,7 +1,15 @@
+import pytest
+
 from app.core.settings import Settings
 from app.services.article_extraction import Article
 from app.services.pipeline import check_claim
 from app.services.search import FixtureSearch
+
+
+@pytest.fixture(autouse=True)
+def fixed_relevance(monkeypatch):
+    # These tests isolate pipeline mechanics; opt-in tests use the real models.
+    monkeypatch.setattr("app.services.pipeline.relevance_score", lambda *args: 10.0)
 
 
 def test_pipeline_preserves_passage_and_citation_metadata(monkeypatch):
