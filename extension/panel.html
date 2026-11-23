@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Claim Check</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Claim Check</h1></header>
+    <main>
+      <p>Review selected text before investigating.</p>
+      <label for="claim">Selected claim</label
+      ><textarea id="claim" rows="6" maxlength="1000"></textarea>
+      <p id="context"></p>
+      <button id="check">Check selected claim</button
+      ><button id="page">Check this page</button>
+      <p id="status" role="status"></p>
+      <p id="error" role="alert"></p>
+      <section id="result" aria-label="Assessment"></section>
+      <a id="full" hidden target="_blank" rel="noreferrer"
+        >Open full investigation</a
+      >
+      <p>
+        Evidence can be incomplete or misinterpreted. This is not professional
+        advice.
+      </p>
+      <a href="options.html" target="_blank">Connection settings</a>
+    </main>
+    <script src="panel.js"></script>
+  </body>
+</html>

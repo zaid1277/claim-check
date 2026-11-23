@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Claim Check settings</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Connection settings</h1>
+      <form id="settings">
+        <label for="origin">Claim Check web origin</label
+        ><input
+          id="origin"
+          type="url"
+          required
+          placeholder="http://localhost:3000"
+        />
+        <p>
+          Use your deployed HTTPS web address or the local development address.
+          No API keys belong here.
+        </p>
+        <button>Save connection</button>
+      </form>
+      <p id="status" role="status"></p>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>

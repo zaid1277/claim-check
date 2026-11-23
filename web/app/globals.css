@@ -1,0 +1,222 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f7f5ef;
+  --color-foreground: #171717;
+  --color-muted: #676760;
+  --color-accent: #244b5a;
+  --color-rule: #d2d0c7;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-background);
+}
+
+.shell {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 2px solid;
+  padding-bottom: 1rem;
+}
+.masthead a {
+  font: bold 1.75rem var(--font-serif);
+  text-decoration: none;
+  color: var(--color-foreground);
+}
+.masthead span,
+.muted {
+  color: var(--color-muted);
+}
+main {
+  padding-block: 2rem;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  line-height: 1.25;
+  margin-block: 1rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+p {
+  margin-block: 1rem;
+  line-height: 1.7;
+}
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+}
+.eyebrow {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  color: var(--color-accent);
+}
+.intro {
+  max-width: 42rem;
+  color: var(--color-muted);
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+textarea,
+input[type="text"],
+input[type="url"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--color-muted);
+  border-radius: 4px;
+  background: #faf9f5;
+  font: inherit;
+}
+textarea {
+  resize: vertical;
+}
+button {
+  background: var(--color-accent);
+  color: white;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+button.secondary {
+  background: transparent;
+  color: var(--color-accent);
+}
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block: 1rem;
+}
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 4px;
+}
+.notice {
+  padding: 1rem;
+  border-left: 4px solid #876727;
+  background: #ece6d6;
+}
+.assessment,
+.evidence-group,
+footer,
+.result-heading {
+  border-top: 1px solid var(--color-rule);
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+}
+.citation {
+  border-bottom: 1px solid var(--color-rule);
+  padding-bottom: 1rem;
+}
+blockquote {
+  border-left: 2px solid var(--color-accent);
+  padding-left: 1rem;
+  line-height: 1.7;
+}
+summary {
+  cursor: pointer;
+  padding-block: 1rem;
+  font-weight: bold;
+}
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+dd {
+  margin: 0;
+}
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 0.875rem;
+}
+footer {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}
+ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .shell {
+    padding: 1.5rem 1rem;
+  }
+}
+
+.input-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--color-rule);
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
+}
+.input-modes legend {
+  margin-bottom: 1rem;
+}
+.claim-edit {
+  margin-block: 1.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  background: #f7f5ef;
+  padding: 1rem;
+  z-index: 10;
+}
+.skip-link:focus {
+  top: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--color-accent);
+}
