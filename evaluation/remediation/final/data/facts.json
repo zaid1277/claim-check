@@ -1,0 +1,457 @@
+[
+  {
+    "fact": "The Statue of Liberty was a gift from France to the United States.",
+    "alternative": "The Statue of Liberty was a gift from Spain to the United States.",
+    "domain": "history"
+  },
+  {
+    "fact": "Antarctica is the coldest continent on Earth.",
+    "alternative": "Antarctica is the warmest continent on Earth.",
+    "domain": "geography"
+  },
+  {
+    "fact": "The human skeleton contains 206 bones in adulthood.",
+    "alternative": "The human skeleton contains 46 bones in adulthood.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "Water boils at 100 degrees Celsius at sea level.",
+    "alternative": "Water boils at 50 degrees Celsius at sea level.",
+    "domain": "science"
+  },
+  {
+    "fact": "The Titanic sank in 1912 after striking an iceberg.",
+    "alternative": "The Titanic sank in 1932 after striking an iceberg.",
+    "domain": "history"
+  },
+  {
+    "fact": "Neptune is the farthest known planet from the Sun.",
+    "alternative": "Mercury is the farthest known planet from the Sun.",
+    "domain": "space"
+  },
+  {
+    "fact": "The Amazon River flows through Brazil.",
+    "alternative": "The Amazon River flows through Australia.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Shakespeare's play Hamlet is set primarily in Denmark.",
+    "alternative": "Shakespeare's play Hamlet is set primarily in Spain.",
+    "domain": "culture"
+  },
+  {
+    "fact": "The Great Depression began in 1929.",
+    "alternative": "The Great Depression began in 1959.",
+    "domain": "business"
+  },
+  {
+    "fact": "Sharks are a type of cartilaginous fish.",
+    "alternative": "Sharks are a type of mammal.",
+    "domain": "science"
+  },
+  {
+    "fact": "The FIFA World Cup is held every four years.",
+    "alternative": "The FIFA World Cup is held every ten years.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Python is a widely used programming language for data science.",
+    "alternative": "COBOL is the most widely used programming language for data science today.",
+    "domain": "technology"
+  },
+  {
+    "fact": "Greenland is the largest island on Earth that is not a continent.",
+    "alternative": "Greenland is the smallest island on Earth.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Vitamin C deficiency can cause scurvy.",
+    "alternative": "Vitamin C deficiency has no known health effects.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The Wright Flyer made its first flight at Kitty Hawk.",
+    "alternative": "The Wright Flyer made its first flight in downtown Chicago.",
+    "domain": "history"
+  },
+  {
+    "fact": "Electric vehicles generally produce no tailpipe emissions.",
+    "alternative": "Electric vehicles generally produce heavy tailpipe emissions.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Nile is one of the longest rivers in the world.",
+    "alternative": "The Nile is one of the shortest rivers in the world.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Chess is played on a board with 64 squares.",
+    "alternative": "Chess is played on a board with 100 squares.",
+    "domain": "culture"
+  },
+  {
+    "fact": "The human eye contains photoreceptor cells called rods and cones.",
+    "alternative": "The human eye contains no photoreceptor cells at all.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "Recycling aluminum uses significantly less energy than producing it from raw ore.",
+    "alternative": "Recycling aluminum uses significantly more energy than producing it from raw ore.",
+    "domain": "environment"
+  },
+  {
+    "fact": "The Hoover Dam was built on the Colorado River during the 1930s.",
+    "alternative": "The Hoover Dam was built on the Mississippi River during the 1830s.",
+    "domain": "history"
+  },
+  {
+    "fact": "Beethoven continued composing music after losing much of his hearing.",
+    "alternative": "Beethoven stopped composing entirely once he began losing his hearing.",
+    "domain": "culture"
+  },
+  {
+    "fact": "Quarterly earnings reports are commonly published by publicly traded companies.",
+    "alternative": "Publicly traded companies are prohibited from publishing quarterly earnings reports.",
+    "domain": "business"
+  },
+  {
+    "fact": "Jupiter's Great Red Spot is a giant storm.",
+    "alternative": "Jupiter's Great Red Spot is a solid landmass.",
+    "domain": "space"
+  },
+  {
+    "fact": "Penguins are flightless birds.",
+    "alternative": "Penguins are known for their long-distance flight.",
+    "domain": "science"
+  },
+  {
+    "fact": "The Cold War was primarily a rivalry between the United States and the Soviet Union.",
+    "alternative": "The Cold War was primarily a rivalry between France and Germany.",
+    "domain": "history"
+  },
+  {
+    "fact": "Olympic gold medalists receive a medal made primarily of silver with gold plating.",
+    "alternative": "Olympic gold medalists receive a medal made entirely of solid gold.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Cloud computing allows on-demand access to shared computing resources over the internet.",
+    "alternative": "Cloud computing requires all computing to occur on a single local machine.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Dead Sea is one of the saltiest bodies of water on Earth.",
+    "alternative": "The Dead Sea is one of the least salty bodies of water on Earth.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Malaria is transmitted to humans through mosquito bites.",
+    "alternative": "Malaria is transmitted to humans through airborne dust.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The Rosetta Stone helped scholars decipher Egyptian hieroglyphs.",
+    "alternative": "The Rosetta Stone had no role in deciphering Egyptian hieroglyphs.",
+    "domain": "history"
+  },
+  {
+    "fact": "Volcanic eruptions can release large amounts of ash into the atmosphere.",
+    "alternative": "Volcanic eruptions never release ash into the atmosphere.",
+    "domain": "science"
+  },
+  {
+    "fact": "The euro is the official currency used by many European Union member states.",
+    "alternative": "The euro has never been adopted by any European Union member state.",
+    "domain": "business"
+  },
+  {
+    "fact": "Golf tournaments typically award the win to the lowest total score.",
+    "alternative": "Golf tournaments typically award the win to the highest total score.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Open-source software allows users to view and modify its source code.",
+    "alternative": "Open-source software strictly forbids users from ever viewing its source code.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Rocky Mountains run through parts of the western United States and Canada.",
+    "alternative": "The Rocky Mountains run through parts of eastern Europe.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Chronic stress can negatively affect cardiovascular health.",
+    "alternative": "Chronic stress has no measurable effect on cardiovascular health.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The printing of paper money is regulated by national governments or central banks.",
+    "alternative": "Paper money can be legally printed by any private individual.",
+    "domain": "business"
+  },
+  {
+    "fact": "The International Space Station orbits the Earth roughly every 90 minutes.",
+    "alternative": "The International Space Station orbits the Earth roughly once a year.",
+    "domain": "space"
+  },
+  {
+    "fact": "Bats use echolocation to navigate in the dark.",
+    "alternative": "Bats rely primarily on vision to navigate in the dark.",
+    "domain": "science"
+  },
+  {
+    "fact": "The Magna Carta was signed in 1215 in England.",
+    "alternative": "The Magna Carta was signed in 1815 in France.",
+    "domain": "history"
+  },
+  {
+    "fact": "The Super Bowl is the championship game of the National Football League.",
+    "alternative": "The Super Bowl is the championship game of the National Basketball Association.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Cybersecurity practices aim to protect systems from unauthorized access.",
+    "alternative": "Cybersecurity practices aim to make systems more accessible to unauthorized users.",
+    "domain": "technology"
+  },
+  {
+    "fact": "Lake Victoria is one of the largest freshwater lakes in Africa.",
+    "alternative": "Lake Victoria is one of the smallest lakes in Africa.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Type 2 diabetes is associated with insulin resistance.",
+    "alternative": "Type 2 diabetes has no known association with insulin function.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The ancient Library of Alexandria was a major center of scholarship.",
+    "alternative": "The ancient Library of Alexandria was primarily a military fortress.",
+    "domain": "history"
+  },
+  {
+    "fact": "Reforestation projects aim to restore tree cover in deforested areas.",
+    "alternative": "Reforestation projects aim to remove all remaining trees from an area.",
+    "domain": "environment"
+  },
+  {
+    "fact": "The Iditarod is a long-distance sled dog race held annually in Alaska.",
+    "alternative": "The Iditarod is a short indoor race held annually in Florida.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Artificial intelligence systems can be trained on large datasets.",
+    "alternative": "Artificial intelligence systems cannot be trained on any data.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Andean condor is one of the largest flying birds in the world.",
+    "alternative": "The Andean condor is a flightless bird.",
+    "domain": "science"
+  },
+  {
+    "fact": "The Marshall Plan provided economic aid to rebuild Western Europe after World War II.",
+    "alternative": "The Marshall Plan provided no economic aid to Europe after World War II.",
+    "domain": "history"
+  },
+  {
+    "fact": "Compound interest allows investment growth to accelerate over time.",
+    "alternative": "Compound interest guarantees a fixed, unchanging investment return every year.",
+    "domain": "business"
+  },
+  {
+    "fact": "A parsec is a unit used by astronomers to measure vast distances.",
+    "alternative": "A parsec is a unit used to measure the mass of stars.",
+    "domain": "space"
+  },
+  {
+    "fact": "Honeybees communicate the location of food using a waggle dance.",
+    "alternative": "Honeybees are incapable of communicating food locations to each other.",
+    "domain": "science"
+  },
+  {
+    "fact": "The signing of the Treaty of Versailles took place in 1919.",
+    "alternative": "The signing of the Treaty of Versailles took place in 1949.",
+    "domain": "history"
+  },
+  {
+    "fact": "Tennis Grand Slam tournaments include the Australian Open, French Open, Wimbledon, and the US Open.",
+    "alternative": "Tennis Grand Slam tournaments include only two events worldwide.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Firewalls are used to monitor and control network traffic for security.",
+    "alternative": "Firewalls are used exclusively to increase internet browsing speed.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Gobi Desert is located in parts of northern China and southern Mongolia.",
+    "alternative": "The Gobi Desert is located in South America.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Regular dental checkups help detect cavities early.",
+    "alternative": "Dental checkups have no effect on early cavity detection.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The Berlin Airlift supplied West Berlin during a Soviet blockade.",
+    "alternative": "The Berlin Airlift was organized to supply East Berlin during a western blockade.",
+    "domain": "history"
+  },
+  {
+    "fact": "Plastic pollution poses a significant threat to marine ecosystems.",
+    "alternative": "Plastic pollution poses no threat whatsoever to marine ecosystems.",
+    "domain": "environment"
+  },
+  {
+    "fact": "The 100-meter sprint is a standard track and field event.",
+    "alternative": "The 100-meter sprint is not recognized as a track and field event.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Encryption is used to protect data from unauthorized access.",
+    "alternative": "Encryption is used to make data more easily accessible to anyone.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Alps are a major mountain range in Europe.",
+    "alternative": "The Alps are a major mountain range in South America.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Regular hydration supports normal kidney function.",
+    "alternative": "Hydration has no relationship to kidney function.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The invention of the steam engine helped power the Industrial Revolution.",
+    "alternative": "The steam engine played no role in the Industrial Revolution.",
+    "domain": "history"
+  },
+  {
+    "fact": "Bonds are generally considered less volatile than stocks.",
+    "alternative": "Bonds are generally considered far more volatile than stocks.",
+    "domain": "business"
+  },
+  {
+    "fact": "Black holes have gravitational fields so strong that not even light can escape.",
+    "alternative": "Black holes have almost no measurable gravitational field.",
+    "domain": "space"
+  },
+  {
+    "fact": "Coral polyps are tiny animals that build coral reefs over time.",
+    "alternative": "Coral reefs are built entirely by plants rather than animals.",
+    "domain": "science"
+  },
+  {
+    "fact": "The Suez Canal connects the Mediterranean Sea to the Red Sea.",
+    "alternative": "The Suez Canal connects the Pacific Ocean to the Atlantic Ocean.",
+    "domain": "geography"
+  },
+  {
+    "fact": "The first modern Olympic Games were held in Athens in 1896.",
+    "alternative": "The first modern Olympic Games were held in Athens in 1996.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Cryptocurrency transactions are often recorded on a distributed ledger called a blockchain.",
+    "alternative": "Cryptocurrency transactions are recorded only on a single central government server.",
+    "domain": "technology"
+  },
+  {
+    "fact": "Lake Baikal is the deepest freshwater lake in the world.",
+    "alternative": "Lake Baikal is one of the shallowest lakes in the world.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Regular handwashing helps reduce the spread of infectious disease.",
+    "alternative": "Handwashing has no effect on the spread of infectious disease.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The fall of the Western Roman Empire is traditionally dated to 476 CE.",
+    "alternative": "The fall of the Western Roman Empire is traditionally dated to 1076 CE.",
+    "domain": "history"
+  },
+  {
+    "fact": "Wind turbines convert kinetic energy from wind into electricity.",
+    "alternative": "Wind turbines convert sunlight directly into electricity.",
+    "domain": "environment"
+  },
+  {
+    "fact": "Baseball games are traditionally divided into nine innings.",
+    "alternative": "Baseball games are traditionally divided into three innings.",
+    "domain": "sports"
+  },
+  {
+    "fact": "APIs allow different software systems to communicate with each other.",
+    "alternative": "APIs are designed to prevent any communication between software systems.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Mekong River flows through several countries in Southeast Asia.",
+    "alternative": "The Mekong River flows entirely within a single country in Europe.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Antibodies are proteins produced by the immune system to fight pathogens.",
+    "alternative": "Antibodies are a type of carbohydrate found only in plants.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The Renaissance began in Italy before spreading across Europe.",
+    "alternative": "The Renaissance began in Scandinavia before spreading across Europe.",
+    "domain": "history"
+  },
+  {
+    "fact": "Inflation refers to a general rise in prices over time.",
+    "alternative": "Inflation refers to a general and permanent fall in prices over time.",
+    "domain": "business"
+  },
+  {
+    "fact": "The asteroid belt is located between the orbits of Mars and Jupiter.",
+    "alternative": "The asteroid belt is located between the orbits of Earth and Venus.",
+    "domain": "space"
+  },
+  {
+    "fact": "Migratory birds often travel long distances between breeding and wintering grounds.",
+    "alternative": "Migratory birds never travel beyond a small local area.",
+    "domain": "science"
+  },
+  {
+    "fact": "The Louisiana Purchase roughly doubled the size of the United States in 1803.",
+    "alternative": "The Louisiana Purchase reduced the size of the United States in 1803.",
+    "domain": "history"
+  },
+  {
+    "fact": "Composting organic waste can reduce the amount sent to landfills.",
+    "alternative": "Composting organic waste has no effect on landfill volume.",
+    "domain": "environment"
+  },
+  {
+    "fact": "A hat-trick in soccer refers to a player scoring three goals in one match.",
+    "alternative": "A hat-trick in soccer refers to a player scoring zero goals in one match.",
+    "domain": "sports"
+  },
+  {
+    "fact": "Two-factor authentication adds an extra layer of account security.",
+    "alternative": "Two-factor authentication removes all security requirements from an account.",
+    "domain": "technology"
+  },
+  {
+    "fact": "The Strait of Gibraltar separates Europe from Africa.",
+    "alternative": "The Strait of Gibraltar separates Asia from Australia.",
+    "domain": "geography"
+  },
+  {
+    "fact": "Regular physical activity is associated with improved mental health.",
+    "alternative": "Regular physical activity is associated with worsened mental health in all cases.",
+    "domain": "medicine"
+  },
+  {
+    "fact": "The Boston Tea Party took place in 1773.",
+    "alternative": "The Boston Tea Party took place in 1873.",
+    "domain": "history"
+  }
+]

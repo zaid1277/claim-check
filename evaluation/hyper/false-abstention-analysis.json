@@ -1,0 +1,3141 @@
+[
+  {
+    "id": "final-fact-000",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "education",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.488,
+      "total": 0.488,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.89
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-003",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "culture",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.495,
+      "contradict_total": 0,
+      "total": 0.495,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.91
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-008",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "geography",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.379,
+      "total": 0.379,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.69
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-009",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "history",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.454,
+      "total": 0.454,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.83
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-013",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "physics",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "temporal-filter",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Currentness cannot be established without a usable publication date.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.85
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-fact-014",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "public institutions",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.418,
+      "total": 0.418,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.76
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-017",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "physics",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.497,
+      "total": 0.497,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.9
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-019",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "computing",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.472,
+      "total": 0.472,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.86
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-022",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "public institutions",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.483,
+      "total": 0.483,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.88
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-026",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "economics",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.475,
+      "total": 0.475,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.86
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-028",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "sport",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.478,
+      "total": 0.478,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.87
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-029",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "AI/technology",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.373,
+      "total": 0.373,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.68
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-031",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "history",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.465,
+      "total": 0.465,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.85
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-033",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "climate/environment",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.495,
+      "total": 0.495,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.9
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-034",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "history",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.473,
+      "total": 0.473,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.86
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-035",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "public institutions",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.486,
+      "total": 0.486,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.89
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-036",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "culture",
+    "difficulty": "easy",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.477,
+      "total": 0.477,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.87
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-041",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "public institutions",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.452,
+      "total": 0.452,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.82
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-046",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "geography",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.45,
+      "total": 0.45,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.82
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-047",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "climate/environment",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.491,
+      "total": 0.491,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.89
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-048",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "culture",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.48,
+      "total": 0.48,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.88
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-052",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "space",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.417,
+      "total": 0.417,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.76
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-055",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "physics",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.409,
+      "total": 0.409,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.74
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-057",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "business",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.477,
+      "total": 0.477,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.87
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-060",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "culture",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.496,
+      "contradict_total": 0,
+      "total": 0.496,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.91
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-061",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "public institutions",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.437,
+      "total": 0.437,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.8
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-062",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "climate/environment",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.437,
+      "total": 0.437,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.8
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-071",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "computing",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.443,
+      "total": 0.443,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.81
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-073",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "climate/environment",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.495,
+      "contradict_total": 0,
+      "total": 0.495,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.91
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-078",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "transportation",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.488,
+      "contradict_total": 0,
+      "total": 0.488,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.9
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-079",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "geography",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.495,
+      "total": 0.495,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.91
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-082",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health facts",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.474,
+      "contradict_total": 0,
+      "total": 0.474,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.87
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-084",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "culture",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.414,
+      "total": 0.414,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.75
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-085",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "geography",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.498,
+      "contradict_total": 0,
+      "total": 0.498,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.92
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-088",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health facts",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.499,
+      "contradict_total": 0,
+      "total": 0.499,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.91
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-091",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "physics",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.458,
+      "total": 0.458,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.83
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-093",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health facts",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.491,
+      "contradict_total": 0,
+      "total": 0.491,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.9
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-094",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "transportation",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.5,
+      "total": 0.5,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.91
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-096",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "business",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.493,
+      "total": 0.493,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.9
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-097",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "history",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.461,
+      "total": 0.461,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.84
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-fact-098",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "biology",
+    "difficulty": "medium",
+    "origin": "authored-controlled",
+    "tag": "direct-factual",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.483,
+      "contradict_total": 0,
+      "total": 0.483,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.88
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-hard-001",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "computing",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "partial-support",
+    "subtype": "F-dominance-ratio-not-met",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 2,
+      "n_excluded_directional": 0,
+      "support_total": 0.496,
+      "contradict_total": 0.45,
+      "total": 0.947,
+      "n_atoms": 2,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -7.75 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -6.51 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.91,
+        0.82,
+        0.69
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org",
+        "source-1.org"
+      ]
+    }
+  },
+  {
+    "id": "final-hard-002",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "space",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "two-actors",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.81,
+        0.71
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-003",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "space",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "partial-truth",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -1.09 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -4.16 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.66,
+        0.6
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-004",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "geography",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "partial-truth-reversed",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 0.45 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.65,
+        0.6
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-006",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "history",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "before",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -2.23 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance 1.25 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.68,
+        0.63
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-007",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "transportation",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "after",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 0.76 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.68,
+        0.58
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-008",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "physics",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "caveat",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.438,
+      "total": 0.438,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.85,
+        0.8
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-1.org"
+      ]
+    }
+  },
+  {
+    "id": "final-hard-009",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "biology",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "universal",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -3.20 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.93,
+        0.37
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-010",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health facts",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "denominator",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.311,
+      "contradict_total": 0,
+      "total": 0.311,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.53 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.77,
+        0.72
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-1.org"
+      ]
+    }
+  },
+  {
+    "id": "final-hard-011",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "climate/environment",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "correlation",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.87 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.49
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-014",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "computing",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "version",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.476,
+      "total": 0.476,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.87,
+        0.73
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-hard-015",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "AI/technology",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "ranking-scope",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -2.62 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance 0.16 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.66,
+        0.44
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-016",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "economics",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "nominal-real",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -2.12 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.84,
+        0.65
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-hard-023",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "biology",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "negation-scope",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.337,
+      "total": 0.337,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.68,
+        0.61
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-1.org"
+      ]
+    }
+  },
+  {
+    "id": "final-hard-024",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "physics",
+    "difficulty": "hard",
+    "origin": "authored-controlled",
+    "tag": "units",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.35,
+      "contradict_total": 0,
+      "total": 0.35,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.72,
+        0.67
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "source-0.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-1336",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "D-duplicate-independence",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0.337,
+      "contradict_total": 0,
+      "total": 0.337,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Repeated source or near-duplicate content; not independent confirmation.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.66,
+        0.64
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-143",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.371,
+      "contradict_total": 0,
+      "total": 0.371,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -4.51 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -7.77 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.69,
+        0.69,
+        0.51
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-1337",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 1,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.61
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-1185",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -4.85 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -3.78 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -1.29 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.65,
+        0.58,
+        0.54
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-1049",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -5.94 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -11.03 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.43,
+        0.39
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-1062",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 3,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.329,
+      "contradict_total": 0,
+      "total": 0.329,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -6.58 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -2.02 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.65,
+        0.51,
+        0.44
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-171",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "D-duplicate-independence",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0.416,
+      "total": 0.416,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Repeated source or near-duplicate content; not independent confirmation.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.76,
+        0.65
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-852",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 3,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.97 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -0.25 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance 0.74 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.63,
+        0.52,
+        0.5
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-1024",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -3.71 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.6,
+        0.43
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-692",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 3,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 0.54 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance 0.72 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -3.18 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.63,
+        0.61,
+        0.57
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-744",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.326,
+      "contradict_total": 0,
+      "total": 0.326,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -4.44 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.69,
+        0.48
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-51",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.431,
+      "total": 0.431,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -1.23 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.78,
+        0.59
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-911",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -1.55 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.67,
+        0.61,
+        0.57
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-1232",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.334,
+      "total": 0.334,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.61,
+        0.58
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-728",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 5,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 0.09 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -0.74 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -0.91 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.71,
+        0.59,
+        0.52
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-985",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 0.82 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.72,
+        0.72
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-549",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.294,
+      "contradict_total": 0,
+      "total": 0.294,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -7.14 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.54,
+        0.43
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-113",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 1,
+      "n_excluded_directional": 2,
+      "support_total": 0.372,
+      "contradict_total": 0,
+      "total": 0.372,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -0.78 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance 1.76 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -7.05 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.74,
+        0.65,
+        0.52
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-1041",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 5,
+      "n_counted": 0,
+      "n_excluded_directional": 2,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.24 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -1.25 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -0.48 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.7,
+        0.66,
+        0.64
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-536",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "D-duplicate-independence",
+    "detail": {
+      "n_evidence": 3,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0.355,
+      "contradict_total": 0,
+      "total": 0.355,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Repeated source or near-duplicate content; not independent confirmation.",
+          1
+        ],
+        [
+          "Proposition relevance -6.10 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.67,
+        0.56,
+        0.5
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-1132",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.36 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -4.25 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.66,
+        0.65,
+        0.5
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-619",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -5.18 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -2.04 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.39,
+        0.37
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-56",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "C-contradiction-eligibility",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Contradiction confidence is below the required operating point.",
+          1
+        ],
+        [
+          "Proposition relevance -1.82 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.72,
+        0.63
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-1320",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0.368,
+      "total": 0.368,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -6.93 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.67,
+        0.49
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-180",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.371,
+      "total": 0.371,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.85 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.67,
+        0.55
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-163",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -9.38 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.84,
+        0.82,
+        0.81
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-185",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 3,
+      "n_counted": 0,
+      "n_excluded_directional": 2,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.96 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance 1.20 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -3.54 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.62,
+        0.56,
+        0.47
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-501",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0.305,
+      "total": 0.305,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -0.01 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -5.73 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.81,
+        0.68,
+        0.61
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-230",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -3.28 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -1.56 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.62,
+        0.59
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-960",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "D-duplicate-independence",
+    "detail": {
+      "n_evidence": 3,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0.39,
+      "contradict_total": 0,
+      "total": 0.39,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Repeated source or near-duplicate content; not independent confirmation.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.8,
+        0.69,
+        0.68
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-431",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "J-no-directional-evidence-in-NLI",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 0,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.20 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -3.14 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.57,
+        0.43
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-781",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.406,
+      "total": 0.406,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 0.76 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.74,
+        0.6
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-436",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.404,
+      "contradict_total": 0,
+      "total": 0.404,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -2.66 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.74,
+        0.51
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-1359",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 4,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.367,
+      "total": 0.367,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -3.23 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.8,
+        0.76,
+        0.76
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-298",
+    "expected": "SUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0.371,
+      "contradict_total": 0,
+      "total": 0.371,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance -6.52 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.68,
+        0.5
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-54",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "H-single-source-only",
+    "detail": {
+      "n_evidence": 2,
+      "n_counted": 1,
+      "n_excluded_directional": 0,
+      "support_total": 0,
+      "contradict_total": 0.365,
+      "total": 0.365,
+      "n_atoms": 1,
+      "exclusion_reasons": [],
+      "top_similarities": [
+        0.81,
+        0.66
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-1270",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "D-duplicate-independence",
+    "detail": {
+      "n_evidence": 5,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0.381,
+      "total": 0.381,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Repeated source or near-duplicate content; not independent confirmation.",
+          1
+        ],
+        [
+          "Proposition relevance -0.14 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -2.68 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.69,
+        0.66,
+        0.58
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  },
+  {
+    "id": "final-scifact-811",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "B-relevance-gate",
+    "detail": {
+      "n_evidence": 3,
+      "n_counted": 0,
+      "n_excluded_directional": 2,
+      "support_total": 0,
+      "contradict_total": 0,
+      "total": 0,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Proposition relevance 1.62 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -2.49 is below 2.00; topic overlap is insufficient.",
+          1
+        ],
+        [
+          "Proposition relevance -0.92 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.61,
+        0.57,
+        0.52
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": []
+    }
+  },
+  {
+    "id": "final-scifact-516",
+    "expected": "UNSUPPORTED",
+    "predicted": "INSUFFICIENT_EVIDENCE",
+    "domain": "health/science",
+    "difficulty": "hard",
+    "origin": "SciFact-dev",
+    "tag": "expert-scientific",
+    "subtype": "D-duplicate-independence",
+    "detail": {
+      "n_evidence": 5,
+      "n_counted": 1,
+      "n_excluded_directional": 1,
+      "support_total": 0,
+      "contradict_total": 0.408,
+      "total": 0.408,
+      "n_atoms": 1,
+      "exclusion_reasons": [
+        [
+          "Repeated source or near-duplicate content; not independent confirmation.",
+          1
+        ],
+        [
+          "Proposition relevance -2.56 is below 2.00; topic overlap is insufficient.",
+          1
+        ]
+      ],
+      "top_similarities": [
+        0.74,
+        0.67,
+        0.62
+      ],
+      "top_source_weights": [
+        0.55
+      ],
+      "independence_groups_counted": [
+        "scifact-corpus.org"
+      ]
+    }
+  }
+]

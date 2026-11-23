@@ -1,0 +1,3246 @@
+{
+  "model": "evaluation/nli-upgrade/results/lora-base-256-merged",
+  "meta": {
+    "n_params_millions": 184.4,
+    "peak_rss_mb": 1100.2,
+    "latency_ms_median": 132.2
+  },
+  "overall": {
+    "name": "all",
+    "n": 380,
+    "accuracy": 0.8315789473684211,
+    "macro_f1": 0.8338700829930673,
+    "per_label": {
+      "support": {
+        "precision": 0.8538461538461538,
+        "recall": 0.7928571428571428,
+        "f1": 0.8222222222222222,
+        "n": 140
+      },
+      "neutral": {
+        "precision": 0.7801418439716312,
+        "recall": 0.8461538461538461,
+        "f1": 0.8118081180811808,
+        "n": 130
+      },
+      "contradict": {
+        "precision": 0.8715596330275229,
+        "recall": 0.8636363636363636,
+        "f1": 0.867579908675799,
+        "n": 110
+      }
+    },
+    "confusion_matrix": [
+      [
+        111,
+        21,
+        8
+      ],
+      [
+        14,
+        110,
+        6
+      ],
+      [
+        5,
+        10,
+        95
+      ]
+    ],
+    "false_contradiction_rate": 0.05185185185185185,
+    "opposite_direction": {
+      "true_contradict_predicted_support": 5,
+      "true_support_predicted_contradict": 8,
+      "rate": 0.034210526315789476
+    }
+  },
+  "scientific_subset": {
+    "name": "scientific",
+    "n": 161,
+    "accuracy": 0.6645962732919255,
+    "macro_f1": 0.6619318571657845,
+    "per_label": {
+      "support": {
+        "precision": 0.7272727272727273,
+        "recall": 0.5970149253731343,
+        "f1": 0.6557377049180327,
+        "n": 67
+      },
+      "neutral": {
+        "precision": 0.6111111111111112,
+        "recall": 0.7719298245614035,
+        "f1": 0.6821705426356589,
+        "n": 57
+      },
+      "contradict": {
+        "precision": 0.6764705882352942,
+        "recall": 0.6216216216216216,
+        "f1": 0.647887323943662,
+        "n": 37
+      }
+    },
+    "confusion_matrix": [
+      [
+        40,
+        19,
+        8
+      ],
+      [
+        10,
+        44,
+        3
+      ],
+      [
+        5,
+        9,
+        23
+      ]
+    ],
+    "false_contradiction_rate": 0.08870967741935484,
+    "opposite_direction": {
+      "true_contradict_predicted_support": 5,
+      "true_support_predicted_contradict": 8,
+      "rate": 0.08074534161490683
+    }
+  },
+  "hard_negative_subset": {
+    "name": "hard-negative",
+    "n": 22,
+    "accuracy": 0.9545454545454546,
+    "macro_f1": 0.9581699346405229,
+    "per_label": {
+      "support": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 6
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333,
+        "n": 8
+      },
+      "contradict": {
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1": 0.9411764705882353,
+        "n": 8
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        1
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "false_contradiction_rate": 0.07142857142857142,
+    "opposite_direction": {
+      "true_contradict_predicted_support": 0,
+      "true_support_predicted_contradict": 0,
+      "rate": 0.0
+    }
+  },
+  "hard_contradiction_subset": {
+    "name": "hard-contradiction",
+    "n": 17,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_label": {
+      "support": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 7
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 5
+      },
+      "contradict": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 5
+      }
+    },
+    "confusion_matrix": [
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        5
+      ]
+    ],
+    "false_contradiction_rate": 0.0,
+    "opposite_direction": {
+      "true_contradict_predicted_support": 0,
+      "true_support_predicted_contradict": 0,
+      "rate": 0.0
+    }
+  },
+  "results": [
+    {
+      "id": "scifact-train-79-5099266",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.5188392400741577,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-428-16728949",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.8922277092933655,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-529-36651210",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9128388166427612,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1054-10072941",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.8363698124885559,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-46-380526",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.877682089805603,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-165-5824985",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.8400641679763794,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1169-4319174",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.38096219301223755,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-740-23078022",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.6696688532829285,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-815-8148304",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.5807409286499023,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1356-13764090",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9536876678466797,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-973-27873158",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.7481366395950317,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-34-11705328",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8104998469352722,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-335-1780819",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.8375859260559082,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-356-6144337",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.7602783441543579,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-726-7521113",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.8617308139801025,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1018-11603066",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.9464722275733948,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-159-9394119",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.5833479762077332,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-394-11360768",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.6445497870445251,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1230-13905670",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9884309768676758,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-951-21414718",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.6449454426765442,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1109-8582337",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.9283616542816162,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-854-12206390",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.7859101295471191,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1119-5323845",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.5965086221694946,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-61-13899137",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9473872184753418,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-738-16562534",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.7520931363105774,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-9-44265107",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.45902135968208313,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-822-15319019",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.9204230904579163,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-643-15535511",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9035700559616089,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-955-2078658",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9086296558380127,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-973-9764256",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8072233200073242,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-52-45638119",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9896535277366638,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1341-15482274",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8695783019065857,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-901-6540064",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9701916575431824,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-803-22180793",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9804551005363464,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1097-26851674",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9737793803215027,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-414-6309659",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.6623783111572266,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-646-12810152",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.4585294723510742,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-189-4421578",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.46883732080459595,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-736-5389095",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9529824256896973,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1069-4200695",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9522626996040344,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1119-13907928",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.5176527500152588,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-61-13901073",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.7991481423377991,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1378-2488880",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.7946444749832153,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1006-4926049",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9886218905448914,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1234-13905670",
+      "expected": "support",
+      "predicted": "contradict",
+      "confidence": 0.9382575750350952,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-461-40096222",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9416896104812622,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-663-22080671",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.6555116772651672,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1048-12486491",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.8827426433563232,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-531-10546779",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.98600172996521,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-333-29023309",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9953972697257996,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-121-31460499",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.7219878435134888,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1238-3654468",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.8652690052986145,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-570-20333864",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.97101891040802,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-752-19800147",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8524419665336609,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-272-11614737",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8925065994262695,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-953-3355397",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.7805960774421692,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-378-17150648",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.6432337760925293,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-426-16728949",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.9336836338043213,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-378-10534299",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8247146606445312,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1371-16256507",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9039613008499146,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-893-13509809",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9885647892951965,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1125-21009874",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.4933479428291321,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-964-4162857",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9267981052398682,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-648-15041758",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9008144736289978,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-665-12580014",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9335642457008362,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-780-24338780",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.5424742698669434,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-181-16966326",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9501510262489319,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1355-5256564",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9817973375320435,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1249-7209559",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9338111877441406,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-263-30041340",
+      "expected": "contradict",
+      "predicted": "support",
+      "confidence": 0.6006220579147339,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-263-14853989",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.773261308670044,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-537-16056514",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8713696599006653,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-178-16322674",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9802857637405396,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-566-16120395",
+      "expected": "contradict",
+      "predicted": "support",
+      "confidence": 0.5039690732955933,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-278-14376683",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.4528462886810303,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1120-5323845",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9307570457458496,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1090-17628888",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.46468859910964966,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1211-4928282",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8935761451721191,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-453-4200695",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9728715419769287,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1103-3898784",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.6475043296813965,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-263-11328820",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.8463236689567566,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-571-20333864",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9719300866127014,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-106-25515907",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.7126563191413879,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-662-37204802",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.7856731414794922,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1380-16322674",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.7934423089027405,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-330-9505448",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9693798422813416,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-928-18174210",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.682169497013092,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-342-7873737",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.5469561219215393,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1011-9745001",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9520690441131592,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-579-34139429",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.9615951776504517,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1376-3944632",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.6907546520233154,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-242-2212067",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9817274808883667,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-772-24922825",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.7041248679161072,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1360-11614737",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.6526156067848206,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-396-1456068",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8444031476974487,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1228-25641414",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8627139925956726,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-267-31554917",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.9626748561859131,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-98-6540064",
+      "expected": "contradict",
+      "predicted": "support",
+      "confidence": 0.6908788084983826,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1170-18956141",
+      "expected": "contradict",
+      "predicted": "support",
+      "confidence": 0.5184601545333862,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1327-22194407",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.5395576357841492,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-683-9315213",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9783512949943542,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-1323-19912367",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8095356822013855,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-801-22180793",
+      "expected": "contradict",
+      "predicted": "support",
+      "confidence": 0.36905235052108765,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-317-4506414",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.9360777139663696,
+      "origin": "SciFact-train",
+      "tag": "scifact-train"
+    },
+    {
+      "id": "scifact-train-nei-585",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.977638304233551,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-871",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8099285364151001,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-652",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.5592971444129944,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-357",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7745565176010132,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1190",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9887825846672058,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-949",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9837070107460022,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1112",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7565747499465942,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-609",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.8831852078437805,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-698",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.902006208896637,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-26",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8409755825996399,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-337",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7789400815963745,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-739",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8714547753334045,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-557",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "confidence": 0.8474358320236206,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1307",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.5183441042900085,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-650",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9362360835075378,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-610",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.7613281607627869,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-679",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9317676424980164,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-429",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8349359035491943,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-898",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9841820597648621,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-406",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9606757164001465,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-310",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.688044548034668,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-364",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9488331079483032,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1342",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9567315578460693,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1304",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9790727496147156,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-654",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7395354509353638,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-473",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8090137839317322,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1027",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.8160437345504761,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-449",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8592802286148071,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-550",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9244959354400635,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-376",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9871492981910706,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1349",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.5625616908073425,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-890",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8865773677825928,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-20",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.6245682239532471,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-676",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8923786878585815,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-658",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.8968631625175476,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-293",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9691638946533203,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1402",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9626582860946655,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-704",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.48459404706954956,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-710",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.6351785659790039,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-611",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.7803038954734802,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-817",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.5356435179710388,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-828",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "confidence": 0.46258091926574707,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-81",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9648094177246094,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-225",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8682280778884888,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-799",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.5436787009239197,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-18",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.5481772422790527,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1309",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "confidence": 0.7759109735488892,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-435",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8505344986915588,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1407",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9358018040657043,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1302",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9865530133247375,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1058",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.42414724826812744,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-895",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.563139021396637,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-1166",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.6848491430282593,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-352",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.72223961353302,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-696",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.4858841896057129,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-456",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9650828242301941,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "scifact-train-nei-62",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9672863483428955,
+      "origin": "SciFact-train",
+      "tag": "scifact-train-nei"
+    },
+    {
+      "id": "mnli-102495c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8347521424293518,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-6161c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9837247133255005,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-138201c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9802510142326355,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-51046c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9751113653182983,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-81928c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9901455044746399,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-77183c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9786427021026611,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-29758c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9844574332237244,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-20384c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9911871552467346,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-72059c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.988538920879364,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-15443c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9874057173728943,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-35058c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9889212846755981,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-42176c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9963040351867676,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-29530c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9851889610290527,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-78288c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9941966533660889,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-24990c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9863725304603577,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-146124c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.808316171169281,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-67637c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9886285066604614,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-69134c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8569083213806152,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-80317c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9948573112487793,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-46580c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9743331670761108,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-9906c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9912199378013611,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-111403c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.992179274559021,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-66625c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9926942586898804,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-2741c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9924466609954834,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-98620c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9937403202056885,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-52921c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.995817244052887,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-13396e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9932985901832581,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-130410e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9597744345664978,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-95718e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9943769574165344,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-140433e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8539438247680664,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-74464e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9952297210693359,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-39055e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8840770125389099,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-110930e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9923744797706604,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-16194e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9404393434524536,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-94222e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9776040315628052,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-4136e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.871556282043457,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-144013e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8738566637039185,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-63531e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9935543537139893,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-98943e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.7761881947517395,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-107732e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9898867011070251,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-128466e",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.9771592020988464,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-67525e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9933829307556152,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-35926e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9090303182601929,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-31362e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9839052557945251,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-66365e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9834438562393188,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-66074e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9957131147384644,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-142815e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9801708459854126,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-27187e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9928417205810547,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-45964e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.990711510181427,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-17470e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9947894811630249,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-136547e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9927421808242798,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-141080e",
+      "expected": "support",
+      "predicted": "neutral",
+      "confidence": 0.7809658646583557,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-54939n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9861758351325989,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-107718n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7443290948867798,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-41806n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8565467596054077,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-14068n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9907873272895813,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-43322n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9463590383529663,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-111699n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8047771453857422,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-123405n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8076189756393433,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-65223n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9960513710975647,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-90546n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9722766876220703,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-10743n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.596992015838623,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-18757n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9952837824821472,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-114895n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9133644104003906,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-38460n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9858841300010681,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-123665n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9962319731712341,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-128355n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9548624753952026,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-66123n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9886102676391602,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-63261n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9097639918327332,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-135502n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8160610198974609,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-116476n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.904032289981842,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-40612n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7596138715744019,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-114631n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9864415526390076,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-104576n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9959830045700073,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-89445n",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.9790652990341187,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-20820n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8297727704048157,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-35473n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9094523191452026,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "mnli-104242n",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9940213561058044,
+      "origin": "MNLI",
+      "tag": "mnli"
+    },
+    {
+      "id": "fever-161882-2a3cb6e9-24f9-4e52-91d9-76f58a038ded",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9993491768836975,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-18585-24edfaac-8c8d-4569-9b90-3aa57fb30836",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9720136523246765,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-114686-5e5226fc-6ae3-41e7-9f74-33a5d2ec67ee",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9864748120307922,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-166213-97cf6374-bf68-4446-8d4b-b8d5edbdf450",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9860852956771851,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-122422-32c89e95-7c97-45c1-b868-e911a34bfe9c",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.998835027217865,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-115651-ce7a9158-560e-402f-84df-a8cff80e161e",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9884508848190308,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-147280-5ab73a0c-8ce1-41c4-adf5-5e63bd9e13f4",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9958856701850891,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-167133-5ce72475-88e8-480e-ac6a-8d65c1c463ff",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9544259309768677,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-28785-cc2d0443-0144-4f23-a45c-fcfb489fc8e0",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9673458933830261,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-160653-ea2ba751-94cb-4d03-9063-3c03b8e978a5",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9917047023773193,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-100008-a9f2525a-256e-42be-bec1-e1f7ada6d382",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9427818655967712,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-203434-85f56059-3b81-4908-b941-878afd7e8783",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.991119921207428,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-203535-58a6fa9d-844f-4ef1-9d7d-89828c04ade9",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9752114415168762,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-79518-1d160ac5-cceb-4d48-bcb7-602ff52c3ab3",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.8905893564224243,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-93176-78794bbe-1749-4e7a-af18-38ca35079054",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9929311275482178,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-1959-07eac372-011b-4e21-b99f-6f69f8fd2f12",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.991881787776947,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-127040-86d5c861-a739-493f-9775-eb7b7f3f77cc",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9983731508255005,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-193125-dc02eaa9-b13e-4bb5-83b5-f95e7bf51024",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9990412592887878,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-101401-34d4781a-d101-4f0e-9fff-53a4d216acb6",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9977549910545349,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-47465-9f0b540e-addd-4911-af90-983b30aac2a8",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9953332543373108,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-43750-fe31f0dc-b89b-4023-bc44-0515ccc711e1",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9953521490097046,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-227399-bb99cfd4-8835-4d2c-bf6a-4fe306111a41",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9975637197494507,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-123386-56926724-b1ec-4ae9-981b-50b11182a24f",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9983212351799011,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-98729-7e673441-5a18-4cda-875c-2880131524cf",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9656818509101868,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-59928-7d5c01c5-c61c-4bcf-9897-fcd7ef2949a7",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9921999573707581,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-111477-b9dde16f-1e28-4265-8cdb-2fe8b79d743a",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9905793070793152,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-165769-eaeb9cb0-ca40-4591-a3c4-e64c23263c9c",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9973986148834229,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-31817-f890b25f-a7f0-416e-9b11-118805ec3b0d",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9859797358512878,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-74841-485847d7-0e1c-4dc1-a69b-147454895da2",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9825634360313416,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-184701-10192b7f-52fe-404a-a4ec-4b9c07f31c6c",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9425872564315796,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-11720-15aeca33-b7a2-40c3-9867-ef8e92c07a01",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9874340891838074,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-131815-56897c20-a0d9-4827-9f77-13c4d4dd5f07",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9124544262886047,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-101189-06794073-d441-4d48-9f61-e23b36c8eece",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9992364645004272,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-153665-26691dc9-55b9-4537-b2ca-db703d0204e6",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9620590806007385,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-40196-e93664f6-7e1b-4c81-a9c8-2ab73c9b996c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.6821998953819275,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-224538-0b16f71f-28c9-4d27-bd01-75bc9125e3ff",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9807379841804504,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-28550-627a1516-a8ba-45d7-ab66-d6fe8248ab97",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8654017448425293,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-16995-7eef3765-360a-477e-ad33-364e3e7f9406",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8913819789886475,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-28458-8480fa88-3844-4d9f-8245-98c78f2287ea",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9386770129203796,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-92902-531575d2-56aa-4d1d-93f9-83705c786fbf",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.5179682374000549,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-99901-149f1558-1070-4d9a-acdd-cc546051b49b",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.717669665813446,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-66443-368dcb63-252a-4e83-837d-aa0231587572",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9662385582923889,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-198302-65f3b4b6-db2e-4382-a475-977644040cc9",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9883027672767639,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-16741-0baa90f5-dc09-4332-9fe5-7b674bf2b738",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9950195550918579,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-120625-ff3dfb22-6eaf-4a88-b6f4-58cc012e1b01",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9917044639587402,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-159296-36457c29-a413-43e3-a1e8-69f7005da15e",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9871972799301147,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-52613-461c1227-49a8-4927-a2c6-a992d43f85ec",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9625604152679443,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-66195-ee341a34-ad7a-461a-ac90-42e8450adf3f",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.5364397764205933,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-201773-58de9f72-c9b5-43e5-86fe-132201baff25",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8753592371940613,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-33921-e5a02559-8321-401b-8bcc-833cff6f92ae",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9937146306037903,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-16296-e90a37e6-e47c-4acd-b840-b168a5d83466",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.876467764377594,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-175066-0a0c36f4-dea6-4434-ab08-0a0415ef2285",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9855768084526062,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-29474-43fe203e-cf3c-4a90-ba84-39e612d35ad7",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8460429310798645,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-222923-8b511272-6eff-4581-9682-9014f1c766a8",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9853298664093018,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-213607-dbfd5079-4415-4296-9272-2b061b7e31d9",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.95846027135849,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-95401-20114eb5-0848-45cc-994d-0fead8eb530f",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9228608012199402,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-103651-22c410f7-ce9a-4088-bf94-c4c86bcc6918",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9930899739265442,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-223129-5cf22c15-4801-4a0c-95fa-6dbc540618ee",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "confidence": 0.9567017555236816,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-66754-348e26bf-bcf2-4706-9a3f-3a48d5161fa3",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9257248044013977,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-169913-449326d1-17cb-4c0b-a473-a0387b007bd6",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9703805446624756,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-89018-e74b8143-f12e-4d23-afd9-4a31e5b41d1c",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9924272894859314,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-24339-ddd869a0-b46d-4e74-8037-7cb91a66a252",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9835171699523926,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-186666-88faaafc-0281-4a97-a1cf-1eb756ed8965",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.8449890613555908,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-33463-fbca6346-32e0-468b-a60f-f4234584d682",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9924944639205933,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-42543-b3d1e1f0-18e5-40ab-a8af-bfefee8654a3",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.992289125919342,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-50961-488d64b0-1b37-4337-b539-43f0a7921309",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9005027413368225,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-95066-64cfe49e-6ae2-46ea-b41d-d222c6cd1997",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9732270836830139,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-128731-ddad419e-574d-49b6-b4c5-f1e1e388cc34",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9674371480941772,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-87441-0d9ca5bc-1286-47d0-a8d5-da0a7bc3a7c1",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.6801691055297852,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-84172-d6b765d4-aee6-4c20-8940-066fdae1924d",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9004030823707581,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-205945-4d216c96-382f-45a6-90fd-420b2a4ca2f3",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.88542240858078,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-105246-290c3507-2681-4f2b-a4a8-a9803e0e5e9f",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "confidence": 0.7873483896255493,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-64593-62ba1b83-8544-4c4d-92c6-538784c7223b",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.6974303722381592,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-212549-00ce519b-20fc-49c5-b73b-99d258622fe9",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.6348973512649536,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-37791-761c106f-3152-4fa0-a406-13825f547d81",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9704005122184753,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-28632-75809841-435e-42b9-bc58-89822385d2f7",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9107018709182739,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-170519-313cfb75-0385-4317-8863-332321723538",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9949187636375427,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-153881-e7aeef8c-7d26-46e7-8b3a-4a7eef5ba540",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8600265979766846,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-70123-d38fa940-42b4-4a5c-b8e0-4b37740ee924",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9947145581245422,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-168456-dfeb4897-8d95-44c1-ba53-0c32ed49341a",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.6858196258544922,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-30113-26b91d9d-4f0f-44ba-857c-270b367e7b04",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9679359197616577,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-69043-fbb77fa9-c42f-41ba-980c-36c8e87d2576",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9200060963630676,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-150211-35062506-004c-4965-8415-186391361082",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9395573735237122,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-56565-c9e9ae7c-714c-42c5-95b9-a9e2800d1e7f",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8929075002670288,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-164942-2ac7fb59-920c-440d-9263-ef9ae497e2a7",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8912056684494019,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-149887-07aae62a-b0b8-49b0-8c4b-0424e77c5fa9",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.918622612953186,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-118738-df28a70f-9aac-438c-b71c-7cf14bfb4a41",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9960131645202637,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-64129-a2b08dfc-bdfe-4883-898a-fe321f96f42b",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9708766341209412,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-219017-e7b8c995-698c-4bd4-aa1c-a1766b299802",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.5797331929206848,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-156534-a3721e5e-cd0c-4d62-996f-392a6314941c",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7751083970069885,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-123105-c795bff0-af63-42f2-a2d6-0d7c8c735eb4",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.831240177154541,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-137533-228d9ff1-26f7-4b4f-9f96-9d81c1e5dc8c",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "confidence": 0.5511695146560669,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-11032-67a355e2-3152-4ec5-aae6-d6c17213c869",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8150665760040283,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-95576-d414fee1-4515-42dc-a3da-36d4ddd50fc7",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.7617334127426147,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-81904-3abd8cf9-2457-463d-b24a-885e242311aa",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.7331770658493042,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-174754-2694def4-fc5b-4982-abc0-79f3cbf97ef4",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9976763129234314,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-12145-652a1e62-6410-40d5-b02c-6dc6e6f97c32",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8852373361587524,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-13018-8ad6f9e7-b727-4fb8-838a-58d362bd4baa",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9104793071746826,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-135710-35e67d1e-006a-4c35-9b7c-99414f489adf",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8915835022926331,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-190442-a781f929-ee5b-4ac3-b384-15437d31ce4f",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8383692502975464,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-205434-c5c61368-2f1a-4a0b-84fc-575b20f29fd0",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.8928324580192566,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "fever-113427-80ab88ef-c5ce-41a7-8803-b76ef5cbc58c",
+      "expected": "neutral",
+      "predicted": "support",
+      "confidence": 0.9594497084617615,
+      "origin": "FEVER-NLI",
+      "tag": "fever-nli"
+    },
+    {
+      "id": "hc-029-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9957017302513123,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hc-025-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9431280493736267,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hc-009-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9507611989974976,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hc-008-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9935339689254761,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-020-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9842981100082397,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-010-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9933805465698242,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-016-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9937855005264282,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hc-012-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9800936579704285,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hc-026-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9942194223403931,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-026-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9932333827018738,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-008-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9752165675163269,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-015-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9792266488075256,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-014-support",
+      "expected": "support",
+      "predicted": "support",
+      "confidence": 0.9656822085380554,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-006-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9720692038536072,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-003-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9867438077926636,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-035-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9944889545440674,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-018-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.958236038684845,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-004-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9835259914398193,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-007-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9847091436386108,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-003-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9770520329475403,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-004-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.995555579662323,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-020-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9884330630302429,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-027-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9915505647659302,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-032-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9895427227020264,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-005-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9811540246009827,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-020-contradict",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "confidence": 0.9756199717521667,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-021-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9918661713600159,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-031-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9800623059272766,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-026-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9367232918739319,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-012-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9885058403015137,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-034-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9873850345611572,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-035-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9905226826667786,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-022-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9872586131095886,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hn-001-neutral",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "confidence": 0.6418323516845703,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-033-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9277529120445251,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hn-006-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9930307269096375,
+      "origin": "authored",
+      "tag": "hard-negative-authored"
+    },
+    {
+      "id": "hc-025-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9874218702316284,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hc-026-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9904143214225769,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    },
+    {
+      "id": "hc-003-neutral",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "confidence": 0.9699085354804993,
+      "origin": "authored",
+      "tag": "hard-contradiction-authored"
+    }
+  ]
+}

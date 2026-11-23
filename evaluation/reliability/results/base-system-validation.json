@@ -1,0 +1,1675 @@
+{
+  "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "settings": {
+    "allow_runtime_provider_keys": false,
+    "search_provider": null,
+    "search_results": 5,
+    "provider_mode": "fixture",
+    "embedding_batch_size": 16,
+    "nli_max_tokens": 512,
+    "min_claim_chars": 20,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "min_similarity": 0.35,
+    "top_k": 10,
+    "passage_words": 100,
+    "max_sources": 10,
+    "nli_model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "min_nli_confidence": 0.65,
+    "min_contradiction_confidence": 0.85,
+    "max_atomic_claims": 4,
+    "duplicate_similarity": 0.9,
+    "current_evidence_days": 365,
+    "minimum_evidence": 0.5,
+    "dominance_ratio": 2.0,
+    "max_passages": 100,
+    "source_weights": {
+      "research": 1.0,
+      "official": 0.95,
+      "institution": 0.9,
+      "reporting": 0.75,
+      "general": 0.55,
+      "unknown": 0.3
+    },
+    "source_domains": {
+      "nature.com": "research",
+      "science.org": "research",
+      "reuters.com": "reporting",
+      "apnews.com": "reporting",
+      "bbc.com": "reporting",
+      "blogspot.com": "unknown",
+      "substack.com": "unknown"
+    },
+    "max_claims": 5,
+    "max_image_bytes": 5000000,
+    "max_image_pixels": 12000000,
+    "requests_per_minute": 30
+  },
+  "data_manifest": {
+    "propositions.tsv": "f335863cc8851dfd7bc04c6c362133aa89d5e62dc2081923c2ccbb93307e725a",
+    "verdicts.json": "55355da66b3e8804000144a70db61bcfd4c49786122f37dd9390623d5df09c7d",
+    "nli.json": "70a30e7eaf2aae84ea4afc57a49fb07e99f0fa9724fd7ea31f21d00f396f1f8d",
+    "retrieval.json": "ce245c36425b9904899c2be5b3f80e3b6326235920e0aff793673eee0d56221e"
+  },
+  "metrics": {
+    "nli": {
+      "validation": {
+        "accuracy": 0.8867924528301887,
+        "macro_f1": 0.8300260126347082,
+        "per_label": {
+          "support": {
+            "precision": 0.96875,
+            "recall": 0.9393939393939394,
+            "f1": 0.9538461538461539,
+            "count": 33
+          },
+          "contradict": {
+            "precision": 0.7692307692307693,
+            "recall": 1.0,
+            "f1": 0.8695652173913043,
+            "count": 10
+          },
+          "neutral": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6666666666666666,
+            "count": 10
+          }
+        },
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            31,
+            0,
+            2
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            1,
+            3,
+            6
+          ]
+        ],
+        "by_difficulty": {
+          "easy": 0.8888888888888888,
+          "medium": 0.9333333333333333,
+          "difficult": 0.85
+        },
+        "false_contradiction_rate": 0.06976744186046512,
+        "count": 53,
+        "mean_seconds": 0.15846289626415025
+      }
+    },
+    "retrieval": {
+      "validation": {
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "count": 10,
+        "mean_seconds": 0.0516489665999984
+      }
+    },
+    "verdicts": {
+      "validation": {
+        "accuracy": 0.8,
+        "macro_f1": 0.8184523809523809,
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 0.6,
+            "recall": 1.0,
+            "f1": 0.75,
+            "count": 3
+          },
+          "UNSUPPORTED": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "count": 1
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "count": 2
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "count": 4
+          }
+        },
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            3
+          ]
+        ],
+        "by_difficulty": {
+          "easy": 1.0,
+          "medium": 1.0,
+          "difficult": 0.5
+        },
+        "count": 10,
+        "mean_seconds": 0.2801328376000015
+      }
+    }
+  },
+  "predictions": {
+    "nli": [
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9971153736114502,
+        "id": "p002-support",
+        "group": "p002",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "geography",
+        "tag": "compound",
+        "seconds": 3.3365665000000035
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.990880012512207,
+        "id": "p002-contradict",
+        "group": "p002",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "geography",
+        "tag": "compound",
+        "seconds": 0.0715106669999841
+      },
+      {
+        "predicted": "contradict",
+        "expected": "neutral",
+        "confidence": 0.7781186103820801,
+        "id": "p002-neutral",
+        "group": "p002",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "geography",
+        "tag": "compound",
+        "seconds": 0.06920537499991042
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9971153736114502,
+        "id": "p002-punctuation",
+        "group": "p002",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "geography",
+        "tag": "punctuation_variation",
+        "seconds": 0.07144149999999172
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.996527373790741,
+        "id": "p002-noise",
+        "group": "p002",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "geography",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.07372116699991693
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9968223571777344,
+        "id": "p007-support",
+        "group": "p007",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "history",
+        "tag": "relationship",
+        "seconds": 0.0678464579999627
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9960745573043823,
+        "id": "p007-contradict",
+        "group": "p007",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "history",
+        "tag": "relationship",
+        "seconds": 0.06560429199998907
+      },
+      {
+        "predicted": "neutral",
+        "expected": "neutral",
+        "confidence": 0.9982109069824219,
+        "id": "p007-neutral",
+        "group": "p007",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "history",
+        "tag": "relationship",
+        "seconds": 0.0700102920000063
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9968223571777344,
+        "id": "p007-punctuation",
+        "group": "p007",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "history",
+        "tag": "punctuation_variation",
+        "seconds": 0.06796595800005889
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9980892539024353,
+        "id": "p007-noise",
+        "group": "p007",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "history",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.07413016600003175
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9962837100028992,
+        "id": "p012-support",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "condition",
+        "seconds": 0.07627925000008418
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9875882267951965,
+        "id": "p012-contradict",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "condition",
+        "seconds": 0.06731891699996595
+      },
+      {
+        "predicted": "neutral",
+        "expected": "neutral",
+        "confidence": 0.6170802712440491,
+        "id": "p012-neutral",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "condition",
+        "seconds": 0.06747258300003978
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9962837100028992,
+        "id": "p012-punctuation",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "punctuation_variation",
+        "seconds": 0.07218341600002987
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9963839054107666,
+        "id": "p012-noise",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.07533058299998174
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9475830793380737,
+        "id": "p012-long",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "long_passage",
+        "seconds": 0.4242653329999939
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9925549626350403,
+        "id": "p023-support",
+        "group": "p023",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "technology",
+        "tag": "scope",
+        "seconds": 0.08403324999994766
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9992601275444031,
+        "id": "p023-contradict",
+        "group": "p023",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "technology",
+        "tag": "scope",
+        "seconds": 0.08160733399995479
+      },
+      {
+        "predicted": "contradict",
+        "expected": "neutral",
+        "confidence": 0.999170184135437,
+        "id": "p023-neutral",
+        "group": "p023",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "technology",
+        "tag": "scope",
+        "seconds": 0.0814675830000624
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9925549626350403,
+        "id": "p023-punctuation",
+        "group": "p023",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "technology",
+        "tag": "punctuation_variation",
+        "seconds": 0.08535587500000474
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.992580771446228,
+        "id": "p023-noise",
+        "group": "p023",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "technology",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.08523987499995656
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9976825714111328,
+        "id": "p028-support",
+        "group": "p028",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "sport",
+        "tag": "date",
+        "seconds": 0.07990766699992946
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9987279772758484,
+        "id": "p028-contradict",
+        "group": "p028",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "sport",
+        "tag": "date",
+        "seconds": 0.08173612500002037
+      },
+      {
+        "predicted": "contradict",
+        "expected": "neutral",
+        "confidence": 0.9457741379737854,
+        "id": "p028-neutral",
+        "group": "p028",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "sport",
+        "tag": "date",
+        "seconds": 0.08251470900006552
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9976825714111328,
+        "id": "p028-punctuation",
+        "group": "p028",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "sport",
+        "tag": "punctuation_variation",
+        "seconds": 0.0814541670000608
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.998047947883606,
+        "id": "p028-noise",
+        "group": "p028",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "sport",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.09032587499996225
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9984059929847717,
+        "id": "p033-support",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "negation",
+        "seconds": 0.08197258299992427
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.999398946762085,
+        "id": "p033-contradict",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "negation",
+        "seconds": 0.08083520800005317
+      },
+      {
+        "predicted": "neutral",
+        "expected": "neutral",
+        "confidence": 0.9968476891517639,
+        "id": "p033-neutral",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "negation",
+        "seconds": 0.07877508399997168
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9984059929847717,
+        "id": "p033-punctuation",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "punctuation_variation",
+        "seconds": 0.0804819590000534
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9978173971176147,
+        "id": "p033-noise",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.07846349999999802
+      },
+      {
+        "predicted": "neutral",
+        "expected": "support",
+        "confidence": 0.9830099940299988,
+        "id": "p033-long",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "long_passage",
+        "seconds": 0.40582720800000516
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9954652190208435,
+        "id": "p038-support",
+        "group": "p038",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "culture",
+        "tag": "coreference",
+        "seconds": 0.07525741700010258
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9988141059875488,
+        "id": "p038-contradict",
+        "group": "p038",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "culture",
+        "tag": "coreference",
+        "seconds": 0.07846612500009087
+      },
+      {
+        "predicted": "neutral",
+        "expected": "neutral",
+        "confidence": 0.9357010722160339,
+        "id": "p038-neutral",
+        "group": "p038",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "culture",
+        "tag": "coreference",
+        "seconds": 0.07898679200002334
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9954652190208435,
+        "id": "p038-punctuation",
+        "group": "p038",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "culture",
+        "tag": "punctuation_variation",
+        "seconds": 0.07833000000005086
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9967562556266785,
+        "id": "p038-noise",
+        "group": "p038",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "culture",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.08392795899999328
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9933229088783264,
+        "id": "p043-support",
+        "group": "p043",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "institutions",
+        "tag": "term",
+        "seconds": 0.08027637499992579
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9986757636070251,
+        "id": "p043-contradict",
+        "group": "p043",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "institutions",
+        "tag": "term",
+        "seconds": 0.07776149999995141
+      },
+      {
+        "predicted": "neutral",
+        "expected": "neutral",
+        "confidence": 0.9949799180030823,
+        "id": "p043-neutral",
+        "group": "p043",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "institutions",
+        "tag": "term",
+        "seconds": 0.08009120899998834
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9933229088783264,
+        "id": "p043-punctuation",
+        "group": "p043",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "institutions",
+        "tag": "punctuation_variation",
+        "seconds": 0.07879875000003267
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9942799806594849,
+        "id": "p043-noise",
+        "group": "p043",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "institutions",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.08365379200006373
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9917556047439575,
+        "id": "p048-support",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "material",
+        "seconds": 0.08111041699999078
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9991112351417542,
+        "id": "p048-contradict",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "material",
+        "seconds": 0.0805054579999478
+      },
+      {
+        "predicted": "neutral",
+        "expected": "neutral",
+        "confidence": 0.9758031368255615,
+        "id": "p048-neutral",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "material",
+        "seconds": 0.07787195799994606
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9917556047439575,
+        "id": "p048-punctuation",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "punctuation_variation",
+        "seconds": 0.08262587499996243
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9951959252357483,
+        "id": "p048-noise",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.08394562499995573
+      },
+      {
+        "predicted": "neutral",
+        "expected": "support",
+        "confidence": 0.9127811789512634,
+        "id": "p048-long",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "long_passage",
+        "seconds": 0.4015972079999983
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9972493052482605,
+        "id": "p059-support",
+        "group": "p059",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "environment",
+        "tag": "partial_support",
+        "seconds": 0.07995712499996444
+      },
+      {
+        "predicted": "contradict",
+        "expected": "contradict",
+        "confidence": 0.9622036814689636,
+        "id": "p059-contradict",
+        "group": "p059",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "environment",
+        "tag": "partial_support",
+        "seconds": 0.08147662500005026
+      },
+      {
+        "predicted": "support",
+        "expected": "neutral",
+        "confidence": 0.9841512441635132,
+        "id": "p059-neutral",
+        "group": "p059",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "environment",
+        "tag": "partial_support",
+        "seconds": 0.07792050000000472
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9972493052482605,
+        "id": "p059-punctuation",
+        "group": "p059",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "environment",
+        "tag": "punctuation_variation",
+        "seconds": 0.0795018329999948
+      },
+      {
+        "predicted": "support",
+        "expected": "support",
+        "confidence": 0.9980100989341736,
+        "id": "p059-noise",
+        "group": "p059",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "environment",
+        "tag": "noisy_scraped_text",
+        "seconds": 0.08562050000000454
+      }
+    ],
+    "retrieval": [
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p002",
+        "group": "p002",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "geography",
+        "tag": "compound",
+        "seconds": 0.31844970800000283
+      },
+      {
+        "indices": [
+          1,
+          0,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p007",
+        "group": "p007",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "history",
+        "tag": "relationship",
+        "seconds": 0.023605792000012116
+      },
+      {
+        "indices": [
+          1,
+          0,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p012",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "condition",
+        "seconds": 0.025372708000077182
+      },
+      {
+        "indices": [
+          2,
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p023",
+        "group": "p023",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "technology",
+        "tag": "scope",
+        "seconds": 0.022126124999999774
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p028",
+        "group": "p028",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "sport",
+        "tag": "date",
+        "seconds": 0.020151457999986633
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p033",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "negation",
+        "seconds": 0.020631374999993568
+      },
+      {
+        "indices": [
+          1,
+          0,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p038",
+        "group": "p038",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "culture",
+        "tag": "coreference",
+        "seconds": 0.022157624999977088
+      },
+      {
+        "indices": [
+          1,
+          0,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p043",
+        "group": "p043",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "institutions",
+        "tag": "term",
+        "seconds": 0.020844916999976704
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p048",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "material",
+        "seconds": 0.02137358300001324
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "addressing5": 0.6666666666666666,
+        "id": "p059",
+        "group": "p059",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "environment",
+        "tag": "partial_support",
+        "seconds": 0.021776374999944892
+      }
+    ],
+    "verdicts": [
+      {
+        "predicted": "SUPPORTED",
+        "expected": "MIXED_EVIDENCE",
+        "assessment": {
+          "claim": "Norvale borders Eastland and has a population of two million.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cNorvale shares a border with Eastland. Its population is two million.\u201d",
+          "support_total": 0.9090718062624565,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p002",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "Norvale shares a border with Eastland. Its population is two million.",
+              "similarity": 0.9596860264391749,
+              "stance": "support",
+              "stance_confidence": 0.9971153736114502,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9090718062624565,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Norvale borders Eastland and has a population of two million."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source1.example.gov/p002",
+              "domain": "source1.example.gov",
+              "published_at": null,
+              "passage": "Norvale has two million residents but does not share a border with Eastland.",
+              "similarity": 0.8606691093371954,
+              "stance": "neutral",
+              "stance_confidence": 0.990880012512207,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8101788269374647,
+              "raw_stance": "contradict",
+              "exclusion_reason": "No unambiguous subject was identified.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "Norvale borders Eastland and has a population of two million."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://noise.example.org/p002",
+              "domain": "noise.example.org",
+              "published_at": null,
+              "passage": "Norvale shares a border with Eastland. Its population is not reported.",
+              "similarity": 0.8436868882771155,
+              "stance": "neutral",
+              "stance_confidence": 0.7781186103820801,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3610686580070737,
+              "raw_stance": "contradict",
+              "exclusion_reason": "No unambiguous subject was identified.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Norvale borders Eastland and has a population of two million."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Norvale borders Eastland and has a population of two million.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.9090718062624565,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "id": "p002",
+        "group": "p002",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "geography",
+        "tag": "compound",
+        "seconds": 1.114269166999975
+      },
+      {
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "Mira succeeded Tomas as director of the institute.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p007",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "Mira and Tomas both worked at the institute.",
+              "similarity": 0.8615375335127233,
+              "stance": "neutral",
+              "stance_confidence": 0.9982109069824219,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8169963545907775,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "Mira succeeded Tomas as director of the institute."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Mira succeeded Tomas as director of the institute.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0
+              ]
+            }
+          ]
+        },
+        "id": "p007",
+        "group": "p007",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "history",
+        "tag": "relationship",
+        "seconds": 0.09697749999997995
+      },
+      {
+        "predicted": "SUPPORTED",
+        "expected": "SUPPORTED",
+        "assessment": {
+          "claim": "Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cAt standard atmospheric pressure, pure water's freezing point is approximately 0 degrees Celsius.\u201d",
+          "support_total": 0.8515504211281753,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p012",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "At standard atmospheric pressure, pure water's freezing point is approximately 0 degrees Celsius.",
+              "similarity": 0.89971245674873,
+              "stance": "support",
+              "stance_confidence": 0.9962837100028992,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8515504211281753,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://noise.example.org/p012",
+              "domain": "noise.example.org",
+              "published_at": null,
+              "passage": "Water's boiling point at standard atmospheric pressure is about 100 degrees Celsius.",
+              "similarity": 0.6375546431656322,
+              "stance": "neutral",
+              "stance_confidence": 0.6170802712440491,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.2163823156756532,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.8515504211281753,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "id": "p012",
+        "group": "p012",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "science",
+        "tag": "condition",
+        "seconds": 0.18612654200001089
+      },
+      {
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The patch fixes every reported vulnerability.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p023",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "The patch fixes one reported vulnerability.",
+              "similarity": 0.8911696534147502,
+              "stance": "neutral",
+              "stance_confidence": 0.999170184135437,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.845908639363413,
+              "raw_stance": "contradict",
+              "exclusion_reason": "No unambiguous subject was identified.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The patch fixes every reported vulnerability."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The patch fixes every reported vulnerability.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0
+              ]
+            }
+          ]
+        },
+        "id": "p023",
+        "group": "p023",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "technology",
+        "tag": "scope",
+        "seconds": 0.10228962500002581
+      },
+      {
+        "predicted": "SUPPORTED",
+        "expected": "SUPPORTED",
+        "assessment": {
+          "claim": "The club was founded in 1897.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cThe club's founding year is 1897.\u201d",
+          "support_total": 0.8715076936556287,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p028",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "The club's founding year is 1897.",
+              "similarity": 0.9195074124026813,
+              "stance": "support",
+              "stance_confidence": 0.9976825714111328,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8715076936556287,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The club was founded in 1897."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://noise.example.org/p028",
+              "domain": "noise.example.org",
+              "published_at": null,
+              "passage": "The club won its first title in 1897.",
+              "similarity": 0.7684598745127781,
+              "stance": "neutral",
+              "stance_confidence": 0.9457741379737854,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.39973421146162136,
+              "raw_stance": "contradict",
+              "exclusion_reason": "The passage does not explicitly address the same predicate.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The club was founded in 1897."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The club was founded in 1897.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.8715076936556287,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "id": "p028",
+        "group": "p028",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "sport",
+        "tag": "date",
+        "seconds": 0.1931265829999802
+      },
+      {
+        "predicted": "UNSUPPORTED",
+        "expected": "UNSUPPORTED",
+        "assessment": {
+          "claim": "The bank raised its interest rate.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cThe bank lowered its interest rate instead of raising it.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.7878302640372196,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p033",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "The bank lowered its interest rate instead of raising it.",
+              "similarity": 0.8297937650052788,
+              "stance": "contradict",
+              "stance_confidence": 0.999398946762085,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7878302640372196,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The bank raised its interest rate."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://noise.example.org/p033",
+              "domain": "noise.example.org",
+              "published_at": null,
+              "passage": "The bank announced an interest-rate decision.",
+              "similarity": 0.7903666703408139,
+              "stance": "neutral",
+              "stance_confidence": 0.9968476891517639,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.4333313539014979,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The bank raised its interest rate."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The bank raised its interest rate.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.7878302640372196,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "id": "p033",
+        "group": "p033",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "economics",
+        "tag": "negation",
+        "seconds": 0.2782995419998997
+      },
+      {
+        "predicted": "MIXED_EVIDENCE",
+        "expected": "MIXED_EVIDENCE",
+        "assessment": {
+          "claim": "Iris composed the opera.",
+          "verdict": "MIXED_EVIDENCE",
+          "explanation": "The retained passages contain substantial disagreement. [1] contradict: \u201cIris performed in the opera, but did not compose it.\u201d [2] support: \u201cIris joined the theatre in 1990. She composed the opera the following year.\u201d",
+          "support_total": 0.7790038311931252,
+          "contradict_total": 0.7842322192244998,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source1.example.gov/p038",
+              "domain": "source1.example.gov",
+              "published_at": null,
+              "passage": "Iris performed in the opera, but did not compose it.",
+              "similarity": 0.8264877260293467,
+              "stance": "contradict",
+              "stance_confidence": 0.9988141059875488,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7842322192244998,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Iris composed the opera."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p038",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "Iris joined the theatre in 1990. She composed the opera the following year.",
+              "similarity": 0.8237395111015918,
+              "stance": "support",
+              "stance_confidence": 0.9954652190208435,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7790038311931252,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Iris composed the opera."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://noise.example.org/p038",
+              "domain": "noise.example.org",
+              "published_at": null,
+              "passage": "Iris joined the theatre and the opera premiered there.",
+              "similarity": 0.8077486624327208,
+              "stance": "neutral",
+              "stance_confidence": 0.9357010722160339,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.4156962092356503,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Iris composed the opera."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Iris composed the opera.",
+              "verdict": "MIXED_EVIDENCE",
+              "support_total": 0.7790038311931252,
+              "contradict_total": 0.7842322192244998,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "id": "p038",
+        "group": "p038",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "culture",
+        "tag": "coreference",
+        "seconds": 0.27841666700010137
+      },
+      {
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The council chair serves a four-year term.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p043",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "Council elections took place four years ago.",
+              "similarity": 0.6469052112973613,
+              "stance": "neutral",
+              "stance_confidence": 0.9949799180030823,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.6114748093877944,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The council chair serves a four-year term."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The council chair serves a four-year term.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0
+              ]
+            }
+          ]
+        },
+        "id": "p043",
+        "group": "p043",
+        "split": "validation",
+        "difficulty": "medium",
+        "domain": "institutions",
+        "tag": "term",
+        "seconds": 0.09459616599997389
+      },
+      {
+        "predicted": "SUPPORTED",
+        "expected": "SUPPORTED",
+        "assessment": {
+          "claim": "The bridge is made of steel.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cSteel is the material used to construct the bridge.\u201d",
+          "support_total": 0.8641595949873536,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p048",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "Steel is the material used to construct the bridge.",
+              "similarity": 0.9172034668449386,
+              "stance": "support",
+              "stance_confidence": 0.9917556047439575,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8641595949873536,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The bridge is made of steel."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://noise.example.org/p048",
+              "domain": "noise.example.org",
+              "published_at": null,
+              "passage": "The bridge spans a river near a steel factory.",
+              "similarity": 0.7458642207683089,
+              "stance": "neutral",
+              "stance_confidence": 0.9758031368255615,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.40029915544941796,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The bridge is made of steel."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The bridge is made of steel.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.8641595949873536,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "id": "p048",
+        "group": "p048",
+        "split": "validation",
+        "difficulty": "easy",
+        "domain": "general",
+        "tag": "material",
+        "seconds": 0.18678787500005
+      },
+      {
+        "predicted": "SUPPORTED",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The park bans hunting and permits fishing.",
+          "verdict": "SUPPORTED",
+          "explanation": "Each proposition was assessed separately. The park bans hunting. \u2014 supported. The park permits fishing. \u2014 supported.",
+          "support_total": 1.3025036011283424,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p059",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+              "similarity": 0.7503408782044984,
+              "stance": "support",
+              "stance_confidence": 0.9973227381706238,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7109154182516477,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The park bans hunting."
+            },
+            {
+              "title": "Authored controlled evidence",
+              "url": "https://source0.example.gov/p059",
+              "domain": "source0.example.gov",
+              "published_at": null,
+              "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+              "similarity": 0.7148568301682123,
+              "stance": "support",
+              "stance_confidence": 0.8711176514625549,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.5915881828766946,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The park permits fishing."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The park bans hunting.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.7109154182516477,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0
+              ]
+            },
+            {
+              "claim": "The park permits fishing.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.5915881828766946,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                1
+              ]
+            }
+          ]
+        },
+        "id": "p059",
+        "group": "p059",
+        "split": "validation",
+        "difficulty": "difficult",
+        "domain": "environment",
+        "tag": "partial_support",
+        "seconds": 0.2704387090000182
+      }
+    ]
+  },
+  "peak_process_rss_bytes": 1073020928
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "compound-001",
+    "claim": "The company was founded in 1999 and moved its headquarters to Berlin in 2010.",
+    "atoms": [
+      {"claim": "The company was founded in 1999.", "sources": [{"url": "https://a.example/1", "passage": "The company was founded in 1999 in Munich."}]},
+      {"claim": "The company moved its headquarters to Berlin in 2010.", "sources": [{"url": "https://b.example/1", "passage": "In 2010, the company relocated its headquarters to Berlin."}]}
+    ],
+    "expected_atoms": ["SUPPORTED", "SUPPORTED"],
+    "curated_expected_verdict": "SUPPORTED",
+    "note": "Both atoms independently confirmed -- baseline sanity case, policy-invariant."
+  },
+  {
+    "id": "compound-002",
+    "claim": "The company was founded in 1999 and moved its headquarters to Berlin in 2010.",
+    "atoms": [
+      {"claim": "The company was founded in 1999.", "sources": [{"url": "https://a.example/1", "passage": "The company was founded in 1998 in Munich.", "stance": "contradict"}]},
+      {"claim": "The company moved its headquarters to Berlin in 2010.", "sources": [{"url": "https://b.example/1", "passage": "In 2010, the company relocated its headquarters to Berlin."}]}
+    ],
+    "expected_atoms": ["UNSUPPORTED", "SUPPORTED"],
+    "curated_expected_verdict": "UNSUPPORTED",
+    "note": "One atom contradicted -- a compound claim with a false part is false overall. Policy-invariant."
+  },
+  {
+    "id": "compound-003",
+    "claim": "The company was founded in 1999 and moved its headquarters to Berlin in 2010.",
+    "atoms": [
+      {"claim": "The company was founded in 1999.", "sources": [{"url": "https://a.example/1", "passage": "The company was founded in 1999 in Munich."}]},
+      {"claim": "The company moved its headquarters to Berlin in 2010.", "sources": []}
+    ],
+    "expected_atoms": ["SUPPORTED", "INSUFFICIENT_EVIDENCE"],
+    "curated_expected_verdict": "INSUFFICIENT_EVIDENCE",
+    "note": "THE key policy case: one confirmed, one unresolved. Curated judgment: the compound claim as a whole cannot be called SUPPORTED (one part is unverified), and it isn't MIXED_EVIDENCE either (nothing actually conflicts) -- INSUFFICIENT_EVIDENCE is the honest verdict, but the atom-level detail (3/4-style coverage) should still be visible in the explanation/atomic_claims so a 50%-verified claim doesn't read identically to a 0%-verified one."
+  },
+  {
+    "id": "compound-004",
+    "claim": "The company was founded in 1999, moved its headquarters to Berlin in 2010, and was acquired in 2015.",
+    "atoms": [
+      {"claim": "The company was founded in 1999.", "sources": [{"url": "https://a.example/1", "passage": "The company was founded in 1999 in Munich."}]},
+      {"claim": "The company moved its headquarters to Berlin in 2010.", "sources": [{"url": "https://b.example/1", "passage": "In 2010, the company relocated its headquarters to Berlin."}]},
+      {"claim": "The company was acquired in 2015.", "sources": []}
+    ],
+    "expected_atoms": ["SUPPORTED", "SUPPORTED", "INSUFFICIENT_EVIDENCE"],
+    "curated_expected_verdict": "INSUFFICIENT_EVIDENCE",
+    "note": "2/3 confirmed, 1/3 unresolved -- same policy question as compound-003 with a higher confirmed fraction; should still surface the 2/3 coverage rather than reading as fully unknown."
+  },
+  {
+    "id": "compound-005",
+    "claim": "The company was founded in 1999 and moved its headquarters to Berlin in 2010.",
+    "atoms": [
+      {"claim": "The company was founded in 1999.", "sources": []},
+      {"claim": "The company moved its headquarters to Berlin in 2010.", "sources": []}
+    ],
+    "expected_atoms": ["INSUFFICIENT_EVIDENCE", "INSUFFICIENT_EVIDENCE"],
+    "curated_expected_verdict": "INSUFFICIENT_EVIDENCE",
+    "note": "All atoms unresolved -- baseline sanity case, policy-invariant."
+  },
+  {
+    "id": "compound-006",
+    "claim": "The company was founded in 1999 and moved its headquarters to Berlin in 2010.",
+    "atoms": [
+      {"claim": "The company was founded in 1999.", "sources": [
+        {"url": "https://a.example/1", "passage": "The company was founded in 1999 in Munich."},
+        {"url": "https://c.example/1", "passage": "The company was founded in 1997 in Munich, some sources say.", "stance": "contradict"}
+      ]},
+      {"claim": "The company moved its headquarters to Berlin in 2010.", "sources": [{"url": "https://b.example/1", "passage": "In 2010, the company relocated its headquarters to Berlin."}]}
+    ],
+    "expected_atoms": ["MIXED_EVIDENCE", "SUPPORTED"],
+    "curated_expected_verdict": "MIXED_EVIDENCE",
+    "note": "One atom has genuinely conflicting evidence (not merely unresolved) while the other is supported -- MIXED_EVIDENCE for the whole claim is the honest signal that something is unresolved due to real disagreement, distinct from compound-003/004's simple absence-of-evidence case."
+  }
+]

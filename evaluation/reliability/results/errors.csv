@@ -1,0 +1,334 @@
+version,stage,split,id,failure_category,expected,actual,claim,diagnostic
+baseline,nli,development,p000-neutral,NLI false support,neutral,support,Tokyo is the capital of Japan.,
+baseline,nli,development,p001-neutral,NLI false support,neutral,support,Lake Arin has an area of 240 square kilometres.,
+baseline,nli,test,p004-neutral,NLI false contradict,neutral,contradict,The town of Springfield in North County lies on the Alder River.,
+baseline,nli,test,p005-support,NLI false contradict,support,contradict,Port Selby lies north of Westhaven.,
+baseline,nli,test,p005-punctuation,NLI false contradict,support,contradict,Port Selby lies north of Westhaven,
+baseline,nli,test,p005-noise,NLI false contradict,support,contradict,Port Selby lies north of Westhaven.,
+baseline,nli,validation,p007-contradict,NLI false support,contradict,support,Mira succeeded Tomas as director of the institute.,
+baseline,nli,development,p008-contradict,NLI missed directional evidence,contradict,neutral,The drought caused the kingdom's collapse.,
+baseline,nli,development,p008-noise,NLI missed directional evidence,support,neutral,The drought caused the kingdom's collapse.,
+baseline,nli,test,p009-neutral,NLI false support,neutral,support,The treaty was signed in Geneva.,
+baseline,nli,test,p010-neutral,NLI false contradict,neutral,contradict,The expedition reached the summit on 12 July 1953.,
+baseline,nli,validation,p012-contradict,NLI false support,contradict,support,Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.,
+baseline,nli,validation,p012-neutral,NLI false contradict,neutral,contradict,Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.,
+baseline,nli,test,p014-neutral,NLI false contradict,neutral,contradict,The treatment definitely prevents the disease.,
+baseline,nli,test,p014-noise,NLI missed directional evidence,support,neutral,The treatment definitely prevents the disease.,
+baseline,nli,test,p015-noise,NLI false contradict,support,contradict,Mars has two natural moons.,
+baseline,nli,development,p016-support,NLI false contradict,support,contradict,The specimen weighed 25 milligrams.,
+baseline,nli,development,p016-neutral,NLI false support,neutral,support,The specimen weighed 25 milligrams.,
+baseline,nli,development,p016-punctuation,NLI false contradict,support,contradict,The specimen weighed 25 milligrams,
+baseline,nli,development,p016-noise,NLI false contradict,support,contradict,The specimen weighed 25 milligrams.,
+baseline,nli,development,p017-neutral,NLI false contradict,neutral,contradict,All sampled birds carried the marker.,
+baseline,nli,development,p018-neutral,NLI false support,neutral,support,The Orion processor was designed by Helix.,
+baseline,nli,test,p019-neutral,NLI false support,neutral,support,The device contains 16 gigabytes of memory.,
+baseline,nli,test,p020-neutral,NLI false contradict,neutral,contradict,Version 4.2 supports offline editing.,
+baseline,nli,development,p021-neutral,NLI false support,neutral,support,The software launched in 2018.,
+baseline,nli,development,p022-contradict,NLI false support,contradict,support,The server uses Linux and has 64 gigabytes of memory.,
+baseline,nli,validation,p023-neutral,NLI false contradict,neutral,contradict,The patch fixes every reported vulnerability.,
+baseline,nli,validation,p023-noise,NLI missed directional evidence,support,neutral,The patch fixes every reported vulnerability.,
+baseline,nli,test,p024-neutral,NLI false support,neutral,support,The final was played in Lisbon.,
+baseline,nli,test,p025-support,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one.,
+baseline,nli,test,p025-neutral,NLI false contradict,neutral,contradict,Riverside won the match by three goals to one.,
+baseline,nli,test,p025-punctuation,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one,
+baseline,nli,test,p025-noise,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one.,
+baseline,nli,development,p026-neutral,NLI false support,neutral,support,Lena holds the women's national 100-metre record.,
+baseline,nli,development,p027-support,NLI missed directional evidence,support,neutral,The match ended in a draw.,
+baseline,nli,development,p027-punctuation,NLI missed directional evidence,support,neutral,The match ended in a draw,
+baseline,nli,development,p027-noise,NLI false contradict,support,contradict,The match ended in a draw.,
+baseline,nli,validation,p028-neutral,NLI false support,neutral,support,The club was founded in 1897.,
+baseline,nli,test,p030-neutral,NLI false support,neutral,support,The factory employs 500 people.,
+baseline,nli,development,p031-neutral,NLI false contradict,neutral,contradict,Revenue was 10 million dollars in 2024.,
+baseline,nli,development,p032-contradict,NLI false support,contradict,support,The company earned 10 billion dollars in 2024 and employed 50000 people.,
+baseline,nli,validation,p033-neutral,NLI false support,neutral,support,The bank raised its interest rate.,
+baseline,nli,development,p034-neutral,NLI false contradict,neutral,contradict,Unemployment fell from 8 percent to 6 percent.,
+baseline,nli,test,p035-contradict,NLI false support,contradict,support,The tax increase caused unemployment to rise.,
+baseline,nli,test,p035-neutral,NLI false support,neutral,support,The tax increase caused unemployment to rise.,
+baseline,nli,development,p036-neutral,NLI false support,neutral,support,Nora Vale wrote The Glass Orchard.,
+baseline,nli,validation,p038-neutral,NLI false support,neutral,support,Iris composed the opera.,
+baseline,nli,validation,p038-noise,NLI missed directional evidence,support,neutral,Iris composed the opera.,
+baseline,nli,development,p039-neutral,NLI false support,neutral,support,The painting is displayed in Madrid.,
+baseline,nli,test,p040-support,NLI missed directional evidence,support,neutral,The novel was not published anonymously.,
+baseline,nli,test,p040-neutral,NLI false support,neutral,support,The novel was not published anonymously.,
+baseline,nli,test,p040-punctuation,NLI missed directional evidence,support,neutral,The novel was not published anonymously,
+baseline,nli,test,p040-noise,NLI false contradict,support,contradict,The novel was not published anonymously.,
+baseline,nli,test,p041-neutral,NLI false contradict,neutral,contradict,The album won an award and sold a million copies.,
+baseline,nli,test,p045-neutral,NLI false contradict,neutral,contradict,The library opens on Sundays.,
+baseline,nli,development,p047-neutral,NLI false support,neutral,support,The agency currently accepts paper applications.,
+baseline,nli,validation,p048-neutral,NLI false support,neutral,support,The bridge is made of steel.,
+baseline,nli,development,p049-contradict,NLI false support,contradict,support,The red container holds more than the blue container.,
+baseline,nli,development,p049-noise,NLI false contradict,support,contradict,The red container holds more than the blue container.,
+baseline,nli,test,p050-neutral,NLI false contradict,neutral,contradict,Alex Kim at North College won the prize.,
+baseline,nli,development,p052-noise,NLI missed directional evidence,support,neutral,The machine stops when the lid is opened.,
+baseline,nli,development,p054-neutral,NLI false support,neutral,support,The reserve lies in the coastal region.,
+baseline,nli,test,p055-noise,NLI missed directional evidence,support,neutral,The survey counted 350 nesting pairs.,
+baseline,nli,test,p056-support,NLI missed directional evidence,support,neutral,The species is certainly extinct.,
+baseline,nli,test,p056-neutral,NLI false contradict,neutral,contradict,The species is certainly extinct.,
+baseline,nli,test,p056-punctuation,NLI missed directional evidence,support,neutral,The species is certainly extinct,
+baseline,nli,test,p056-noise,NLI missed directional evidence,support,neutral,The species is certainly extinct.,
+baseline,nli,development,p057-neutral,NLI false contradict,neutral,contradict,The reservoir is empty.,
+baseline,nli,validation,p059-contradict,NLI false support,contradict,support,The park bans hunting and permits fishing.,
+baseline,nli,validation,p059-neutral,NLI false support,neutral,support,The park bans hunting and permits fishing.,
+baseline,retrieval,development,p000,relevance false positive,relevant passages only,"[0, 1, 2]",Tokyo is the capital of Japan.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p001,relevance false positive,relevant passages only,"[0, 1, 2]",Lake Arin has an area of 240 square kilometres.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p002,relevance false positive,relevant passages only,"[0, 1, 2]",Norvale borders Eastland and has a population of two million.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p003,relevance false positive,relevant passages only,"[0, 1, 2]",Sydney is the capital of Australia.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p004,relevance false positive,relevant passages only,"[2, 0, 1]",The town of Springfield in North County lies on the Alder River.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p005,relevance false positive,relevant passages only,"[1, 0, 2]",Port Selby lies north of Westhaven.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p006,relevance false positive,relevant passages only,"[1, 0, 2, 7]",The archive opened in 1924.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p007,relevance false positive,relevant passages only,"[1, 0, 2]",Mira succeeded Tomas as director of the institute.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p008,relevance false positive,relevant passages only,"[0, 1, 2]",The drought caused the kingdom's collapse.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p009,relevance false positive,relevant passages only,"[2, 0, 1]",The treaty was signed in Geneva.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p010,relevance false positive,relevant passages only,"[0, 1, 2]",The expedition reached the summit on 12 July 1953.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p011,relevance false positive,relevant passages only,"[0, 1, 2]",The museum opened in 1902 and closed in 1980.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p012,relevance false positive,relevant passages only,"[1, 0, 2]",Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p013,relevance false positive,relevant passages only,"[0, 2, 1, 3]",The trial found no reduction in infection rates.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p014,relevance false positive,relevant passages only,"[0, 2, 1]",The treatment definitely prevents the disease.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p015,relevance false positive,relevant passages only,"[1, 0, 2]",Mars has two natural moons.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p016,relevance false positive,relevant passages only,"[1, 2, 0]",The specimen weighed 25 milligrams.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p017,relevance false positive,relevant passages only,"[0, 2, 1]",All sampled birds carried the marker.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p018,relevance false positive,relevant passages only,"[0, 2, 1]",The Orion processor was designed by Helix.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p019,relevance false positive,relevant passages only,"[0, 1, 2, 5]",The device contains 16 gigabytes of memory.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p020,relevance false positive,relevant passages only,"[2, 0, 1]",Version 4.2 supports offline editing.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p021,relevance false positive,relevant passages only,"[1, 2, 0]",The software launched in 2018.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p022,relevance false positive,relevant passages only,"[0, 1, 2]",The server uses Linux and has 64 gigabytes of memory.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p023,relevance false positive,relevant passages only,"[2, 0, 1]",The patch fixes every reported vulnerability.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p024,relevance false positive,relevant passages only,"[1, 0, 2, 5]",The final was played in Lisbon.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p025,relevance false positive,relevant passages only,"[1, 0, 2, 4]",Riverside won the match by three goals to one.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p026,relevance false positive,relevant passages only,"[0, 2, 1]",Lena holds the women's national 100-metre record.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p027,relevance false positive,relevant passages only,"[1, 2, 0]",The match ended in a draw.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p028,relevance false positive,relevant passages only,"[0, 1, 2]",The club was founded in 1897.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p029,relevance false positive,relevant passages only,"[1, 0, 2]",The athlete won gold in 2016 and retired in 2020.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p030,relevance false positive,relevant passages only,"[0, 1, 2, 4]",The factory employs 500 people.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p031,relevance false positive,relevant passages only,"[2, 1, 0, 3]",Revenue was 10 million dollars in 2024.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p032,relevance false positive,relevant passages only,"[0, 1, 2]",The company earned 10 billion dollars in 2024 and employed 50000 people.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p033,relevance false positive,relevant passages only,"[0, 1, 2]",The bank raised its interest rate.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p034,relevance false positive,relevant passages only,"[0, 1, 2, 3]",Unemployment fell from 8 percent to 6 percent.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p035,relevance false positive,relevant passages only,"[0, 1, 2]",The tax increase caused unemployment to rise.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p036,relevance false positive,relevant passages only,"[0, 2, 1]",Nora Vale wrote The Glass Orchard.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p037,relevance false positive,relevant passages only,"[0, 1, 2]",The film premiered on 6 May 2008.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p038,relevance false positive,relevant passages only,"[1, 0, 2]",Iris composed the opera.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p039,relevance false positive,relevant passages only,"[0, 1, 2]",The painting is displayed in Madrid.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p040,relevance false positive,relevant passages only,"[1, 0, 2]",The novel was not published anonymously.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p041,relevance false positive,relevant passages only,"[0, 1, 2]",The album won an award and sold a million copies.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p042,relevance false positive,relevant passages only,"[0, 1, 2]",The agency is headquartered in Brussels.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p043,relevance false positive,relevant passages only,"[1, 0, 2]",The council chair serves a four-year term.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p044,relevance false positive,relevant passages only,"[2, 0, 1]",The regulation applies to every employer.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p045,relevance false positive,relevant passages only,"[0, 1, 2]",The library opens on Sundays.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p046,relevance false positive,relevant passages only,"[0, 1, 2]",The assembly has 120 elected members.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p047,relevance false positive,relevant passages only,"[0, 2, 1]",The agency currently accepts paper applications.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p048,relevance false positive,relevant passages only,"[0, 1, 2]",The bridge is made of steel.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p049,relevance false positive,relevant passages only,"[1, 0, 2]",The red container holds more than the blue container.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p050,relevance false positive,relevant passages only,"[2, 0, 1]",Alex Kim at North College won the prize.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p051,relevance false positive,relevant passages only,"[0, 1, 2]",The room has three windows.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p052,relevance false positive,relevant passages only,"[0, 1, 2]",The machine stops when the lid is opened.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p053,relevance false positive,relevant passages only,"[0, 1, 2]",The project began in 2012 and finished in 2019.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p054,relevance false positive,relevant passages only,"[0, 1, 2]",The reserve lies in the coastal region.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p055,relevance false positive,relevant passages only,"[1, 0, 2, 5]",The survey counted 350 nesting pairs.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,test,p056,relevance false positive,relevant passages only,"[1, 2, 0]",The species is certainly extinct.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p057,relevance false positive,relevant passages only,"[0, 1, 2]",The reservoir is empty.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,development,p058,relevance false positive,relevant passages only,"[0, 1, 2]",The protected area was established in 1976.,Recall may be perfect while top five include unrelated evidence.
+baseline,retrieval,validation,p059,relevance false positive,relevant passages only,"[0, 1, 2]",The park bans hunting and permits fishing.,Recall may be perfect while top five include unrelated evidence.
+baseline,verdicts,development,p001,NLI / evidence sufficiency,UNSUPPORTED,SUPPORTED,Lake Arin has an area of 240 square kilometres.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p004,NLI / evidence sufficiency,SUPPORTED,UNSUPPORTED,The town of Springfield in North County lies on the Alder River.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p009,NLI / evidence sufficiency,UNSUPPORTED,SUPPORTED,The treaty was signed in Geneva.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p010,NLI / evidence sufficiency,MIXED_EVIDENCE,UNSUPPORTED,The expedition reached the summit on 12 July 1953.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,validation,p012,NLI / evidence sufficiency,SUPPORTED,UNSUPPORTED,Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p014,NLI / evidence sufficiency,MIXED_EVIDENCE,UNSUPPORTED,The treatment definitely prevents the disease.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p018,NLI / evidence sufficiency,MIXED_EVIDENCE,SUPPORTED,The Orion processor was designed by Helix.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p019,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,SUPPORTED,The device contains 16 gigabytes of memory.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p020,NLI / evidence sufficiency,SUPPORTED,UNSUPPORTED,Version 4.2 supports offline editing.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p021,NLI / evidence sufficiency,UNSUPPORTED,SUPPORTED,The software launched in 2018.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p022,NLI / evidence sufficiency,MIXED_EVIDENCE,SUPPORTED,The server uses Linux and has 64 gigabytes of memory.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,validation,p023,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,UNSUPPORTED,The patch fixes every reported vulnerability.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p026,NLI / evidence sufficiency,MIXED_EVIDENCE,SUPPORTED,Lena holds the women's national 100-metre record.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p030,NLI / evidence sufficiency,MIXED_EVIDENCE,SUPPORTED,The factory employs 500 people.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p031,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,UNSUPPORTED,Revenue was 10 million dollars in 2024.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p032,NLI / evidence sufficiency,SUPPORTED,INSUFFICIENT_EVIDENCE,The company earned 10 billion dollars in 2024 and employed 50000 people.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,validation,p033,NLI / evidence sufficiency,UNSUPPORTED,SUPPORTED,The bank raised its interest rate.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p034,NLI / evidence sufficiency,MIXED_EVIDENCE,UNSUPPORTED,Unemployment fell from 8 percent to 6 percent.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p035,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,SUPPORTED,The tax increase caused unemployment to rise.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,validation,p038,NLI / evidence sufficiency,MIXED_EVIDENCE,SUPPORTED,Iris composed the opera.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p039,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,SUPPORTED,The painting is displayed in Madrid.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p047,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,SUPPORTED,The agency currently accepts paper applications.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p049,NLI / evidence sufficiency,UNSUPPORTED,SUPPORTED,The red container holds more than the blue container.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p050,NLI / evidence sufficiency,MIXED_EVIDENCE,UNSUPPORTED,Alex Kim at North College won the prize.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,development,p054,NLI / evidence sufficiency,MIXED_EVIDENCE,SUPPORTED,The reserve lies in the coastal region.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,test,p056,NLI / evidence sufficiency,SUPPORTED,UNSUPPORTED,The species is certainly extinct.,Inspect saved assessment and supplied sources; attribution is provisional.
+baseline,verdicts,validation,p059,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,SUPPORTED,The park bans hunting and permits fishing.,Inspect saved assessment and supplied sources; attribution is provisional.
+final,nli,development,p001-neutral,NLI false support,neutral,support,Lake Arin has an area of 240 square kilometres.,
+final,nli after gate,development,p001-neutral,NLI false support,neutral,support,Lake Arin has an area of 240 square kilometres.,
+final,nli after gate,validation,p002-contradict,NLI missed directional evidence,contradict,neutral,Norvale borders Eastland and has a population of two million.,No unambiguous subject was identified.
+final,nli after gate,test,p004-contradict,NLI missed directional evidence,contradict,neutral,The town of Springfield in North County lies on the Alder River.,The passage does not explicitly identify the same subject.
+final,nli,test,p004-neutral,NLI false contradict,neutral,contradict,The town of Springfield in North County lies on the Alder River.,The passage does not explicitly identify the same subject.
+final,nli after gate,validation,p007-contradict,NLI missed directional evidence,contradict,neutral,Mira succeeded Tomas as director of the institute.,The passage does not explicitly address the same predicate.
+final,nli,development,p008-contradict,NLI missed directional evidence,contradict,neutral,The drought caused the kingdom's collapse.,
+final,nli after gate,development,p008-contradict,NLI missed directional evidence,contradict,neutral,The drought caused the kingdom's collapse.,
+final,nli,development,p008-neutral,NLI false contradict,neutral,contradict,The drought caused the kingdom's collapse.,
+final,nli after gate,development,p008-neutral,NLI false contradict,neutral,contradict,The drought caused the kingdom's collapse.,
+final,nli,development,p011-neutral,NLI false contradict,neutral,contradict,The museum opened in 1902 and closed in 1980.,
+final,nli after gate,development,p011-neutral,NLI false contradict,neutral,contradict,The museum opened in 1902 and closed in 1980.,
+final,nli,validation,p012-neutral,NLI false contradict,neutral,contradict,Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.,The passage does not explicitly address the same predicate.
+final,nli after gate,development,p013-contradict,NLI missed directional evidence,contradict,neutral,The trial found no reduction in infection rates.,The passage does not explicitly address the same predicate.
+final,nli after gate,test,p014-contradict,NLI missed directional evidence,contradict,neutral,The treatment definitely prevents the disease.,The passage does not explicitly address the same predicate.
+final,nli,test,p014-neutral,NLI false contradict,neutral,contradict,The treatment definitely prevents the disease.,The passage does not explicitly address the same predicate.
+final,nli,development,p016-support,NLI false contradict,support,contradict,The specimen weighed 25 milligrams.,The passage does not explicitly address the same predicate.
+final,nli after gate,development,p016-support,NLI missed directional evidence,support,neutral,The specimen weighed 25 milligrams.,The passage does not explicitly address the same predicate.
+final,nli,development,p016-punctuation,NLI false contradict,support,contradict,The specimen weighed 25 milligrams,The passage does not explicitly address the same predicate.
+final,nli after gate,development,p016-punctuation,NLI missed directional evidence,support,neutral,The specimen weighed 25 milligrams,The passage does not explicitly address the same predicate.
+final,nli,development,p016-noise,NLI false contradict,support,contradict,The specimen weighed 25 milligrams.,The passage does not explicitly address the same predicate.
+final,nli after gate,development,p016-noise,NLI missed directional evidence,support,neutral,The specimen weighed 25 milligrams.,The passage does not explicitly address the same predicate.
+final,nli,development,p017-neutral,NLI false contradict,neutral,contradict,All sampled birds carried the marker.,A subset is described without an explicit counterexample.
+final,nli,development,p018-neutral,NLI false support,neutral,support,The Orion processor was designed by Helix.,
+final,nli after gate,development,p018-neutral,NLI false support,neutral,support,The Orion processor was designed by Helix.,
+final,nli after gate,test,p019-contradict,NLI missed directional evidence,contradict,neutral,The device contains 16 gigabytes of memory.,The passage does not explicitly address the same predicate.
+final,nli,test,p019-neutral,NLI false support,neutral,support,The device contains 16 gigabytes of memory.,
+final,nli after gate,test,p019-neutral,NLI false support,neutral,support,The device contains 16 gigabytes of memory.,
+final,nli after gate,test,p020-contradict,NLI missed directional evidence,contradict,neutral,Version 4.2 supports offline editing.,The passage does not explicitly address the same predicate.
+final,nli,test,p020-neutral,NLI false contradict,neutral,contradict,Version 4.2 supports offline editing.,
+final,nli after gate,test,p020-neutral,NLI false contradict,neutral,contradict,Version 4.2 supports offline editing.,
+final,nli after gate,development,p021-contradict,NLI missed directional evidence,contradict,neutral,The software launched in 2018.,No unambiguous subject was identified.
+final,nli,development,p021-neutral,NLI false support,neutral,support,The software launched in 2018.,
+final,nli after gate,development,p021-neutral,NLI false support,neutral,support,The software launched in 2018.,
+final,nli after gate,development,p022-contradict,NLI missed directional evidence,contradict,neutral,The server uses Linux and has 64 gigabytes of memory.,The passage does not explicitly address the same predicate.
+final,nli after gate,validation,p023-contradict,NLI missed directional evidence,contradict,neutral,The patch fixes every reported vulnerability.,No unambiguous subject was identified.
+final,nli,validation,p023-neutral,NLI false contradict,neutral,contradict,The patch fixes every reported vulnerability.,No unambiguous subject was identified.
+final,nli after gate,test,p024-contradict,NLI missed directional evidence,contradict,neutral,The final was played in Lisbon.,The passage does not explicitly identify the same subject.
+final,nli,test,p024-neutral,NLI false support,neutral,support,The final was played in Lisbon.,
+final,nli after gate,test,p024-neutral,NLI false support,neutral,support,The final was played in Lisbon.,
+final,nli,test,p025-support,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one.,
+final,nli after gate,test,p025-support,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one.,
+final,nli after gate,test,p025-contradict,NLI missed directional evidence,contradict,neutral,Riverside won the match by three goals to one.,The passage does not explicitly address the same predicate.
+final,nli,test,p025-punctuation,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one,
+final,nli after gate,test,p025-punctuation,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one,
+final,nli,test,p025-noise,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one.,
+final,nli after gate,test,p025-noise,NLI missed directional evidence,support,neutral,Riverside won the match by three goals to one.,
+final,nli after gate,development,p027-contradict,NLI missed directional evidence,contradict,neutral,The match ended in a draw.,The passage does not explicitly address the same predicate.
+final,nli,development,p027-neutral,NLI false contradict,neutral,contradict,The match ended in a draw.,The passage does not explicitly address the same predicate.
+final,nli after gate,validation,p028-contradict,NLI missed directional evidence,contradict,neutral,The club was founded in 1897.,The passage does not explicitly address the same predicate.
+final,nli,validation,p028-neutral,NLI false support,neutral,support,The club was founded in 1897.,
+final,nli after gate,validation,p028-neutral,NLI false support,neutral,support,The club was founded in 1897.,
+final,nli,development,p029-neutral,NLI false contradict,neutral,contradict,The athlete won gold in 2016 and retired in 2020.,
+final,nli after gate,development,p029-neutral,NLI false contradict,neutral,contradict,The athlete won gold in 2016 and retired in 2020.,
+final,nli,development,p031-neutral,NLI false contradict,neutral,contradict,Revenue was 10 million dollars in 2024.,The measurement refers to a different or unspecified period.
+final,nli after gate,development,p034-contradict,NLI missed directional evidence,contradict,neutral,Unemployment fell from 8 percent to 6 percent.,The passage does not explicitly address the same predicate.
+final,nli,development,p034-neutral,NLI false contradict,neutral,contradict,Unemployment fell from 8 percent to 6 percent.,The passage does not explicitly address the same predicate.
+final,nli,test,p035-contradict,NLI missed directional evidence,contradict,neutral,The tax increase caused unemployment to rise.,
+final,nli after gate,test,p035-contradict,NLI missed directional evidence,contradict,neutral,The tax increase caused unemployment to rise.,
+final,nli,test,p035-neutral,NLI false support,neutral,support,The tax increase caused unemployment to rise.,
+final,nli after gate,test,p035-neutral,NLI false support,neutral,support,The tax increase caused unemployment to rise.,
+final,nli,development,p036-neutral,NLI false contradict,neutral,contradict,Nora Vale wrote The Glass Orchard.,The passage does not explicitly address the same predicate.
+final,nli after gate,development,p037-contradict,NLI missed directional evidence,contradict,neutral,The film premiered on 6 May 2008.,The passage does not explicitly identify the same subject.
+final,nli,development,p037-neutral,NLI false support,neutral,support,The film premiered on 6 May 2008.,
+final,nli after gate,development,p037-neutral,NLI false support,neutral,support,The film premiered on 6 May 2008.,
+final,nli,test,p040-neutral,NLI false support,neutral,support,The novel was not published anonymously.,
+final,nli after gate,test,p040-neutral,NLI false support,neutral,support,The novel was not published anonymously.,
+final,nli after gate,test,p041-contradict,NLI missed directional evidence,contradict,neutral,The album won an award and sold a million copies.,The passage does not explicitly address the same predicate.
+final,nli after gate,development,p044-contradict,NLI missed directional evidence,contradict,neutral,The regulation applies to every employer.,The passage does not explicitly address the same predicate.
+final,nli after gate,test,p045-contradict,NLI missed directional evidence,contradict,neutral,The library opens on Sundays.,The passage does not explicitly address the same predicate.
+final,nli after gate,development,p047-support,NLI missed directional evidence,support,neutral,The agency currently accepts paper applications.,Currentness cannot be established without a usable publication date.
+final,nli after gate,development,p047-contradict,NLI missed directional evidence,contradict,neutral,The agency currently accepts paper applications.,Currentness cannot be established without a usable publication date.
+final,nli,development,p047-neutral,NLI false support,neutral,support,The agency currently accepts paper applications.,Currentness cannot be established without a usable publication date.
+final,nli after gate,development,p047-punctuation,NLI missed directional evidence,support,neutral,The agency currently accepts paper applications,Currentness cannot be established without a usable publication date.
+final,nli after gate,development,p047-noise,NLI missed directional evidence,support,neutral,The agency currently accepts paper applications.,Currentness cannot be established without a usable publication date.
+final,nli,development,p049-contradict,NLI false support,contradict,support,The red container holds more than the blue container.,
+final,nli after gate,development,p049-contradict,NLI false support,contradict,support,The red container holds more than the blue container.,
+final,nli,test,p050-neutral,NLI false contradict,neutral,contradict,Alex Kim at North College won the prize.,The passage does not explicitly identify the same subject.
+final,nli after gate,development,p052-contradict,NLI missed directional evidence,contradict,neutral,The machine stops when the lid is opened.,The passage does not explicitly address the same predicate.
+final,nli,development,p053-neutral,NLI false contradict,neutral,contradict,The project began in 2012 and finished in 2019.,
+final,nli after gate,development,p053-neutral,NLI false contradict,neutral,contradict,The project began in 2012 and finished in 2019.,
+final,nli after gate,development,p054-contradict,NLI missed directional evidence,contradict,neutral,The reserve lies in the coastal region.,The passage does not explicitly address the same predicate.
+final,nli after gate,test,p055-contradict,NLI missed directional evidence,contradict,neutral,The survey counted 350 nesting pairs.,The passage does not explicitly address the same predicate.
+final,nli,test,p056-support,NLI missed directional evidence,support,neutral,The species is certainly extinct.,
+final,nli after gate,test,p056-support,NLI missed directional evidence,support,neutral,The species is certainly extinct.,
+final,nli after gate,test,p056-contradict,NLI missed directional evidence,contradict,neutral,The species is certainly extinct.,The passage does not explicitly identify the same subject.
+final,nli,test,p056-neutral,NLI false contradict,neutral,contradict,The species is certainly extinct.,The passage does not explicitly identify the same subject.
+final,nli,test,p056-punctuation,NLI missed directional evidence,support,neutral,The species is certainly extinct,
+final,nli after gate,test,p056-punctuation,NLI missed directional evidence,support,neutral,The species is certainly extinct,
+final,nli,test,p056-noise,NLI missed directional evidence,support,neutral,The species is certainly extinct.,
+final,nli after gate,test,p056-noise,NLI missed directional evidence,support,neutral,The species is certainly extinct.,
+final,nli after gate,development,p057-contradict,NLI missed directional evidence,contradict,neutral,The reservoir is empty.,The passage does not explicitly address the same predicate.
+final,nli,development,p057-neutral,NLI false contradict,neutral,contradict,The reservoir is empty.,The passage does not explicitly address the same predicate.
+final,nli after gate,validation,p059-contradict,NLI missed directional evidence,contradict,neutral,The park bans hunting and permits fishing.,The passage does not explicitly address the same predicate.
+final,nli,validation,p059-neutral,NLI false contradict,neutral,contradict,The park bans hunting and permits fishing.,The passage does not explicitly address the same predicate.
+final,nli,validation,p059-noise,NLI false contradict,support,contradict,The park bans hunting and permits fishing.,The passage does not explicitly address the same predicate.
+final,nli after gate,validation,p059-noise,NLI missed directional evidence,support,neutral,The park bans hunting and permits fishing.,The passage does not explicitly address the same predicate.
+final,retrieval,development,p000,relevance false positive,relevant passages only,"[0, 1, 2]",Tokyo is the capital of Japan.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p001,relevance false positive,relevant passages only,"[0, 1, 2]",Lake Arin has an area of 240 square kilometres.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p002,relevance false positive,relevant passages only,"[0, 1, 2]",Norvale borders Eastland and has a population of two million.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p003,relevance false positive,relevant passages only,"[0, 1, 2]",Sydney is the capital of Australia.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p004,relevance false positive,relevant passages only,"[2, 0, 1]",The town of Springfield in North County lies on the Alder River.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p005,relevance false positive,relevant passages only,"[1, 0, 2]",Port Selby lies north of Westhaven.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p006,relevance false positive,relevant passages only,"[1, 0, 2, 7]",The archive opened in 1924.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p007,relevance false positive,relevant passages only,"[1, 0, 2]",Mira succeeded Tomas as director of the institute.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p008,relevance false positive,relevant passages only,"[0, 1, 2]",The drought caused the kingdom's collapse.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p009,relevance false positive,relevant passages only,"[2, 0, 1]",The treaty was signed in Geneva.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p010,relevance false positive,relevant passages only,"[0, 1, 2]",The expedition reached the summit on 12 July 1953.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p011,relevance false positive,relevant passages only,"[0, 1, 2]",The museum opened in 1902 and closed in 1980.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p012,relevance false positive,relevant passages only,"[1, 0, 2]",Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p013,relevance false positive,relevant passages only,"[0, 2, 1, 3]",The trial found no reduction in infection rates.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p014,relevance false positive,relevant passages only,"[0, 2, 1]",The treatment definitely prevents the disease.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p015,relevance false positive,relevant passages only,"[1, 0, 2]",Mars has two natural moons.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p016,relevance false positive,relevant passages only,"[1, 2, 0]",The specimen weighed 25 milligrams.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p017,relevance false positive,relevant passages only,"[0, 2, 1]",All sampled birds carried the marker.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p018,relevance false positive,relevant passages only,"[0, 2, 1]",The Orion processor was designed by Helix.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p019,relevance false positive,relevant passages only,"[0, 1, 2, 5]",The device contains 16 gigabytes of memory.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p020,relevance false positive,relevant passages only,"[2, 0, 1]",Version 4.2 supports offline editing.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p021,relevance false positive,relevant passages only,"[1, 2, 0]",The software launched in 2018.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p022,relevance false positive,relevant passages only,"[0, 1, 2]",The server uses Linux and has 64 gigabytes of memory.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p023,relevance false positive,relevant passages only,"[2, 0, 1]",The patch fixes every reported vulnerability.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p024,relevance false positive,relevant passages only,"[1, 0, 2, 5]",The final was played in Lisbon.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p025,relevance false positive,relevant passages only,"[1, 0, 2, 4]",Riverside won the match by three goals to one.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p026,relevance false positive,relevant passages only,"[0, 2, 1]",Lena holds the women's national 100-metre record.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p027,relevance false positive,relevant passages only,"[1, 2, 0]",The match ended in a draw.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p028,relevance false positive,relevant passages only,"[0, 1, 2]",The club was founded in 1897.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p029,relevance false positive,relevant passages only,"[1, 0, 2]",The athlete won gold in 2016 and retired in 2020.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p030,relevance false positive,relevant passages only,"[0, 1, 2, 4]",The factory employs 500 people.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p031,relevance false positive,relevant passages only,"[2, 1, 0, 3]",Revenue was 10 million dollars in 2024.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p032,relevance false positive,relevant passages only,"[0, 1, 2]",The company earned 10 billion dollars in 2024 and employed 50000 people.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p033,relevance false positive,relevant passages only,"[0, 1, 2]",The bank raised its interest rate.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p034,relevance false positive,relevant passages only,"[0, 1, 2, 3]",Unemployment fell from 8 percent to 6 percent.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p035,relevance false positive,relevant passages only,"[0, 1, 2]",The tax increase caused unemployment to rise.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p036,relevance false positive,relevant passages only,"[0, 2, 1]",Nora Vale wrote The Glass Orchard.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p037,relevance false positive,relevant passages only,"[0, 1, 2]",The film premiered on 6 May 2008.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p038,relevance false positive,relevant passages only,"[1, 0, 2]",Iris composed the opera.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p039,relevance false positive,relevant passages only,"[0, 1, 2]",The painting is displayed in Madrid.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p040,relevance false positive,relevant passages only,"[1, 0, 2]",The novel was not published anonymously.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p041,relevance false positive,relevant passages only,"[0, 1, 2]",The album won an award and sold a million copies.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p042,relevance false positive,relevant passages only,"[0, 1, 2]",The agency is headquartered in Brussels.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p043,relevance false positive,relevant passages only,"[1, 0, 2]",The council chair serves a four-year term.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p044,relevance false positive,relevant passages only,"[2, 0, 1]",The regulation applies to every employer.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p045,relevance false positive,relevant passages only,"[0, 1, 2]",The library opens on Sundays.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p046,relevance false positive,relevant passages only,"[0, 1, 2]",The assembly has 120 elected members.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p047,relevance false positive,relevant passages only,"[0, 2, 1]",The agency currently accepts paper applications.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p048,relevance false positive,relevant passages only,"[0, 1, 2]",The bridge is made of steel.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p049,relevance false positive,relevant passages only,"[1, 0, 2]",The red container holds more than the blue container.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p050,relevance false positive,relevant passages only,"[2, 0, 1]",Alex Kim at North College won the prize.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p051,relevance false positive,relevant passages only,"[0, 1, 2]",The room has three windows.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p052,relevance false positive,relevant passages only,"[0, 1, 2]",The machine stops when the lid is opened.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p053,relevance false positive,relevant passages only,"[0, 1, 2]",The project began in 2012 and finished in 2019.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p054,relevance false positive,relevant passages only,"[0, 1, 2]",The reserve lies in the coastal region.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p055,relevance false positive,relevant passages only,"[1, 0, 2, 5]",The survey counted 350 nesting pairs.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,test,p056,relevance false positive,relevant passages only,"[1, 2, 0]",The species is certainly extinct.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p057,relevance false positive,relevant passages only,"[0, 1, 2]",The reservoir is empty.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,development,p058,relevance false positive,relevant passages only,"[0, 1, 2]",The protected area was established in 1976.,Recall may be perfect while top five include unrelated evidence.
+final,retrieval,validation,p059,relevance false positive,relevant passages only,"[0, 1, 2]",The park bans hunting and permits fishing.,Recall may be perfect while top five include unrelated evidence.
+final,verdicts,development,p001,NLI / evidence sufficiency,UNSUPPORTED,MIXED_EVIDENCE,Lake Arin has an area of 240 square kilometres.,Inspect saved assessment and supplied sources; attribution is provisional.
+final,verdicts,validation,p002,evidence eligibility / aggregation,MIXED_EVIDENCE,SUPPORTED,Norvale borders Eastland and has a population of two million.,No unambiguous subject was identified.
+final,verdicts,development,p013,evidence eligibility / aggregation,UNSUPPORTED,INSUFFICIENT_EVIDENCE,The trial found no reduction in infection rates.,The passage does not explicitly address the same predicate.
+final,verdicts,test,p014,evidence eligibility / aggregation,MIXED_EVIDENCE,SUPPORTED,The treatment definitely prevents the disease.,The passage does not explicitly address the same predicate.
+final,verdicts,development,p016,evidence eligibility / aggregation,SUPPORTED,INSUFFICIENT_EVIDENCE,The specimen weighed 25 milligrams.,The passage does not explicitly address the same predicate.
+final,verdicts,test,p019,NLI / evidence sufficiency,INSUFFICIENT_EVIDENCE,SUPPORTED,The device contains 16 gigabytes of memory.,Inspect saved assessment and supplied sources; attribution is provisional.
+final,verdicts,test,p020,NLI / evidence sufficiency,SUPPORTED,MIXED_EVIDENCE,Version 4.2 supports offline editing.,Inspect saved assessment and supplied sources; attribution is provisional.
+final,verdicts,development,p021,evidence eligibility / aggregation,UNSUPPORTED,INSUFFICIENT_EVIDENCE,The software launched in 2018.,No unambiguous subject was identified.
+final,verdicts,development,p022,evidence eligibility / aggregation,MIXED_EVIDENCE,SUPPORTED,The server uses Linux and has 64 gigabytes of memory.,Repeated source or near-duplicate content; not independent confirmation.; The passage does not explicitly address the same predicate.
+final,verdicts,test,p025,evidence eligibility / aggregation,UNSUPPORTED,INSUFFICIENT_EVIDENCE,Riverside won the match by three goals to one.,The passage does not explicitly address the same predicate.
+final,verdicts,development,p032,NLI / evidence sufficiency,SUPPORTED,INSUFFICIENT_EVIDENCE,The company earned 10 billion dollars in 2024 and employed 50000 people.,Inspect saved assessment and supplied sources; attribution is provisional.
+final,verdicts,development,p034,evidence eligibility / aggregation,MIXED_EVIDENCE,SUPPORTED,Unemployment fell from 8 percent to 6 percent.,The passage does not explicitly address the same predicate.
+final,verdicts,development,p037,evidence eligibility / aggregation,UNSUPPORTED,INSUFFICIENT_EVIDENCE,The film premiered on 6 May 2008.,The passage does not explicitly identify the same subject.
+final,verdicts,test,p041,evidence eligibility / aggregation,UNSUPPORTED,INSUFFICIENT_EVIDENCE,The album won an award and sold a million copies.,The passage does not explicitly address the same predicate.
+final,verdicts,test,p045,evidence eligibility / aggregation,UNSUPPORTED,INSUFFICIENT_EVIDENCE,The library opens on Sundays.,The passage does not explicitly address the same predicate.
+final,verdicts,development,p049,NLI / evidence sufficiency,UNSUPPORTED,SUPPORTED,The red container holds more than the blue container.,Inspect saved assessment and supplied sources; attribution is provisional.
+final,verdicts,development,p054,evidence eligibility / aggregation,MIXED_EVIDENCE,SUPPORTED,The reserve lies in the coastal region.,The passage does not explicitly address the same predicate.
+final,verdicts,test,p056,evidence eligibility / aggregation,SUPPORTED,INSUFFICIENT_EVIDENCE,The species is certainly extinct.,The passage does not explicitly identify the same subject.
+final,verdicts,development,p057,evidence eligibility / aggregation,UNSUPPORTED,INSUFFICIENT_EVIDENCE,The reservoir is empty.,The passage does not explicitly address the same predicate.

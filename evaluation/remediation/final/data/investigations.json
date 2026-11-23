@@ -1,0 +1,3309 @@
+[
+  {
+    "id": "remediation-fact-000",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "The Iditarod is a long-distance sled dog race held annually in Alaska.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-0.org/document",
+        "passage": "The Iditarod is a long-distance sled dog race held annually in Alaska.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-001",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Cloud computing allows on-demand access to shared computing resources over the internet.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-1.org/document",
+        "passage": "Cloud computing allows on-demand access to shared computing resources over the internet.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-002",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "environment",
+    "tag": "direct-factual",
+    "claim": "Recycling aluminum uses significantly less energy than producing it from raw ore.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-2.org/document",
+        "passage": "Recycling aluminum uses significantly less energy than producing it from raw ore.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-003",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "The first modern Olympic Games were held in Athens in 1896.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-3.org/document",
+        "passage": "The first modern Olympic Games were held in Athens in 1896.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-004",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Boston Tea Party took place in 1773.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-4.org/document",
+        "passage": "The Boston Tea Party took place in 1773.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-005",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "business",
+    "tag": "direct-factual",
+    "claim": "Quarterly earnings reports are commonly published by publicly traded companies.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-5.org/document",
+        "passage": "Quarterly earnings reports are commonly published by publicly traded companies.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-006",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "environment",
+    "tag": "direct-factual",
+    "claim": "Plastic pollution poses no threat whatsoever to marine ecosystems.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-6.org/document",
+        "passage": "Plastic pollution poses a significant threat to marine ecosystems.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-007",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "business",
+    "tag": "direct-factual",
+    "claim": "The euro is the official currency used by many European Union member states.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-7.org/document",
+        "passage": "The euro is the official currency used by many European Union member states.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-008",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Regular physical activity is associated with worsened mental health in all cases.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-8.org/document",
+        "passage": "Regular physical activity is associated with improved mental health.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-009",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Alps are a major mountain range in South America.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-9.org/document",
+        "passage": "The Alps are a major mountain range in Europe.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-010",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Two-factor authentication removes all security requirements from an account.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-10.org/document",
+        "passage": "Two-factor authentication adds an extra layer of account security.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-011",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Antibodies are a type of carbohydrate found only in plants.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-11.org/document",
+        "passage": "Antibodies are proteins produced by the immune system to fight pathogens.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-012",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "Lake Baikal is one of the shallowest lakes in the world.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-12.org/document",
+        "passage": "Lake Baikal is the deepest freshwater lake in the world.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-013",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Suez Canal connects the Pacific Ocean to the Atlantic Ocean.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-13.org/document",
+        "passage": "The Suez Canal connects the Mediterranean Sea to the Red Sea.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-014",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The fall of the Western Roman Empire is traditionally dated to 476 CE.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-14.org/document",
+        "passage": "The fall of the Western Roman Empire is traditionally dated to 476 CE.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-015",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "Greenland is the smallest island on Earth.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-15.org/document",
+        "passage": "Greenland is the largest island on Earth that is not a continent.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-016",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "environment",
+    "tag": "direct-factual",
+    "claim": "Reforestation projects aim to remove all remaining trees from an area.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-16.org/document",
+        "passage": "Reforestation projects aim to restore tree cover in deforested areas.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-017",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Electric vehicles generally produce no tailpipe emissions.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-17.org/document",
+        "passage": "Electric vehicles generally produce no tailpipe emissions.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-018",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "science",
+    "tag": "direct-factual",
+    "claim": "Volcanic eruptions never release ash into the atmosphere.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-18.org/document",
+        "passage": "Volcanic eruptions can release large amounts of ash into the atmosphere.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-019",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "environment",
+    "tag": "direct-factual",
+    "claim": "Wind turbines convert kinetic energy from wind into electricity.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-19.org/document",
+        "passage": "Wind turbines convert kinetic energy from wind into electricity.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-020",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Rocky Mountains run through parts of eastern Europe.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-20.org/document",
+        "passage": "The Rocky Mountains run through parts of the western United States and Canada.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-021",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "Lake Victoria is one of the smallest lakes in Africa.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-21.org/document",
+        "passage": "Lake Victoria is one of the largest freshwater lakes in Africa.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-022",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "business",
+    "tag": "direct-factual",
+    "claim": "Paper money can be legally printed by any private individual.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-22.org/document",
+        "passage": "The printing of paper money is regulated by national governments or central banks.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-023",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Statue of Liberty was a gift from France to the United States.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-23.org/document",
+        "passage": "The Statue of Liberty was a gift from France to the United States.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-024",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Cold War was primarily a rivalry between the United States and the Soviet Union.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-24.org/document",
+        "passage": "The Cold War was primarily a rivalry between the United States and the Soviet Union.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-025",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The signing of the Treaty of Versailles took place in 1949.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-25.org/document",
+        "passage": "The signing of the Treaty of Versailles took place in 1919.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-026",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Amazon River flows through Australia.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-26.org/document",
+        "passage": "The Amazon River flows through Brazil.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-027",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Marshall Plan provided economic aid to rebuild Western Europe after World War II.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-27.org/document",
+        "passage": "The Marshall Plan provided economic aid to rebuild Western Europe after World War II.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-028",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "space",
+    "tag": "direct-factual",
+    "claim": "Black holes have almost no measurable gravitational field.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-28.org/document",
+        "passage": "Black holes have gravitational fields so strong that not even light can escape.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-029",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "science",
+    "tag": "direct-factual",
+    "claim": "Coral polyps are tiny animals that build coral reefs over time.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-29.org/document",
+        "passage": "Coral polyps are tiny animals that build coral reefs over time.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-030",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "The Super Bowl is the championship game of the National Football League.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-30.org/document",
+        "passage": "The Super Bowl is the championship game of the National Football League.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-031",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Louisiana Purchase roughly doubled the size of the United States in 1803.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-31.org/document",
+        "passage": "The Louisiana Purchase roughly doubled the size of the United States in 1803.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-032",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "science",
+    "tag": "direct-factual",
+    "claim": "Penguins are flightless birds.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-32.org/document",
+        "passage": "Penguins are flightless birds.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-033",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Artificial intelligence systems cannot be trained on any data.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-33.org/document",
+        "passage": "Artificial intelligence systems can be trained on large datasets.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-034",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "culture",
+    "tag": "direct-factual",
+    "claim": "Beethoven continued composing music after losing much of his hearing.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-34.org/document",
+        "passage": "Beethoven continued composing music after losing much of his hearing.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-035",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Vitamin C deficiency has no known health effects.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-35.org/document",
+        "passage": "Vitamin C deficiency can cause scurvy.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-036",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Berlin Airlift was organized to supply East Berlin during a western blockade.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-36.org/document",
+        "passage": "The Berlin Airlift supplied West Berlin during a Soviet blockade.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-037",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Regular dental checkups help detect cavities early.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-37.org/document",
+        "passage": "Regular dental checkups help detect cavities early.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-038",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "space",
+    "tag": "direct-factual",
+    "claim": "Neptune is the farthest known planet from the Sun.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-38.org/document",
+        "passage": "Neptune is the farthest known planet from the Sun.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-039",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Rosetta Stone had no role in deciphering Egyptian hieroglyphs.",
+    "sources": [
+      {
+        "url": "https://remediation-source-easy-39.org/document",
+        "passage": "The Rosetta Stone helped scholars decipher Egyptian hieroglyphs.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-040",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "The FIFA World Cup is held every ten years.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-0.org/document",
+        "passage": "The FIFA World Cup is held every four years.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-0-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-041",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The steam engine played no role in the Industrial Revolution.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-1.org/document",
+        "passage": "The invention of the steam engine helped power the Industrial Revolution.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-042",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Titanic sank in 1932 after striking an iceberg.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-2.org/document",
+        "passage": "The Titanic sank in 1912 after striking an iceberg.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-043",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "culture",
+    "tag": "direct-factual",
+    "claim": "Shakespeare's play Hamlet is set primarily in Spain.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-3.org/document",
+        "passage": "Shakespeare's play Hamlet is set primarily in Denmark.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-3-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-044",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "APIs allow different software systems to communicate with each other.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-4.org/document",
+        "passage": "APIs allow different software systems to communicate with each other.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-045",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "sports",
+    "tag": "empty-retrieval",
+    "claim": "Tennis Grand Slam tournaments include the Australian Open, French Open, Wimbledon, and the US Open.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-046",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "business",
+    "tag": "direct-factual",
+    "claim": "Bonds are generally considered far more volatile than stocks.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-6.org/document",
+        "passage": "Bonds are generally considered less volatile than stocks.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-6-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-047",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Cryptocurrency transactions are often recorded on a distributed ledger called a blockchain.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-7.org/document",
+        "passage": "Cryptocurrency transactions are often recorded on a distributed ledger called a blockchain.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-048",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "space",
+    "tag": "empty-retrieval",
+    "claim": "Jupiter's Great Red Spot is a giant storm.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-049",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "The human skeleton contains 206 bones in adulthood.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-9.org/document",
+        "passage": "The human skeleton contains 206 bones in adulthood.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-9-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-050",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "Olympic gold medalists receive a medal made entirely of solid gold.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-10.org/document",
+        "passage": "Olympic gold medalists receive a medal made primarily of silver with gold plating.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-051",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Nile is one of the longest rivers in the world.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-11.org/document",
+        "passage": "The Nile is one of the longest rivers in the world.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-052",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "medicine",
+    "tag": "empty-retrieval",
+    "claim": "Malaria is transmitted to humans through mosquito bites.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-053",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "science",
+    "tag": "empty-retrieval",
+    "claim": "The Andean condor is one of the largest flying birds in the world.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-054",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Magna Carta was signed in 1815 in France.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-14.org/document",
+        "passage": "The Magna Carta was signed in 1215 in England.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-055",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "technology",
+    "tag": "empty-retrieval",
+    "claim": "Encryption is used to protect data from unauthorized access.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-056",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "space",
+    "tag": "direct-factual",
+    "claim": "A parsec is a unit used by astronomers to measure vast distances.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-16.org/document",
+        "passage": "A parsec is a unit used by astronomers to measure vast distances.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-057",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "culture",
+    "tag": "direct-factual",
+    "claim": "Chess is played on a board with 100 squares.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-17.org/document",
+        "passage": "Chess is played on a board with 64 squares.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-058",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Gobi Desert is located in parts of northern China and southern Mongolia.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-18.org/document",
+        "passage": "The Gobi Desert is located in parts of northern China and southern Mongolia.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-18-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-059",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Chronic stress can negatively affect cardiovascular health.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-19.org/document",
+        "passage": "Chronic stress can negatively affect cardiovascular health.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-060",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Python is a widely used programming language for data science.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-20.org/document",
+        "passage": "Python is a widely used programming language for data science.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-061",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "The 100-meter sprint is not recognized as a track and field event.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-21.org/document",
+        "passage": "The 100-meter sprint is a standard track and field event.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-21-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-062",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "science",
+    "tag": "direct-factual",
+    "claim": "Sharks are a type of mammal.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-22.org/document",
+        "passage": "Sharks are a type of cartilaginous fish.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-063",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Wright Flyer made its first flight in downtown Chicago.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-23.org/document",
+        "passage": "The Wright Flyer made its first flight at Kitty Hawk.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-064",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "medicine",
+    "tag": "empty-retrieval",
+    "claim": "The human eye contains photoreceptor cells called rods and cones.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-065",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Open-source software allows users to view and modify its source code.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-25.org/document",
+        "passage": "Open-source software allows users to view and modify its source code.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-066",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "business",
+    "tag": "empty-retrieval",
+    "claim": "The Great Depression began in 1929.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-067",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "space",
+    "tag": "direct-factual",
+    "claim": "The International Space Station orbits the Earth roughly once a year.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-27.org/document",
+        "passage": "The International Space Station orbits the Earth roughly every 90 minutes.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-27-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-068",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Dead Sea is one of the saltiest bodies of water on Earth.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-28.org/document",
+        "passage": "The Dead Sea is one of the saltiest bodies of water on Earth.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-069",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "business",
+    "tag": "empty-retrieval",
+    "claim": "Inflation refers to a general rise in prices over time.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-070",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "science",
+    "tag": "direct-factual",
+    "claim": "Bats rely primarily on vision to navigate in the dark.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-30.org/document",
+        "passage": "Bats use echolocation to navigate in the dark.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-30-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-071",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "environment",
+    "tag": "direct-factual",
+    "claim": "Composting organic waste can reduce the amount sent to landfills.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-31.org/document",
+        "passage": "Composting organic waste can reduce the amount sent to landfills.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-072",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The Hoover Dam was built on the Mississippi River during the 1830s.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-32.org/document",
+        "passage": "The Hoover Dam was built on the Colorado River during the 1930s.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-073",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "space",
+    "tag": "empty-retrieval",
+    "claim": "The asteroid belt is located between the orbits of Mars and Jupiter.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-074",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "science",
+    "tag": "empty-retrieval",
+    "claim": "Honeybees communicate the location of food using a waggle dance.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-075",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Regular handwashing helps reduce the spread of infectious disease.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-35.org/document",
+        "passage": "Regular handwashing helps reduce the spread of infectious disease.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-076",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "science",
+    "tag": "empty-retrieval",
+    "claim": "Water boils at 100 degrees Celsius at sea level.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-077",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "Baseball games are traditionally divided into three innings.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-37.org/document",
+        "passage": "Baseball games are traditionally divided into nine innings.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-078",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Regular hydration supports normal kidney function.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-38.org/document",
+        "passage": "Regular hydration supports normal kidney function.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-079",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "technology",
+    "tag": "empty-retrieval",
+    "claim": "Firewalls are used to monitor and control network traffic for security.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-080",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "geography",
+    "tag": "empty-retrieval",
+    "claim": "Antarctica is the coldest continent on Earth.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-081",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "technology",
+    "tag": "direct-factual",
+    "claim": "Cybersecurity practices aim to protect systems from unauthorized access.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-41.org/document",
+        "passage": "Cybersecurity practices aim to protect systems from unauthorized access.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-082",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "geography",
+    "tag": "empty-retrieval",
+    "claim": "The Mekong River flows through several countries in Southeast Asia.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-083",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "tag": "empty-retrieval",
+    "claim": "The Renaissance began in Italy before spreading across Europe.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-084",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "sports",
+    "tag": "direct-factual",
+    "claim": "Golf tournaments typically award the win to the lowest total score.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-44.org/document",
+        "passage": "Golf tournaments typically award the win to the lowest total score.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-085",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "tag": "direct-factual",
+    "claim": "The ancient Library of Alexandria was primarily a military fortress.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-45.org/document",
+        "passage": "The ancient Library of Alexandria was a major center of scholarship.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-45-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-086",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "medicine",
+    "tag": "direct-factual",
+    "claim": "Type 2 diabetes is associated with insulin resistance.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-46.org/document",
+        "passage": "Type 2 diabetes is associated with insulin resistance.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-087",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "geography",
+    "tag": "direct-factual",
+    "claim": "The Strait of Gibraltar separates Europe from Africa.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-47.org/document",
+        "passage": "The Strait of Gibraltar separates Europe from Africa.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-088",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "business",
+    "tag": "direct-factual",
+    "claim": "Compound interest allows investment growth to accelerate over time.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-48.org/document",
+        "passage": "Compound interest allows investment growth to accelerate over time.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-med-48-noise.org/document",
+        "passage": "Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. Site footer: privacy policy, cookie settings, social media links and newsletter signup. ",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-fact-089",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "science",
+    "tag": "direct-factual",
+    "claim": "Migratory birds never travel beyond a small local area.",
+    "sources": [
+      {
+        "url": "https://remediation-source-med-49.org/document",
+        "passage": "Migratory birds often travel long distances between breeding and wintering grounds.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; authored summaries, not source quotations."
+  },
+  {
+    "id": "remediation-hard-000",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "business",
+    "tag": "contradictory-sources",
+    "claim": "The startup's headcount reached 500 employees last quarter.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-0-0.org/document",
+        "passage": "The startup's official press release stated headcount reached 500 employees last quarter, calling it a major milestone.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-0-1.org/document",
+        "passage": "An internal memo leaked to reporters put the startup's actual headcount at closer to 350 employees last quarter, well short of the announced figure.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-001",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "technology",
+    "tag": "outdated-vs-current",
+    "claim": "The company's flagship product runs on version 3 of its software platform.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-1-0.org/document",
+        "passage": "A 2019 product brochure described the flagship product as running on version 3 of the software platform.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-1-1.org/document",
+        "passage": "The company's current documentation, updated this year, confirms the flagship product now runs on version 6 of the software platform, following two major upgrades.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-002",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "tag": "authority-vs-volume",
+    "claim": "The new supplement has been proven to cure the common cold.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-2-0.org/document",
+        "passage": "Dozens of online customer reviews claim the new supplement cured their common cold within a day.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-2-1.org/document",
+        "passage": "A peer-reviewed clinical trial published by a national health authority found no statistically significant effect of the supplement on cold duration or symptoms.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-003",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "business",
+    "tag": "numerical-denominator",
+    "claim": "The company's customer satisfaction rate is 90%.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-3-0.org/document",
+        "passage": "Of the customers who responded to the company's optional survey, 90% reported being satisfied.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-3-1.org/document",
+        "passage": "Independent analysts noted the survey had only an 8% response rate, and satisfaction among a broader customer sample, measured separately, was closer to 60%.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-004",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "history",
+    "tag": "changing-officeholder",
+    "claim": "The organization's president is the same person who founded it.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-4-0.org/document",
+        "passage": "The organization was founded in 2001 by an entrepreneur who served as its first president.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-4-1.org/document",
+        "passage": "The founder stepped down as president in 2015, and the organization has been led by a different, unrelated president ever since.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-005",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "geography",
+    "tag": "multiple-atoms",
+    "claim": "The city is the capital of the country and has a population over ten million.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-5-0.org/document",
+        "passage": "The city has served as the national capital since the country's founding.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-5-1.org/document",
+        "passage": "Census data places the city's population at approximately three million residents, well under ten million.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-006",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "tag": "evidence-across-sources",
+    "claim": "The experiment's results were later independently replicated.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-6-0.org/document",
+        "passage": "The original study reported a measurable effect under laboratory conditions.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-6-1.org/document",
+        "passage": "A separate research team at a different institution repeated the experiment two years later using the same protocol and reported a consistent effect.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-007",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "tag": "subtle-numerical-difference",
+    "claim": "The material's melting point is 1,200 degrees Celsius.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-7-0.org/document",
+        "passage": "Laboratory measurements place the material's melting point at 1,150 degrees Celsius, with a documented margin of error of only a few degrees.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-008",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "business",
+    "tag": "temporal-conflict",
+    "claim": "The merger between the two companies was finalized this year.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-8-0.org/document",
+        "passage": "Regulators approved the proposed merger between the two companies three years ago.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-8-1.org/document",
+        "passage": "The deal was later called off entirely last year after both companies mutually agreed not to proceed, and no merger has taken place since.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-009",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "business",
+    "tag": "similar-entity-names",
+    "claim": "Meta Platforms acquired the small AI startup last year.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-9-0.org/document",
+        "passage": "A company called Meta Innovations, unrelated to Meta Platforms, acquired the small AI startup last year in a modest deal.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-010",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "tag": "syndicated-evidence",
+    "claim": "The vaccine reduces hospitalization risk by 80%.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-10-0.org/document",
+        "passage": "A wire-service report, syndicated by dozens of outlets, cited health officials stating the vaccine reduces hospitalization risk by roughly 80%.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-10-1.org/document",
+        "passage": "The same wire-service figure was republished verbatim by another outlet the following week.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-011",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "tag": "causation-vs-correlation",
+    "claim": "Eating more vegetables directly causes longer lifespan.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-11-0.org/document",
+        "passage": "A long-term observational study found people who ate more vegetables tended to live longer on average.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-11-1.org/document",
+        "passage": "The study's authors explicitly cautioned that the association could reflect other lifestyle factors correlated with vegetable consumption, not a direct causal effect.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-012",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "sports",
+    "tag": "rankings-with-year-context",
+    "claim": "The team finished first in the league this season.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-12-0.org/document",
+        "passage": "The team won the league championship three seasons ago.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-12-1.org/document",
+        "passage": "This season's final standings show the team finished fourth, well behind the league leader.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-013",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "tag": "difficult-scientific-statement",
+    "claim": "The gene variant is associated with a modestly increased disease risk in some populations.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-13-0.org/document",
+        "passage": "A genome-wide association study found the variant was associated with a small but statistically significant increase in disease risk in certain studied populations, though the effect size was modest and not observed uniformly across all groups.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-014",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "business",
+    "tag": "insufficient-evidence-genuine",
+    "claim": "The private company's exact annual revenue exceeds two billion dollars.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-015",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "technology",
+    "tag": "insufficient-evidence-genuine",
+    "claim": "The unreleased prototype device will launch within six months.",
+    "sources": [],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-016",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "geography",
+    "tag": "targeted-follow-up-retrieval",
+    "claim": "The newly discovered cave system extends more than ten miles underground.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-16-0.org/document",
+        "passage": "Explorers announced the discovery of a new cave system but have not yet published a total measured length.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-017",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "medicine",
+    "tag": "partial-truth",
+    "claim": "The new drug has no side effects.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-17-0.org/document",
+        "passage": "Clinical trials found the new drug effective for its intended use, but also documented mild side effects, including headache and nausea, in a meaningful share of participants.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-018",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "history",
+    "tag": "compound-claim",
+    "claim": "The treaty ended the war and established a new international body.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-18-0.org/document",
+        "passage": "The treaty formally ended hostilities between the warring nations.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-18-1.org/document",
+        "passage": "Historians note the treaty made no provision for any new international body; that came from a separate agreement signed years later.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-019",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "business",
+    "tag": "entity-relationship",
+    "claim": "The subsidiary operates independently of its parent company's board.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-19-0.org/document",
+        "passage": "Corporate filings show the subsidiary's board of directors is appointed by, and reports directly to, its parent company's board.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-020",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "medicine",
+    "tag": "denominator-mismatch",
+    "claim": "The treatment's success rate is 95%.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-20-0.org/document",
+        "passage": "Among patients who completed the full treatment course, 95% reported successful outcomes.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-20-1.org/document",
+        "passage": "A separate analysis noted only 40% of patients who started the treatment actually completed the full course, sharply lowering the success rate across all who began it.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-021",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "environment",
+    "tag": "source-conflict",
+    "claim": "The region's air quality has improved significantly over the past decade.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-21-0.org/document",
+        "passage": "Government monitoring data shows a significant decline in measured particulate pollution in the region over the past decade.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-21-1.org/document",
+        "passage": "An independent environmental group's report argues the official monitoring stations are poorly placed and that air quality has not meaningfully improved.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-022",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "history",
+    "tag": "historical-vs-current-officeholder",
+    "claim": "The university's founder still serves as its chancellor.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-22-0.org/document",
+        "passage": "The university was founded over a century ago by an individual who served as its first chancellor.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-22-1.org/document",
+        "passage": "The founder died decades ago; the university has since been led by a long succession of unrelated chancellors.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-023",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "tag": "ranking-comparison",
+    "claim": "The new processor is the fastest consumer chip ever released.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-23-0.org/document",
+        "passage": "Benchmark tests show the new processor is the fastest in its manufacturer's lineup to date.",
+        "published_at": null,
+        "title": "Controlled source"
+      },
+      {
+        "url": "https://remediation-source-hard-23-1.org/document",
+        "passage": "Independent reviewers found a rival company's chip, released the same month, outperforms the new processor on several standard benchmarks.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "MIXED_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-hard-024",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "space",
+    "tag": "insufficient-evidence-genuine",
+    "claim": "The exact composition of the newly detected exoplanet's atmosphere is known in full detail.",
+    "sources": [
+      {
+        "url": "https://remediation-source-hard-24-0.org/document",
+        "passage": "Astronomers detected an exoplanet and identified faint spectral hints of a few possible gases, but caution the atmospheric composition is not yet well characterized.",
+        "published_at": null,
+        "title": "Controlled source"
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "authored-controlled",
+    "gold_scope": "Supplied evidence only; hypothetical conflicts are controlled scenarios."
+  },
+  {
+    "id": "remediation-scifact-132",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Aspirin inhibits the production of PGE2.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/7975937",
+        "passage": "The mechanisms by which melanoma and other cancer cells evade anti-tumor immunity remain incompletely understood. Here, we show that the growth of tumors formed by mutant Braf(V600E) mouse melanoma cells in an immunocompetent host requires their production of prostaglandin E2, which suppresses immunity and fuels tumor-promoting inflammation. Genetic ablation of cyclooxygenases (COX) or prostaglandin E synthases in Braf(V600E) mouse melanoma cells, as well as in Nras(G12D) melanoma or in breast or colorectal cancer cells, renders them susceptible to immune control and provokes a shift in the tumor inflammatory profile toward classic anti-cancer immune pathways. This mouse COX-dependent inflammatory signature is remarkably conserved in human cutaneous melanoma biopsies, arguing for COX activity as a driver of immune suppression across species. Pre-clinical data demonstrate that inhibition of COX synergizes with anti-PD-1 blockade in inducing eradication of tumors, implying that COX inhibitors could be useful adjuvants for immune-based therapies in cancer patients.",
+        "title": "Cyclooxygenase-Dependent Tumor Growth through Evasion of Immunity",
+        "published_at": null,
+        "corpus_doc_id": 7975937
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-544",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "IFIT1 restricts viral replication by sequestrating mis-capped viral RNAs.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/24221369",
+        "passage": "The cytosolic helicase retinoic acid-inducible gene-I (RIG-I) initiates immune responses to most RNA viruses by detecting viral 5'-triphosphorylated RNA (pppRNA). Although endogenous mRNA is also 5'-triphosphorylated, backbone modifications and the 5'-ppp-linked methylguanosine ((m7)G) cap prevent immunorecognition. Here we show that the methylation status of endogenous capped mRNA at the 5'-terminal nucleotide (N1) was crucial to prevent RIG-I activation. Moreover, we identified a single conserved amino acid (H830) in the RIG-I RNA binding pocket as the mediator of steric exclusion of N1-2'O-methylated RNA. H830A alteration (RIG-I(H830A)) restored binding of N1-2'O-methylated pppRNA. Consequently, endogenous mRNA activated the RIG-I(H830A) mutant but not wild-type RIG-I. Similarly, knockdown of the endogenous N1-2'O-methyltransferase led to considerable RIG-I stimulation in the absence of exogenous stimuli. Studies involving yellow-fever-virus-encoded 2'O-methyltransferase and RIG-I(H830A) revealed that viruses exploit this mechanism to escape RIG-I. Our data reveal a new role for cap N1-2'O-methylation in RIG-I tolerance of self-RNA.",
+        "title": "A Conserved Histidine in the RNA Sensor RIG-I Controls Immune Tolerance to N1-2'O-Methylated Self RNA.",
+        "published_at": null,
+        "corpus_doc_id": 24221369
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-800",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Modifying the epigenome in the brain affects the normal human aging process by affecting certain genes related to neurogenesis.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/22543403",
+        "passage": "The exploration of brain epigenomes, which consist of various types of DNA methylation and covalent histone modifications, is providing new and unprecedented insights into the mechanisms of neural development, neurological disease and aging. Traditionally, chromatin defects in the brain were considered static lesions of early development that occurred in the context of rare genetic syndromes, but it is now clear that mutations and maladaptations of the epigenetic machinery cover a much wider continuum that includes adult-onset neurodegenerative disease. Here, we describe how recent advances in neuroepigenetics have contributed to an improved mechanistic understanding of developmental and degenerative brain disorders, and we discuss how they could influence the development of future therapies for these conditions.",
+        "title": "Epigenetic mechanisms in neurological disease",
+        "published_at": null,
+        "corpus_doc_id": 22543403
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-517",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "High levels of copeptin decrease risk of diabetes.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/15663829",
+        "passage": "BACKGROUND Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D), but the prospective association of BNP with T2D is uncertain, and it is unclear whether the association is confounded.   \n METHODS AND FINDINGS We analysed the association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D in a prospective case-cohort study and genotyped the variant rs198389 within the BNP locus in three T2D case-control studies. We combined our results with existing data in a meta-analysis of 11 case-control studies. Using a Mendelian randomization approach, we compared the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389. In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol. The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389. No significant associations were observed between the rs198389 genotype and potential confounders.   \n CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D. Further studies are needed to investigate the mechanisms underlying this association and possibilities for preventive interventions. Please see later in the article for the Editors' Summary.",
+        "title": "Mendelian Randomization Study of B-Type Natriuretic Peptide and Type 2 Diabetes: Evidence of Causal Association from Population Studies",
+        "published_at": null,
+        "corpus_doc_id": 15663829
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-99",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/18810195",
+        "passage": "How oncogenic signalling coordinates glycolysis and anabolic biosynthesis in cancer cells remains unclear. We recently reported that the glycolytic enzyme phosphoglycerate mutase 1 (PGAM1) regulates anabolic biosynthesis by controlling intracellular levels of its substrate 3-phosphoglycerate and product 2-phosphoglycerate. Here we report a novel mechanism in which Y26 phosphorylation enhances PGAM1 activation through release of inhibitory E19 that blocks the active site, stabilising cofactor 2,3-bisphosphoglycerate binding and H11 phosphorylation. We also report the crystal structure of H11-phosphorylated PGAM1 and find that phospho-H11 activates PGAM1 at least in part by promoting substrate 3-phosphoglycerate binding. Moreover, Y26 phosphorylation of PGAM1 is common in human cancer cells and contributes to regulation of 3-phosphoglycerate and 2-phosphoglycerate levels, promoting cancer cell proliferation and tumour growth. As PGAM1 is a negative transcriptional target of TP53, and is therefore commonly upregulated in human cancers, these findings suggest that Y26 phosphorylation represents an additional acute mechanism underlying phosphoglycerate mutase 1 upregulation.",
+        "title": "Tyr26 phosphorylation of PGAM1 provides a metabolic advantage to tumours by stabilizing the active conformation",
+        "published_at": null,
+        "corpus_doc_id": 18810195
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-1196",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "The availability of safe places to study is effective at decreasing homelessness.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/25649714",
+        "passage": "OBJECTIVE To establish the mental health needs of homeless children and families before and after rehousing.   \n DESIGN Cross sectional, longitudinal study.   \n SETTING City of Birmingham.    SUBJECTS 58 rehoused families with 103 children aged 2-16 years and 21 comparison families of low socioeconomic status in stable housing, with 54 children.   \n MAIN OUTCOME MEASURES Children's mental health problems and level of communication; mothers' mental health problems and social support one year after rehousing.   \n RESULTS Mental health problems remained significantly higher in rehoused mothers and their children than in the comparison group (mothers 26% v 5%, P = 0.04; children 39% v 11%, P = 0.0003). Homeless mothers continued to have significantly less social support at follow up. Mothers with a history of abuse and poor social integration were more likely to have children with persistent mental health problems.   \n CONCLUSIONS Homeless families have a high level of complex needs that cannot be met by conventional health services and arrangements. Local strategies for rapid rehousing into permanent accommodation, effective social support and health care for parents and children, and protection from violence and intimidation should be developed and implemented.",
+        "title": "Mental health problems of homeless children and families: longitudinal study.",
+        "published_at": null,
+        "corpus_doc_id": 25649714
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-1332",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Tumor necrosis factor alpha (TNF-\u03b1) and interleukin-1 (IL-1) are pro-inflammatory cytokines that inhibit IL-6 and IL-10.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/5304891",
+        "passage": "Little is known about the inter-individual variation of cytokine responses to different pathogens in healthy individuals. To systematically describe cytokine responses elicited by distinct pathogens and to determine the effect of genetic variation on cytokine production, we profiled cytokines produced by peripheral blood mononuclear cells from 197 individuals of European origin from the 200 Functional Genomics (200FG) cohort in the Human Functional Genomics Project (http://www.humanfunctionalgenomics.org), obtained over three different years. We compared bacteria- and fungi-induced cytokine profiles and found that most cytokine responses were organized around a physiological response to specific pathogens, rather than around a particular immune pathway or cytokine. We then correlated genome-wide single-nucleotide polymorphism (SNP) genotypes with cytokine abundance and identified six cytokine quantitative trait loci (QTLs). Among them, a cytokine QTL at the NAA35-GOLM1 locus markedly modulated interleukin (IL)-6 production in response to multiple pathogens and was associated with susceptibility to candidemia. Furthermore, the cytokine QTLs that we identified were enriched among SNPs previously associated with infectious diseases and heart diseases. These data reveal and begin to explain the variability in cytokine production by human immune cells in response to pathogens.",
+        "title": "Inter-individual variability and genetic influences on cytokine responses to bacteria and fungi",
+        "published_at": null,
+        "corpus_doc_id": 5304891
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-411",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Febrile seizures reduce the threshold for development of epilepsy.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/14924526",
+        "passage": "Febrile (fever-induced) seizures affect 3\u20135% of infants and young children. Despite the high incidence of febrile seizures, their contribution to the development of epilepsy later in life has remained controversial. Combining a new rat model of complex febrile seizures and patch clamp techniques, we determined that hyperthermia-induced seizures in the immature rat cause a selective presynaptic increase in inhibitory synaptic transmission in the hippocampus that lasts into adulthood. The long-lasting nature of these potent alterations in synaptic communication after febrile seizures does not support the prevalent view of the 'benign' nature of early-life febrile convulsions.",
+        "title": "Febrile seizures in the developing brain result in persistent modification of neuronal excitability in limbic circuits",
+        "published_at": null,
+        "corpus_doc_id": 14924526
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-1271",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "The severity of cardiac involvement in amyloidosis can be described by the degree of transmurality of late gadolinium enhancement in MRI.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/13768432",
+        "passage": "BACKGROUND The prognosis and treatment of the 2 main types of cardiac amyloidosis, immunoglobulin light chain (AL) and transthyretin (ATTR) amyloidosis, are substantially influenced by cardiac involvement. Cardiovascular magnetic resonance with late gadolinium enhancement (LGE) is a reference standard for the diagnosis of cardiac amyloidosis, but its potential for stratifying risk is unknown.   \n METHODS AND RESULTS Two hundred fifty prospectively recruited subjects, 122 patients with ATTR amyloid, 9 asymptomatic mutation carriers, and 119 patients with AL amyloidosis, underwent LGE cardiovascular magnetic resonance. Subjects were followed up for a mean of 24\u00b113 months. LGE was performed with phase-sensitive inversion recovery (PSIR) and without (magnitude only). These were compared with extracellular volume measured with T1 mapping. PSIR was superior to magnitude-only inversion recovery LGE because PSIR always nulled the tissue (blood or myocardium) with the longest T1 (least gadolinium). LGE was classified into 3 patterns: none, subendocardial, and transmural, which were associated with increasing amyloid burden as defined by extracellular volume (P<0.0001), with transitions from none to subendocardial LGE at an extracellular volume of 0.40 to 0.43 (AL) and 0.39 to 0.40 (ATTR) and to transmural at 0.48 to 0.55 (AL) and 0.47 to 0.59 (ATTR). Sixty-seven patients (27%) died. Transmural LGE predicted death (hazard ratio, 5.4; 95% confidence interval, 2.1-13.7; P<0.0001) and remained independent after adjustment for N-terminal pro-brain natriuretic peptide, ejection fraction, stroke volume index, E/E', and left ventricular mass index (hazard ratio, 4.1; 95% confidence interval, 1.3-13.1; P<0.05).   \n CONCLUSIONS There is a continuum of cardiac involvement in systemic AL and ATTR amyloidosis. Transmural LGE is determined reliably by PSIR and represents advanced cardiac amyloidosis. The PSIR technique provides incremental information on outcome even after adjustment for known prognostic factors.",
+        "title": "Prognostic Value of Late Gadolinium Enhancement Cardiovascular Magnetic Resonance in Cardiac Amyloidosis",
+        "published_at": null,
+        "corpus_doc_id": 13768432
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "13768432": [
+        {
+          "sentences": [
+            7
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            11
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-232",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Cataract and trachoma are the primary cause of blindness in Southern Sudan.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/10536636",
+        "passage": "Background Blindness and low vision are thought to be common in southern Sudan. However, the magnitude and geographical distribution are largely unknown. We aimed to estimate the prevalence of blindness and low vision, identify the main causes of blindness and low vision, and estimate targets for blindness prevention programs in Mankien payam (district), southern Sudan.",
+        "title": "Prevalence and Causes of Blindness and Low Vision in Southern Sudan ",
+        "published_at": null,
+        "corpus_doc_id": 10536636
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-921",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Participating in six months of physical activity improves cognitive functioning.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/1642727",
+        "passage": "CONTEXT Many observational studies have shown that physical activity reduces the risk of cognitive decline; however, evidence from randomized trials is lacking.   \n OBJECTIVE To determine whether physical activity reduces the rate of cognitive decline among older adults at risk.   \n DESIGN AND SETTING Randomized controlled trial of a 24-week physical activity intervention conducted between 2004 and 2007 in metropolitan Perth, Western Australia. Assessors of cognitive function were blinded to group membership.   \n PARTICIPANTS We recruited volunteers who reported memory problems but did not meet criteria for dementia. Three hundred eleven individuals aged 50 years or older were screened for eligibility, 89 were not eligible, and 52 refused to participate. A total of 170 participants were randomized and 138 participants completed the 18-month assessment.   \n INTERVENTION Participants were randomly allocated to an education and usual care group or to a 24-week home-based program of physical activity.   \n MAIN OUTCOME MEASURE Change in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) scores (possible range, 0-70) over 18 months.   \n RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention. The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention. At 18 months, participants in the intervention group improved 0.73 points (95% confidence interval, -1.27 to 0.03) on the ADAS-Cog, and those in the usual care group improved 0.04 points (95% confidence interval, -0.46 to 0.88). Word list delayed recall and Clinical Dementia Rating sum of boxes improved modestly as well, whereas word list total immediate recall, digit symbol coding, verbal fluency, Beck depression score, and Medical Outcomes 36-Item Short-Form physical and mental component summaries did not change significantly.   \n CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n TRIAL REGISTRATION anzctr.org.au Identifier: ACTRN12605000136606.",
+        "title": "Effect of physical activity on cognitive function in older adults at risk for Alzheimer disease: a randomized trial.",
+        "published_at": null,
+        "corpus_doc_id": 1642727
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "1642727": [
+        {
+          "sentences": [
+            9
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            10
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            13
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-957",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Podocytes are motile and migrate in the presence of injury.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/123859",
+        "passage": "Podocytes are critical in the maintenance of a healthy glomerular filter; however, they have been difficult to study in the intact kidney because of technical limitations. Here we report the development of serial multiphoton microscopy (MPM) of the same glomeruli over several days to visualize the motility of podocytes and parietal epithelial cells (PECs) in vivo. In podocin-GFP mice, podocytes formed sporadic multicellular clusters after unilateral ureteral ligation and migrated into the parietal Bowman's capsule. The tracking of single cells in podocin-confetti mice featuring cell-specific expression of CFP, GFP, YFP or RFP revealed the simultaneous migration of multiple podocytes. In phosphoenolpyruvate carboxykinase (PEPCK)-GFP mice, serial MPM found PEC-to-podocyte migration and nanotubule connections. Our data support a highly dynamic rather than a static nature of the glomerular environment and cellular composition. Future application of this new approach should advance our understanding of the mechanisms of glomerular injury and regeneration.",
+        "title": "Tracking the fate of glomerular epithelial cells in vivo using serial multiphoton imaging in novel mouse models with fluorescent lineage tags",
+        "published_at": null,
+        "corpus_doc_id": 123859
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "123859": [
+        {
+          "sentences": [
+            2
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1259",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is dependent on the patient's genetic make-up.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/24341590",
+        "passage": "CONTEXT The growth inhibitory effect of tamoxifen, which is used for the treatment of hormone receptor-positive breast cancer, is mediated by its metabolites, 4-hydroxytamoxifen and endoxifen. The formation of active metabolites is catalyzed by the polymorphic cytochrome P450 2D6 (CYP2D6) enzyme.   \n OBJECTIVE To determine whether CYP2D6 variation is associated with clinical outcomes in women receiving adjuvant tamoxifen.   \n DESIGN, SETTING, AND PATIENTS Retrospective analysis of German and US cohorts of patients treated with adjuvant tamoxifen for early stage breast cancer. The 1325 patients had diagnoses between 1986 and 2005 of stage I through III breast cancer and were mainly postmenopausal (95.4%). Last follow-up was in December 2008; inclusion criteria were hormone receptor positivity, no metastatic disease at diagnosis, adjuvant tamoxifen therapy, and no chemotherapy. DNA from tumor tissue or blood was genotyped for CYP2D6 variants associated with reduced (*10, *41) or absent (*3, *4, *5) enzyme activity. Women were classified as having an extensive (n=609), heterozygous extensive/intermediate (n=637), or poor (n=79) CYP2D6 metabolism.   \n MAIN OUTCOME MEASURES Time to recurrence, event-free survival, disease-free survival, and overall survival.   \n RESULTS Median follow-up was 6.3 years. At 9 years of follow-up, the recurrence rates were 14.9% for extensive metabolizers, 20.9% for heterozygous extensive/intermediate metabolizers, and 29.0% for poor metabolizers, and all-cause mortality rates were 16.7%, 18.0%, and 22.8%, respectively. Compared with extensive metabolizers, there was a significantly increased risk of recurrence for heterozygous extensive/intermediate metabolizers (time to recurrence adjusted hazard ratio [HR], 1.40; 95% confidence interval [CI], 1.04-1.90) and for poor metabolizers (time to recurrence HR, 1.90; 95% CI, 1.10-3.28). Compared with extensive metabolizers, those with decreased CYP2D6 activity (heterozygous extensive/intermediate and poor metabolism) had worse event-free survival (HR, 1.33; 95% CI, 1.06-1.68) and disease-free survival (HR, 1.29; 95% CI, 1.03-1.61), but there was no significant difference in overall survival (HR, 1.15; 95% CI, 0.88-1.51).   \n CONCLUSION Among women with breast cancer treated with tamoxifen, there was an association between CYP2D6 variation and clinical outcomes, such that the presence of 2 functional CYP2D6 alleles was associated with better clinical outcomes and the presence of nonfunctional or reduced-function alleles with worse outcomes.",
+        "title": "Association between CYP2D6 polymorphisms and outcomes among women with early stage breast cancer treated with tamoxifen.",
+        "published_at": null,
+        "corpus_doc_id": 24341590
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "24341590": [
+        {
+          "sentences": [
+            11
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            12
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            13
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-475",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Glycolysis is one of the primary glycometabolic pathways in cells.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/18678095",
+        "passage": "Fast axonal transport (FAT) requires consistent energy over long distances to fuel the molecular motors that transport vesicles. We demonstrate that glycolysis provides ATP for the FAT of vesicles. Although inhibiting ATP production from mitochondria did not affect vesicles motility, pharmacological or genetic inhibition of the glycolytic enzyme GAPDH reduced transport in cultured neurons and in Drosophila larvae. GAPDH localizes on vesicles via a huntingtin-dependent mechanism and is transported on fast-moving vesicles within axons. Purified motile vesicles showed GAPDH enzymatic activity and produced ATP. Finally, we show that vesicular GAPDH is necessary and sufficient to provide on-board energy for fast vesicular transport. Although detaching GAPDH from vesicles reduced transport, targeting GAPDH to vesicles was sufficient to promote FAT in GAPDH deficient neurons. This specifically localized glycolytic machinery may supply constant energy, independent of mitochondria, for the processive movement of vesicles over long distances in axons.",
+        "title": "Vesicular Glycolysis Provides On-Board Energy for Fast Axonal Transport",
+        "published_at": null,
+        "corpus_doc_id": 18678095
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "18678095": [
+        {
+          "sentences": [
+            1
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1281",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "The ureABIEFGH gene cluster is induced by nickel (II) ion.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/4387784",
+        "passage": "Half the world's population is chronically infected with Helicobacter pylori, causing gastritis, gastric ulcers and an increased incidence of gastric adenocarcinoma. Its proton-gated inner-membrane urea channel, HpUreI, is essential for survival in the acidic environment of the stomach. The channel is closed at neutral pH and opens at acidic pH to allow the rapid access of urea to cytoplasmic urease. Urease produces NH(3) and CO(2), neutralizing entering protons and thus buffering the periplasm to a pH of roughly 6.1 even in gastric juice at a pH below 2.0. Here we report the structure of HpUreI, revealing six protomers assembled in a hexameric ring surrounding a central bilayer plug of ordered lipids. Each protomer encloses a channel formed by a twisted bundle of six transmembrane helices. The bundle defines a previously unobserved fold comprising a two-helix hairpin motif repeated three times around the central axis of the channel, without the inverted repeat of mammalian-type urea transporters. Both the channel and the protomer interface contain residues conserved in the AmiS/UreI superfamily, suggesting the preservation of channel architecture and oligomeric state in this superfamily. Predominantly aromatic or aliphatic side chains line the entire channel and define two consecutive constriction sites in the middle of the channel. Mutation of Trp 153 in the cytoplasmic constriction site to Ala or Phe decreases the selectivity for urea in comparison with thiourea, suggesting that solute interaction with Trp 153 contributes specificity. The previously unobserved hexameric channel structure described here provides a new model for the permeation of urea and other small amide solutes in prokaryotes and archaea.",
+        "title": "Structure of the proton-gated urea channel from the gastric pathogen Helicobacter pylori",
+        "published_at": null,
+        "corpus_doc_id": 4387784
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-636",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Inositol lipid 3-phosphatase PTEN converts Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/24294572",
+        "passage": "The PI3K signaling pathway regulates cell growth and movement and is heavily mutated in cancer. Class I PI3Ks synthesize the lipid messenger PI(3,4,5)P3. PI(3,4,5)P3 can be dephosphorylated by 3- or 5-phosphatases, the latter producing PI(3,4)P2. The PTEN tumor suppressor is thought to function primarily as a PI(3,4,5)P3 3-phosphatase, limiting activation of this pathway. Here we show that PTEN also functions as a PI(3,4)P2 3-phosphatase, both in vitro and in vivo. PTEN is a major PI(3,4)P2 phosphatase in Mcf10a cytosol, and loss of PTEN and INPP4B, a known PI(3,4)P2 4-phosphatase, leads to synergistic accumulation of PI(3,4)P2, which correlated with increased invadopodia in epidermal growth factor (EGF)-stimulated cells. PTEN deletion increased PI(3,4)P2 levels in a mouse model of prostate cancer, and it inversely correlated with PI(3,4)P2 levels across several EGF-stimulated prostate and breast cancer lines. These results point to a role for PI(3,4)P2 in the phenotype caused by loss-of-function mutations or deletions in PTEN.",
+        "title": "PTEN Regulates PI(3,4)P2 Signaling Downstream of Class I PI3K",
+        "published_at": null,
+        "corpus_doc_id": 24294572
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "24294572": [
+        {
+          "sentences": [
+            4
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-208",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "CHEK2 is not associated with breast cancer.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/13519661",
+        "passage": "Background Checkpoint kinase 2 (CHEK2) averts cancer development by promoting cell cycle arrest and activating DNA repair in genetically damaged cells. Previous investigation has established a role for the CHEK2 gene in breast cancer aetiology, but studies have largely been limited to the rare 1100delC mutation. Whether common polymorphisms in this gene influence breast cancer risk remains unknown. In this study, we aimed to assess the importance of common CHEK2 variants on population risk for breast cancer by capturing the majority of diversity in the gene using haplotype tagging single nucleotide polymorphisms (tagSNPs). Methods and Findings We analyzed 14 common SNPs spanning 52 kilobases (kb) of the CHEK2 gene in 92 Swedish women. Coverage evaluation indicated that these typed SNPs would efficiently convey association signal also from untyped SNPs in the same region. Six of the 14 SNPs predicted well both the haplotypic and single SNP variations within CHEK2. We genotyped these six tagSNPs in 1,577 postmenopausal breast cancer cases and 1,513 population controls, but found no convincing association between any common CHEK2 haplotype and breast cancer risk. The 1100delC mutation was rare in our Swedish population\u20140.7% in cases and 0.4% in controls\u2014 with a corresponding odds ratio for carriers versus noncarriers of 2.26 (95% confidence interval, 0.99\u20135.15). Estimates of the population frequency and the odds ratio of 1100delC indicate that our sample is representative of a Northern European population.",
+        "title": "Linkage Disequilibrium Mapping of       CHEK2: Common Variation and Breast Cancer Risk     ",
+        "published_at": null,
+        "corpus_doc_id": 13519661
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "13519661": [
+        {
+          "sentences": [
+            7
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-527",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) prevents oxidative stress.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/3863543",
+        "passage": "Mesenchymal niche cells may drive tissue failure and malignant transformation in the hematopoietic system, but the underlying molecular mechanisms and relevance to human disease remain poorly defined. Here, we show that perturbation of mesenchymal cells in a mouse model of the pre-leukemic disorder Shwachman-Diamond syndrome (SDS) induces mitochondrial dysfunction, oxidative stress, and activation of DNA damage responses in hematopoietic stem and progenitor cells. Massive parallel RNA sequencing of highly purified mesenchymal cells in the SDS mouse model and a range of human pre-leukemic syndromes identified p53-S100A8/9-TLR inflammatory signaling as a common driving mechanism of genotoxic stress. Transcriptional activation of this signaling axis in the mesenchymal niche predicted leukemic evolution and progression-free survival in myelodysplastic syndrome (MDS), the principal leukemia predisposition syndrome. Collectively, our findings identify mesenchymal niche-induced genotoxic stress in heterotypic stem and progenitor cells through inflammatory signaling as a targetable determinant of disease outcome in human pre-leukemia.",
+        "title": "Mesenchymal Inflammation Drives Genotoxic Stress in Hematopoietic Stem Cells and Predicts Disease Evolution in Human Pre-leukemia.",
+        "published_at": null,
+        "corpus_doc_id": 3863543
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {}
+  },
+  {
+    "id": "remediation-scifact-141",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/6955746",
+        "passage": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts. One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation. We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams. In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently. These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time.",
+        "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+        "published_at": null,
+        "corpus_doc_id": 6955746
+      },
+      {
+        "url": "https://scifact-corpus.org/abstract/14437255",
+        "passage": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions. When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality. Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech. Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods. Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech. Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography. We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions. Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz). Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.    SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying. This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it. Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult. Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings. Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing. Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length.",
+        "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+        "published_at": null,
+        "corpus_doc_id": 14437255
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "14437255": [
+        {
+          "sentences": [
+            0
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            1
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            6
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            8
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            9
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            13
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1150",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Tetraspanin-3 is a causative factor in the development of acute myelogenous leukemia",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/11369420",
+        "passage": "Acute Myelogenous Leukemia (AML) is an aggressive cancer that strikes both adults and children and is frequently resistant to therapy. Thus, identifying signals needed for AML propagation is a critical step toward developing new approaches for treating this disease. Here, we show that Tetraspanin 3 is a target of the RNA binding protein Musashi 2, which plays a key role in AML. We generated Tspan3 knockout mice that were born without overt defects. However, Tspan3 deletion impaired leukemia stem cell self-renewal and disease propagation and markedly improved survival in mouse models of AML. Additionally, Tspan3 inhibition blocked growth of AML patient samples, suggesting that Tspan3 is also important in human disease. As part of the mechanism, we show that Tspan3 deficiency disabled responses to CXCL12/SDF-1 and led to defects in AML localization within the niche. These identify Tspan3 as an important regulator of aggressive leukemias and highlight a role for Tspan3 in oncogenesis.",
+        "title": "Tetraspanin 3 Is Required for the Development and Propagation of Acute Myelogenous Leukemia.",
+        "published_at": null,
+        "corpus_doc_id": 11369420
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "11369420": [
+        {
+          "sentences": [
+            4
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            5
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            7
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1146",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Teaching hospitals do not provide better care than non-teaching hospitals.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/13906581",
+        "passage": "Background  Extensive debate exists in the healthcare community over whether outcomes of medical care at teaching hospitals and other healthcare units are better or worse than those at the respective nonteaching ones. Thus, our goal was to systematically evaluate the evidence pertaining to this question.       Methods and Findings  We reviewed all studies that compared teaching versus nonteaching healthcare structures for mortality or any other patient outcome, regardless of health condition. Studies were retrieved from PubMed, contact with experts, and literature cross-referencing. Data were extracted on setting, patients, data sources, author affiliations, definition of compared groups, types of diagnoses considered, adjusting covariates, and estimates of effect for mortality and for each other outcome. Overall, 132 eligible studies were identified, including 93 on mortality and 61 on other eligible outcomes (22 addressed both). Synthesis of the available adjusted estimates on mortality yielded a summary relative risk of 0.96 (95% confidence interval [CI], 0.93\u20131.00) for teaching versus nonteaching healthcare structures and 1.04 (95% CI, 0.99\u20131.10) for minor teaching versus nonteaching ones. There was considerable heterogeneity between studies (I2 = 72% for the main analysis). Results were similar in studies using clinical and those using administrative databases. No differences were seen in the 14 studies fully adjusting for volume/experience, severity, and comorbidity (relative risk 1.01). Smaller studies did not differ in their results from larger studies. Differences were seen for some diagnoses (e.g., significantly better survival for breast cancer and cerebrovascular accidents in teaching hospitals and significantly better survival from cholecystectomy in nonteaching hospitals), but these were small in magnitude. Other outcomes were diverse, but typically teaching healthcare structures did not do better than nonteaching ones.       Conclusions  The available data are limited by their nonrandomized design, but overall they do not suggest that a healthcare facility's teaching status on its own markedly improves or worsens patient outcomes. Differences for specific diseases cannot be excluded, but are likely to be small.",
+        "title": "Patient Outcomes with Teaching Versus Nonteaching Healthcare: A Systematic Review",
+        "published_at": null,
+        "corpus_doc_id": 13906581
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "13906581": [
+        {
+          "sentences": [
+            6
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            12
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            13
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-784",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "MicroRNA is involved in the regulation of Neural Stem Cell (NSC) differentiation and proliferation dynamic homeostasis",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/2356950",
+        "passage": "Methyl-CpG binding protein 1 (MBD1) regulates gene expression via a DNA methylation-mediated epigenetic mechanism. We have previously demonstrated that MBD1 deficiency impairs adult neural stem/progenitor cell (aNSC) differentiation and neurogenesis, but the underlying mechanism was unclear. Here, we show that MBD1 regulates the expression of several microRNAs in aNSCs and, specifically, that miR-184 is directly repressed by MBD1. High levels of miR-184 promoted proliferation but inhibited differentiation of aNSCs, whereas inhibition of miR-184 rescued the phenotypes associated with MBD1 deficiency. We further found that miR-184 regulates the expression of Numblike (Numbl), a known regulator of brain development, by binding to the 3'-UTR of Numbl mRNA and affecting its translation. Expression of exogenous Numbl could rescue the aNSC defects that result from either miR-184 overexpression or MBD1 deficiency. Therefore, MBD1, miR-184, and Numbl form a regulatory network that helps control the balance between proliferation and differentiation of aNSCs.",
+        "title": "Epigenetic regulation of miR-184 by MBD1 governs neural stem cell proliferation and differentiation.",
+        "published_at": null,
+        "corpus_doc_id": 2356950
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "2356950": [
+        {
+          "sentences": [
+            3
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-118",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/6372244",
+        "passage": "Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile. Here we show that antibiotic treatment induces substantial changes in the gut microbial community and in the metabolome of mice susceptible to C. difficile infection. Levels of secondary bile acids, glucose, free fatty acids and dipeptides decrease, whereas those of primary bile acids and sugar alcohols increase, reflecting the modified metabolic activity of the altered gut microbiome. In vitro and ex vivo analyses demonstrate that C. difficile can exploit specific metabolites that become more abundant in the mouse gut after antibiotics, including the primary bile acid taurocholate for germination, and carbon sources such as mannitol, fructose, sorbitol, raffinose and stachyose for growth. Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth.",
+        "title": "Antibiotic-induced shifts in the mouse gut microbiome and metabolome increase susceptibility to Clostridium difficile infection",
+        "published_at": null,
+        "corpus_doc_id": 6372244
+      }
+    ],
+    "expected": "SUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "6372244": [
+        {
+          "sentences": [
+            0
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            4
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1370",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Vitamin D deficiency is unrelated to birth weight.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/2425364",
+        "passage": "OBJECTIVE To assess the effect of 25-hydroxyvitamin D (25-OHD) levels on pregnancy outcomes and birth variables.   \n DESIGN Systematic review and meta-analysis.   \n DATA SOURCES Medline (1966 to August 2012), PubMed (2008 to August 2012), Embase (1980 to August 2012), CINAHL (1981 to August 2012), the Cochrane database of systematic reviews, and the Cochrane database of registered clinical trials.    STUDY SELECTION Studies reporting on the association between serum 25-OHD levels during pregnancy and the outcomes of interest (pre-eclampsia, gestational diabetes, bacterial vaginosis, caesarean section, small for gestational age infants, birth weight, birth length, and head circumference).   \n DATA EXTRACTION Two authors independently extracted data from original research articles, including key indicators of study quality. We pooled the most adjusted odds ratios and weighted mean differences. Associations were tested in subgroups representing different patient characteristics and study quality.   \n RESULTS 3357 studies were identified and reviewed for eligibility. 31 eligible studies were included in the final analysis. Insufficient serum levels of 25-OHD were associated with gestational diabetes (pooled odds ratio 1.49, 95% confidence interval 1.18 to 1.89), pre-eclampsia (1.79, 1.25 to 2.58), and small for gestational age infants (1.85, 1.52 to 2.26). Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section.   \n CONCLUSION Vitamin D insufficiency is associated with an increased risk of gestational diabetes, pre-eclampsia, and small for gestational age infants. Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants, but not delivery by caesarean section.",
+        "title": "Association between maternal serum 25-hydroxyvitamin D level and pregnancy and neonatal outcomes: systematic review and meta-analysis of observational studies.",
+        "published_at": null,
+        "corpus_doc_id": 2425364
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "2425364": [
+        {
+          "sentences": [
+            10
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            12
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1382",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "aPKCz causes tumour enhancement by affecting glutamine metabolism.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/17755060",
+        "passage": "Tumor cells have high-energetic and anabolic needs and are known to adapt their metabolism to be able to survive and keep proliferating under conditions of nutrient stress. We show that PKC\u03b6 deficiency promotes the plasticity necessary for cancer cells to reprogram their metabolism to utilize glutamine through the serine biosynthetic pathway in the absence of glucose. PKC\u03b6 represses the expression of two key enzymes of the pathway, PHGDH and PSAT1, and phosphorylates PHGDH at key residues to inhibit its enzymatic activity. Interestingly, the loss of PKC\u03b6 in mice results in enhanced intestinal tumorigenesis and increased levels of these two metabolic enzymes, whereas patients with low levels of PKC\u03b6 have a poor prognosis. Furthermore, PKC\u03b6 and caspase-3 activities are correlated with PHGDH levels in human intestinal tumors. Taken together, this demonstrates that PKC\u03b6 is a critical metabolic tumor suppressor in mouse and human cancer.",
+        "title": "Control of Nutrient Stress-Induced Metabolic Reprogramming by PKC\u03b6 in Tumorigenesis",
+        "published_at": null,
+        "corpus_doc_id": 17755060
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "17755060": [
+        {
+          "sentences": [
+            3
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            5
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1144",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Taxation of sugar-sweetened beverages had no effect on the incidence rate of type II diabetes in India.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/10071552",
+        "passage": "BACKGROUND Taxing sugar-sweetened beverages (SSBs) has been proposed in high-income countries to reduce obesity and type 2 diabetes. We sought to estimate the potential health effects of such a fiscal strategy in the middle-income country of India, where there is heterogeneity in SSB consumption, patterns of substitution between SSBs and other beverages after tax increases, and vast differences in chronic disease risk within the population.   \n METHODS AND FINDINGS Using consumption and price variations data from a nationally representative survey of 100,855 Indian households, we first calculated how changes in SSB price alter per capita consumption of SSBs and substitution with other beverages. We then incorporated SSB sales trends, body mass index (BMI), and diabetes incidence data stratified by age, sex, income, and urban/rural residence into a validated microsimulation of caloric consumption, glycemic load, overweight/obesity prevalence, and type 2 diabetes incidence among Indian subpopulations facing a 20% SSB excise tax. The 20% SSB tax was anticipated to reduce overweight and obesity prevalence by 3.0% (95% CI 1.6%-5.9%) and type 2 diabetes incidence by 1.6% (95% CI 1.2%-1.9%) among various Indian subpopulations over the period 2014-2023, if SSB consumption continued to increase linearly in accordance with secular trends. However, acceleration in SSB consumption trends consistent with industry marketing models would be expected to increase the impact efficacy of taxation, averting 4.2% of prevalent overweight/obesity (95% CI 2.5-10.0%) and 2.5% (95% CI 1.0-2.8%) of incident type 2 diabetes from 2014-2023. Given current consumption and BMI distributions, our results suggest the largest relative effect would be expected among young rural men, refuting our a priori hypothesis that urban populations would be isolated beneficiaries of SSB taxation. Key limitations of this estimation approach include the assumption that consumer expenditure behavior from prior years, captured in price elasticities, will reflect future behavior among consumers, and potential underreporting of consumption in dietary recall data used to inform our calculations.   \n CONCLUSION Sustained SSB taxation at a high tax rate could mitigate rising obesity and type 2 diabetes in India among both urban and rural subpopulations.",
+        "title": "Averting Obesity and Type 2 Diabetes in India through Sugar-Sweetened Beverage Taxation: An Economic-Epidemiologic Modeling Study",
+        "published_at": null,
+        "corpus_doc_id": 10071552
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "10071552": [
+        {
+          "sentences": [
+            4
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            5
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            8
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-759",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Mathematical models predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/1805641",
+        "passage": "BACKGROUND Artemisinin derivatives used in recently introduced combination therapies (ACTs) for Plasmodium falciparum malaria significantly lower patient infectiousness and have the potential to reduce population-level transmission of the parasite. With the increased interest in malaria elimination, understanding the impact on transmission of ACT and other antimalarial drugs with different pharmacodynamics becomes a key issue. This study estimates the reduction in transmission that may be achieved by introducing different types of treatment for symptomatic P. falciparum malaria in endemic areas.   \n METHODS AND FINDINGS We developed a mathematical model to predict the potential impact on transmission outcomes of introducing ACT as first-line treatment for uncomplicated malaria in six areas of varying transmission intensity in Tanzania. We also estimated the impact that could be achieved by antimalarials with different efficacy, prophylactic time, and gametocytocidal effects. Rates of treatment, asymptomatic infection, and symptomatic infection in the six study areas were estimated using the model together with data from a cross-sectional survey of 5,667 individuals conducted prior to policy change from sulfadoxine-pyrimethamine to ACT. The effects of ACT and other drug types on gametocytaemia and infectiousness to mosquitoes were independently estimated from clinical trial data. Predicted percentage reductions in prevalence of infection and incidence of clinical episodes achieved by ACT were highest in the areas with low initial transmission. A 53% reduction in prevalence of infection was seen if 100% of current treatment was switched to ACT in the area where baseline slide-prevalence of parasitaemia was lowest (3.7%), compared to an 11% reduction in the highest-transmission setting (baseline slide prevalence = 57.1%). Estimated percentage reductions in incidence of clinical episodes were similar. The absolute size of the public health impact, however, was greater in the highest-transmission area, with 54 clinical episodes per 100 persons per year averted compared to five per 100 persons per year in the lowest-transmission area. High coverage was important. Reducing presumptive treatment through improved diagnosis substantially reduced the number of treatment courses required per clinical episode averted in the lower-transmission settings although there was some loss of overall impact on transmission. An efficacious antimalarial regimen with no specific gametocytocidal properties but a long prophylactic time was estimated to be more effective at reducing transmission than a short-acting ACT in the highest-transmission setting.   \n CONCLUSIONS Our results suggest that ACTs have the potential for transmission reductions approaching those achieved by insecticide-treated nets in lower-transmission settings. ACT partner drugs and nonartemisinin regimens with longer prophylactic times could result in a larger impact in higher-transmission settings, although their long term benefit must be evaluated in relation to the risk of development of parasite resistance.",
+        "title": "Modelling the Impact of Artemisinin Combination Therapy and Long-Acting Treatments on Malaria Transmission Intensity",
+        "published_at": null,
+        "corpus_doc_id": 1805641
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "1805641": [
+        {
+          "sentences": [
+            13
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1140",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Taking 400mg of \u03b1-tocopheryl acetate helps to prevent prostate cancer.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/12009265",
+        "passage": "CONTEXT Many individuals take vitamins in the hopes of preventing chronic diseases such as cancer, and vitamins E and C are among the most common individual supplements. A large-scale randomized trial suggested that vitamin E may reduce risk of prostate cancer; however, few trials have been powered to address this relationship. No previous trial in men at usual risk has examined vitamin C alone in the prevention of cancer.   \n OBJECTIVE To evaluate whether long-term vitamin E or C supplementation decreases risk of prostate and total cancer events among men.   \n DESIGN, SETTING, AND PARTICIPANTS The Physicians' Health Study II is a randomized, double-blind, placebo-controlled factorial trial of vitamins E and C that began in 1997 and continued until its scheduled completion on August 31, 2007. A total of 14,641 male physicians in the United States initially aged 50 years or older, including 1307 men with a history of prior cancer at randomization, were enrolled.   \n INTERVENTION Individual supplements of 400 IU of vitamin E every other day and 500 mg of vitamin C daily.   \n MAIN OUTCOME MEASURES Prostate and total cancer.   \n RESULTS During a mean follow-up of 8.0 years, there were 1008 confirmed incident cases of prostate cancer and 1943 total cancers. Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41). There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80). Neither vitamin E nor vitamin C had a significant effect on colorectal, lung, or other site-specific cancers. Adjustment for adherence and exclusion of the first 4 or 6 years of follow-up did not alter the results. Stratification by various cancer risk factors demonstrated no significant modification of the effect of vitamin E on prostate cancer risk or either agent on total cancer risk.   \n CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer. These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00270647.",
+        "title": "Vitamins E and C in the prevention of prostate and total cancer in men: the Physicians' Health Study II randomized controlled trial.",
+        "published_at": null,
+        "corpus_doc_id": 12009265
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "12009265": [
+        {
+          "sentences": [
+            9
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            14
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-513",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "High cardiopulmonary fitness causes increased mortality rate.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/13230773",
+        "passage": "CONTEXT Population surveys indicate that physical activity levels are low in the United States. One consequence of inactivity, low cardiorespiratory fitness, is an established risk factor for cardiovascular disease (CVD) morbidity and mortality, but the prevalence of cardiorespiratory fitness has not been quantified in representative US population samples.   \n OBJECTIVES To describe the prevalence of low fitness in the US population aged 12 through 49 years and to relate low fitness to CVD risk factors in this population.   \n DESIGN, SETTING, AND PARTICIPANTS Inception cohort study using data from the cross-sectional nationally representative National Health and Nutrition Examination Survey 1999-2002. Participants were adolescents (aged 12-19 years; n = 3110) and adults (aged 20-49 years; n = 2205) free from previously diagnosed CVD who underwent submaximal graded exercise treadmill testing to achieve at least 75% to 90% of their age-predicted maximum heart rate. Maximal oxygen consumption (VO2max) was estimated by measuring the heart rate response to reference levels of submaximal work.   \n MAIN OUTCOME MEASURES Low fitness defined using percentile cut points of estimated VO2max from existing external referent populations; anthropometric and other CVD risk factors measured according to standard methods.   \n RESULTS Low fitness was identified in 33.6% of adolescents (approximately 7.5 million US adolescents) and 13.9% of adults (approximately 8.5 million US adults); the prevalence was similar in adolescent females (34.4%) and males (32.9%) (P = .40) but was higher in adult females (16.2%) than in males (11.8%) (P = .03). Non-Hispanic blacks and Mexican Americans were less fit than non-Hispanic whites. In all age-sex groups, body mass index and waist circumference were inversely associated with fitness; age- and race-adjusted odds ratios of overweight or obesity (body mass index > or =25) ranged from 2.1 to 3.7 (P<.01 for all), comparing persons with low fitness with those with moderate or high fitness. Total cholesterol levels and systolic blood pressure were higher and levels of high-density lipoprotein cholesterol were lower among participants with low vs high fitness.   \n CONCLUSION Low fitness in adolescents and adults is common in the US population and is associated with an increased prevalence of CVD risk factors.",
+        "title": "Prevalence and cardiovascular disease correlates of low cardiorespiratory fitness in adolescents and adults.",
+        "published_at": null,
+        "corpus_doc_id": 13230773
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "13230773": [
+        {
+          "sentences": [
+            11
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-847",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "New drugs for tuberculosis often do not penetrate the necrotic portion of a tuberculosis lesion in high concentrations.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/16787954",
+        "passage": "Finding new treatment-shortening antibiotics to improve cure rates and curb the alarming emergence of drug resistance is the major objective of tuberculosis (TB) drug development. Using a matrix-assisted laser desorption/ionization (MALDI) mass spectrometry imaging suite in a biosafety containment facility, we show that the key sterilizing drugs rifampicin and pyrazinamide efficiently penetrate the sites of TB infection in lung lesions. Rifampicin even accumulates in necrotic caseum, a critical lesion site where persisting tubercle bacilli reside. In contrast, moxifloxacin, which is active in vitro against a subpopulation of Mycobacterium tuberculosis that persists in specific niches under drug pressure and has achieved treatment shortening in mice, does not diffuse well in caseum, concordant with its failure to shorten therapy in recent clinical trials. We suggest that such differential spatial distribution and kinetics of accumulation in lesions may create temporal and spatial windows of monotherapy in specific niches, allowing the gradual development of multidrug-resistant TB. We propose an alternative working model to prioritize new antibiotic regimens based on quantitative and spatial distribution of TB drugs in the major lesion types found in human lungs. The finding that lesion penetration may contribute to treatment outcome has wide implications for TB.",
+        "title": "The association between sterilizing activity and drug distribution into tuberculosis lesions",
+        "published_at": null,
+        "corpus_doc_id": 16787954
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "16787954": [
+        {
+          "sentences": [
+            2
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-249",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Chenodeosycholic acid treatment reduces whole-body energy expenditure.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/1568684",
+        "passage": "The interest in brown adipose tissue (BAT) as a target to combat metabolic disease has recently been renewed with the discovery of functional BAT in humans. In rodents, BAT can be activated by bile acids, which activate type 2 iodothyronine deiodinase (D2) in BAT via the G-coupled protein receptor TGR5, resulting in increased oxygen consumption and energy expenditure. Here we examined the effects of oral supplementation of the bile acid chenodeoxycholic acid (CDCA) on human BAT activity. Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity. Whole-body energy expenditure was also increased upon CDCA treatment. In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes. These findings identify bile acids as a target to activate BAT in humans.",
+        "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+        "published_at": null,
+        "corpus_doc_id": 1568684
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "1568684": [
+        {
+          "sentences": [
+            1,
+            3
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            4
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-1221",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "The genomic aberrations found in matasteses are very similar to those found in the primary tumor.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/19736671",
+        "passage": "Human tumors show a high level of genetic heterogeneity, but the processes that influence the timing and route of metastatic dissemination of the subclones are unknown. Here we have used whole-exome sequencing of 103 matched benign, malignant and metastatic skin tumors from genetically heterogeneous mice to demonstrate that most metastases disseminate synchronously from the primary tumor, supporting parallel rather than linear evolution as the predominant model of metastasis. Shared mutations between primary carcinomas and their matched metastases have the distinct A-to-T signature of the initiating carcinogen dimethylbenzanthracene, but non-shared mutations are primarily G-to-T, a signature associated with oxidative stress. The existence of carcinomas that either did or did not metastasize in the same host animal suggests that there are tumor-intrinsic factors that influence metastatic seeding. We also demonstrate the importance of germline polymorphisms in determining allele-specific mutations, and we identify somatic genetic alterations that are specifically related to initiation of carcinogenesis by Hras or Kras mutations. Mouse tumors that mimic the genetic heterogeneity of human cancers can aid our understanding of the clonal evolution of metastasis and provide a realistic model for the testing of novel therapies.",
+        "title": "Evolution of metastasis revealed by mutational landscapes of chemically induced skin cancers",
+        "published_at": null,
+        "corpus_doc_id": 19736671
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "19736671": [
+        {
+          "sentences": [
+            2
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-115",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Anthrax spores can be disposed of easily after they are dispersed.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/33872649",
+        "passage": "CONTEXT Bioterrorist attacks involving letters and mail-handling systems in Washington, DC, resulted in Bacillus anthracis (anthrax) spore contamination in the Hart Senate Office Building and other facilities in the US Capitol's vicinity.   \n OBJECTIVE To provide information about the nature and extent of indoor secondary aerosolization of B anthracis spores.   \n DESIGN Stationary and personal air samples, surface dust, and swab samples were collected under semiquiescent (minimal activities) and then simulated active office conditions to estimate secondary aerosolization of B anthracis spores. Nominal size characteristics, airborne concentrations, and surface contamination of B anthracis particles (colony-forming units) were evaluated.   \n RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions. Increases were observed for B anthracis collected on open sheep blood agar plates (P<.001) and personal air monitors (P =.01) during active office conditions. More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities. These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+        "title": "Secondary aerosolization of viable Bacillus anthracis spores in a contaminated US Senate Office.",
+        "published_at": null,
+        "corpus_doc_id": 33872649
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "33872649": [
+        {
+          "sentences": [
+            6
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-674",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "LDL cholesterol has no involvement in the development of cardiovascular disease.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/2095573",
+        "passage": "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease. Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets. We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria. We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs. We did replication studies in two independent populations consisting of up to 4979 participants. Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3. The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]). Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations. SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3. These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease.",
+        "title": "LDL-cholesterol concentrations: a genome-wide association study",
+        "published_at": null,
+        "corpus_doc_id": 2095573
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "2095573": [
+        {
+          "sentences": [
+            0
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "remediation-scifact-859",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "health/science",
+    "tag": "expert-scientific",
+    "claim": "Normal expression of RUNX1 has tumor-promoting effects.",
+    "sources": [
+      {
+        "url": "https://scifact-corpus.org/abstract/1982286",
+        "passage": "The TLX1 and TLX3 transcription factor oncogenes have a key role in the pathogenesis of T cell acute lymphoblastic leukemia (T-ALL). Here we used reverse engineering of global transcriptional networks to decipher the oncogenic regulatory circuit controlled by TLX1 and TLX3. This systems biology analysis defined T cell leukemia homeobox 1 (TLX1) and TLX3 as master regulators of an oncogenic transcriptional circuit governing T-ALL. Notably, a network structure analysis of this hierarchical network identified RUNX1 as a key mediator of the T-ALL induced by TLX1 and TLX3 and predicted a tumor-suppressor role for RUNX1 in T cell transformation. Consistent with these results, we identified recurrent somatic loss-of-function mutations in RUNX1 in human T-ALL. Overall, these results place TLX1 and TLX3 at the top of an oncogenic transcriptional network controlling leukemia development, show the power of network analyses to identify key elements in the regulatory circuits governing human cancer and identify RUNX1 as a tumor-suppressor gene in T-ALL.",
+        "title": "Reverse engineering of TLX oncogenic transcriptional networks identifies RUNX1 as tumor suppressor in T-ALL",
+        "published_at": null,
+        "corpus_doc_id": 1982286
+      }
+    ],
+    "expected": "UNSUPPORTED",
+    "origin": "SciFact-dev",
+    "gold_scope": "Original human annotation over cited abstracts.",
+    "original_annotations": {
+      "1982286": [
+        {
+          "sentences": [
+            3
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    }
+  }
+]

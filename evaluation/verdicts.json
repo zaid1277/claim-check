@@ -1,0 +1,8 @@
+[
+  {"claim":"The library opens on Sunday.","passages":["The library opens on Sunday."],"expected":"SUPPORTED"},
+  {"claim":"The library opens on Sunday.","passages":["The library is closed on Sunday."],"expected":"UNSUPPORTED"},
+  {"claim":"The library opens on Sunday.","passages":["The library opens on Sunday.","The library is closed on Sunday."],"expected":"MIXED_EVIDENCE"},
+  {"claim":"The library opens on Sunday.","passages":[],"expected":"INSUFFICIENT_EVIDENCE"},
+  {"claim":"The bridge opened in 1998.","passages":["The bridge opened in 2001, not 1998."],"expected":"UNSUPPORTED"},
+  {"claim":"The train leaves at noon.","passages":["The train has six carriages."],"expected":"INSUFFICIENT_EVIDENCE"}
+]

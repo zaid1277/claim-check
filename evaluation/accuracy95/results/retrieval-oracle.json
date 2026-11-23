@@ -1,0 +1,262 @@
+[
+  {
+    "claim": "The Eiffel Tower is located in Paris, France.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "n_candidates": 80,
+    "found_at_rank": 1,
+    "top_stances": [
+      {
+        "rank": 1,
+        "stance": "support",
+        "confidence": 0.9980567097663879
+      },
+      {
+        "rank": 2,
+        "stance": "support",
+        "confidence": 0.9995191097259521
+      },
+      {
+        "rank": 3,
+        "stance": "support",
+        "confidence": 0.9989797472953796
+      },
+      {
+        "rank": 4,
+        "stance": "support",
+        "confidence": 0.999699592590332
+      },
+      {
+        "rank": 5,
+        "stance": "support",
+        "confidence": 0.9977312684059143
+      },
+      {
+        "rank": 6,
+        "stance": "support",
+        "confidence": 0.9995915293693542
+      },
+      {
+        "rank": 7,
+        "stance": "neutral",
+        "confidence": 0.7331626415252686
+      },
+      {
+        "rank": 8,
+        "stance": "support",
+        "confidence": 0.9604578614234924
+      },
+      {
+        "rank": 9,
+        "stance": "support",
+        "confidence": 0.9967063069343567
+      },
+      {
+        "rank": 10,
+        "stance": "support",
+        "confidence": 0.9809324741363525
+      }
+    ],
+    "elapsed_seconds": 45.25828395799908
+  },
+  {
+    "claim": "Mount Everest is the tallest mountain above sea level on Earth.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "n_candidates": 80,
+    "found_at_rank": 1,
+    "top_stances": [
+      {
+        "rank": 1,
+        "stance": "support",
+        "confidence": 0.9890185594558716
+      },
+      {
+        "rank": 2,
+        "stance": "support",
+        "confidence": 0.9974689483642578
+      },
+      {
+        "rank": 3,
+        "stance": "support",
+        "confidence": 0.9993552565574646
+      },
+      {
+        "rank": 4,
+        "stance": "support",
+        "confidence": 0.9910893440246582
+      },
+      {
+        "rank": 5,
+        "stance": "support",
+        "confidence": 0.9546259045600891
+      },
+      {
+        "rank": 6,
+        "stance": "support",
+        "confidence": 0.999009370803833
+      },
+      {
+        "rank": 7,
+        "stance": "neutral",
+        "confidence": 0.7735520005226135
+      },
+      {
+        "rank": 8,
+        "stance": "support",
+        "confidence": 0.9974418878555298
+      },
+      {
+        "rank": 9,
+        "stance": "support",
+        "confidence": 0.9992029070854187
+      },
+      {
+        "rank": 10,
+        "stance": "support",
+        "confidence": 0.9987055063247681
+      }
+    ],
+    "elapsed_seconds": 54.20434316599858
+  },
+  {
+    "claim": "The Great Wall of China is located in China.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The capital of Australia is Sydney.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Water is composed of hydrogen and oxygen atoms.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Pacific Ocean is the largest ocean on Earth.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Albert Einstein was born in France.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The human body has 206 bones in adulthood.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Photosynthesis occurs in plant chloroplasts.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Amazon rainforest is located primarily in Africa.",
+    "difficulty": "easy",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Microsoft acquired GitHub in 2018.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The James Webb Space Telescope launched in December 2021.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Tesla was founded by Jeff Bezos.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The World Health Organization is headquartered in Geneva, Switzerland.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Netflix began as a DVD rental by mail service.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Panama Canal connects the Atlantic and Indian Oceans.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "SpaceX was founded by Elon Musk in 2002.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Eurozone uses the euro as its common currency.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The International Space Station is owned solely by the United States.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Bitcoin was created by a person or group using the pseudonym Satoshi Nakamoto.",
+    "difficulty": "medium",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "CRISPR-Cas9 is a gene-editing technology adapted from a bacterial immune defense system.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Voyager 1 spacecraft has exited the solar system entirely and lost all contact with Earth.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Higgs boson was first experimentally confirmed by CERN in 2012.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "mRNA vaccines work by introducing a weakened live virus into the body.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Antibiotic resistance can spread between bacteria through horizontal gene transfer.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Kyoto Protocol set legally binding emissions targets for all countries including developing nations equally.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Quantum entanglement was described by Einstein as \"spooky action at a distance.\"",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "The Human Genome Project found that humans have approximately 100,000 protein-coding genes.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Coral bleaching is primarily caused by sustained increases in ocean water temperature.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  },
+  {
+    "claim": "Nuclear fusion is currently used as the primary source of commercial electricity generation worldwide.",
+    "difficulty": "hard",
+    "error": "Tavily's usage limit was reached. Try again later."
+  }
+]

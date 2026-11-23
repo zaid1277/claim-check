@@ -1,0 +1,101 @@
+difficulty	domain	expected	claim	evidence	distractor
+easy	geography	SUPPORTED	Lisbon is the capital of Portugal.	Portugal's capital city is Lisbon.	Lisbon is a popular destination for tourists.
+easy	geography	UNSUPPORTED	Oslo is the capital of Sweden.	Stockholm, not Oslo, is the capital of Sweden.	Oslo has a busy harbor.
+easy	geography	SUPPORTED	The Nile flows through Egypt.	The Nile River passes through Egypt on its way to the Mediterranean Sea.	Egypt contains several ancient temples.
+easy	geography	UNSUPPORTED	Mount Kilimanjaro is in Canada.	Mount Kilimanjaro is located in Tanzania, not Canada.	Climbers visit Mount Kilimanjaro every year.
+easy	geography	SUPPORTED	The Pacific is an ocean.	The Pacific Ocean is one of Earth's oceans.	Ships cross the Pacific daily.
+easy	science	SUPPORTED	A triangle has three sides.	A triangle is a polygon with exactly three sides.	Triangles occur in architecture.
+easy	science	UNSUPPORTED	A square has five sides.	A square has four sides, not five.	The square is a geometric shape.
+easy	science	SUPPORTED	The chemical symbol for gold is Au.	Gold is represented by the chemical symbol Au.	Gold has been used in jewelry for centuries.
+easy	science	UNSUPPORTED	The chemical symbol for oxygen is He.	The chemical symbol for oxygen is O, not He.	Oxygen is essential to many organisms.
+easy	science	SUPPORTED	Earth orbits the Sun.	Earth travels in an orbit around the Sun.	Earth has one natural satellite.
+easy	history	SUPPORTED	The first Moon landing occurred in 1969.	Humans first landed on the Moon in 1969 during Apollo 11.	Astronauts trained extensively before traveling to the Moon.
+easy	history	UNSUPPORTED	The Berlin Wall fell in 1979.	The Berlin Wall fell in 1989, not 1979.	The Berlin Wall divided a city.
+easy	history	SUPPORTED	Johannes Gutenberg developed a printing press in Europe.	Johannes Gutenberg developed a movable-type printing press in Europe.	Printing changed how books were distributed.
+easy	history	UNSUPPORTED	The Titanic sank in 1922.	The Titanic sank in April 1912, not 1922.	The Titanic was an ocean liner.
+easy	computing	SUPPORTED	A byte contains eight bits.	A byte consists of eight bits.	Computers store information digitally.
+easy	computing	UNSUPPORTED	Binary notation uses ten digits.	Binary notation uses only two digits, zero and one.	Numbers can be written in different bases.
+easy	computing	SUPPORTED	HTML is a markup language.	HTML is a markup language used to structure documents.	Web browsers display documents.
+easy	technology	UNSUPPORTED	A thermometer measures distance.	A thermometer measures temperature, not distance.	A thermometer can have a digital display.
+easy	technology	SUPPORTED	A microphone converts sound into an electrical signal.	A microphone converts acoustic sound waves to electrical signals.	Microphones are used in recording studios.
+easy	culture	SUPPORTED	Jane Austen wrote Pride and Prejudice.	Pride and Prejudice is a novel by Jane Austen.	Jane Austen lived in England.
+easy	culture	UNSUPPORTED	Vincent van Gogh painted the Mona Lisa.	Leonardo da Vinci painted the Mona Lisa; Vincent van Gogh did not.	The Mona Lisa is displayed in a museum.
+easy	culture	SUPPORTED	A standard violin has four strings.	The standard violin has four strings.	Violins are played with bows.
+easy	sport	UNSUPPORTED	A standard soccer team fields twelve players.	A standard soccer team fields eleven players, not twelve.	Soccer is played on a rectangular field.
+easy	sport	SUPPORTED	A marathon is 42.195 kilometers long.	The official marathon distance is 42.195 kilometers.	Marathons are held in many cities.
+easy	health	SUPPORTED	The heart pumps blood.	The heart pumps blood around the body.	Blood contains different types of cells.
+easy	health	UNSUPPORTED	Adult humans normally have three lungs.	Adult humans normally have two lungs, not three.	Lungs are part of the respiratory system.
+easy	environment	SUPPORTED	Photosynthesis uses light energy.	During photosynthesis, organisms use energy from light.	Plants grow in many environments.
+easy	environment	UNSUPPORTED	Penguins are mammals.	Penguins are birds, not mammals.	Penguins can swim.
+easy	public_institutions	INSUFFICIENT_EVIDENCE	The local post office opens at eight.	The local post office sells stamps.	Customers can send parcels at the local post office.
+easy	business	INSUFFICIENT_EVIDENCE	The bakery employs ten people.	The bakery sells fresh bread every morning.	The bakery has a blue sign.
+easy	economics	INSUFFICIENT_EVIDENCE	The town's sales tax is five percent.	The town collects sales tax from local purchases.	The town has a budget office.
+easy	culture	MIXED_EVIDENCE	The theater opens on Tuesdays.	The theater welcomes visitors on Tuesdays.||The theater is closed on Tuesdays.	The theater has a red curtain.
+easy	sport	MIXED_EVIDENCE	The Eagles won the match.	The Eagles won the match.||The Eagles lost the match.	The Eagles played at home.
+easy	health	INSUFFICIENT_EVIDENCE	The pharmacy closes at six.	The pharmacy sells prescription medicines.	The pharmacy has a waiting area.
+easy	technology	MIXED_EVIDENCE	The camera records audio.	The camera records audio.||The camera cannot record audio.	The camera has a lens.
+medium	business	SUPPORTED	Marlin's revenue was $12 million in 2021.	Marlin reported 2021 revenue of twelve million dollars.	Marlin has twelve offices.
+medium	business	UNSUPPORTED	Petrel employed 750 people in 2020.	Petrel's employee count in 2020 was 570, not 750.	Petrel opened an office in 2020.
+medium	business	MIXED_EVIDENCE	Cedar acquired Flint in 2017.	Cedar purchased Flint in 2017.||Cedar did not acquire Flint in 2017.	Cedar announced a product in 2017.
+medium	business	INSUFFICIENT_EVIDENCE	Rowan earned a profit in 2019.	Rowan's sales rose in 2019, but profit was not disclosed.	Rowan publishes annual reports.
+medium	economics	SUPPORTED	The district's output grew by 3 percent in 2022.	District output increased 3% during 2022.	The district's population grew in 2022.
+medium	economics	UNSUPPORTED	The exchange rate was 1.25 units per dollar in June.	The June exchange rate was 1.52 units per dollar, not 1.25.	The exchange rate was published in June.
+medium	economics	MIXED_EVIDENCE	The county's inflation rate was 2 percent in 2020.	The county recorded 2% inflation in 2020.||The county recorded 4% inflation in 2020.	The county collects economic statistics.
+medium	economics	INSUFFICIENT_EVIDENCE	The region's median income was $40,000 in 2021.	The region's mean income was $40,000 in 2021.	Income statistics were collected in 2021.
+medium	computing	SUPPORTED	The database stores timestamps in UTC.	All timestamps in the database use Coordinated Universal Time.	The database supports indexes.
+medium	computing	UNSUPPORTED	The service retains logs for thirty days.	The service retains logs for only thirteen days.	The service stores logs in text format.
+medium	computing	MIXED_EVIDENCE	The compiler supports recursion.	Recursive functions are supported by the compiler.||The compiler rejects all recursive functions.	The compiler performs syntax checks.
+medium	computing	INSUFFICIENT_EVIDENCE	The application encrypts stored passwords.	The application encrypts network traffic.	The application requires a password to sign in.
+medium	technology	SUPPORTED	The battery has a capacity of 2400 milliamp hours.	The battery's rated capacity is 2400 mAh.	The battery weighs forty grams.
+medium	technology	UNSUPPORTED	The transmitter operates at 900 megahertz.	The transmitter operates at 800 megahertz, not 900.	The transmitter uses an antenna.
+medium	technology	MIXED_EVIDENCE	The printer can print on both sides automatically.	The printer supports automatic duplex printing.||The printer cannot print on both sides automatically.	The printer can print in color.
+medium	technology	INSUFFICIENT_EVIDENCE	The drone can fly for twenty minutes.	The drone takes twenty minutes to charge.	The drone has four propellers.
+medium	science	SUPPORTED	The solution's pH was 7.2.	The measured pH of the solution was 7.2.	The solution was stored at room temperature.
+medium	science	UNSUPPORTED	The measured wavelength was 450 nanometers.	The measured wavelength was 540 nanometers, not 450.	The wavelength was measured with a spectrometer.
+medium	science	MIXED_EVIDENCE	The material conducts electricity.	Tests show that the material conducts electricity.||Tests show that the material does not conduct electricity.	The material can be cut into sheets.
+medium	science	INSUFFICIENT_EVIDENCE	The reaction releases heat.	The reaction produces a gas.	The reaction occurs in a glass vessel.
+medium	history	SUPPORTED	The treaty was ratified in 1843.	Ratification of the treaty occurred in 1843.	The treaty was discussed by diplomats.
+medium	history	UNSUPPORTED	The fortress was built before the bridge.	The bridge was built before the fortress, and the fortress was constructed later.	Both the fortress and the bridge survive.
+medium	history	MIXED_EVIDENCE	The manuscript was completed in 1610.	The manuscript was completed in 1610.||The manuscript was not completed until 1612.	The manuscript contains illustrations.
+medium	history	INSUFFICIENT_EVIDENCE	The census counted 8,000 residents.	The census counted 8,000 households.	The census was conducted in spring.
+medium	sport	SUPPORTED	The runner finished in 10.42 seconds.	The runner's recorded finishing time was 10.42 seconds.	The runner wore lane number four.
+medium	sport	UNSUPPORTED	The club scored 64 points during the season.	The club's season total was 46 points, not 64.	The club changed its coach during the season.
+medium	sport	MIXED_EVIDENCE	The race was held on 3 May.	The race took place on May 3.||The race took place on May 4, not May 3.	The race was held outdoors.
+medium	sport	INSUFFICIENT_EVIDENCE	The swimmer holds the national record.	The swimmer holds the regional record.	The swimmer trains at the national pool.
+medium	culture	SUPPORTED	The collection contains 120 photographs.	There are one hundred and twenty photographs in the collection.	The collection is stored in archival boxes.
+medium	culture	UNSUPPORTED	The concert lasted ninety minutes.	The concert lasted sixty minutes, not ninety.	The concert featured a string quartet.
+medium	culture	MIXED_EVIDENCE	The film was released in 2008.	The film's release was in 2008.||The film was released in 2009, not 2008.	The film was shown at a festival.
+medium	culture	INSUFFICIENT_EVIDENCE	The composer received the prize in 1996.	The composer was nominated for the prize in 1996.	The composer wrote orchestral music.
+medium	health	SUPPORTED	The trial enrolled 240 volunteers.	A total of 240 volunteers were enrolled in the trial.	The trial lasted twelve weeks.
+medium	health	UNSUPPORTED	The clinic's appointment interval is fifteen minutes.	The clinic schedules appointments at thirty-minute intervals, not fifteen.	The clinic sends appointment reminders.
+medium	health	MIXED_EVIDENCE	The screening program includes children.	Children are included in the screening program.||Children are excluded from the screening program.	The screening program operates in several clinics.
+medium	health	INSUFFICIENT_EVIDENCE	The treatment reduces mortality.	The treatment reduces symptoms, but mortality was not measured.	The treatment is given twice daily.
+medium	environment	SUPPORTED	The wetland covers 320 hectares.	The wetland's area is 320 hectares.	The wetland attracts migratory birds.
+medium	environment	UNSUPPORTED	The monitoring station recorded 18 millimeters of rain.	The station recorded 81 millimeters of rain, not 18.	The monitoring station is automated.
+medium	public_institutions	MIXED_EVIDENCE	The board requires a two-thirds majority.	Decisions require a two-thirds majority of the board.||A simple majority of the board is sufficient; two-thirds is not required.	The board publishes its decisions.
+medium	public_institutions	INSUFFICIENT_EVIDENCE	The permit is valid for three years.	The permit application can take three years to process.	The permit must be displayed publicly.
+hard	business	SUPPORTED	Juniper opened a factory and hired 200 workers.	Juniper opened a factory.||Juniper hired 200 workers.	Juniper announced an advertising campaign.
+hard	business	INSUFFICIENT_EVIDENCE	Willow opened a warehouse and appointed a manager.	Willow opened a warehouse. The appointment of a manager is not reported.	Willow sells household products.
+hard	business	UNSUPPORTED	Birch increased sales and reduced costs.	Birch increased sales.||Birch increased costs rather than reducing them.	Birch publishes quarterly statements.
+hard	business	MIXED_EVIDENCE	Larch reported revenue of $9 million in 2024.	Larch's 2024 revenue was $9 million.||Larch's 2024 revenue was $7 million.	Larch reported revenue of $9 million in 2023.
+hard	public_institutions	INSUFFICIENT_EVIDENCE	Dara is currently chair of the commission.	[old] Dara was chair of the commission in 2001.	The commission holds public hearings.
+hard	public_institutions	SUPPORTED	Elin is currently director of the authority.	[recent] Elin is the current director of the authority.	[old] Elin was not director of the authority in 2002.
+hard	economics	INSUFFICIENT_EVIDENCE	The city currently has an unemployment rate of 4 percent.	[old] The city's unemployment rate was 4 percent in 2012.	The city publishes labor statistics.
+hard	economics	SUPPORTED	The district's 2025 budget was $60 million.	The district adopted a budget of sixty million dollars for 2025.	The district's 2024 budget was $50 million.
+hard	science	INSUFFICIENT_EVIDENCE	The substance always causes the reaction.	The substance sometimes causes the reaction under specific conditions.	The substance is sold in sealed containers.
+hard	science	UNSUPPORTED	Every sample passed the test.	One of the samples failed the test.	The samples were labeled before testing.
+hard	health	INSUFFICIENT_EVIDENCE	The observational study proves that exercise prevents the illness.	The observational study found an association but did not establish causation.	The study recruited adults who exercised regularly.
+hard	health	MIXED_EVIDENCE	The intervention reduces hospital admissions.	The trial found that the intervention reduced hospital admissions.||The trial found that the intervention increased hospital admissions.	The intervention was delivered in community clinics.
+hard	technology	SUPPORTED	The instrument measures pressure and records temperature.	The instrument measures pressure.||The instrument records temperature.	The instrument has a metal case.
+hard	technology	UNSUPPORTED	Both prototypes passed inspection.	The first prototype passed inspection, but the second failed.	The prototypes were inspected on the same day.
+hard	computing	INSUFFICIENT_EVIDENCE	Edition 3.4 exports encrypted archives.	Edition 3.3 exports encrypted archives.	Edition 3.4 has a new settings menu.
+hard	computing	MIXED_EVIDENCE	The patch fixes the memory leak.	The patch fixes the memory leak.||The memory leak remains after the patch is installed.	The patch changes the toolbar icons.
+hard	history	INSUFFICIENT_EVIDENCE	The harvest failure caused the migration.	The migration occurred after the harvest failure, but its causes are not established.	The migration affected several villages.
+hard	history	SUPPORTED	The survey began in 1881 and ended in 1884.	The survey began in 1881.||The survey ended in 1884.	The survey documented local roads.
+hard	culture	INSUFFICIENT_EVIDENCE	Orion won the literature prize.	Orion, a music group, won a performance award.	Several organizations use the name Orion.
+hard	culture	UNSUPPORTED	The novel was published before the author's death.	The novel was first published two years after the author's death.	The author wrote several novels.
+hard	sport	SUPPORTED	The team won the semifinal and lost the final.	The team won the semifinal.||The team lost the final.	The team traveled by train.
+hard	sport	MIXED_EVIDENCE	The athlete completed the course without a penalty.	The athlete completed the course without a penalty.||The athlete incurred a penalty on the course.	The course was wet that morning.
+hard	environment	INSUFFICIENT_EVIDENCE	The reserve currently contains 80 nesting pairs.	[old] The reserve contained 80 nesting pairs in 2005.	The reserve is surveyed annually.
+hard	environment	SUPPORTED	The monitoring program measured rainfall and tracked river levels.	The monitoring program measured rainfall.||The monitoring program tracked river levels.	[copy] The monitoring program measured rainfall.
+hard	geography	UNSUPPORTED	Both tunnels connect to the northern road.	The first tunnel connects to the northern road, but the second does not.	The tunnels were inspected recently.

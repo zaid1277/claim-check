@@ -1,0 +1,3096 @@
+{
+  "nli": {
+    "winning": {
+      "count": 436,
+      "macro_f1": 0.7364369702921563,
+      "accuracy": 0.7362385321100917,
+      "confusion_matrix": [
+        [
+          110,
+          13,
+          24
+        ],
+        [
+          12,
+          110,
+          26
+        ],
+        [
+          17,
+          23,
+          101
+        ]
+      ],
+      "labels": [
+        "support",
+        "contradict",
+        "neutral"
+      ],
+      "per_label": {
+        "support": {
+          "precision": 0.7913669064748201,
+          "recall": 0.7482993197278912,
+          "f1": 0.7692307692307693,
+          "n": 147
+        },
+        "contradict": {
+          "precision": 0.7534246575342466,
+          "recall": 0.7432432432432432,
+          "f1": 0.7482993197278912,
+          "n": 148
+        },
+        "neutral": {
+          "precision": 0.6688741721854304,
+          "recall": 0.7163120567375887,
+          "f1": 0.6917808219178082,
+          "n": 141
+        }
+      },
+      "false_contradiction_rate": 0.125
+    },
+    "raw": {
+      "count": 436,
+      "macro_f1": 0.7283210356609205,
+      "accuracy": 0.7270642201834863,
+      "confusion_matrix": [
+        [
+          107,
+          12,
+          28
+        ],
+        [
+          12,
+          102,
+          34
+        ],
+        [
+          13,
+          20,
+          108
+        ]
+      ],
+      "labels": [
+        "support",
+        "contradict",
+        "neutral"
+      ],
+      "per_label": {
+        "support": {
+          "precision": 0.8106060606060606,
+          "recall": 0.7278911564625851,
+          "f1": 0.7670250896057348,
+          "n": 147
+        },
+        "contradict": {
+          "precision": 0.7611940298507462,
+          "recall": 0.6891891891891891,
+          "f1": 0.723404255319149,
+          "n": 148
+        },
+        "neutral": {
+          "precision": 0.6352941176470588,
+          "recall": 0.7659574468085106,
+          "f1": 0.6945337620578779,
+          "n": 141
+        }
+      },
+      "false_contradiction_rate": 0.1111111111111111
+    },
+    "predicted": {
+      "count": 436,
+      "macro_f1": 0.65549668380485,
+      "accuracy": 0.6513761467889908,
+      "confusion_matrix": [
+        [
+          89,
+          8,
+          50
+        ],
+        [
+          9,
+          86,
+          53
+        ],
+        [
+          13,
+          19,
+          109
+        ]
+      ],
+      "labels": [
+        "support",
+        "contradict",
+        "neutral"
+      ],
+      "per_label": {
+        "support": {
+          "precision": 0.8018018018018018,
+          "recall": 0.6054421768707483,
+          "f1": 0.689922480620155,
+          "n": 147
+        },
+        "contradict": {
+          "precision": 0.7610619469026548,
+          "recall": 0.581081081081081,
+          "f1": 0.6590038314176245,
+          "n": 148
+        },
+        "neutral": {
+          "precision": 0.5141509433962265,
+          "recall": 0.7730496453900709,
+          "f1": 0.6175637393767706,
+          "n": 141
+        }
+      },
+      "false_contradiction_rate": 0.09375
+    }
+  },
+  "controlled": {
+    "overall": {
+      "count": 250,
+      "correct": 202,
+      "accuracy": 0.808,
+      "coverage": 0.652,
+      "selective_accuracy": 0.9570552147239264,
+      "abstention_rate": 0.348,
+      "failures": 0,
+      "correct_abstentions": 46,
+      "false_abstentions": 41,
+      "confident_errors": 7
+    },
+    "by_difficulty": {
+      "easy": {
+        "count": 60,
+        "correct": 55,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.9166666666666666,
+        "selective_accuracy": 1.0,
+        "abstention_rate": 0.08333333333333333,
+        "failures": 0,
+        "correct_abstentions": 0,
+        "false_abstentions": 5,
+        "confident_errors": 0
+      },
+      "medium": {
+        "count": 90,
+        "correct": 85,
+        "accuracy": 0.9444444444444444,
+        "coverage": 0.6666666666666666,
+        "selective_accuracy": 1.0,
+        "abstention_rate": 0.3333333333333333,
+        "failures": 0,
+        "correct_abstentions": 25,
+        "false_abstentions": 5,
+        "confident_errors": 0
+      },
+      "hard": {
+        "count": 100,
+        "correct": 62,
+        "accuracy": 0.62,
+        "coverage": 0.48,
+        "selective_accuracy": 0.8541666666666666,
+        "abstention_rate": 0.52,
+        "failures": 0,
+        "correct_abstentions": 21,
+        "false_abstentions": 31,
+        "confident_errors": 7
+      }
+    },
+    "by_origin": {
+      "SciFact-dev": {
+        "count": 44,
+        "correct": 24,
+        "accuracy": 0.5454545454545454,
+        "coverage": 0.2727272727272727,
+        "selective_accuracy": 1.0,
+        "abstention_rate": 0.7272727272727273,
+        "failures": 0,
+        "correct_abstentions": 12,
+        "false_abstentions": 20,
+        "confident_errors": 0
+      },
+      "authored-controlled": {
+        "count": 206,
+        "correct": 178,
+        "accuracy": 0.8640776699029126,
+        "coverage": 0.7330097087378641,
+        "selective_accuracy": 0.9536423841059603,
+        "abstention_rate": 0.2669902912621359,
+        "failures": 0,
+        "correct_abstentions": 34,
+        "false_abstentions": 21,
+        "confident_errors": 7
+      }
+    },
+    "rows": [
+      {
+        "id": "hyper-fact-000",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "space",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-001",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "history",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-002",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "education",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-003",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "transportation",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-004",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-005",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "history",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-006",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "computing",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-007",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "education",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-008",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "computing",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-009",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-010",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "biology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-011",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "physics",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-012",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health facts",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-013",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-014",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "physics",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-015",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "transportation",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-016",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "technology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-017",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "sports",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-018",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "computing",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-019",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "transportation",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-020",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-021",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "culture",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-022",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "sports",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-023",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-024",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-025",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "computing",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-026",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "technology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-027",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "space",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-028",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "technology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-029",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-030",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "space",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-031",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health facts",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-032",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "geography",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-033",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "culture",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-034",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "health facts",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-035",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "education",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-036",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "education",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-037",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "education",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-038",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "transportation",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-039",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "sports",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-040",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "history",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-041",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-042",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-043",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "physics",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-044",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "biology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-045",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "biology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-046",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "education",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-047",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "culture",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-048",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health facts",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-049",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "culture",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-050",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "culture",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-051",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "health facts",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-052",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "biology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-053",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "transportation",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-054",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-055",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-056",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "AI/technology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-057",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health facts",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-058",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-059",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "AI/technology",
+        "difficulty": "easy",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-060",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "transportation",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-061",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "public institutions",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-062",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "AI/technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-063",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-064",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "education",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-065",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "computing",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-066",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "transportation",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-067",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-068",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "culture",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-069",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "computing",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-070",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "AI/technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-071",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "physics",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-072",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-073",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-074",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "education",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-075",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "history",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-076",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "physics",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-077",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "transportation",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-078",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "sports",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-079",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "biology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-080",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-081",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-082",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-083",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "sports",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-084",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "computing",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-085",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "space",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-086",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "history",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-087",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "history",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-088",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "sports",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-089",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-090",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-091",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "public institutions",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-092",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-093",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health facts",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-094",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "biology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-095",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "AI/technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-096",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "computing",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-097",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "physics",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-098",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "biology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-099",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-100",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-101",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "sports",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-102",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "history",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-103",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "health facts",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-104",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "history",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-105",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "culture",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-106",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-107",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-108",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "sports",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-109",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "physics",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-110",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-111",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-112",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "space",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-113",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-114",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health facts",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-115",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-116",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "computing",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-117",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "transportation",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-118",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-119",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "physics",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-120",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-121",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-122",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-123",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "computing",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-124",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "space",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-125",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "physics",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-126",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "biology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-127",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "education",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-128",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-129",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "AI/technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-130",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "space",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-131",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-132",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "biology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-133",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "AI/technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-134",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-135",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-136",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "history",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-137",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "culture",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-138",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health facts",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-139",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "transportation",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-140",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "sports",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-141",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "climate/environment",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-142",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "geography",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "empty-retrieval"
+      },
+      {
+        "id": "hyper-fact-143",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "education",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-144",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-145",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "AI/technology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-146",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "space",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-147",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "biology",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-148",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "physics",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-fact-149",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "culture",
+        "difficulty": "medium",
+        "origin": "authored-controlled",
+        "tag": "direct-factual"
+      },
+      {
+        "id": "hyper-hard-000",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "partial-truth"
+      },
+      {
+        "id": "hyper-hard-001",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "technology",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "partial-truth"
+      },
+      {
+        "id": "hyper-hard-002",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health facts",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "partial-truth"
+      },
+      {
+        "id": "hyper-hard-003",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "domain": "public institutions",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "contradictory-sources"
+      },
+      {
+        "id": "hyper-hard-004",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "SUPPORTED",
+        "domain": "sports",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "contradictory-sources"
+      },
+      {
+        "id": "hyper-hard-005",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "contradictory-sources"
+      },
+      {
+        "id": "hyper-hard-006",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "outdated-vs-current"
+      },
+      {
+        "id": "hyper-hard-007",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "geography",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "outdated-vs-current"
+      },
+      {
+        "id": "hyper-hard-008",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "technology",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "outdated-vs-current"
+      },
+      {
+        "id": "hyper-hard-009",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "multiple-atoms"
+      },
+      {
+        "id": "hyper-hard-010",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "history",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "multiple-atoms"
+      },
+      {
+        "id": "hyper-hard-011",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "multiple-atoms"
+      },
+      {
+        "id": "hyper-hard-012",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "evidence-spread-across-sources"
+      },
+      {
+        "id": "hyper-hard-013",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "space",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "evidence-spread-across-sources"
+      },
+      {
+        "id": "hyper-hard-014",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "public institutions",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "evidence-spread-across-sources"
+      },
+      {
+        "id": "hyper-hard-015",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "subtle-numerical-difference"
+      },
+      {
+        "id": "hyper-hard-016",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "subtle-numerical-difference"
+      },
+      {
+        "id": "hyper-hard-017",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health facts",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "subtle-numerical-difference"
+      },
+      {
+        "id": "hyper-hard-018",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "temporal-conflict"
+      },
+      {
+        "id": "hyper-hard-019",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "temporal-conflict"
+      },
+      {
+        "id": "hyper-hard-020",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "technology",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "temporal-conflict"
+      },
+      {
+        "id": "hyper-hard-021",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "similar-entity-names"
+      },
+      {
+        "id": "hyper-hard-022",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "geography",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "similar-entity-names"
+      },
+      {
+        "id": "hyper-hard-023",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "culture",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "similar-entity-names"
+      },
+      {
+        "id": "hyper-hard-024",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "copied-syndicated-evidence"
+      },
+      {
+        "id": "hyper-hard-025",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "copied-syndicated-evidence"
+      },
+      {
+        "id": "hyper-hard-026",
+        "expected": "UNSUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "authority-vs-volume"
+      },
+      {
+        "id": "hyper-hard-027",
+        "expected": "UNSUPPORTED",
+        "predicted": "MIXED_EVIDENCE",
+        "domain": "public institutions",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "authority-vs-volume"
+      },
+      {
+        "id": "hyper-hard-028",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "causation-vs-correlation"
+      },
+      {
+        "id": "hyper-hard-029",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health facts",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "causation-vs-correlation"
+      },
+      {
+        "id": "hyper-hard-030",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "sports",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "rankings-with-year-context"
+      },
+      {
+        "id": "hyper-hard-031",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "education",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "rankings-with-year-context"
+      },
+      {
+        "id": "hyper-hard-032",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "public institutions",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "changing-officeholders"
+      },
+      {
+        "id": "hyper-hard-033",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "changing-officeholders"
+      },
+      {
+        "id": "hyper-hard-034",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "difficult-scientific-statement"
+      },
+      {
+        "id": "hyper-hard-035",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "difficult-scientific-statement"
+      },
+      {
+        "id": "hyper-hard-036",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health facts",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "statistics-different-denominators"
+      },
+      {
+        "id": "hyper-hard-037",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "statistics-different-denominators"
+      },
+      {
+        "id": "hyper-hard-038",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "requires-follow-up-retrieval"
+      },
+      {
+        "id": "hyper-hard-039",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "requires-follow-up-retrieval"
+      },
+      {
+        "id": "hyper-hard-040",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "genuine-insufficient-evidence"
+      },
+      {
+        "id": "hyper-hard-041",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "geography",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "genuine-insufficient-evidence"
+      },
+      {
+        "id": "hyper-hard-042",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "genuine-insufficient-evidence"
+      },
+      {
+        "id": "hyper-hard-043",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "geography",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "entity-collision"
+      },
+      {
+        "id": "hyper-hard-044",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "entity-collision"
+      },
+      {
+        "id": "hyper-hard-045",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "public institutions",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "negation-scope"
+      },
+      {
+        "id": "hyper-hard-046",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "negation-scope"
+      },
+      {
+        "id": "hyper-hard-047",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "unit-mismatch"
+      },
+      {
+        "id": "hyper-hard-048",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "unit-mismatch"
+      },
+      {
+        "id": "hyper-hard-049",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "compound-partial-support"
+      },
+      {
+        "id": "hyper-hard-050",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "UNSUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "compound-partial-support"
+      },
+      {
+        "id": "hyper-hard-051",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "SUPPORTED",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "contradictory-sources"
+      },
+      {
+        "id": "hyper-hard-052",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "UNSUPPORTED",
+        "domain": "health facts",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "authority-vs-volume"
+      },
+      {
+        "id": "hyper-hard-053",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "domain": "business",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "statistics-different-denominators"
+      },
+      {
+        "id": "hyper-hard-054",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "domain": "public institutions",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "contradictory-sources"
+      },
+      {
+        "id": "hyper-hard-055",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "science",
+        "difficulty": "hard",
+        "origin": "authored-controlled",
+        "tag": "difficult-scientific-statement"
+      },
+      {
+        "id": "hyper-scifact-1272",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-72",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1199",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-914",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-127",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1014",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-198",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1395",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-589",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-770",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1282",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1352",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1298",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-70",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-540",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-577",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-362",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-183",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-217",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1088",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-533",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1225",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1163",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-837",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1274",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-742",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1216",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-233",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-275",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-539",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-993",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-903",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-882",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-718",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1137",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-793",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1110",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-873",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1130",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-879",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-578",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-1029",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      },
+      {
+        "id": "hyper-scifact-48",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "domain": "health/science",
+        "difficulty": "hard",
+        "origin": "SciFact-dev",
+        "tag": "expert-scientific"
+      }
+    ]
+  },
+  "workflow": {
+    "text": {
+      "attempted": 30,
+      "completed": 30,
+      "latency": {
+        "n": 30,
+        "median": 2.327215604500007,
+        "p95": 2.8898102104500074
+      }
+    },
+    "image": {
+      "attempted": 30,
+      "completed": 0,
+      "latency": {
+        "n": 0,
+        "median": null,
+        "p95": null
+      }
+    },
+    "url": {
+      "attempted": 20,
+      "completed": 20,
+      "latency": {
+        "n": 20,
+        "median": 2.6667607915000007,
+        "p95": 3.1840202000000044
+      }
+    }
+  },
+  "cross_modal": {
+    "count": 20,
+    "consistent": 0,
+    "rows": [
+      {
+        "id": "hyper-fact-000",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Hubble Space Telescope was launched in 1990.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Hubble Space Telescope was launched in 1990.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Hubble Space Telescope was launched in 1990.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-005",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Cuban Missile Crisis occurred in 1966.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Cuban Missile Crisis occurred in 1966.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Cuban Missile Crisis occurred in 1966.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "UNSUPPORTED"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-011",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "Absolute zero is approximately -273.15 degrees Celsius.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "Absolute zero is approximately -273.15 degrees Celsius.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "Absolute zero is approximately -273.15 degrees Celsius.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-016",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Boeing 787 is a single-engine propeller aircraft.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ],
+          [
+            [
+              "The Boeing 787 is a single-engine propeller aircraft.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Boeing 787 is a single-engine propeller aircraft.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-021",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Sydney Opera House was completed in 1963.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Sydney Opera House was completed in 1963.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Sydney Opera House was completed in 1963.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "UNSUPPORTED"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-028",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "3D printing builds objects layer by layer.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "3D printing builds objects layer by layer.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "3D printing builds objects layer by layer.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-030",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Apollo 11 mission landed astronauts on the Moon in 1969.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Apollo 11 mission landed astronauts on the Moon in 1969.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Apollo 11 mission landed astronauts on the Moon in 1969.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-036",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "Harvard University was founded in 1636.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "Harvard University was founded in 1636.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "Harvard University was founded in 1636.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-038",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The first transcontinental railroad in the United States was completed in 1869.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The first transcontinental railroad in the United States was completed in 1869.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The first transcontinental railroad in the United States was completed in 1869.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-040",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Great Fire of London occurred in 1766.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Great Fire of London occurred in 1766.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Great Fire of London occurred in 1766.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "UNSUPPORTED"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-044",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The human skeleton has 306 bones in adulthood.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The human skeleton has 306 bones in adulthood.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The human skeleton has 306 bones in adulthood.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "UNSUPPORTED"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-048",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "Type 1 diabetes involves the body producing excessive amounts of insulin.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [
+            [
+              "Type 1 diabetes involves the body producing excessive amounts of insulin.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "Type 1 diabetes involves the body producing excessive amounts of insulin.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "UNSUPPORTED"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-051",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The human genome contains roughly 20,000 protein-coding genes.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The human genome contains roughly 20,000 protein-coding genes.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The human genome contains roughly 20,000 protein-coding genes.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-064",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Nobel Prize in Physics has been awarded since 1901.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Nobel Prize in Physics has been awarded since 1901.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Nobel Prize in Physics has been awarded since 1901.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "SUPPORTED"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-075",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Meiji Restoration began in 1868.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Meiji Restoration began in 1868.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Meiji Restoration began in 1868.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-083",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The modern Olympic Games were revived in 1886.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The modern Olympic Games were revived in 1886.",
+              "UNSUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The modern Olympic Games were revived in 1886.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "UNSUPPORTED"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-086",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Rosetta Stone was discovered in 1799.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ],
+          [
+            [
+              "The Rosetta Stone was discovered in 1799.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Rosetta Stone was discovered in 1799.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-087",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The Panama Canal opened to traffic in 1914.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "The Panama Canal opened to traffic in 1914.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "The Panama Canal opened to traffic in 1914.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-001",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "The first successful polio vaccine was developed by Jonas Salk.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ],
+          [
+            [
+              "The first successful polio vaccine was developed by Jonas Salk.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ],
+          [],
+          [
+            [
+              "The first successful polio vaccine was developed by Jonas Salk.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "hyper-fact-002",
+        "complete": false,
+        "consistent": false,
+        "signatures": [
+          [
+            [
+              "Doctoral degrees are typically the highest academic degree awarded by universities.",
+              "SUPPORTED"
+            ]
+          ],
+          [
+            [
+              "Doctoral degrees are typically the highest academic degree awarded by universities.",
+              "SUPPORTED"
+            ]
+          ],
+          [],
+          [
+            [
+              "Doctoral degrees are typically the highest academic degree awarded by universities.This article is supplied for a controlled evidence evaluation.The reader may select a factual proposal for investigation.",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ocr": [],
+  "public_urls": {
+    "attempted": 30,
+    "completed": 17,
+    "latency": {
+      "n": 17,
+      "median": 51.70981299999997,
+      "p95": 118.4264287584
+    },
+    "five_claim_latency": {
+      "n": 2,
+      "median": 118.22095404200005,
+      "p95": 120.29951911700006
+    }
+  },
+  "live_observations": {
+    "attempted": 90,
+    "completed": 90,
+    "by_difficulty": {
+      "easy": 30,
+      "medium": 30,
+      "hard": 30
+    },
+    "verdicts": {
+      "SUPPORTED": 59,
+      "MIXED_EVIDENCE": 1,
+      "UNSUPPORTED": 11,
+      "INSUFFICIENT_EVIDENCE": 19
+    },
+    "latency": {
+      "n": 90,
+      "median": 23.493378645499934,
+      "p95": 38.55261038385004
+    }
+  },
+  "typed_latency": {
+    "n": 60,
+    "median": 2.5555801874999924,
+    "p95": 3.353350152099994
+  },
+  "missed_contradiction_categories": {
+    "relevance filter": 11,
+    "NLI prediction": 38,
+    "NLI confidence": 9,
+    "temporal/context filter": 4
+  },
+  "targets": {
+    "nli_macro_f1": false,
+    "contradiction_precision": false,
+    "contradiction_recall": false,
+    "false_contradiction_rate": false,
+    "overall_accuracy": true,
+    "coverage": false,
+    "selective_accuracy": true,
+    "cross_modal": false,
+    "public_url_completion": false,
+    "pasted_completion": true,
+    "ocr_completion": false,
+    "easy_accuracy": false,
+    "medium_accuracy": true,
+    "hard_accuracy": true
+  },
+  "decision": "NOT READY"
+}

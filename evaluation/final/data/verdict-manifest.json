@@ -1,0 +1,10 @@
+{
+  "count": 175,
+  "scifact_counts": {
+    "SUPPORTED": 20,
+    "UNSUPPORTED": 20,
+    "INSUFFICIENT_EVIDENCE": 10
+  },
+  "sha256": "f88e1d6e2c766d411a93cd078e3b3c204d708e25fb90c1a9b544b846f7ce4cad",
+  "methodology": "Controlled evidence. Not measured live truth accuracy. 25 authored hard scenarios include hypothetical conflict/absence probes."
+}

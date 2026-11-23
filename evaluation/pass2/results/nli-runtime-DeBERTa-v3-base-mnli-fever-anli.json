@@ -1,0 +1,11 @@
+{
+  "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "task": "nli",
+  "pipeline_file": "/Users/admin/Documents/Codex/2026-09-06/i-am-building-a-portfolio-project/outputs/claim-check/api/app/services/pipeline.py",
+  "count": 111,
+  "first_investigation_seconds": 3.621556166999653,
+  "mean_seconds": 0.08266480859463234,
+  "median_seconds": 0.08573158400031389,
+  "peak_rss_bytes_macos": 964771840,
+  "note": "CPU; web/database excluded; warm models; fresh NLI/embedding inference."
+}

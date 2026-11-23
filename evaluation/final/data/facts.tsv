@@ -1,0 +1,101 @@
+domain	fact	alternative
+geography	Mount Kilimanjaro is in Tanzania.	Mount Kilimanjaro is in Kenya.
+geography	Lake Baikal is in Russia.	Lake Baikal is in Canada.
+geography	The Danube flows into the Black Sea.	The Danube flows into the Baltic Sea.
+geography	The Atacama Desert is primarily in Chile.	The Atacama Desert is primarily in Peru.
+geography	Madagascar is an island in the Indian Ocean.	Madagascar is an island in the Atlantic Ocean.
+history	The Battle of Hastings took place in 1066.	The Battle of Hastings took place in 1067.
+history	The Berlin Wall opened in 1989.	The Berlin Wall opened in 1990.
+history	The Magna Carta was first issued in 1215.	The Magna Carta was first issued in 1216.
+history	The first modern Olympic Games were held in Athens.	The first modern Olympic Games were held in Rome.
+history	The Treaty of Versailles was signed in 1919.	The Treaty of Versailles was signed in 1918.
+physics	A photon has zero rest mass.	A photon has nonzero rest mass.
+physics	Electric current is measured in amperes.	Electric current is measured in volts.
+physics	The SI unit of force is the newton.	The SI unit of force is the joule.
+physics	Sound cannot propagate through a perfect vacuum.	Sound can propagate through a perfect vacuum.
+physics	The atomic number of carbon is six.	The atomic number of carbon is seven.
+biology	Octopuses have three hearts.	Octopuses have two hearts.
+biology	Mature human red blood cells lack a nucleus.	Mature human red blood cells contain a nucleus.
+biology	The mitochondrion has its own DNA.	The mitochondrion has no DNA.
+biology	Fungi are distinct from plants.	Fungi belong to the plant kingdom.
+biology	A blue whale is a mammal.	A blue whale is a fish.
+computing	IPv6 addresses contain 128 bits.	IPv6 addresses contain 64 bits.
+computing	A standard Ethernet MAC address contains 48 bits.	A standard Ethernet MAC address contains 64 bits.
+computing	Python uses indentation to define code blocks.	Python requires braces to define code blocks.
+computing	Git is a distributed version control system.	Git is a centralized version control system.
+computing	SQL stands for Structured Query Language.	SQL stands for Standard Queue Language.
+AI/technology	The original Transformer paper was published in 2017.	The original Transformer paper was published in 2018.
+AI/technology	BERT uses a bidirectional Transformer encoder.	BERT uses only a unidirectional Transformer decoder.
+AI/technology	ImageNet is used for image recognition research.	ImageNet is exclusively an audio dataset.
+AI/technology	Backpropagation computes gradients for neural network training.	Backpropagation never computes gradients.
+AI/technology	A convolutional neural network shares filter weights across spatial positions.	A convolutional neural network never shares filter weights.
+economics	The euro entered circulation as banknotes and coins in 2002.	The euro entered circulation as banknotes and coins in 2001.
+economics	Japan's currency is the yen.	Japan's currency is the yuan.
+economics	Nominal GDP is measured using current prices.	Nominal GDP is measured using fixed base-year prices.
+economics	Inflation describes a rise in the general price level.	Inflation describes a fall in the general price level.
+economics	The Bank of England was founded in 1694.	The Bank of England was founded in 1695.
+business	Nintendo was founded in 1889.	Nintendo was founded in 1888.
+business	Nokia was founded in Finland.	Nokia was founded in Sweden.
+business	Toyota was founded in 1937.	Toyota was founded in 1938.
+business	Microsoft acquired LinkedIn in 2016.	Microsoft acquired LinkedIn in 2017.
+business	Adobe and Figma terminated their proposed merger in December 2023.	Adobe completed its acquisition of Figma in December 2023.
+sport	A standard association football team fields eleven players.	A standard association football team fields twelve players.
+sport	A marathon is 42.195 kilometres long.	A marathon is 42.295 kilometres long.
+sport	The 2016 Summer Olympics were held in Rio de Janeiro.	The 2016 Summer Olympics were held in Buenos Aires.
+sport	A standard tennis game begins at love-all.	A standard tennis game begins at fifteen-all.
+sport	The men's FIFA World Cup was first held in 1930.	The men's FIFA World Cup was first held in 1934.
+transportation	The Channel Tunnel connects Britain and France.	The Channel Tunnel connects Britain and Belgium.
+transportation	The first Shinkansen line opened in 1964.	The first Shinkansen line opened in 1965.
+transportation	The Wright brothers' first powered flight took place in 1903.	The Wright brothers' first powered flight took place in 1904.
+transportation	Concorde entered commercial service in 1976.	Concorde entered commercial service in 1977.
+transportation	The Panama Canal connects the Atlantic and Pacific oceans.	The Panama Canal connects the Atlantic and Indian oceans.
+culture	Mary Shelley wrote Frankenstein.	Jane Austen wrote Frankenstein.
+culture	Pablo Picasso painted Guernica.	Salvador Dali painted Guernica.
+culture	The novel Things Fall Apart was written by Chinua Achebe.	The novel Things Fall Apart was written by Wole Soyinka.
+culture	The Rosetta Stone contains three scripts.	The Rosetta Stone contains two scripts.
+culture	The Taj Mahal is in Agra.	The Taj Mahal is in Mumbai.
+public institutions	The United Nations was founded in 1945.	The United Nations was founded in 1946.
+public institutions	The International Court of Justice is based in The Hague.	The International Court of Justice is based in Brussels.
+public institutions	UNESCO is headquartered in Paris.	UNESCO is headquartered in Geneva.
+public institutions	The World Health Organization was established in 1948.	The World Health Organization was established in 1949.
+public institutions	The African Union was launched in 2002.	The African Union was launched in 2003.
+health facts	Insulin helps regulate blood glucose.	Insulin has no role in regulating blood glucose.
+health facts	Antibiotics treat bacterial infections.	Antibiotics directly treat viral infections.
+health facts	Scurvy is caused by vitamin C deficiency.	Scurvy is caused by vitamin D deficiency.
+health facts	The human heart has four chambers.	The human heart has three chambers.
+health facts	Malaria is caused by Plasmodium parasites.	Malaria is caused by influenza viruses.
+climate/environment	Carbon dioxide absorbs infrared radiation.	Carbon dioxide does not absorb infrared radiation.
+climate/environment	The ozone layer absorbs ultraviolet radiation.	The ozone layer does not absorb ultraviolet radiation.
+climate/environment	The Montreal Protocol was signed in 1987.	The Montreal Protocol was signed in 1988.
+climate/environment	The Paris Agreement was adopted in 2015.	The Paris Agreement was adopted in 2016.
+climate/environment	Mangroves grow in coastal intertidal zones.	Mangroves grow exclusively in alpine zones.
+space	Neptune was discovered in 1846.	Neptune was discovered in 1847.
+space	Titan is a moon of Saturn.	Titan is a moon of Neptune.
+space	Venus rotates in a retrograde direction.	Venus rotates in a prograde direction.
+space	The Sun is a main-sequence star.	The Sun is a white dwarf.
+space	The James Webb Space Telescope observes primarily infrared light.	The James Webb Space Telescope observes primarily gamma rays.
+education	The University of Bologna dates its foundation to 1088.	The University of Bologna dates its foundation to 1089.
+education	The Massachusetts Institute of Technology was founded in 1861.	The Massachusetts Institute of Technology was founded in 1862.
+education	The University of Cape Town was founded in 1829.	The University of Cape Town was founded in 1830.
+education	The Open University received its royal charter in 1969.	The Open University received its royal charter in 1970.
+education	The University of Melbourne was founded in 1853.	The University of Melbourne was founded in 1854.
+computing	SHA-256 produces a 256-bit digest.	SHA-256 produces a 128-bit digest.
+physics	The speed of light in vacuum is exactly 299792458 metres per second.	The speed of light in vacuum is exactly 299792459 metres per second.
+biology	Human mitochondrial DNA is usually inherited maternally.	Human mitochondrial DNA is usually inherited paternally.
+history	The Suez Canal opened in 1869.	The Suez Canal opened in 1870.
+space	Voyager 1 was launched in 1977.	Voyager 1 was launched in 1978.
+culture	The Gutenberg Bible was printed in the fifteenth century.	The Gutenberg Bible was printed in the sixteenth century.
+transportation	The Boeing 747 first flew in 1969.	The Boeing 747 first flew in 1970.
+public institutions	The International Labour Organization was founded in 1919.	The International Labour Organization was founded in 1920.
+economics	The Bretton Woods conference took place in 1944.	The Bretton Woods conference took place in 1945.
+AI/technology	AlexNet won the ImageNet competition in 2012.	AlexNet won the ImageNet competition in 2013.
+health facts	Smallpox was declared eradicated by the WHO in 1980.	Smallpox was declared eradicated by the WHO in 1981.
+sport	The first Winter Olympics were held in Chamonix in 1924.	The first Winter Olympics were held in Chamonix in 1925.
+climate/environment	The Kyoto Protocol was adopted in 1997.	The Kyoto Protocol was adopted in 1998.
+business	Spotify was founded in Sweden in 2006.	Spotify was founded in Norway in 2006.
+education	The University of Sydney was founded in 1850.	The University of Sydney was founded in 1851.
+geography	The Strait of Gibraltar separates Europe and Africa.	The Strait of Gibraltar separates Europe and Asia.
+physics	Absolute zero is zero kelvin.	Absolute zero is one kelvin.
+computing	HTTP status code 404 means Not Found.	HTTP status code 404 means Unauthorized.
+biology	The largest living species of shark is the whale shark.	The largest living species of shark is the great white shark.
+culture	Beethoven composed nine completed symphonies.	Beethoven composed ten completed symphonies.

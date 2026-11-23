@@ -1,0 +1,2808 @@
+{
+  "n_cases": 400,
+  "actual_accuracy": 0.79,
+  "raw_nli_oracle_accuracy": 0.8025,
+  "gated_sanity_check_accuracy": 0.7925,
+  "oracle_rows": [
+    {
+      "id": "hyper-fact-000",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-001",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-002",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-003",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-004",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-005",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-006",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-007",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-008",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-009",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-010",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-011",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-012",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-013",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-014",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-015",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-016",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-017",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-018",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-019",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-020",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-021",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-022",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-023",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-024",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-025",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-026",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-027",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-028",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-029",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-030",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-031",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-032",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-033",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-034",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-035",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-036",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-037",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-038",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-039",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-040",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-041",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-042",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-043",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-044",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-045",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-046",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-047",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-048",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-049",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-050",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-051",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-052",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-053",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-054",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-055",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-056",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-057",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-058",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-059",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-060",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-061",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-062",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-063",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-064",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-065",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-066",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-067",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-068",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-069",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-070",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-071",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-072",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-073",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-074",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-075",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-076",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-077",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-078",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-079",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-080",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-081",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-082",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-083",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-084",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-085",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-086",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-087",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-088",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-089",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-090",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-091",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-fact-092",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-093",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-094",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-095",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-096",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-097",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-098",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-099",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-100",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-101",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-102",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-103",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-104",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-105",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-106",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-107",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-108",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-109",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-110",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-111",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-112",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-113",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-114",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-115",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-116",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-117",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-118",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-119",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-120",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-121",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-122",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-123",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-124",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-125",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-126",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-127",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-128",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-129",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-130",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-131",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-132",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-133",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-134",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-135",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-136",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-137",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-138",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-139",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-140",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-141",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-142",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-143",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-144",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-145",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-146",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-147",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-148",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-fact-149",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-000",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-001",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-002",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-003",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-004",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "SUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-005",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-006",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-007",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-008",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-009",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-010",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-011",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-012",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-013",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-014",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-015",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-016",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-017",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-018",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-019",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-020",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-021",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-022",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-023",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-024",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-025",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-026",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-027",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-028",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-029",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-030",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-031",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-032",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-033",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-034",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-035",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-036",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-037",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-038",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-039",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-040",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-041",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-042",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-043",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-044",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-045",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-046",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-047",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-048",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-049",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-050",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-051",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "SUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-052",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "hyper-hard-053",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-054",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-hard-055",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-1272",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-72",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1199",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-914",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-127",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1014",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-198",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1395",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-589",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-770",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-1282",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1352",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1298",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-70",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-540",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-577",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-362",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-183",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-217",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1088",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-533",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-1225",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-1163",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-837",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-1274",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-742",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1216",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-233",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-275",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-539",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-993",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-903",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-882",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-718",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-1137",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-793",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1110",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-873",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-1130",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-879",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "hyper-scifact-578",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-1029",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "hyper-scifact-48",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-fact-000",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-001",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-002",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-003",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-004",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-005",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-fact-006",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-007",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-008",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-009",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-010",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-011",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-fact-012",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-013",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-014",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-015",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-016",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-017",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-018",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-019",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-020",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-021",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-022",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-023",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-024",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-025",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-026",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-027",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-028",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-029",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-030",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-031",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-032",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-fact-033",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-034",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-035",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-fact-036",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-037",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-038",
+      "difficulty": "easy",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-039",
+      "difficulty": "easy",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-040",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-041",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-042",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-043",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-044",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-045",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-046",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-047",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-048",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-049",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-050",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-051",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-052",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-053",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-054",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-055",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-056",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-057",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-058",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-059",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-060",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-061",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-062",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-063",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-064",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-065",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-066",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-067",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-068",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-069",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-070",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-071",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-072",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-073",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-074",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-075",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-fact-076",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-077",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-078",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-079",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-080",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-081",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-082",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-083",
+      "difficulty": "medium",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-084",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-085",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-086",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-087",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-088",
+      "difficulty": "medium",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-fact-089",
+      "difficulty": "medium",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-000",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-001",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-002",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-003",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-004",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-005",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-006",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-007",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-008",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-009",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-010",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-011",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-012",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-013",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-014",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-015",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-016",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-017",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-018",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-019",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-020",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-021",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "SUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-022",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-hard-023",
+      "difficulty": "hard",
+      "expected": "MIXED_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-hard-024",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-132",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-544",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-800",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-517",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-99",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-1196",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-1332",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-411",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-1271",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-232",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-921",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-957",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-1259",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-475",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-1281",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-636",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "MIXED_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-208",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-527",
+      "difficulty": "hard",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-141",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-1150",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-1146",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-784",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-118",
+      "difficulty": "hard",
+      "expected": "SUPPORTED",
+      "oracle_predicted": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-1370",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-1382",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-1144",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "remediation-scifact-759",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-1140",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-513",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-847",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-249",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-1221",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-115",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-674",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "INSUFFICIENT_EVIDENCE",
+      "correct": false
+    },
+    {
+      "id": "remediation-scifact-859",
+      "difficulty": "hard",
+      "expected": "UNSUPPORTED",
+      "oracle_predicted": "UNSUPPORTED",
+      "correct": true
+    }
+  ]
+}

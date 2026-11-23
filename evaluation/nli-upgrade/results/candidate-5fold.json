@@ -1,0 +1,275 @@
+{
+  "n_folds": 5,
+  "fold_results": [
+    {
+      "name": "fold-0",
+      "n": 380,
+      "accuracy": 0.8710526315789474,
+      "macro_f1": 0.8708389654861675,
+      "per_label": {
+        "support": {
+          "precision": 0.9253731343283582,
+          "recall": 0.8857142857142857,
+          "f1": 0.9051094890510949,
+          "n": 140
+        },
+        "neutral": {
+          "precision": 0.8071428571428572,
+          "recall": 0.8692307692307693,
+          "f1": 0.837037037037037,
+          "n": 130
+        },
+        "contradict": {
+          "precision": 0.8867924528301887,
+          "recall": 0.8545454545454545,
+          "f1": 0.8703703703703703,
+          "n": 110
+        }
+      },
+      "confusion_matrix": [
+        [
+          124,
+          12,
+          4
+        ],
+        [
+          9,
+          113,
+          8
+        ],
+        [
+          1,
+          15,
+          94
+        ]
+      ],
+      "false_contradiction_rate": 0.044444444444444446,
+      "opposite_direction": {
+        "true_contradict_predicted_support": 1,
+        "true_support_predicted_contradict": 4,
+        "rate": 0.013157894736842105
+      }
+    },
+    {
+      "name": "fold-1",
+      "n": 380,
+      "accuracy": 0.868421052631579,
+      "macro_f1": 0.8674618984344461,
+      "per_label": {
+        "support": {
+          "precision": 0.9117647058823529,
+          "recall": 0.8857142857142857,
+          "f1": 0.8985507246376812,
+          "n": 140
+        },
+        "neutral": {
+          "precision": 0.8345864661654135,
+          "recall": 0.8538461538461538,
+          "f1": 0.844106463878327,
+          "n": 130
+        },
+        "contradict": {
+          "precision": 0.8558558558558559,
+          "recall": 0.8636363636363636,
+          "f1": 0.8597285067873304,
+          "n": 110
+        }
+      },
+      "confusion_matrix": [
+        [
+          124,
+          11,
+          5
+        ],
+        [
+          8,
+          111,
+          11
+        ],
+        [
+          4,
+          11,
+          95
+        ]
+      ],
+      "false_contradiction_rate": 0.05925925925925926,
+      "opposite_direction": {
+        "true_contradict_predicted_support": 4,
+        "true_support_predicted_contradict": 5,
+        "rate": 0.02368421052631579
+      }
+    },
+    {
+      "name": "fold-2",
+      "n": 379,
+      "accuracy": 0.899736147757256,
+      "macro_f1": 0.9011375391180044,
+      "per_label": {
+        "support": {
+          "precision": 0.9044117647058824,
+          "recall": 0.8785714285714286,
+          "f1": 0.8913043478260869,
+          "n": 140
+        },
+        "neutral": {
+          "precision": 0.8796992481203008,
+          "recall": 0.9,
+          "f1": 0.8897338403041825,
+          "n": 130
+        },
+        "contradict": {
+          "precision": 0.9181818181818182,
+          "recall": 0.926605504587156,
+          "f1": 0.9223744292237442,
+          "n": 109
+        }
+      },
+      "confusion_matrix": [
+        [
+          123,
+          13,
+          4
+        ],
+        [
+          8,
+          117,
+          5
+        ],
+        [
+          5,
+          3,
+          101
+        ]
+      ],
+      "false_contradiction_rate": 0.03333333333333333,
+      "opposite_direction": {
+        "true_contradict_predicted_support": 5,
+        "true_support_predicted_contradict": 4,
+        "rate": 0.023746701846965697
+      }
+    },
+    {
+      "name": "fold-3",
+      "n": 378,
+      "accuracy": 0.917989417989418,
+      "macro_f1": 0.9187997580622485,
+      "per_label": {
+        "support": {
+          "precision": 0.9461538461538461,
+          "recall": 0.8848920863309353,
+          "f1": 0.9144981412639405,
+          "n": 139
+        },
+        "neutral": {
+          "precision": 0.8897058823529411,
+          "recall": 0.9307692307692308,
+          "f1": 0.9097744360902256,
+          "n": 130
+        },
+        "contradict": {
+          "precision": 0.9196428571428571,
+          "recall": 0.944954128440367,
+          "f1": 0.9321266968325792,
+          "n": 109
+        }
+      },
+      "confusion_matrix": [
+        [
+          123,
+          12,
+          4
+        ],
+        [
+          4,
+          121,
+          5
+        ],
+        [
+          3,
+          3,
+          103
+        ]
+      ],
+      "false_contradiction_rate": 0.03345724907063197,
+      "opposite_direction": {
+        "true_contradict_predicted_support": 3,
+        "true_support_predicted_contradict": 4,
+        "rate": 0.018518518518518517
+      }
+    },
+    {
+      "name": "fold-4",
+      "n": 378,
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8573630704790407,
+      "per_label": {
+        "support": {
+          "precision": 0.8705035971223022,
+          "recall": 0.8705035971223022,
+          "f1": 0.8705035971223022,
+          "n": 139
+        },
+        "neutral": {
+          "precision": 0.8222222222222222,
+          "recall": 0.8538461538461538,
+          "f1": 0.8377358490566038,
+          "n": 130
+        },
+        "contradict": {
+          "precision": 0.8846153846153846,
+          "recall": 0.8440366972477065,
+          "f1": 0.863849765258216,
+          "n": 109
+        }
+      },
+      "confusion_matrix": [
+        [
+          121,
+          13,
+          5
+        ],
+        [
+          12,
+          111,
+          7
+        ],
+        [
+          6,
+          11,
+          92
+        ]
+      ],
+      "false_contradiction_rate": 0.04460966542750929,
+      "opposite_direction": {
+        "true_contradict_predicted_support": 6,
+        "true_support_predicted_contradict": 5,
+        "rate": 0.0291005291005291
+      }
+    }
+  ],
+  "macro_f1": {
+    "mean": 0.8831202463159814,
+    "stdev": 0.023052532280254407,
+    "worst": 0.8573630704790407
+  },
+  "support_f1": {
+    "mean": 0.8959932599802212,
+    "stdev": 0.014857898230038509,
+    "worst": 0.8705035971223022
+  },
+  "contradict_precision": {
+    "mean": 0.8930176737252209,
+    "stdev": 0.02380120628492742,
+    "worst": 0.8558558558558559
+  },
+  "contradict_recall": {
+    "mean": 0.8867556296914095,
+    "stdev": 0.04091938616554702,
+    "worst": 0.8440366972477065
+  },
+  "neutral_f1": {
+    "mean": 0.8636775252732751,
+    "stdev": 0.030231008459448885,
+    "worst": 0.837037037037037
+  }
+}

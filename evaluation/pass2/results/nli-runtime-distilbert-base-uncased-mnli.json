@@ -1,0 +1,11 @@
+{
+  "model": "typeform/distilbert-base-uncased-mnli",
+  "task": "nli",
+  "pipeline_file": "/Users/admin/Documents/Codex/2026-09-06/i-am-building-a-portfolio-project/outputs/claim-check/api/app/services/pipeline.py",
+  "count": 111,
+  "first_investigation_seconds": 3.67169741699945,
+  "mean_seconds": 0.024546757117088813,
+  "median_seconds": 0.0239432090002083,
+  "peak_rss_bytes_macos": 604209152,
+  "note": "CPU; web/database excluded; warm models; fresh NLI/embedding inference."
+}

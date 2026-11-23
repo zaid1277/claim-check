@@ -1,0 +1,62 @@
+[
+  {
+    "claim": "The library opens on Sunday.",
+    "passage": "The library is open on Sunday.",
+    "label": "support"
+  },
+  {
+    "claim": "The library opens on Sunday.",
+    "passage": "The library is closed on Sunday.",
+    "label": "contradict"
+  },
+  {
+    "claim": "The library opens on Sunday.",
+    "passage": "The library has a blue roof.",
+    "label": "neutral"
+  },
+  {
+    "claim": "The bridge opened in 1998.",
+    "passage": "The bridge opened in 1998.",
+    "label": "support"
+  },
+  {
+    "claim": "The bridge opened in 1998.",
+    "passage": "The bridge opened in 2001, not 1998.",
+    "label": "contradict"
+  },
+  {
+    "claim": "The bridge opened in 1998.",
+    "passage": "The bridge crosses a river.",
+    "label": "neutral"
+  },
+  {
+    "claim": "The shop sells apples.",
+    "passage": "Apples are available at the shop.",
+    "label": "support"
+  },
+  {
+    "claim": "The shop sells apples.",
+    "passage": "The shop does not sell apples.",
+    "label": "contradict"
+  },
+  {
+    "claim": "The shop sells apples.",
+    "passage": "The shop employs five people.",
+    "label": "neutral"
+  },
+  {
+    "claim": "The train leaves at noon.",
+    "passage": "The train departs at twelve noon.",
+    "label": "support"
+  },
+  {
+    "claim": "The train leaves at noon.",
+    "passage": "The train leaves at six in the evening, not noon.",
+    "label": "contradict"
+  },
+  {
+    "claim": "The train leaves at noon.",
+    "passage": "The train has six carriages.",
+    "label": "neutral"
+  }
+]

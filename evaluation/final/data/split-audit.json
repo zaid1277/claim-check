@@ -1,0 +1,23 @@
+{
+  "nli": 648,
+  "nli_labels": {
+    "neutral": 216,
+    "contradict": 216,
+    "support": 216
+  },
+  "nli_splits": {
+    "development": 180,
+    "validation": 120,
+    "test": 348
+  },
+  "investigations": 175,
+  "difficulty": {
+    "easy": 40,
+    "medium": 60,
+    "hard": 75
+  },
+  "prior_unique_claims": 800,
+  "exact_overlap": 0,
+  "group_leakage": 0,
+  "caveat": "Exact text/group checks do not prove absence of semantic or model-pretraining overlap."
+}

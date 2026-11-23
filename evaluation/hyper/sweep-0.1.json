@@ -1,0 +1,30 @@
+{
+  "minimum_evidence": 0.1,
+  "summary": {
+    "n": 175,
+    "accuracy": 0.76,
+    "coverage": 0.6285714285714286,
+    "selective_accuracy": 0.9454545454545454,
+    "abstention_rate": 0.37142857142857144,
+    "false_abstentions": 36,
+    "correct_abstentions": 29,
+    "confident_errors": 6,
+    "by_difficulty": {
+      "easy": {
+        "n": 40,
+        "correct": 38,
+        "accuracy": 0.95
+      },
+      "medium": {
+        "n": 60,
+        "correct": 58,
+        "accuracy": 0.9666666666666667
+      },
+      "hard": {
+        "n": 75,
+        "correct": 37,
+        "accuracy": 0.49333333333333335
+      }
+    }
+  }
+}

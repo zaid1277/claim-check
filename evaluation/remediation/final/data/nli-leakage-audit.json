@@ -1,0 +1,15 @@
+{
+  "combined_count": 280,
+  "by_split": {
+    "test": 280
+  },
+  "by_label": {
+    "support": 112,
+    "neutral": 87,
+    "contradict": 81
+  },
+  "internal_near_duplicates": [],
+  "exact_overlap_with_prior_corpora": [],
+  "near_duplicate_claims_with_prior_corpora": [],
+  "prior_texts_scanned": 8191
+}

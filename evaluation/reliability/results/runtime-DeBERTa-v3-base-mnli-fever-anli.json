@@ -1,0 +1,16 @@
+{
+  "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+  "label_mapping": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+  },
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "pairs": 53,
+  "first_call_seconds": 3.424831250000125,
+  "mean_seconds": 0.09831909518866612,
+  "median_seconds": 0.07669795800006796,
+  "peak_process_rss": 1173782528,
+  "rss_units": "bytes on macOS; KiB on Linux"
+}

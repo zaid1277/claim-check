@@ -1,0 +1,3775 @@
+{
+  "configuration": {
+    "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "output": "evaluation/final/results/development-base.json",
+    "split": "development",
+    "unlock_test": false,
+    "seal_test": false,
+    "policy": "production",
+    "rerank": false,
+    "cutoff": 0,
+    "temperature": 1,
+    "nli_only": true,
+    "minimum_evidence": 0.5,
+    "dominance_ratio": 2
+  },
+  "metrics": {
+    "nli": {
+      "development": {
+        "count": 180,
+        "accuracy": 0.5777777777777777,
+        "macro_f1": 0.5724567829830988,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            28,
+            0,
+            32
+          ],
+          [
+            7,
+            25,
+            28
+          ],
+          [
+            3,
+            6,
+            51
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.7368421052631579,
+            "recall": 0.4666666666666667,
+            "f1": 0.5714285714285714,
+            "count": 60
+          },
+          "contradict": {
+            "precision": 0.8064516129032258,
+            "recall": 0.4166666666666667,
+            "f1": 0.5494505494505495,
+            "count": 60
+          },
+          "neutral": {
+            "precision": 0.4594594594594595,
+            "recall": 0.85,
+            "f1": 0.5964912280701754,
+            "count": 60
+          }
+        },
+        "false_contradiction_rate": 0.05,
+        "raw": {
+          "count": 180,
+          "accuracy": 0.6444444444444445,
+          "macro_f1": 0.6448998146245852,
+          "labels": [
+            "support",
+            "contradict",
+            "neutral"
+          ],
+          "confusion_matrix": [
+            [
+              38,
+              6,
+              16
+            ],
+            [
+              8,
+              33,
+              19
+            ],
+            [
+              3,
+              12,
+              45
+            ]
+          ],
+          "per_label": {
+            "support": {
+              "precision": 0.7755102040816326,
+              "recall": 0.6333333333333333,
+              "f1": 0.6972477064220184,
+              "count": 60
+            },
+            "contradict": {
+              "precision": 0.6470588235294118,
+              "recall": 0.55,
+              "f1": 0.5945945945945946,
+              "count": 60
+            },
+            "neutral": {
+              "precision": 0.5625,
+              "recall": 0.75,
+              "f1": 0.6428571428571429,
+              "count": 60
+            }
+          },
+          "false_contradiction_rate": 0.15
+        },
+        "by_origin": {
+          "authored": {
+            "count": 0
+          },
+          "ANLI": {
+            "count": 180,
+            "accuracy": 0.5777777777777777,
+            "macro_f1": 0.5724567829830988,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                28,
+                0,
+                32
+              ],
+              [
+                7,
+                25,
+                28
+              ],
+              [
+                3,
+                6,
+                51
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.7368421052631579,
+                "recall": 0.4666666666666667,
+                "f1": 0.5714285714285714,
+                "count": 60
+              },
+              "contradict": {
+                "precision": 0.8064516129032258,
+                "recall": 0.4166666666666667,
+                "f1": 0.5494505494505495,
+                "count": 60
+              },
+              "neutral": {
+                "precision": 0.4594594594594595,
+                "recall": 0.85,
+                "f1": 0.5964912280701754,
+                "count": 60
+              }
+            },
+            "false_contradiction_rate": 0.05
+          }
+        },
+        "mean_seconds_cached": 0.13331277593895519
+      }
+    }
+  },
+  "predictions": {
+    "nli": [
+      {
+        "id": "final-anli-f19a2c11-cda8-400b-a0a2-17091a15fa49",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The A1 road runs 100 miles west-east.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9919684069902996,
+        "probabilities": {
+          "entailment": 0.0013278757132959562,
+          "neutral": 0.006703717296404351,
+          "contradiction": 0.9919684069902996
+        },
+        "reason": "Proposition relevance -2.54 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 3.78500404100123
+      },
+      {
+        "id": "final-anli-a922cce4-aac3-4df4-9841-bd73e3c1c514",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Clete Boyer is a former right-handed pitcher and pitching coach in Major League Baseball who played between 1949 and 1955 for the St. Louis Cardinals.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.8898493544880481,
+        "probabilities": {
+          "entailment": 0.010437030648956142,
+          "neutral": 0.09971361486299578,
+          "contradiction": 0.8898493544880481
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13584650000120746
+      },
+      {
+        "id": "final-anli-4fa3888d-b74a-4394-adb4-a082f78675ad",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "20% of the domestic Indian aviation market is not controlled by the FIA.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9899184356390748,
+        "probabilities": {
+          "entailment": 0.9899184356390748,
+          "neutral": 0.007429797573556969,
+          "contradiction": 0.0026517667873681735
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11672283299776609
+      },
+      {
+        "id": "final-anli-c60cc321-2437-4e7b-a667-1dafff40a31a",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Sex and the Single Girl was a successful book in over 35 countries",
+        "expected": "neutral",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.943480148981982,
+        "probabilities": {
+          "entailment": 0.943480148981982,
+          "neutral": 0.036916123375381756,
+          "contradiction": 0.019603727642636338
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11315166699932888
+      },
+      {
+        "id": "final-anli-de8e5f3d-37ad-4893-94bd-f943cfb12b41",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Kew Bridge is in Kent.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9826589729494454,
+        "probabilities": {
+          "entailment": 0.0009860223821877262,
+          "neutral": 0.016355004668366924,
+          "contradiction": 0.9826589729494454
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09547158399800537
+      },
+      {
+        "id": "final-anli-63bcc2a3-d4ad-480a-a226-58b53aee74dd",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Abesim has two high schools, St. James Seminary and Olistar Senior High School. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5043968461162949,
+        "probabilities": {
+          "entailment": 0.19743315556673421,
+          "neutral": 0.5043968461162949,
+          "contradiction": 0.2981699983169709
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1321708329996909
+      },
+      {
+        "id": "final-anli-bd409b37-49c6-4afc-9229-a0ef590d58bd",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "They agree somewhat on the issue of health",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9041981432950909,
+        "probabilities": {
+          "entailment": 0.06209850130544178,
+          "neutral": 0.9041981432950909,
+          "contradiction": 0.03370335539946725
+        },
+        "reason": "Proposition relevance -2.82 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10863475000223843
+      },
+      {
+        "id": "final-anli-6b73adbc-d8ba-4bc2-9272-1ff5fa3986a0",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Damien Keyeux work can be seen on the small screen",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9131026490886395,
+        "probabilities": {
+          "entailment": 0.07326295346873997,
+          "neutral": 0.9131026490886395,
+          "contradiction": 0.013634397442620677
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12187929200081271
+      },
+      {
+        "id": "final-anli-f0a2e184-5a89-4524-8651-798a1f147dfa",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The speaker is a big fan of law-enforcement",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9656585004565615,
+        "probabilities": {
+          "entailment": 0.9656585004565615,
+          "neutral": 0.03269720062586001,
+          "contradiction": 0.001644298917578411
+        },
+        "reason": "Proposition relevance -7.74 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10479141699761385
+      },
+      {
+        "id": "final-anli-2f01048c-1287-43a5-abf6-72c5e26e464e",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Working For A Nuclear Free City released an album before Working For A Nuclear Free City.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9902186814210471,
+        "probabilities": {
+          "entailment": 0.005893980511643147,
+          "neutral": 0.003887338067309782,
+          "contradiction": 0.9902186814210471
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11287516599986702
+      },
+      {
+        "id": "final-anli-c98e7379-d340-443d-84e3-088fef918adc",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The microsd is for storage.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5027022189413565,
+        "probabilities": {
+          "entailment": 0.06473745422489287,
+          "neutral": 0.5027022189413565,
+          "contradiction": 0.4325603268337507
+        },
+        "reason": "Proposition relevance -6.43 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09111987500000396
+      },
+      {
+        "id": "final-anli-bb0a5d0e-22f8-4d17-a7fd-cb1bf417084a",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "275 men from Fort Dufferin took 125 years to travel to Winnipeg",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9745709880023042,
+        "probabilities": {
+          "entailment": 0.011012168603850079,
+          "neutral": 0.01441684339384567,
+          "contradiction": 0.9745709880023042
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10388295799930347
+      },
+      {
+        "id": "final-anli-6d60e94c-2684-47d8-9b6d-8e13abc549a3",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Chad Gray's grandmother was influential to him.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9985513213261441,
+        "probabilities": {
+          "entailment": 0.001246744202282703,
+          "neutral": 0.9985513213261441,
+          "contradiction": 0.00020193447157309887
+        },
+        "reason": "Proposition relevance 1.75 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11725112500062096
+      },
+      {
+        "id": "final-anli-f8523e95-bcaa-4cfd-b5d6-5e5682762130",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Hawthorne makes most of its money from military tourism",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.994529234258943,
+        "probabilities": {
+          "entailment": 0.0007297092422023969,
+          "neutral": 0.994529234258943,
+          "contradiction": 0.00474105649885471
+        },
+        "reason": "Proposition relevance -2.04 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.12387241699980223
+      },
+      {
+        "id": "final-anli-5f6b3fed-e5e5-4e89-9bd0-c1dd1ec38317",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "They staked him out on either a Monday or a Tuesday.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9558358223821042,
+        "probabilities": {
+          "entailment": 0.03722169851794789,
+          "neutral": 0.9558358223821042,
+          "contradiction": 0.006942479099947873
+        },
+        "reason": "Proposition relevance 0.10 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.12313991699920734
+      },
+      {
+        "id": "final-anli-a4f0ef88-7b6d-47db-bcc5-8911f622db22",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The community of Castile and Leon was founded in 1947.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8192294859240732,
+        "probabilities": {
+          "entailment": 0.13678902286111666,
+          "neutral": 0.8192294859240732,
+          "contradiction": 0.04398149121481022
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10422524999739835
+      },
+      {
+        "id": "final-anli-df8809a2-f680-449c-9883-67f36e6424f2",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Utah has a species of poppy flowering plant. ",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9894599995570632,
+        "probabilities": {
+          "entailment": 0.9894599995570632,
+          "neutral": 0.004382535845943031,
+          "contradiction": 0.006157464596993608
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10399058300026809
+      },
+      {
+        "id": "final-anli-f05b3ad9-e6e9-472f-8d10-857ee8b45a13",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Derek Ervin Smith hurt his arm playing basketball. ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.956756781853678,
+        "probabilities": {
+          "entailment": 0.000823662399913792,
+          "neutral": 0.956756781853678,
+          "contradiction": 0.04241955574640813
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10601454100105911
+      },
+      {
+        "id": "final-anli-cface903-2f9e-4a38-8921-4544681c0275",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Earlly Mac collaborated with other rappers.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9954295008240321,
+        "probabilities": {
+          "entailment": 0.9954295008240321,
+          "neutral": 0.004316253679667437,
+          "contradiction": 0.0002542454963003528
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12141825000071549
+      },
+      {
+        "id": "final-anli-1711000c-970d-4017-8f1d-7d34f69cad31",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The Demand Institute was founded by two men.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9592433048681268,
+        "probabilities": {
+          "entailment": 0.9592433048681268,
+          "neutral": 0.026211409514162804,
+          "contradiction": 0.014545285617710362
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10272791599709308
+      },
+      {
+        "id": "final-anli-0666a50d-cabf-4202-9e5e-6e9fc78ac645",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Lilly had never been on a date before.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.4347324350350944,
+        "probabilities": {
+          "entailment": 0.38634405453783444,
+          "neutral": 0.4347324350350944,
+          "contradiction": 0.1789235104270712
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10556020800140686
+      },
+      {
+        "id": "final-anli-06b76bff-8ead-4eff-9b79-2ed328ae9be6",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Thomas E. Watson built a National Landmark in Georgia. ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.4719960198710784,
+        "probabilities": {
+          "entailment": 0.4719960198710784,
+          "neutral": 0.43464756678498234,
+          "contradiction": 0.09335641334393918
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10392937500000698
+      },
+      {
+        "id": "final-anli-31d2bcf2-966b-434c-a0d2-6bdd263b4c11",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The ALGOL 60 programming language was designed with the goal of a much wider scope of application and more rigorously defined syntax and semantics.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5018631746967642,
+        "probabilities": {
+          "entailment": 0.28971447970417347,
+          "neutral": 0.20842234559906236,
+          "contradiction": 0.5018631746967642
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1068711660009285
+      },
+      {
+        "id": "final-anli-5414af53-e135-48db-b503-b0645bcb3dc8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "There are no smaller Sunni institutions for the Barelvi movement in Pakistan than Jamia Naeemia Lahore.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9762809334478254,
+        "probabilities": {
+          "entailment": 0.02079025679416218,
+          "neutral": 0.002928809758012379,
+          "contradiction": 0.9762809334478254
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10657870800059754
+      },
+      {
+        "id": "final-anli-86544727-57d8-4294-b668-007591adf51c",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "NBA 2K9 has no N.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9834128983866621,
+        "probabilities": {
+          "entailment": 0.006253907609492627,
+          "neutral": 0.010333194003845327,
+          "contradiction": 0.9834128983866621
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12307687499924214
+      },
+      {
+        "id": "final-anli-e2593aa0-1384-40dd-9cd4-99706854e5a3",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "It is not impossible to dispute a debit charge. ",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9681735294941001,
+        "probabilities": {
+          "entailment": 0.9681735294941001,
+          "neutral": 0.030816329009715954,
+          "contradiction": 0.0010101414961840036
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.08693995900102891
+      },
+      {
+        "id": "final-anli-af3b9f7b-ade4-4804-a817-eaceea4e3013",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Carlos Roberto PenaVega will be 30 on August 15th 2019.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5328821932615123,
+        "probabilities": {
+          "entailment": 0.41326725549409377,
+          "neutral": 0.05385055124439384,
+          "contradiction": 0.5328821932615123
+        },
+        "reason": "The measurement concerns a different reporting period.",
+        "origin": "ANLI",
+        "seconds": 0.10828666700035683
+      },
+      {
+        "id": "final-anli-2062277c-b6ce-4e17-9f8c-c2be1e2c8c7b",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "TNT has released between 2 and 4 live albums.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.7797068764429042,
+        "probabilities": {
+          "entailment": 0.7797068764429042,
+          "neutral": 0.11118364971478241,
+          "contradiction": 0.10910947384231363
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10656433300027857
+      },
+      {
+        "id": "final-anli-36235f9c-bf04-4013-b0a8-c235d5a8a476",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "she used the kedin website",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9855831549349048,
+        "probabilities": {
+          "entailment": 0.011929278587150803,
+          "neutral": 0.0024875664779444567,
+          "contradiction": 0.9855831549349048
+        },
+        "reason": "Proposition relevance -7.58 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09467399999994086
+      },
+      {
+        "id": "final-anli-137b924e-754d-4c44-9308-9e320727916f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Lamarck Island is located closer to the north pole than the south pole.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5177036779338011,
+        "probabilities": {
+          "entailment": 0.27474604512494527,
+          "neutral": 0.5177036779338011,
+          "contradiction": 0.20755027694125364
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1081390420004027
+      },
+      {
+        "id": "final-anli-310af2c5-071f-4803-b19a-0c40f6aefa06",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Garibaldi was an all male band that Xavier Ortiz Ramirez used to be in.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9982425046402095,
+        "probabilities": {
+          "entailment": 0.001143969501439007,
+          "neutral": 0.9982425046402095,
+          "contradiction": 0.0006135258583514382
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12471216699850629
+      },
+      {
+        "id": "final-anli-5bfa1c66-540e-4808-b2c2-73cf5ee7a9ee",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "americas children do not want to be educated",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9193308579559355,
+        "probabilities": {
+          "entailment": 0.002023504950595998,
+          "neutral": 0.9193308579559355,
+          "contradiction": 0.07864563709346842
+        },
+        "reason": "Proposition relevance 0.73 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10191266699985135
+      },
+      {
+        "id": "final-anli-832ea463-55eb-42e8-8090-2459ab35f3a8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "the county was organised  February 28 and has a population of 1845",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6135197762953392,
+        "probabilities": {
+          "entailment": 0.07023156357869483,
+          "neutral": 0.31624866012596614,
+          "contradiction": 0.6135197762953392
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10456329199951142
+      },
+      {
+        "id": "final-anli-b607c4b5-5d0e-4ddf-9420-1136ea51d9de",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Victor Marius Alphonse Petipa died in July",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9381873561595713,
+        "probabilities": {
+          "entailment": 0.9381873561595713,
+          "neutral": 0.05375118402936452,
+          "contradiction": 0.00806145981106424
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11201295900173136
+      },
+      {
+        "id": "final-anli-2eb885bf-1536-4bde-ab47-2a332ffd6a92",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Omar enjoyed making films ",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9993100185255607,
+        "probabilities": {
+          "entailment": 0.0005101941438879329,
+          "neutral": 0.9993100185255607,
+          "contradiction": 0.00017978733055143162
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11281529199914075
+      },
+      {
+        "id": "final-anli-1add00fc-c106-443b-a4d6-6bd6488a5f26",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Endem TV Tower was being built in 1999",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5004006419954524,
+        "probabilities": {
+          "entailment": 0.5004006419954524,
+          "neutral": 0.3197625919786356,
+          "contradiction": 0.17983676602591203
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10528108300059102
+      },
+      {
+        "id": "final-anli-4359747c-5ce1-4b45-a454-8f84850f3a4e",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Christopher Little Literary Agency has managed Janet Gleeson for her entire career.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.93566700837585,
+        "probabilities": {
+          "entailment": 0.003165118139671809,
+          "neutral": 0.93566700837585,
+          "contradiction": 0.061167873484478046
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11184454099930008
+      },
+      {
+        "id": "final-anli-84c8b156-1de6-4b51-95ef-fcb327fdaa3d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Charge the segway before using it.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9976544884734997,
+        "probabilities": {
+          "entailment": 0.9976544884734997,
+          "neutral": 0.0019706266370091083,
+          "contradiction": 0.0003748848894910887
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1058668330006185
+      },
+      {
+        "id": "final-anli-91397254-47d8-4111-a725-9c556f6b4c23",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Alcoholics can turn down a drink.",
+        "expected": "neutral",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.6809223760512492,
+        "probabilities": {
+          "entailment": 0.6809223760512492,
+          "neutral": 0.3130319659170015,
+          "contradiction": 0.006045658031749419
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09368866599834291
+      },
+      {
+        "id": "final-anli-c2838b21-2bd3-4098-be61-76f1b6848a59",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Democrats gave out the information.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.4614717386059627,
+        "probabilities": {
+          "entailment": 0.1609639161697903,
+          "neutral": 0.4614717386059627,
+          "contradiction": 0.377564345224247
+        },
+        "reason": "Proposition relevance 0.04 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09555162499964354
+      },
+      {
+        "id": "final-anli-a8b8c74a-a685-435f-a1c8-e10665883b65",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Armour High School has teachers.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9877691117738862,
+        "probabilities": {
+          "entailment": 0.9877691117738862,
+          "neutral": 0.011814836299282476,
+          "contradiction": 0.00041605192683136715
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10441620900019188
+      },
+      {
+        "id": "final-anli-ccc5ce81-58cf-41c7-a6ca-684916d8f7e9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Bei'an is the closest city to Baoquan",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9983707493642899,
+        "probabilities": {
+          "entailment": 0.0006735477886370909,
+          "neutral": 0.9983707493642899,
+          "contradiction": 0.0009557028470729034
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1260715419994085
+      },
+      {
+        "id": "final-anli-622888f0-1c08-4309-8a33-66a930f3aa21",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "High Bridge is even smaller in population than it was in 2010.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7479502960849159,
+        "probabilities": {
+          "entailment": 0.019436553060602872,
+          "neutral": 0.23261315085448123,
+          "contradiction": 0.7479502960849159
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.1051912499970058
+      },
+      {
+        "id": "final-anli-fabf4411-bc42-445d-baf9-c668c54b14e4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Only people taller than seven feet are allowed a debit card",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9915967552321744,
+        "probabilities": {
+          "entailment": 0.0005192892645261281,
+          "neutral": 0.9915967552321744,
+          "contradiction": 0.007883955503299695
+        },
+        "reason": "Proposition relevance -8.85 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09277162500075065
+      },
+      {
+        "id": "final-anli-32dae2aa-98fc-48f7-8504-696ad08a6f93",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "\"You Are My Sunshine\" was recorded after WW2",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9862704438220596,
+        "probabilities": {
+          "entailment": 0.009924211263259474,
+          "neutral": 0.0038053449146809226,
+          "contradiction": 0.9862704438220596
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10329479199936031
+      },
+      {
+        "id": "final-anli-e5be35ae-0c07-490b-9d45-eed4d4912916",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "\"8 Simple Rules\", \"Curb Your Enthusiasm\", and \"How I Met Your Mother\" all have a similar link in that Suzy Nakamura made a guest appearance in each of them.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8734706861787924,
+        "probabilities": {
+          "entailment": 0.8734706861787924,
+          "neutral": 0.12063104738033675,
+          "contradiction": 0.0058982664408706986
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1399370840008487
+      },
+      {
+        "id": "final-anli-f220abc2-821a-4286-ada9-04d358d740ea",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Never Shout Never has a self titled EP.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9884613633624674,
+        "probabilities": {
+          "entailment": 0.9884613633624674,
+          "neutral": 0.0037380010276065047,
+          "contradiction": 0.007800635609926126
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10801329199966858
+      },
+      {
+        "id": "final-anli-2abec3a5-a5b0-4ee7-988a-448142698d8d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Kernebone currently hosts a radio show.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8932046328561052,
+        "probabilities": {
+          "entailment": 0.0562555739169381,
+          "neutral": 0.8932046328561052,
+          "contradiction": 0.05053979322695682
+        },
+        "reason": "Currentness cannot be established without a usable publication date.",
+        "origin": "ANLI",
+        "seconds": 0.11108804200193845
+      },
+      {
+        "id": "final-anli-aa93385a-381f-405c-896d-df4bd62c6246",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Occupy Comics will not be in-production in the next five years.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8215711011689388,
+        "probabilities": {
+          "entailment": 0.00047709986645212634,
+          "neutral": 0.8215711011689388,
+          "contradiction": 0.17795179896460908
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10294975000215345
+      },
+      {
+        "id": "final-anli-44858b51-2f1a-4bde-b831-2c80f8c263b6",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Sacha Baron Cohen and \u015etefan from B\u0103rbule\u015fti are the same person.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.993180517045186,
+        "probabilities": {
+          "entailment": 0.002450585394542445,
+          "neutral": 0.004368897560271584,
+          "contradiction": 0.993180517045186
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1264690829993924
+      },
+      {
+        "id": "final-anli-a0ceed17-0f51-47a3-bbe9-999fcdbf53ca",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "cur is a term that is of english origin",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9960559794237428,
+        "probabilities": {
+          "entailment": 0.9960559794237428,
+          "neutral": 0.0020177590157954965,
+          "contradiction": 0.001926261560461622
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12493399999948451
+      },
+      {
+        "id": "final-anli-f96b1006-5712-4e15-afff-daa52f87256e",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "How to treat syphilis depends on the stage of syphilis you're diagnosed with.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5502402173284069,
+        "probabilities": {
+          "entailment": 0.5502402173284069,
+          "neutral": 0.3253814695876525,
+          "contradiction": 0.12437831308394062
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11527004199888324
+      },
+      {
+        "id": "final-anli-704b5371-f3f8-4ac3-a15a-717cd47d3f05",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Olive oil can be used in a diffuser to relax and reduce anxiety",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9262707458686583,
+        "probabilities": {
+          "entailment": 0.003464941114887134,
+          "neutral": 0.9262707458686583,
+          "contradiction": 0.07026431301645449
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11211766700216685
+      },
+      {
+        "id": "final-anli-ce3c4db4-a1ac-4e27-a886-290678776e7f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "It is unknown where the Indian pariah dog originated from.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9984679330306414,
+        "probabilities": {
+          "entailment": 0.9984679330306414,
+          "neutral": 0.0010096447587331595,
+          "contradiction": 0.0005224222106255236
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10635054199883598
+      },
+      {
+        "id": "final-anli-71072391-cdbe-4a29-abd6-97f619ea85f8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Unlimited marine insurance has a high cost differential to the price of a policy for individual commercial vessels. ",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9527817560520081,
+        "probabilities": {
+          "entailment": 0.0036053758444332387,
+          "neutral": 0.04361286810355879,
+          "contradiction": 0.9527817560520081
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09456312499969499
+      },
+      {
+        "id": "final-anli-438189e9-2639-4d1b-a802-c1f1c6f5f8ba",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Mr. Speaker was Robert Kennedy",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9214260193359574,
+        "probabilities": {
+          "entailment": 0.026131971211606642,
+          "neutral": 0.05244200945243596,
+          "contradiction": 0.9214260193359574
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1031632090016501
+      },
+      {
+        "id": "final-anli-2c7aaa29-2204-4796-93e9-827389546cae",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "the county does not have any requirement or regulation on chicken keeping. ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9503071781794066,
+        "probabilities": {
+          "entailment": 0.0005825321157227198,
+          "neutral": 0.04911028970487073,
+          "contradiction": 0.9503071781794066
+        },
+        "reason": "Proposition relevance 1.43 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10588720899977488
+      },
+      {
+        "id": "final-anli-d2da413a-87bb-4025-9a85-528e2976e7dc",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Sara had to make another cup or not drink cofee",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.7905131269553435,
+        "probabilities": {
+          "entailment": 0.20360901154873962,
+          "neutral": 0.7905131269553435,
+          "contradiction": 0.005877861495916878
+        },
+        "reason": "Proposition relevance -3.04 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09388420800314634
+      },
+      {
+        "id": "final-anli-e09a6f09-ee7d-4250-b211-22498200b0a4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The us goverment made the company split itself",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9954187690896434,
+        "probabilities": {
+          "entailment": 0.9954187690896434,
+          "neutral": 0.0027433248158558465,
+          "contradiction": 0.0018379060945005955
+        },
+        "reason": "Proposition relevance -7.39 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10663787500016042
+      },
+      {
+        "id": "final-anli-00f85daf-508e-4b3b-b312-d872d0e1e928",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Gang Up was written specifically for the movie The Fate of the Furious",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9520123960212162,
+        "probabilities": {
+          "entailment": 0.03649340574531086,
+          "neutral": 0.9520123960212162,
+          "contradiction": 0.011494198233472879
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1072081669990439
+      },
+      {
+        "id": "final-anli-5cefedca-3e1f-41b6-9cc9-40a1afa02d32",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Gulf Air has direct flights to Asia",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9960872360407735,
+        "probabilities": {
+          "entailment": 0.0030281233716524863,
+          "neutral": 0.9960872360407735,
+          "contradiction": 0.0008846405875738404
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10723054199843318
+      },
+      {
+        "id": "final-anli-83d64054-e4a0-40dd-9607-c3936ec23f2f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Pouncey was born the the month before July 1989.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9974599243819099,
+        "probabilities": {
+          "entailment": 0.0017601333273579891,
+          "neutral": 0.0007799422907321362,
+          "contradiction": 0.9974599243819099
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10977545799687505
+      },
+      {
+        "id": "final-anli-9d4f76f9-94bd-4293-ae45-a983be592bc8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Sarah Beth Noriega was the best player in the 1997 West Coast Conference",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9004153388213739,
+        "probabilities": {
+          "entailment": 0.09860767994528312,
+          "neutral": 0.9004153388213739,
+          "contradiction": 0.0009769812333429487
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10413558399886824
+      },
+      {
+        "id": "final-anli-8f01d961-7f4a-44a9-8081-3fdf25a50328",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Hunter Mountain lies in lexington",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8146178196868403,
+        "probabilities": {
+          "entailment": 0.8146178196868403,
+          "neutral": 0.011250524878188718,
+          "contradiction": 0.17413165543497097
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10166604200276197
+      },
+      {
+        "id": "final-anli-fd01f865-c66a-4ae0-af71-6d9e57fbf3fc",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "He wrote farces and puppets plays for the Th\u00e9\u00e2tre de la foire Saint-Germain twice.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.89988277701837,
+        "probabilities": {
+          "entailment": 0.076492263903271,
+          "neutral": 0.89988277701837,
+          "contradiction": 0.0236249590783588
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12740220799969393
+      },
+      {
+        "id": "final-anli-37aeaefc-81d5-4581-b96c-c4b35506c11d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Nicole Wray's music is produced by Missy Elliott and Timbaland since 1998.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9961561777665312,
+        "probabilities": {
+          "entailment": 0.0033103005240373677,
+          "neutral": 0.9961561777665312,
+          "contradiction": 0.0005335217094313744
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12019858399798977
+      },
+      {
+        "id": "final-anli-9385970e-2fbe-47e0-8277-b1e786807205",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Putnam County is on the East coast of the US.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9846937686670358,
+        "probabilities": {
+          "entailment": 0.9846937686670358,
+          "neutral": 0.012845967468295378,
+          "contradiction": 0.002460263864668872
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10739041700071539
+      },
+      {
+        "id": "final-anli-f4a187b3-f0c4-4819-a51e-21bed1af0466",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "groups and co-ops are for the parents too.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.995881663790536,
+        "probabilities": {
+          "entailment": 0.995881663790536,
+          "neutral": 0.002594854694298798,
+          "contradiction": 0.0015234815151650473
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10960312500174041
+      },
+      {
+        "id": "final-anli-b4071fff-2d8e-4df1-a4ce-2dcbd9136f81",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "More than half of the Hispanic vote  went to the governor",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8025939806324834,
+        "probabilities": {
+          "entailment": 0.8025939806324834,
+          "neutral": 0.00855009065573586,
+          "contradiction": 0.18885592871178075
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12046491699948092
+      },
+      {
+        "id": "final-anli-9a8184ab-5b29-4a7b-8c7e-f1bcee7a2ed2",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "i think candy is bad for me",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9970241119128738,
+        "probabilities": {
+          "entailment": 0.0002491347415826489,
+          "neutral": 0.002726753345543552,
+          "contradiction": 0.9970241119128738
+        },
+        "reason": "Proposition relevance -4.73 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09100766700066742
+      },
+      {
+        "id": "final-anli-e7994e94-1b40-4c59-95a7-b45ce60ab691",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Armenian Film Festival is not in North America.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.982257017745984,
+        "probabilities": {
+          "entailment": 0.01167403963281117,
+          "neutral": 0.0060689426212049225,
+          "contradiction": 0.982257017745984
+        },
+        "reason": "Proposition relevance 0.62 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10666129200035357
+      },
+      {
+        "id": "final-anli-1d5a016a-8934-4587-8707-a4ef02e75969",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Fox ended The Wedding Album in the middle of the season.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9972231077598315,
+        "probabilities": {
+          "entailment": 0.0005593882109281436,
+          "neutral": 0.9972231077598315,
+          "contradiction": 0.0022175040292405136
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11361158299769158
+      },
+      {
+        "id": "final-anli-25c0793b-b47e-4f90-82ed-1fab146fc7e4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Sanding the wood is the first step in wood finishing.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6474278580256839,
+        "probabilities": {
+          "entailment": 0.3485928613230927,
+          "neutral": 0.6474278580256839,
+          "contradiction": 0.003979280651223374
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09401291700123693
+      },
+      {
+        "id": "final-anli-5cb3d29b-fae1-4385-a2bc-1e1f058cf0fa",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Institutional and private shareholders in Zambia own less than 20% of the shares for Zambia Sugar Plc.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8076527077697369,
+        "probabilities": {
+          "entailment": 0.18419288743543874,
+          "neutral": 0.008154404794824375,
+          "contradiction": 0.8076527077697369
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.12322729100196739
+      },
+      {
+        "id": "final-anli-388f5ccb-a500-4ab3-b182-e025f15e5378",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Jonathan Erlich and Andy Ram have won multiple championships.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.996322323049877,
+        "probabilities": {
+          "entailment": 0.0033325930615445347,
+          "neutral": 0.996322323049877,
+          "contradiction": 0.00034508388857849143
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10257979200105183
+      },
+      {
+        "id": "final-anli-48659cdd-1136-43e0-8162-b65de5bd4913",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Landican is near London.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8306647972002267,
+        "probabilities": {
+          "entailment": 0.009358633027235257,
+          "neutral": 0.15997656977253813,
+          "contradiction": 0.8306647972002267
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.10442883399809944
+      },
+      {
+        "id": "final-anli-5c450d92-a43e-4070-b8c6-3171b38df070",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "She hated her career",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9995693340811832,
+        "probabilities": {
+          "entailment": 0.00012054421516421818,
+          "neutral": 0.9995693340811832,
+          "contradiction": 0.0003101217036525652
+        },
+        "reason": "Proposition relevance -7.49 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10837329200148815
+      },
+      {
+        "id": "final-anli-04098ae7-515a-41d7-9232-7152f5d331a1",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Col de Manse (1268 m ) is a mountain.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.99363415404841,
+        "probabilities": {
+          "entailment": 0.99363415404841,
+          "neutral": 0.00149758760778714,
+          "contradiction": 0.004868258343802771
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12126200000056997
+      },
+      {
+        "id": "final-anli-d788572c-453b-4965-a4cb-b67f8c6b0c5d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The opera's libretto is by Webster, and includes direct citations from the novel.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9691562363904217,
+        "probabilities": {
+          "entailment": 0.9691562363904217,
+          "neutral": 0.020439484460113653,
+          "contradiction": 0.010404279149464636
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11396049999893876
+      },
+      {
+        "id": "final-anli-bad5f282-3410-4f8f-b60d-35a08a37f8b8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Being in the top #100 album chart for the US, Lament was very popular with the American speaking audience. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9958188768898643,
+        "probabilities": {
+          "entailment": 0.0026666112731080923,
+          "neutral": 0.9958188768898643,
+          "contradiction": 0.0015145118370277861
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12650608299736632
+      },
+      {
+        "id": "final-anli-31f02586-9afd-4577-bc9a-579ce9eef314",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "She died at 26 years old.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.845018692408705,
+        "probabilities": {
+          "entailment": 0.13055109043990232,
+          "neutral": 0.02443021715139266,
+          "contradiction": 0.845018692408705
+        },
+        "reason": "Proposition relevance -4.27 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10860745899844915
+      },
+      {
+        "id": "final-anli-88e3ecb4-d425-43ed-9e96-f92f609df081",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Jean-Baptiste Poquelin never watched any of his plays.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9957173492134813,
+        "probabilities": {
+          "entailment": 0.000521770766235234,
+          "neutral": 0.9957173492134813,
+          "contradiction": 0.003760880020283501
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12811320799664827
+      },
+      {
+        "id": "final-anli-6a0e7a59-c6d7-47cc-bd49-a3f02adba0e4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The 26th episode is the last episode of the series. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.839593149067909,
+        "probabilities": {
+          "entailment": 0.0012218698532571904,
+          "neutral": 0.1591849810788337,
+          "contradiction": 0.839593149067909
+        },
+        "reason": "Proposition relevance 1.90 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.12373312500130851
+      },
+      {
+        "id": "final-anli-8860bef9-b5ba-4088-a0c4-28b00dbbc5cd",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Rohnert Park is an amusement park in Sonoma County, California.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9979206458440206,
+        "probabilities": {
+          "entailment": 0.00020257354935456103,
+          "neutral": 0.00187678060662484,
+          "contradiction": 0.9979206458440206
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10991199999989476
+      },
+      {
+        "id": "final-anli-ce2a3973-5f8c-4285-b6ea-424354aee230",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Johnny Depp composed the songs in the soundtrack for the movie \"Finding Neverland\".",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.997041074771423,
+        "probabilities": {
+          "entailment": 0.0005609616748532782,
+          "neutral": 0.002397963553723693,
+          "contradiction": 0.997041074771423
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10583233299985295
+      },
+      {
+        "id": "final-anli-6ca5efad-e49f-490a-87e7-51d751e1e59d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Take Two was released more than 1000 seconds ago.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9950180836044369,
+        "probabilities": {
+          "entailment": 0.9950180836044369,
+          "neutral": 0.0011396959910665396,
+          "contradiction": 0.003842220404496743
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12002595900048618
+      },
+      {
+        "id": "final-anli-ba2a94b7-d2b1-4815-af9b-04757823a6d7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "H Bruce Humberstone is American.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9840558185574304,
+        "probabilities": {
+          "entailment": 0.005934477581787922,
+          "neutral": 0.9840558185574304,
+          "contradiction": 0.010009703860781666
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10174945800099522
+      },
+      {
+        "id": "final-anli-fffdcadd-1ad3-4072-bf43-7b7a88fa1bc7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Carlos Menem was involved in Yomagate in 1991.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.7945742853815533,
+        "probabilities": {
+          "entailment": 0.14693983831879057,
+          "neutral": 0.7945742853815533,
+          "contradiction": 0.05848587629965619
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10402149999936228
+      },
+      {
+        "id": "final-anli-cae37f57-819d-41b6-895f-ac5b5ec83dab",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "William Hatfield did not survive the Battle of Matewan.",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.8970380581824771,
+        "probabilities": {
+          "entailment": 0.06788425418153013,
+          "neutral": 0.03507768763599278,
+          "contradiction": 0.8970380581824771
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10293633300170768
+      },
+      {
+        "id": "final-anli-c02471fd-a413-475a-a146-33ec20dc3e61",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The speaker has issues other than the motion to quash.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9854179539122011,
+        "probabilities": {
+          "entailment": 0.9854179539122011,
+          "neutral": 0.013417136887654977,
+          "contradiction": 0.0011649092001437984
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11202170799879241
+      },
+      {
+        "id": "final-anli-74aeaf0a-9955-4a5d-98ac-42ed2773dc62",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "A dog attacked them.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9724096832817153,
+        "probabilities": {
+          "entailment": 0.010147241145817484,
+          "neutral": 0.01744307557246727,
+          "contradiction": 0.9724096832817153
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09172012500130222
+      },
+      {
+        "id": "final-anli-7f163da3-636d-4c59-bc4c-74fbe3bb921b",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Child's pose is a yoga manouever",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9873540046253068,
+        "probabilities": {
+          "entailment": 0.9873540046253068,
+          "neutral": 0.010839304374020928,
+          "contradiction": 0.0018066910006720978
+        },
+        "reason": "Proposition relevance 0.84 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09165895800106227
+      },
+      {
+        "id": "final-anli-37b0bbb4-639c-42a0-aad6-7f9e41a2d198",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Kinky had a song in the sequel to LittleBigPlanet. ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9456555653732251,
+        "probabilities": {
+          "entailment": 0.04184836715745161,
+          "neutral": 0.9456555653732251,
+          "contradiction": 0.012496067469323207
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11239729100270779
+      },
+      {
+        "id": "final-anli-4d74d69b-3e94-49b4-a23a-8beea1ba476f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The steak was cooked for too long or on too high a temperature.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.997626248237937,
+        "probabilities": {
+          "entailment": 0.0017734277377587494,
+          "neutral": 0.997626248237937,
+          "contradiction": 0.0006003240243044121
+        },
+        "reason": "Proposition relevance -7.82 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10223820799728855
+      },
+      {
+        "id": "final-anli-abcd83be-39ba-4d89-a486-e99be7703f5d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Wallace Wade, of the 1938 Duke Blue Devils football team, went without scoring the entire regular season, earning the Blue Devils the Southern Conference championship.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9349704126895375,
+        "probabilities": {
+          "entailment": 0.040592955905773755,
+          "neutral": 0.024436631404688783,
+          "contradiction": 0.9349704126895375
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12309741700300947
+      },
+      {
+        "id": "final-anli-0562cd11-22a4-4a57-8a2f-174ea9bbb6e5",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The American Modern Dance movement had its first pioneers in the 1940's.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.998010417795594,
+        "probabilities": {
+          "entailment": 0.00022555646154615337,
+          "neutral": 0.0017640257428598587,
+          "contradiction": 0.998010417795594
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10731845799818984
+      },
+      {
+        "id": "final-anli-b5cfa5c9-42eb-4e00-b79e-b12fcce39e74",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Ronald Lawrence hate united states marine corps ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.979301019930648,
+        "probabilities": {
+          "entailment": 0.01584020719716832,
+          "neutral": 0.979301019930648,
+          "contradiction": 0.004858772872183615
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11120208300053491
+      },
+      {
+        "id": "final-anli-6edd8b9e-67d5-4e3c-8006-39d8f80ebe6f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Joona Veteli has met Elvis Presley. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9982683187553351,
+        "probabilities": {
+          "entailment": 0.000268313187578669,
+          "neutral": 0.9982683187553351,
+          "contradiction": 0.0014633680570862316
+        },
+        "reason": "Proposition relevance 0.38 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.2464552920027927
+      },
+      {
+        "id": "final-anli-aee510f5-cee9-48d3-948a-d7d80381cb2d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "the 198th brigade ended its active status in 1971 ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7060850098152883,
+        "probabilities": {
+          "entailment": 0.27806157725413794,
+          "neutral": 0.015853412930573837,
+          "contradiction": 0.7060850098152883
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.12062074999994365
+      },
+      {
+        "id": "final-anli-52b571cd-403e-4daf-ab6c-fed67d22d9b4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The Gold Coast is located west of the Palms Casino Resort.",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9728822267223451,
+        "probabilities": {
+          "entailment": 0.01268027893160304,
+          "neutral": 0.014437494346051856,
+          "contradiction": 0.9728822267223451
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11505350000152248
+      },
+      {
+        "id": "final-anli-fd2b2c3a-0d11-4fe6-ab0f-86b7e77a4253",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Mike contains no z",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9956322614045114,
+        "probabilities": {
+          "entailment": 0.9956322614045114,
+          "neutral": 0.0022757137115061734,
+          "contradiction": 0.0020920248839823435
+        },
+        "reason": "Proposition relevance -10.28 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10394262499903562
+      },
+      {
+        "id": "final-anli-31a7bcd6-cc1d-4b12-8c08-1833314e0b1a",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Norman donates his own money to charity.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9360645227053225,
+        "probabilities": {
+          "entailment": 0.027338325853074653,
+          "neutral": 0.9360645227053225,
+          "contradiction": 0.03659715144160282
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1032162090014026
+      },
+      {
+        "id": "final-anli-2b08a130-4761-4dda-8e17-392bd8cccc36",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "trojan war is the best romantic film of all the times",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9752349945797218,
+        "probabilities": {
+          "entailment": 0.00017096459039696654,
+          "neutral": 0.9752349945797218,
+          "contradiction": 0.024594040829881127
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10921495799993863
+      },
+      {
+        "id": "final-anli-b80b87f1-45d9-48f7-978e-be1db5d84482",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The benefits will remain relatively the same after leaving the employment as just before leaving.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9794563309975596,
+        "probabilities": {
+          "entailment": 0.9794563309975596,
+          "neutral": 0.019783302827829075,
+          "contradiction": 0.0007603661746114636
+        },
+        "reason": "Proposition relevance -3.55 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.13615345799917122
+      },
+      {
+        "id": "final-anli-6e787c65-2f03-4202-8f72-c93f19e29540",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The song \"Screamadelica\" is on an album of a different name",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9768803577155114,
+        "probabilities": {
+          "entailment": 0.9768803577155114,
+          "neutral": 0.010626192650409347,
+          "contradiction": 0.012493449634079118
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.17863333399873227
+      },
+      {
+        "id": "final-anli-3aa3d8a4-0003-4d04-ad80-5c101c6f222a",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Amandil had multiple titles.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5897429229242547,
+        "probabilities": {
+          "entailment": 0.5897429229242547,
+          "neutral": 0.39593117537833095,
+          "contradiction": 0.014325901697414272
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10928537500149105
+      },
+      {
+        "id": "final-anli-196143fc-01f9-4fd5-87cf-b6ece0e4648f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Aleksandrov's research was considered important and advanced knowledge of set theory and topology.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9269212820940036,
+        "probabilities": {
+          "entailment": 0.9269212820940036,
+          "neutral": 0.07239611152506872,
+          "contradiction": 0.0006826063809278185
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.112500541999907
+      },
+      {
+        "id": "final-anli-bc624994-97e7-4106-bc70-2ac949c47d9f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Richard Bedford Bennett served as the 11th Prime Minister of Canada for five years. He also led the Conservative Party from 1927 to 1938. \n",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.6818337556201994,
+        "probabilities": {
+          "entailment": 0.6818337556201994,
+          "neutral": 0.0677850780745613,
+          "contradiction": 0.2503811663052394
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1237465419981163
+      },
+      {
+        "id": "final-anli-69df6643-90db-43af-b8f8-16fc3889aefb",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Bashar Mounzer Rahal is Lebanese",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8478502723294459,
+        "probabilities": {
+          "entailment": 0.8478502723294459,
+          "neutral": 0.0675695901603994,
+          "contradiction": 0.08458013751015465
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12720720799916307
+      },
+      {
+        "id": "final-anli-3866f46b-6df3-4d37-acb3-8b1bd15e553f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Philadelphia Grand Opera Company was preceded by the The Philadelphia La Scala Opera Company.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9353070678235714,
+        "probabilities": {
+          "entailment": 0.9353070678235714,
+          "neutral": 0.05607462705433391,
+          "contradiction": 0.008618305122094718
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10584979199848021
+      },
+      {
+        "id": "final-anli-f8038ac6-64b6-4ed5-94b4-507665e0c42c",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Treasury Board president feels he may not be endangering the ratification process.",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9177086406724692,
+        "probabilities": {
+          "entailment": 0.018669306447395513,
+          "neutral": 0.06362205288013545,
+          "contradiction": 0.9177086406724692
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11327120900023147
+      },
+      {
+        "id": "final-anli-360fd0fc-aba2-4ba2-bd05-e503861ad8fe",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Tecmo Super NBA Basketball came out in 2018.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9452919041877166,
+        "probabilities": {
+          "entailment": 0.0455478369014276,
+          "neutral": 0.9452919041877166,
+          "contradiction": 0.009160258910855729
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11389537499781
+      },
+      {
+        "id": "final-anli-7b47e3ce-9346-47be-85a2-706ccba9d974",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "People living in poverty in Canada are joyful",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9969189400645635,
+        "probabilities": {
+          "entailment": 0.0003675663423664266,
+          "neutral": 0.9969189400645635,
+          "contradiction": 0.0027134935930701815
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12263729199912632
+      },
+      {
+        "id": "final-anli-f3aa7136-67b4-4a9c-b272-1e92b7220f1c",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Mastermind is like playing checkers.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5814883851058823,
+        "probabilities": {
+          "entailment": 0.0077155608901268964,
+          "neutral": 0.4107960540039908,
+          "contradiction": 0.5814883851058823
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11645233300077962
+      },
+      {
+        "id": "final-anli-4c381dad-5d63-4b7a-af08-21e32afe5e0e",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The five largest banks in America held 56 percent of the US economy in December 2011",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9657968720576546,
+        "probabilities": {
+          "entailment": 0.9657968720576546,
+          "neutral": 0.01813268166166478,
+          "contradiction": 0.016070446280680644
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1250289170020551
+      },
+      {
+        "id": "final-anli-631f9fd6-2267-4152-94d0-502688b88bbd",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Carrots can be easily used to enhance breakfast foods.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9412780893344784,
+        "probabilities": {
+          "entailment": 0.0026190659577135966,
+          "neutral": 0.9412780893344784,
+          "contradiction": 0.05610284470780791
+        },
+        "reason": "Proposition relevance 1.55 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09436020900102449
+      },
+      {
+        "id": "final-anli-e684ddfc-8598-4e7b-bd9a-20568149b7eb",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "They think their friendship is good.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.8404023444470068,
+        "probabilities": {
+          "entailment": 0.8404023444470068,
+          "neutral": 0.15233637048141577,
+          "contradiction": 0.007261285071577436
+        },
+        "reason": "Proposition relevance -6.80 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10558108300028834
+      },
+      {
+        "id": "final-anli-ddcf0e13-d609-4293-82f8-06972e4442c9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Parma airport was opened in the previous millennium. ",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.835037191952655,
+        "probabilities": {
+          "entailment": 0.16127235200800555,
+          "neutral": 0.0036904560393394366,
+          "contradiction": 0.835037191952655
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.11430208399906405
+      },
+      {
+        "id": "final-anli-13d4cd9c-8095-4600-a6fb-b8d617cf28c0",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Southern League is below the Wessex Football League.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9832795453744521,
+        "probabilities": {
+          "entailment": 0.9832795453744521,
+          "neutral": 0.00782104368067121,
+          "contradiction": 0.0088994109448767
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11185775000194553
+      },
+      {
+        "id": "final-anli-3cbebb40-3768-4e36-bc0e-fe9e9cc5791d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Lysichiton can only be found in two regions of the world.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.46191669048939477,
+        "probabilities": {
+          "entailment": 0.46191669048939477,
+          "neutral": 0.4206140273506327,
+          "contradiction": 0.11746928215997249
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11800025000047754
+      },
+      {
+        "id": "final-anli-ddaf9935-6449-4472-ab87-9aa83911c17a",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The 5th Monkey was produced through 21st Century Film, not The Cannon Group.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7964182212041264,
+        "probabilities": {
+          "entailment": 0.19017424648760028,
+          "neutral": 0.01340753230827343,
+          "contradiction": 0.7964182212041264
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.12010691600153223
+      },
+      {
+        "id": "final-anli-2f41b883-7031-441c-833a-851dd6504217",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Franklin Martin Loew only ever had 2 jobs in his whole life.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6982513482375478,
+        "probabilities": {
+          "entailment": 0.002845131801389728,
+          "neutral": 0.6982513482375478,
+          "contradiction": 0.2989035199610625
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11492041699966649
+      },
+      {
+        "id": "final-anli-f58a5fa2-30b8-46fc-ac52-cdcfd29b47e9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The French army General, Gustave Mesny, was imprisoned by the French in World War II.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9746023749592407,
+        "probabilities": {
+          "entailment": 0.9746023749592407,
+          "neutral": 0.019927928841723248,
+          "contradiction": 0.005469696199036093
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12133858300148859
+      },
+      {
+        "id": "final-anli-e6715c51-d52a-4885-9f0d-341208fc9cd8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Hansberry was 71 years old when he passed away.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8121434608283105,
+        "probabilities": {
+          "entailment": 0.8121434608283105,
+          "neutral": 0.004902304874970339,
+          "contradiction": 0.18295423429671917
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10489304200018523
+      },
+      {
+        "id": "final-anli-8228de21-bfeb-4daf-99a2-7120bd836563",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The story of the film was written by 1 person. ",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9677649408441834,
+        "probabilities": {
+          "entailment": 0.02551935488609598,
+          "neutral": 0.00671570426972058,
+          "contradiction": 0.9677649408441834
+        },
+        "reason": "Proposition relevance -1.13 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10988158299733186
+      },
+      {
+        "id": "final-anli-ddedba2d-4da1-4c5f-9fbf-1b46ad0fb8cd",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The last Viceroy of India was not alive in 1947",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9532417553139964,
+        "probabilities": {
+          "entailment": 0.03207671677786321,
+          "neutral": 0.014681527908140455,
+          "contradiction": 0.9532417553139964
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10262079099993571
+      },
+      {
+        "id": "final-anli-4cb780c1-580b-41a8-a204-6271947c30ff",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Oska is the seat of the gmina",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9968431625662885,
+        "probabilities": {
+          "entailment": 0.9968431625662885,
+          "neutral": 0.0018237047221299832,
+          "contradiction": 0.0013331327115816308
+        },
+        "reason": "Proposition relevance -0.58 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.1129358329999377
+      },
+      {
+        "id": "final-anli-894bdce5-8420-48d0-8811-3b6c95d4305b",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "After vomiting Seth felt well.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9858970479903804,
+        "probabilities": {
+          "entailment": 0.0007265372468923206,
+          "neutral": 0.9858970479903804,
+          "contradiction": 0.013376414762727398
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.08867900000041118
+      },
+      {
+        "id": "final-anli-8b98a526-6378-4251-a5bb-343ba7276fe7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Nick Carter and Red Club was the third part of a trilogy.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8309912909155253,
+        "probabilities": {
+          "entailment": 0.15227783708371828,
+          "neutral": 0.8309912909155253,
+          "contradiction": 0.01673087200075639
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11007366699777776
+      },
+      {
+        "id": "final-anli-783d705a-b063-479d-a7dd-8701650eb279",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Lack of purpose can lead to a lack of authenticity.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9842798920418955,
+        "probabilities": {
+          "entailment": 0.9842798920418955,
+          "neutral": 0.014095766237523517,
+          "contradiction": 0.0016243417205809945
+        },
+        "reason": "Proposition relevance -9.34 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10336675000144169
+      },
+      {
+        "id": "final-anli-a96526bf-d03d-4eec-b017-e3d82009d9c8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Press release should be interesting in nature.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8830614755775298,
+        "probabilities": {
+          "entailment": 0.11413472591034969,
+          "neutral": 0.8830614755775298,
+          "contradiction": 0.0028037985121205154
+        },
+        "reason": "Proposition relevance -0.11 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10301916699972935
+      },
+      {
+        "id": "final-anli-43383a59-0a2d-4fb7-89cc-a99ba311c18f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Brierfield had a population larger than 8,100 in the 2011 census.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8271697747595388,
+        "probabilities": {
+          "entailment": 0.8271697747595388,
+          "neutral": 0.00814077365780231,
+          "contradiction": 0.16468945158265874
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11099316599938902
+      },
+      {
+        "id": "final-anli-01ec88dc-4896-4e25-aed4-c2964d58ecf5",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Canada has places to learn in it",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9040659292316767,
+        "probabilities": {
+          "entailment": 0.9040659292316767,
+          "neutral": 0.0946951697698585,
+          "contradiction": 0.0012389009984647612
+        },
+        "reason": "Proposition relevance -4.46 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10535295899899211
+      },
+      {
+        "id": "final-anli-a703c327-ba48-4887-92a5-04b78208c6a0",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Iowa State Cyclones baseball does not have any players currently enrolled",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9813726284523211,
+        "probabilities": {
+          "entailment": 0.013314682898571007,
+          "neutral": 0.9813726284523211,
+          "contradiction": 0.005312688649108068
+        },
+        "reason": "Currentness cannot be established without a usable publication date.",
+        "origin": "ANLI",
+        "seconds": 0.11977629199827788
+      },
+      {
+        "id": "final-anli-cd1f932e-aca4-4664-9ed5-7fbc67635fff",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "There were six female artists that ranked higher than Eleftheria Arvanitaki on Alpha TV's top-certified female artist list. ",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9328743279231728,
+        "probabilities": {
+          "entailment": 0.053755772959645697,
+          "neutral": 0.013369899117181517,
+          "contradiction": 0.9328743279231728
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.14477687499675085
+      },
+      {
+        "id": "final-anli-b9d73b38-9ab5-4169-b40b-41d5554f1262",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Susan Sadlowski Garza has roots in the southeast section of Chicago, and has been a long term successful Alderman for at least three terms.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5609643959767544,
+        "probabilities": {
+          "entailment": 0.0015522762803297974,
+          "neutral": 0.5609643959767544,
+          "contradiction": 0.4374833277429158
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12170824999702745
+      },
+      {
+        "id": "final-anli-c0dfd519-5f5d-4344-ac34-dbcf67f820d5",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Camp Al-Saqr can house at least 4,000 troops.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9790992081770253,
+        "probabilities": {
+          "entailment": 0.9790992081770253,
+          "neutral": 0.017617267893697896,
+          "contradiction": 0.0032835239292768412
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12585666599989054
+      },
+      {
+        "id": "final-anli-73066dd9-6ab8-493e-896e-7c436bd497c7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Thirteen Ghosts was filmed before the 21st century.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9594180990952431,
+        "probabilities": {
+          "entailment": 0.9594180990952431,
+          "neutral": 0.0037241914209686254,
+          "contradiction": 0.03685770948378822
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11160341600043466
+      },
+      {
+        "id": "final-anli-0b01e385-134b-41bd-9181-79e951d29963",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The movie was released after 1930.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9970831944713419,
+        "probabilities": {
+          "entailment": 0.9970831944713419,
+          "neutral": 0.0007215128379129403,
+          "contradiction": 0.002195292690745078
+        },
+        "reason": "Proposition relevance -5.09 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10938383300162968
+      },
+      {
+        "id": "final-anli-cea2b9eb-9c46-4546-82c0-09235cbf9b25",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The band A Day to Remember was founded in 1986.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9781633701116536,
+        "probabilities": {
+          "entailment": 0.00212840087347186,
+          "neutral": 0.019708229014874578,
+          "contradiction": 0.9781633701116536
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10731616699922597
+      },
+      {
+        "id": "final-anli-feb98001-6eca-408a-927e-e1ed841a7378",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The man talked to the woman, and then he sat next to the woman.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9954451039244157,
+        "probabilities": {
+          "entailment": 0.002565818450418185,
+          "neutral": 0.001989077625166137,
+          "contradiction": 0.9954451039244157
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09310683300282108
+      },
+      {
+        "id": "final-anli-54da8c32-3a92-4729-85ff-8a106a549ca9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Bill Haley and His Comets also left Warner Brothers.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9933190973263589,
+        "probabilities": {
+          "entailment": 0.0037960180144195584,
+          "neutral": 0.9933190973263589,
+          "contradiction": 0.0028848846592215167
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11347995799951605
+      },
+      {
+        "id": "final-anli-a7d08751-485e-43a0-a1c9-427ce1aac364",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Equal numbers use the spelling Okanagan Highland versus Okanogan Highlands.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5624389927238427,
+        "probabilities": {
+          "entailment": 0.3528830217725218,
+          "neutral": 0.5624389927238427,
+          "contradiction": 0.08467798550363546
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10469429200020386
+      },
+      {
+        "id": "final-anli-7449e122-3ffb-4332-bda6-6a6dc49f35fa",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Karl Ernst Manfred Freiherr was 60 years old when he died.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6296596799824464,
+        "probabilities": {
+          "entailment": 0.6296596799824464,
+          "neutral": 0.010768711759981722,
+          "contradiction": 0.3595716082575719
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12474354100049823
+      },
+      {
+        "id": "final-anli-a52a3a4a-2774-4535-a29d-45380c6bd507",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "There is only one administrative centre ",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9145677046934196,
+        "probabilities": {
+          "entailment": 0.009981924042267743,
+          "neutral": 0.07545037126431264,
+          "contradiction": 0.9145677046934196
+        },
+        "reason": "Proposition relevance -2.73 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10635679100232664
+      },
+      {
+        "id": "final-anli-5e6c13cb-c6d1-4813-b56a-1933efc9e8f8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "ABS starts with a B.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7975004758457241,
+        "probabilities": {
+          "entailment": 0.16671690799222427,
+          "neutral": 0.03578261616205163,
+          "contradiction": 0.7975004758457241
+        },
+        "reason": "Proposition relevance -1.59 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10317566700177849
+      },
+      {
+        "id": "final-anli-227e1153-3d63-4c67-8cd8-d4249a08a075",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Tim assumed the person would be a girl.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9898538078960464,
+        "probabilities": {
+          "entailment": 0.006752158859042422,
+          "neutral": 0.0033940332449111633,
+          "contradiction": 0.9898538078960464
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10944008300066344
+      },
+      {
+        "id": "final-anli-760817a9-90d0-469c-b20d-6fb2f2470bc9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The operation did cure Dick.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.7343672571657448,
+        "probabilities": {
+          "entailment": 0.0038605008013720627,
+          "neutral": 0.7343672571657448,
+          "contradiction": 0.2617722420328831
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12085858299906249
+      },
+      {
+        "id": "final-anli-30defd6e-1e47-415a-9008-d0c6677d0371",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The population was 76,729",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9652273296585172,
+        "probabilities": {
+          "entailment": 0.0028356527906641064,
+          "neutral": 0.03193701755081869,
+          "contradiction": 0.9652273296585172
+        },
+        "reason": "Proposition relevance 0.96 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10633933300050558
+      },
+      {
+        "id": "final-anli-1a0901f4-e059-491f-831e-acefbc94ef6e",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Zuri Lawrence grew up in the south",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9931916793802967,
+        "probabilities": {
+          "entailment": 0.000804929536737522,
+          "neutral": 0.00600339108296584,
+          "contradiction": 0.9931916793802967
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10459574999913457
+      },
+      {
+        "id": "final-anli-bde07ed6-fb53-46bd-8ef7-171a76a44a7f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "USS \"Nicholson\" was built in 1275 AD.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5867720256771385,
+        "probabilities": {
+          "entailment": 0.0029883350430095277,
+          "neutral": 0.41023963927985196,
+          "contradiction": 0.5867720256771385
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10685754099904443
+      },
+      {
+        "id": "final-anli-c943b3bf-6364-465e-99ca-403c6f564377",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Solo singer/songwriter Juliana Hatfield has followed up her prior hit album, \"Joy in the Arms of my Beloved\" with her tenth self-produced and engineered album, \"Peace and Love\". ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9479524840680675,
+        "probabilities": {
+          "entailment": 0.05072763980657105,
+          "neutral": 0.9479524840680675,
+          "contradiction": 0.0013198761253615007
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12896441699922434
+      },
+      {
+        "id": "final-anli-1aa7af09-95de-4978-9796-9f7874504e15",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Te Rerenga is State Highway 25.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5794469145468337,
+        "probabilities": {
+          "entailment": 0.25499706178088655,
+          "neutral": 0.16555602367227978,
+          "contradiction": 0.5794469145468337
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11167929099974572
+      },
+      {
+        "id": "final-anli-7868176a-caad-4fa7-926e-908b8a574fa8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "the accurate measurement of human gait has so far eluded researchers.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.997292798540618,
+        "probabilities": {
+          "entailment": 0.0015150548089355406,
+          "neutral": 0.997292798540618,
+          "contradiction": 0.001192146650446461
+        },
+        "reason": "Proposition relevance -6.80 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09330204200159642
+      },
+      {
+        "id": "final-anli-94c6c85a-b42d-47d9-82fb-683edd9547f4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The story written is not a true story",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8267491952657224,
+        "probabilities": {
+          "entailment": 0.16601071884512655,
+          "neutral": 0.8267491952657224,
+          "contradiction": 0.007240085889151061
+        },
+        "reason": "Proposition relevance -6.44 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.16957800000091083
+      },
+      {
+        "id": "final-anli-901be8e3-2326-454e-97eb-c67fd5d4f266",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Jonathan Williams did not publish any piece of media in 2007",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9186832744493799,
+        "probabilities": {
+          "entailment": 0.052328116936640204,
+          "neutral": 0.9186832744493799,
+          "contradiction": 0.028988608613979994
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1038215830012632
+      },
+      {
+        "id": "final-anli-53d8bc8a-f95b-4101-8112-22daeed96780",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Laura Bush was interested in him.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6218605685446509,
+        "probabilities": {
+          "entailment": 0.36134578972916764,
+          "neutral": 0.6218605685446509,
+          "contradiction": 0.016793641726181346
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13271291699857102
+      },
+      {
+        "id": "final-anli-06e645d6-0077-4904-bf73-ef727f0a06b7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "George W. Bush was president on December 10, 1998.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8037516098703879,
+        "probabilities": {
+          "entailment": 0.04468047383370297,
+          "neutral": 0.15156791629590918,
+          "contradiction": 0.8037516098703879
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.14828141700127162
+      },
+      {
+        "id": "final-anli-fafe76f6-5869-4390-9c0a-34d984778928",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Bradley Cooper was not happy with the director and fired him in the middle of the movie",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9974315818518364,
+        "probabilities": {
+          "entailment": 0.0007144316517380471,
+          "neutral": 0.9974315818518364,
+          "contradiction": 0.0018539864964254816
+        },
+        "reason": "Proposition relevance -3.64 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.12399400000140304
+      },
+      {
+        "id": "final-anli-4082dfaf-2902-495d-b73b-05c9005724e3",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Viktor Sarianidi had previous experience with excavations. ",
+        "expected": "neutral",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.787639222492,
+        "probabilities": {
+          "entailment": 0.787639222492,
+          "neutral": 0.21173417613910897,
+          "contradiction": 0.000626601368890886
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13676904200110584
+      },
+      {
+        "id": "final-anli-84881fc2-cde6-4672-a66d-b360525d3af7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "If you press the power button on a PC, please be aware that some radiation can spill over.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9986955257176021,
+        "probabilities": {
+          "entailment": 0.0008200217461750716,
+          "neutral": 0.9986955257176021,
+          "contradiction": 0.0004844525362229446
+        },
+        "reason": "Proposition relevance -4.88 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10508904100061045
+      },
+      {
+        "id": "final-anli-c1fce522-493a-4bca-86ed-8c7e2603ca0c",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Minister of Labor is suggesting that they all don't not go out for pizza later.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9975120667432515,
+        "probabilities": {
+          "entailment": 0.00010349850143989864,
+          "neutral": 0.0023844347553085296,
+          "contradiction": 0.9975120667432515
+        },
+        "reason": "Proposition relevance -3.00 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10990737500105752
+      },
+      {
+        "id": "final-anli-c3e4e3e9-9b9f-4c06-851a-ce254f47ec53",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Miffy's Adventures Big and Small is made using csi",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9725573396074948,
+        "probabilities": {
+          "entailment": 0.9725573396074948,
+          "neutral": 0.01644220893846243,
+          "contradiction": 0.01100045145404298
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12360633299977053
+      },
+      {
+        "id": "final-anli-a6975206-bde0-4aa8-90bc-90aa38db6a89",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Tay Garnett was born in nineteen hundred six.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9538619287832013,
+        "probabilities": {
+          "entailment": 0.0018993073503165232,
+          "neutral": 0.9538619287832013,
+          "contradiction": 0.04423876386648228
+        },
+        "reason": "Proposition relevance -2.90 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10382183299952885
+      },
+      {
+        "id": "final-anli-10d96d83-ca22-45fc-b3bd-15899f99ef6d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Leeds Rhinos R.L.F.C won the Super League most recently in 2016.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9943333380184497,
+        "probabilities": {
+          "entailment": 0.001506636968438376,
+          "neutral": 0.00416002501311192,
+          "contradiction": 0.9943333380184497
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12145295899972552
+      },
+      {
+        "id": "final-anli-576bb576-233c-4280-9a33-a5af6aa3731c",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Though the film \"The Last Horse Carriage\" was premiered in Berlin on March 18, 1926, the director Carl Boese because he died just 2 weeks prior.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9973594319888819,
+        "probabilities": {
+          "entailment": 0.000383100847535927,
+          "neutral": 0.9973594319888819,
+          "contradiction": 0.0022574671635822016
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1230680000007851
+      },
+      {
+        "id": "final-anli-9e935288-7c2f-494d-b4d5-4429e49f73b9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "NASA has a research center and airport it owns in Ohio. ",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.7869801782737382,
+        "probabilities": {
+          "entailment": 0.7869801782737382,
+          "neutral": 0.1877340503604358,
+          "contradiction": 0.025285771365825903
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10469345800083829
+      },
+      {
+        "id": "final-anli-5e2ce76b-abbd-4a53-bf0e-433991982227",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Alexis Bledel knows Brashares.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.7117075590419751,
+        "probabilities": {
+          "entailment": 0.280540054996235,
+          "neutral": 0.7117075590419751,
+          "contradiction": 0.0077523859617899486
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10798770799738122
+      },
+      {
+        "id": "final-anli-b57e6c7f-5c7d-490f-9d79-c7e58282db0c",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Sri Lanka has the highest GDP in terms of purchasing power, which is seconded by the Maldives in the South Asian region.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9923761752504199,
+        "probabilities": {
+          "entailment": 0.005414231080411406,
+          "neutral": 0.0022095936691687713,
+          "contradiction": 0.9923761752504199
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10689683400050853
+      },
+      {
+        "id": "final-anli-96324ea9-a0f9-4405-857e-39adb121070d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Rigney got his pen name from the main character within The Wheel of Time series ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8805824535188691,
+        "probabilities": {
+          "entailment": 0.09186556549872371,
+          "neutral": 0.8805824535188691,
+          "contradiction": 0.02755198098240708
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12824229200123227
+      },
+      {
+        "id": "final-anli-e08858a6-17dc-4e32-bb99-503279064720",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Dr. Joost Vander Auwera didn't complete his formal education until the age of 38.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9982381179142966,
+        "probabilities": {
+          "entailment": 0.0008771362189215317,
+          "neutral": 0.9982381179142966,
+          "contradiction": 0.0008847458667817603
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12148183400131529
+      },
+      {
+        "id": "final-anli-a6725b3b-2b6a-4c00-9457-9c6b187b5b24",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Playing road games does not really pass time very well",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9806601162288872,
+        "probabilities": {
+          "entailment": 0.0014610617599900926,
+          "neutral": 0.017878822011122848,
+          "contradiction": 0.9806601162288872
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10966933300005621
+      },
+      {
+        "id": "final-anli-c86f02bd-40ee-4944-8809-9c312e666b87",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Tarawa is in the Northern Hemisphere",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6668960192109396,
+        "probabilities": {
+          "entailment": 0.2043241968700882,
+          "neutral": 0.6668960192109396,
+          "contradiction": 0.1287797839189723
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12202925000019604
+      },
+      {
+        "id": "final-anli-8b3a14cf-d4bb-4b9e-8380-60d4fb7149c0",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "William Lewis Moody Jr. lived to be 88 years old",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6479061633852548,
+        "probabilities": {
+          "entailment": 0.3406240875356949,
+          "neutral": 0.011469749079050436,
+          "contradiction": 0.6479061633852548
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11152666600173688
+      },
+      {
+        "id": "final-anli-789c658c-9a85-488a-bf17-905bd15c3913",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Being born on the 14 February 1978 means that dean is 55 years old.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9582921334397642,
+        "probabilities": {
+          "entailment": 0.03137848550051925,
+          "neutral": 0.010329381059716541,
+          "contradiction": 0.9582921334397642
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12420795800062479
+      },
+      {
+        "id": "final-anli-d4b91068-4cd8-4450-a05f-2fc6e892d503",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The Long Riders starts with an A.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9748621500643141,
+        "probabilities": {
+          "entailment": 0.010904742839434862,
+          "neutral": 0.01423310709625095,
+          "contradiction": 0.9748621500643141
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11724395800047205
+      },
+      {
+        "id": "final-anli-53764fb8-45e7-4d35-817e-a229f8b70a36",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The song was written by someone with a first name not starting with a C",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9321081872650262,
+        "probabilities": {
+          "entailment": 0.9321081872650262,
+          "neutral": 0.0032431673896350837,
+          "contradiction": 0.06464864534533875
+        },
+        "reason": "Proposition relevance -6.73 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11605450000206474
+      },
+      {
+        "id": "final-anli-d170016a-5287-418c-a87b-76ae817fe840",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Strikes began on New Year's day.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8744341880798522,
+        "probabilities": {
+          "entailment": 0.10999956224345266,
+          "neutral": 0.015566249676695097,
+          "contradiction": 0.8744341880798522
+        },
+        "reason": "Proposition relevance -1.97 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11230879200229538
+      },
+      {
+        "id": "final-anli-f43ddfdf-1786-436d-a45e-b514b8556be8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Archie's friend took his secret to the grave.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8361508493611954,
+        "probabilities": {
+          "entailment": 0.04547205953005495,
+          "neutral": 0.8361508493611954,
+          "contradiction": 0.11837709110874947
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09533970900156419
+      },
+      {
+        "id": "final-anli-1477c158-273c-4a41-a4bb-d68f68fd32ba",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Black Dahlia starts with an A.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9835218002944663,
+        "probabilities": {
+          "entailment": 0.009598120450493273,
+          "neutral": 0.006880079255040509,
+          "contradiction": 0.9835218002944663
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10968845800016425
+      }
+    ]
+  },
+  "peak_rss": 1090797568
+}

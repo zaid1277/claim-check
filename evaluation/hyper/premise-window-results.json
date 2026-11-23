@@ -1,0 +1,18 @@
+{
+  "full_passage": {
+    "macro_f1": 0.7592379613656209,
+    "contradiction_precision_recall": [
+      0.8823529411764706,
+      0.75
+    ],
+    "latency_ms_median": 274.1
+  },
+  "best_window": {
+    "macro_f1": 0.7167982093355226,
+    "contradiction_precision_recall": [
+      0.8235294117647058,
+      0.7
+    ],
+    "latency_ms_median": 268.9
+  }
+}

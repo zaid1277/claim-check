@@ -1,0 +1,157 @@
+{
+  "dataset": "six authored offline cases; external retrieval mocked, real local embeddings and NLI",
+  "measured_at": "2026-09-06T23:22:40.998467+00:00",
+  "correct": 4,
+  "cases": 6,
+  "results": [
+    {
+      "expected": "SUPPORTED",
+      "result": {
+        "claim": "The library opens on Sunday.",
+        "verdict": "SUPPORTED",
+        "explanation": "The retained passages predominantly support the claim. [1] support: \u201cThe library opens on Sunday.\u201d",
+        "support_total": 0.5484106034040451,
+        "contradict_total": 0.0,
+        "evidence": [
+          {
+            "title": "Authored evaluation passage",
+            "url": "https://example.org/authored-fixture",
+            "domain": "example.org",
+            "published_at": null,
+            "passage": "The library opens on Sunday.",
+            "similarity": 1.0,
+            "stance": "support",
+            "stance_confidence": 0.9971101880073547,
+            "source_type": "general",
+            "source_weight": 0.55,
+            "evidence_score": 0.5484106034040451
+          }
+        ]
+      }
+    },
+    {
+      "expected": "UNSUPPORTED",
+      "result": {
+        "claim": "The library opens on Sunday.",
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "The retained evidence is too weak or incomplete for a supported assessment. [1] contradict: \u201cThe library is closed on Sunday.\u201d",
+        "support_total": 0.0,
+        "contradict_total": 0.4540099093375896,
+        "evidence": [
+          {
+            "title": "Authored evaluation passage",
+            "url": "https://example.org/authored-fixture",
+            "domain": "example.org",
+            "published_at": null,
+            "passage": "The library is closed on Sunday.",
+            "similarity": 0.8264140820956235,
+            "stance": "contradict",
+            "stance_confidence": 0.9988607168197632,
+            "source_type": "general",
+            "source_weight": 0.55,
+            "evidence_score": 0.4540099093375896
+          }
+        ]
+      }
+    },
+    {
+      "expected": "MIXED_EVIDENCE",
+      "result": {
+        "claim": "The library opens on Sunday.",
+        "verdict": "MIXED_EVIDENCE",
+        "explanation": "The retained passages contain substantial disagreement. [1] support: \u201cThe library opens on Sunday.\u201d [2] contradict: \u201cThe library is closed on Sunday.\u201d",
+        "support_total": 0.5484106034040451,
+        "contradict_total": 0.4540099093375896,
+        "evidence": [
+          {
+            "title": "Authored evaluation passage",
+            "url": "https://example.org/authored-fixture",
+            "domain": "example.org",
+            "published_at": null,
+            "passage": "The library opens on Sunday.",
+            "similarity": 1.0,
+            "stance": "support",
+            "stance_confidence": 0.9971101880073547,
+            "source_type": "general",
+            "source_weight": 0.55,
+            "evidence_score": 0.5484106034040451
+          },
+          {
+            "title": "Authored evaluation passage",
+            "url": "https://example.org/authored-fixture",
+            "domain": "example.org",
+            "published_at": null,
+            "passage": "The library is closed on Sunday.",
+            "similarity": 0.8264140820956235,
+            "stance": "contradict",
+            "stance_confidence": 0.9988607168197632,
+            "source_type": "general",
+            "source_weight": 0.55,
+            "evidence_score": 0.4540099093375896
+          }
+        ]
+      }
+    },
+    {
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "result": {
+        "claim": "The library opens on Sunday.",
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+        "support_total": 0.0,
+        "contradict_total": 0.0,
+        "evidence": []
+      }
+    },
+    {
+      "expected": "UNSUPPORTED",
+      "result": {
+        "claim": "The bridge opened in 1998.",
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "The retained evidence is too weak or incomplete for a supported assessment. [1] contradict: \u201cThe bridge opened in 2001, not 1998.\u201d",
+        "support_total": 0.0,
+        "contradict_total": 0.490046450381239,
+        "evidence": [
+          {
+            "title": "Authored evaluation passage",
+            "url": "https://example.org/authored-fixture",
+            "domain": "example.org",
+            "published_at": null,
+            "passage": "The bridge opened in 2001, not 1998.",
+            "similarity": 0.8956427997203886,
+            "stance": "contradict",
+            "stance_confidence": 0.9948090314865112,
+            "source_type": "general",
+            "source_weight": 0.55,
+            "evidence_score": 0.490046450381239
+          }
+        ]
+      }
+    },
+    {
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "result": {
+        "claim": "The train leaves at noon.",
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+        "support_total": 0.0,
+        "contradict_total": 0.0,
+        "evidence": [
+          {
+            "title": "Authored evaluation passage",
+            "url": "https://example.org/authored-fixture",
+            "domain": "example.org",
+            "published_at": null,
+            "passage": "The train has six carriages.",
+            "similarity": 0.47648206695814344,
+            "stance": "neutral",
+            "stance_confidence": 0.9981517195701599,
+            "source_type": "general",
+            "source_weight": 0.55,
+            "evidence_score": 0.26158076696323823
+          }
+        ]
+      }
+    }
+  ]
+}

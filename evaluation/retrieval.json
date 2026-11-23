@@ -1,0 +1,4 @@
+[
+  {"claim":"The library opens on Sunday.","relevant":[0,1],"passages":["Sunday library opening hours are 10 am to 4 pm.","The library is closed every Sunday.","The restaurant serves lunch.","The museum sells tickets.","Rain is expected tomorrow.","The train travels north.","Water freezes at zero degrees Celsius.","The shop sells books.","The council meets in June.","The river is deep.","A cat sleeps on a chair.","The school has a garden."]},
+  {"claim":"The bridge opened in 1998.","relevant":[0,1],"passages":["The bridge opened to traffic in 1998.","The bridge was inaugurated in 2001, not 1998.","A train arrived at noon.","The river flooded yesterday.","The library holds maps.","The city has a park.","The ferry sells tickets.","The team won a medal.","It rained in April.","The hospital employs nurses.","The theatre is old.","The shop is closed."]}
+]

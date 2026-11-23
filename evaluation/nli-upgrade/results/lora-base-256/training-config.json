@@ -1,0 +1,10 @@
+{
+  "max_length": 256,
+  "epochs": 4,
+  "batch_size": 2,
+  "grad_accum": 8,
+  "lr": 0.0001,
+  "seed": 20260916,
+  "smoke_test": false,
+  "out": "results/lora-base-256"
+}

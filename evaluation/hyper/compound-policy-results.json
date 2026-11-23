@@ -1,0 +1,129 @@
+[
+  {
+    "id": "compound-001",
+    "atom_verdicts": [
+      "SUPPORTED",
+      "SUPPORTED"
+    ],
+    "atoms_as_expected": true,
+    "coverage": {
+      "verified_fraction": 1.0,
+      "contradicted_fraction": 0.0
+    },
+    "curated_expected_verdict": "SUPPORTED",
+    "policy_outputs": {
+      "current": "SUPPORTED",
+      "coverage_aware": "SUPPORTED"
+    },
+    "policy_matches": {
+      "current": true,
+      "coverage_aware": true
+    }
+  },
+  {
+    "id": "compound-002",
+    "atom_verdicts": [
+      "UNSUPPORTED",
+      "SUPPORTED"
+    ],
+    "atoms_as_expected": true,
+    "coverage": {
+      "verified_fraction": 0.5,
+      "contradicted_fraction": 0.5
+    },
+    "curated_expected_verdict": "UNSUPPORTED",
+    "policy_outputs": {
+      "current": "UNSUPPORTED",
+      "coverage_aware": "UNSUPPORTED"
+    },
+    "policy_matches": {
+      "current": true,
+      "coverage_aware": true
+    }
+  },
+  {
+    "id": "compound-003",
+    "atom_verdicts": [
+      "SUPPORTED",
+      "INSUFFICIENT_EVIDENCE"
+    ],
+    "atoms_as_expected": true,
+    "coverage": {
+      "verified_fraction": 0.5,
+      "contradicted_fraction": 0.0
+    },
+    "curated_expected_verdict": "INSUFFICIENT_EVIDENCE",
+    "policy_outputs": {
+      "current": "INSUFFICIENT_EVIDENCE",
+      "coverage_aware": "INSUFFICIENT_EVIDENCE"
+    },
+    "policy_matches": {
+      "current": true,
+      "coverage_aware": true
+    }
+  },
+  {
+    "id": "compound-004",
+    "atom_verdicts": [
+      "SUPPORTED",
+      "SUPPORTED",
+      "INSUFFICIENT_EVIDENCE"
+    ],
+    "atoms_as_expected": true,
+    "coverage": {
+      "verified_fraction": 0.6666666666666666,
+      "contradicted_fraction": 0.0
+    },
+    "curated_expected_verdict": "INSUFFICIENT_EVIDENCE",
+    "policy_outputs": {
+      "current": "INSUFFICIENT_EVIDENCE",
+      "coverage_aware": "INSUFFICIENT_EVIDENCE"
+    },
+    "policy_matches": {
+      "current": true,
+      "coverage_aware": true
+    }
+  },
+  {
+    "id": "compound-005",
+    "atom_verdicts": [
+      "INSUFFICIENT_EVIDENCE",
+      "INSUFFICIENT_EVIDENCE"
+    ],
+    "atoms_as_expected": true,
+    "coverage": {
+      "verified_fraction": 0.0,
+      "contradicted_fraction": 0.0
+    },
+    "curated_expected_verdict": "INSUFFICIENT_EVIDENCE",
+    "policy_outputs": {
+      "current": "INSUFFICIENT_EVIDENCE",
+      "coverage_aware": "INSUFFICIENT_EVIDENCE"
+    },
+    "policy_matches": {
+      "current": true,
+      "coverage_aware": true
+    }
+  },
+  {
+    "id": "compound-006",
+    "atom_verdicts": [
+      "MIXED_EVIDENCE",
+      "SUPPORTED"
+    ],
+    "atoms_as_expected": true,
+    "coverage": {
+      "verified_fraction": 0.5,
+      "contradicted_fraction": 0.0
+    },
+    "curated_expected_verdict": "MIXED_EVIDENCE",
+    "policy_outputs": {
+      "current": "MIXED_EVIDENCE",
+      "coverage_aware": "MIXED_EVIDENCE"
+    },
+    "policy_matches": {
+      "current": true,
+      "coverage_aware": true
+    }
+  }
+]

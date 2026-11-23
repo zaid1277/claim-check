@@ -1,0 +1,542 @@
+[
+  {
+    "id": "hyper-fact-000",
+    "file": "images/00.png",
+    "transcript": "The Hubble Space Telescope was launched in 1990.",
+    "corrected_text": "The Hubble Space Telescope was launched in 1990.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-005",
+    "file": "images/01.png",
+    "transcript": "The Cuban Missile Crisis occurred in 1966.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The Cuban Missile Crisis occurred in 1966.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-011",
+    "file": "images/02.png",
+    "transcript": "Absolute zero is approximately -273.15 degrees Celsius.",
+    "corrected_text": "Absolute zero is approximately -273.15 degrees Celsius.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-016",
+    "file": "images/03.png",
+    "transcript": "The Boeing 787 is a single-engine propeller aircraft.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "The Boeing 787 is a single-engine propeller aircraft.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Verdana",
+      "blur": ".4px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-021",
+    "file": "images/04.jpg",
+    "transcript": "The Sydney Opera House was completed in 1963.",
+    "corrected_text": "The Sydney Opera House was completed in 1963.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-028",
+    "file": "images/05.png",
+    "transcript": "3D printing builds objects layer by layer.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "3D printing builds objects layer by layer.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Georgia",
+      "blur": ".2px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-030",
+    "file": "images/06.png",
+    "transcript": "The Apollo 11 mission landed astronauts on the Moon in 1969.",
+    "corrected_text": "The Apollo 11 mission landed astronauts on the Moon in 1969.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-036",
+    "file": "images/07.png",
+    "transcript": "Harvard University was founded in 1636.",
+    "corrected_text": "Harvard University was founded in 1636.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-038",
+    "file": "images/08.png",
+    "transcript": "The first transcontinental railroad in the United States was completed in 1869.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "The first transcontinental railroad in the United States was completed in 1869.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-040",
+    "file": "images/09.jpg",
+    "transcript": "The Great Fire of London occurred in 1766.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The Great Fire of London occurred in 1766.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-044",
+    "file": "images/10.png",
+    "transcript": "The human skeleton has 306 bones in adulthood.",
+    "corrected_text": "The human skeleton has 306 bones in adulthood.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Georgia",
+      "blur": ".4px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-048",
+    "file": "images/11.png",
+    "transcript": "Type 1 diabetes involves the body producing excessive amounts of insulin.",
+    "corrected_text": "Type 1 diabetes involves the body producing excessive amounts of insulin.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-051",
+    "file": "images/12.png",
+    "transcript": "The human genome contains roughly 20,000 protein-coding genes.",
+    "corrected_text": "The human genome contains roughly 20,000 protein-coding genes.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-064",
+    "file": "images/13.png",
+    "transcript": "The Nobel Prize in Physics has been awarded since 1901.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The Nobel Prize in Physics has been awarded since 1901.",
+    "difficulty": "medium",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-075",
+    "file": "images/14.jpg",
+    "transcript": "The Meiji Restoration began in 1868.",
+    "corrected_text": "The Meiji Restoration began in 1868.",
+    "difficulty": "medium",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-083",
+    "file": "images/15.png",
+    "transcript": "The modern Olympic Games were revived in 1886.",
+    "corrected_text": "The modern Olympic Games were revived in 1886.",
+    "difficulty": "medium",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-086",
+    "file": "images/16.png",
+    "transcript": "The Rosetta Stone was discovered in 1799.",
+    "corrected_text": "The Rosetta Stone was discovered in 1799.",
+    "difficulty": "medium",
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Arial",
+      "blur": ".2px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-087",
+    "file": "images/17.png",
+    "transcript": "The Panama Canal opened to traffic in 1914.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The Panama Canal opened to traffic in 1914.",
+    "difficulty": "medium",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Times New Roman",
+      "blur": ".4px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "hyper-fact-001",
+    "file": "images/18.png",
+    "transcript": "The first successful polio vaccine was developed by Jonas Salk.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "The first successful polio vaccine was developed by Jonas Salk.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-002",
+    "file": "images/19.jpg",
+    "transcript": "Doctoral degrees are typically the highest academic degree awarded by universities.",
+    "corrected_text": "Doctoral degrees are typically the highest academic degree awarded by universities.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-003",
+    "file": "images/20.png",
+    "transcript": "The London Underground is one of the oldest metro systems in the world.",
+    "corrected_text": "The London Underground is one of the oldest metro systems in the world.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-004",
+    "file": "images/21.png",
+    "transcript": "The Arctic is warming faster than the global average.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The Arctic is warming faster than the global average.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-006",
+    "file": "images/22.png",
+    "transcript": "A nibble consists of twelve bits.",
+    "corrected_text": "A nibble consists of twelve bits.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-007",
+    "file": "images/23.png",
+    "transcript": "UNESCO promotes exclusively military cooperation between member states.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "UNESCO promotes exclusively military cooperation between member states.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-008",
+    "file": "images/24.jpg",
+    "transcript": "Wikipedia is edited collaboratively by volunteers.",
+    "corrected_text": "Wikipedia is edited collaboratively by volunteers.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Courier New",
+      "blur": ".4px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-009",
+    "file": "images/25.png",
+    "transcript": "Geneva hosts the International Criminal Court.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "Geneva hosts the International Criminal Court.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-010",
+    "file": "images/26.png",
+    "transcript": "Koalas primarily eat bamboo shoots.",
+    "corrected_text": "Koalas primarily eat bamboo shoots.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-012",
+    "file": "images/27.png",
+    "transcript": "Penicillin was discovered by Marie Curie.",
+    "corrected_text": "Penicillin was discovered by Marie Curie.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Times New Roman",
+      "blur": ".2px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-013",
+    "file": "images/28.png",
+    "transcript": "The Kyoto Protocol set binding emissions targets for developed countries.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "The Kyoto Protocol set binding emissions targets for developed countries.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "hyper-fact-014",
+    "file": "images/29.jpg",
+    "transcript": "A joule is a unit of energy.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "A joule is a unit of energy.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": false
+    }
+  }
+]

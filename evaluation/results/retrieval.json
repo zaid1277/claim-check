@@ -1,0 +1,11 @@
+{
+  "dataset": "authored development examples; not a held-out benchmark",
+  "queries": 2,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "min_similarity": 0.35,
+  "measured_at": "2026-09-06T23:05:36.913230+00:00",
+  "metrics": {
+    "recall@5": 1.0,
+    "recall@10": 1.0
+  }
+}

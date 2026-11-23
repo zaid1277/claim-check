@@ -1,0 +1,16 @@
+{
+  "model": "cross-encoder/nli-deberta-v3-small",
+  "revision": "fa2804872c3b4bd748f38c0185cc85775361e735",
+  "label_mapping": {
+    "0": "contradiction",
+    "1": "entailment",
+    "2": "neutral"
+  },
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "pairs": 53,
+  "first_call_seconds": 2.8432177920001322,
+  "mean_seconds": 0.05284983886791743,
+  "median_seconds": 0.044065625000030195,
+  "peak_process_rss": 857669632,
+  "rss_units": "bytes on macOS; KiB on Linux"
+}

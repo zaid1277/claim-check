@@ -1,0 +1,46 @@
+{
+  "dataset": "authored development examples; not held out",
+  "pairs": 12,
+  "model": "typeform/distilbert-base-uncased-mnli",
+  "min_confidence": 0.65,
+  "measured_at": "2026-09-06T23:07:59.234025+00:00",
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "labels": [
+    "support",
+    "contradict",
+    "neutral"
+  ],
+  "confusion_matrix_rows_true_columns_predicted": [
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "predictions": [
+    "support",
+    "contradict",
+    "neutral",
+    "support",
+    "contradict",
+    "neutral",
+    "support",
+    "contradict",
+    "neutral",
+    "support",
+    "contradict",
+    "neutral"
+  ]
+}

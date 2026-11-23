@@ -1,0 +1,362 @@
+[
+  {
+    "id": "remediation-fact-003",
+    "file": "images/00.png",
+    "transcript": "The first modern Olympic Games were held in Athens in 1896.",
+    "corrected_text": "The first modern Olympic Games were held in Athens in 1896.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-004",
+    "file": "images/01.png",
+    "transcript": "The Boston Tea Party took place in 1773.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The Boston Tea Party took place in 1773.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-014",
+    "file": "images/02.png",
+    "transcript": "The fall of the Western Roman Empire is traditionally dated to 476 CE.",
+    "corrected_text": "The fall of the Western Roman Empire is traditionally dated to 476 CE.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-025",
+    "file": "images/03.png",
+    "transcript": "The signing of the Treaty of Versailles took place in 1949.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "The signing of the Treaty of Versailles took place in 1949.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Verdana",
+      "blur": ".4px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-031",
+    "file": "images/04.jpg",
+    "transcript": "The Louisiana Purchase roughly doubled the size of the United States in 1803.",
+    "corrected_text": "The Louisiana Purchase roughly doubled the size of the United States in 1803.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-042",
+    "file": "images/05.png",
+    "transcript": "The Titanic sank in 1932 after striking an iceberg.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The Titanic sank in 1932 after striking an iceberg.",
+    "difficulty": "medium",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Georgia",
+      "blur": ".2px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-049",
+    "file": "images/06.png",
+    "transcript": "The human skeleton contains 206 bones in adulthood.",
+    "corrected_text": "The human skeleton contains 206 bones in adulthood.",
+    "difficulty": "medium",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-054",
+    "file": "images/07.png",
+    "transcript": "The Magna Carta was signed in 1815 in France.",
+    "corrected_text": "The Magna Carta was signed in 1815 in France.",
+    "difficulty": "medium",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-057",
+    "file": "images/08.png",
+    "transcript": "Chess is played on a board with 100 squares.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "Chess is played on a board with 100 squares.",
+    "difficulty": "medium",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-061",
+    "file": "images/09.jpg",
+    "transcript": "The 100-meter sprint is not recognized as a track and field event.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The 100-meter sprint is not recognized as a track and field event.",
+    "difficulty": "medium",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-066",
+    "file": "images/10.png",
+    "transcript": "The Great Depression began in 1929.",
+    "corrected_text": "The Great Depression began in 1929.",
+    "difficulty": "medium",
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Georgia",
+      "blur": ".4px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-072",
+    "file": "images/11.png",
+    "transcript": "The Hoover Dam was built on the Mississippi River during the 1830s.",
+    "corrected_text": "The Hoover Dam was built on the Mississippi River during the 1830s.",
+    "difficulty": "medium",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": true
+    }
+  },
+  {
+    "id": "remediation-fact-000",
+    "file": "images/12.png",
+    "transcript": "The Iditarod is a long-distance sled dog race held annually in Alaska.",
+    "corrected_text": "The Iditarod is a long-distance sled dog race held annually in Alaska.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "remediation-fact-001",
+    "file": "images/13.png",
+    "transcript": "Cloud computing allows on-demand access to shared computing resources over the internet.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "Cloud computing allows on-demand access to shared computing resources over the internet.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "remediation-fact-002",
+    "file": "images/14.jpg",
+    "transcript": "Recycling aluminum uses significantly less energy than producing it from raw ore.",
+    "corrected_text": "Recycling aluminum uses significantly less energy than producing it from raw ore.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 13,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": true,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "remediation-fact-005",
+    "file": "images/15.png",
+    "transcript": "Quarterly earnings reports are commonly published by publicly traded companies.",
+    "corrected_text": "Quarterly earnings reports are commonly published by publicly traded companies.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 30,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "remediation-fact-006",
+    "file": "images/16.png",
+    "transcript": "Plastic pollution poses no threat whatsoever to marine ecosystems.",
+    "corrected_text": "Plastic pollution poses no threat whatsoever to marine ecosystems.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 19,
+      "family": "Arial",
+      "blur": ".2px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "remediation-fact-007",
+    "file": "images/17.png",
+    "transcript": "The euro is the official currency used by many European Union member states.\n\nThis passage is presented for factual review.\nPlease verify the statement against independent sources before drawing conclusions.\nAdditional context may be required for claims involving dates or statistics.",
+    "corrected_text": "The euro is the official currency used by many European Union member states.",
+    "difficulty": "easy",
+    "expected": "SUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 22,
+      "family": "Times New Roman",
+      "blur": ".4px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": true,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "remediation-fact-008",
+    "file": "images/18.png",
+    "transcript": "Regular physical activity is associated with worsened mental health in all cases.\n\nSource: internal briefing document, page 2.",
+    "corrected_text": "Regular physical activity is associated with worsened mental health in all cases.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": true,
+      "font": 26,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  },
+  {
+    "id": "remediation-fact-009",
+    "file": "images/19.jpg",
+    "transcript": "The Alps are a major mountain range in South America.",
+    "corrected_text": "The Alps are a major mountain range in South America.",
+    "difficulty": "easy",
+    "expected": "UNSUPPORTED",
+    "conditions": {
+      "dark": false,
+      "font": 15,
+      "family": "Courier New",
+      "blur": "0px",
+      "jpeg_quality": 60,
+      "narrow_wrapped": false,
+      "multi_paragraph": false,
+      "has_digits": false
+    }
+  }
+]

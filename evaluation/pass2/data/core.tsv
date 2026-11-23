@@ -1,0 +1,37 @@
+domain	tag	claim	support	contradict	neutral
+geography	location	The observatory stands in Chile.	The observatory is located in Chile.	The observatory is in Peru, not Chile.	The observatory employs researchers from Chile.
+geography	quantity	The archipelago consists of eight islands.	Eight islands make up the archipelago.	The archipelago consists of nine islands.	Eight boats visit the archipelago daily.
+geography	relationship	The Luma River flows into the sea.	The Luma River empties into the sea.	The Luma River ends in an inland lake and never reaches the sea.	The Luma River is crossed by a road bridge.
+history	date	The archive opened in 1876.	The archive first opened its doors in 1876.	The archive opened in 1878, not 1876.	The archive displays documents from 1876.
+history	before_after	The siege ended before the treaty was signed.	The treaty was signed after the siege ended.	The siege was still underway when the treaty was signed.	The treaty and the siege are studied by historians.
+history	negation	The expedition did not reach the summit.	The expedition turned back before reaching the summit.	The expedition successfully reached the summit.	The expedition included six climbers.
+science	quantity	The sample weighs 12 grams.	The sample has a mass of 12 g.	The sample weighs 21 grams.	The sample was tested in twelve laboratories.
+science	relationship	The enzyme accelerates the reaction.	The reaction proceeds faster when the enzyme is added.	The enzyme slows the reaction down.	The enzyme is stored in a refrigerator.
+science	uncertainty	The experiment proves the hypothesis.	The hypothesis was conclusively established by the experiment.	The experiment conclusively disproves the hypothesis.	The experiment may provide evidence for the hypothesis, but the result is uncertain.
+computing	negation	The program requires an internet connection.	The program cannot run without an internet connection.	The program runs entirely offline without an internet connection.	An internet connection is used to download the program.
+computing	quantity	The file contains 256 records.	There are exactly 256 records in the file.	The file contains 257 records.	The file occupies 256 kilobytes.
+computing	version	Release 7.1 supports encrypted backups.	Encrypted backups are supported in release 7.1.	Release 7.1 does not support encrypted backups.	Release 7.0 supports encrypted backups.
+technology	duration	The sensor operates for forty hours on one charge.	A single charge powers the sensor for 40 hours.	A single charge powers the sensor for only fourteen hours.	The sensor takes forty minutes to charge.
+technology	entity	Orbis manufactures the camera.	The camera is manufactured by Orbis.	Only Helion manufactures the camera; Orbis does not.	Orbis sells accessories for the camera.
+technology	ranking	The prototype is the fastest device in the trial.	No other device in the trial is as fast as the prototype.	Another device in the trial is faster than the prototype.	The prototype is the lightest device in the trial.
+economics	percentage	Inflation was 4.5 percent in 2024.	The 2024 inflation rate was 4.5%.	The 2024 inflation rate was 5.4%.	Inflation was 4.5 percent in 2023.
+economics	trend	Exports decreased between 2020 and 2021.	Exports were lower in 2021 than in 2020.	Exports were higher in 2021 than in 2020.	Imports decreased between 2020 and 2021.
+economics	period	The city's unemployment rate was 6 percent in 2022.	In 2022, six percent of the city's labor force was unemployed.	The city's unemployment rate was 8 percent in 2022.	The city's unemployment rate was 6 percent in 2021.
+business	acquisition	Aster acquired Brava in 2018.	Brava was acquired by Aster in 2018.	Aster acquired Brava in 2019, not 2018.	Aster and Brava announced a partnership in 2018.
+business	revenue	Solen reported revenue of $5 million in 2023.	Solen's revenue for 2023 was five million dollars.	Solen's revenue for 2023 was six million dollars.	Solen's revenue for 2022 was five million dollars.
+business	compound	Arden opened an office and hired a director.	Arden opened an office. Arden also hired a director.	Arden neither opened an office nor hired a director.	Arden opened an office, but nothing is reported about hiring a director.
+sport	score	The Falcons scored three goals.	The Falcons finished with three goals.	The Falcons scored only two goals.	The Falcons conceded three goals.
+sport	winner	The Swifts won the final.	The Swifts were victorious in the final.	The Swifts lost the final.	The Swifts reached the final.
+sport	date	The tournament began on 12 July.	The opening day of the tournament was July 12.	The tournament began on 21 July.	Tickets for the tournament went on sale on July 12.
+culture	author	Mira wrote the novel.	The novel was written by Mira.	The novel was written by Leto, not Mira.	Mira reviewed the novel.
+culture	opening	The gallery opens on Mondays.	Visitors can enter the gallery every Monday.	The gallery is closed every Monday.	The gallery staff meet on Mondays.
+culture	partial	The play won two awards and toured abroad.	The play received two awards and went on an international tour.	The play won no awards and never toured abroad.	The play won two awards. Its touring history is not reported.
+public_institutions	jurisdiction	The agency licenses restaurants.	Restaurants must obtain their licenses from the agency.	The agency does not license restaurants.	The agency publishes reports about restaurants.
+public_institutions	current	Nera is currently the director of the board.	Nera is the board's current director.	Nera is no longer the director; Vela now holds that role.	Nera was director of the board in 2004.
+public_institutions	quantity	The council has 18 members.	Eighteen people sit on the council.	The council has 19 members.	The council held 18 meetings last year.
+health	frequency	The clinic opens every day.	The clinic is open seven days a week.	The clinic is closed on Sundays.	The clinic treats seven patients each hour.
+health	association	The study establishes an association between sleep and attention.	The study found that sleep and attention were statistically associated.	The study found no association between sleep and attention.	The researchers planned to study sleep and attention.
+health	causation	The study proves that the supplement prevents infection.	The study conclusively demonstrates that the supplement prevents infection.	The study demonstrates that the supplement does not prevent infection.	The study found a correlation but could not establish that the supplement prevents infection.
+environment	trend	Forest cover increased during the decade.	There was more forest at the end of the decade than at its beginning.	Forest cover declined during the decade.	Researchers measured forest cover during the decade.
+environment	quantity	The reserve covers 50 square kilometers.	The reserve has an area of fifty square kilometers.	The reserve covers 60 square kilometers.	The reserve contains 50 species of birds.
+environment	negation	The species is not native to the island.	The species was introduced to the island and is not native there.	The species is native to the island.	The species is frequently observed on the island.

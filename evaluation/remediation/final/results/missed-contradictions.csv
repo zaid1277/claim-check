@@ -1,0 +1,28 @@
+id,claim,winning,raw,retained,confidence,category,reason
+remediation-anli-f227600a-b10f-4ae0-bd02-e55125fee428,The film is over 92 years old,contradict,contradict,neutral,0.9992380902572577,relevance filter,Proposition relevance -7.20 is at or below the irrelevance floor -1.50; topic overlap is insufficient.
+remediation-anli-8928cb44-a121-426a-beea-525d1d06838a,The 2008 United States Senate election in Arkansas was held in an odd numbered year.,support,support,support,0.9898564615574679,NLI prediction,
+remediation-anli-534ad78c-c369-46a6-ae31-93ad34d1fd9f,Nick Love directed four films,support,neutral,neutral,0.582229365673701,NLI prediction,
+remediation-anli-0e830c8f-a739-48e9-b1cd-91aa87fc994c,Chuck Schuldiner died 19 years after the band was founded.,support,support,support,0.9908121040246252,NLI prediction,
+remediation-anli-ccb1ee1f-b41b-47b8-8dfa-996ab9d0af42,Dr. Blake starred in Eureka for seven long years ,support,support,support,0.6814761240440692,NLI prediction,
+remediation-anli-c68d0776-993e-4f40-bc34-39144dcb6856,Lady Downer lived to be 100.,support,support,support,0.6786764856081916,NLI prediction,
+remediation-anli-b75c4f5f-0c5f-4534-9188-8034c1263aef,Hussein has seven letters in his first name.,support,support,neutral,0.9484538144505816,NLI prediction,Proposition relevance -8.85 is at or below the irrelevance floor 0.00; topic overlap is insufficient.
+remediation-anli-596c3746-90cb-4b8b-9718-b994d1d2444a,The statement references the four chambers of the heart.,neutral,neutral,neutral,0.9920667173449621,NLI prediction,Proposition relevance -8.78 is at or below the irrelevance floor 0.00; topic overlap is insufficient.
+remediation-anli-fa067b4c-bca8-424f-8e35-839bd08dec66,"Irfan Khoosat is famous for his role in 1985 film ""Hum se hai zamana"".",support,support,support,0.9312881913610853,NLI prediction,
+remediation-anli-8b6e230b-0b52-4bb2-bc94-650c9b5e6e65,2.55 Million viewers tuned in for the fourth season of gossip girl.,neutral,neutral,neutral,0.9699732824233857,NLI prediction,
+remediation-anli-f98cb244-2ee5-474e-a98a-98d6a11e34ae,CLIA does not own any boats,neutral,neutral,neutral,0.9859384657225413,NLI prediction,
+remediation-anli-97f250ae-019b-4a3a-a222-67245e7f19f5,"Martin Richards was born on July 21, 1941.",contradict,contradict,neutral,0.9996254761109674,temporal/context filter,The measurement concerns a different reporting period.
+remediation-anli-62a22e9c-46e9-411c-b37d-8af3232af80a,The American Combat Association was founded by two Olympic wrestlers.,support,support,support,0.994977677015775,NLI prediction,
+remediation-anli-0c6d53ef-2329-4006-8cf6-6c5318ff664a,Wendy's death was due to foul play,contradict,contradict,neutral,0.9975414728291351,relevance filter,Proposition relevance -1.57 is at or below the irrelevance floor -1.50; topic overlap is insufficient.
+remediation-anli-a6b6d7c8-21b1-48d0-93d5-697e103e1bac,"The group Sha Na Na formed when Frederick ""Dennis"" Greene was 21 years old.",support,support,support,0.965242850480811,NLI prediction,
+remediation-anli-75f6ebbb-317b-400f-992b-c9868fdf83bc,Kevin Romy currently plays for the Philadelphia Flyers in the NHL.,contradict,contradict,neutral,0.9987143295732183,temporal/context filter,Currentness cannot be established without a usable publication date.
+remediation-anli-c5fcc20e-ae66-4259-bb5e-10172e76729b,Hualamphong has more than four vowels in its name.,contradict,contradict,neutral,0.9982695166362321,relevance filter,Proposition relevance -6.83 is at or below the irrelevance floor -1.50; topic overlap is insufficient.
+remediation-anli-5a118c1f-fc04-4206-b534-a93ae005837a,The passage mentions more than one argument. ,contradict,contradict,neutral,0.91590639423214,relevance filter,Proposition relevance -10.12 is at or below the irrelevance floor -1.50; topic overlap is insufficient.
+remediation-anli-bc074264-d7e6-4b81-8993-6ee9e5177ab6,The article is about how to take care of your new leopard.,support,support,support,0.9935554110966043,NLI prediction,
+remediation-anli-79432a84-f675-448a-a363-bb6abf87d1ca,Penthouse was released 7 years before society lawyer.,support,support,support,0.9924294981461351,NLI prediction,
+remediation-anli-282cfa09-1b4b-4b49-9310-359bc52e43f4,David Armand starts with S.,support,support,support,0.8301818640008536,NLI prediction,
+remediation-anli-7ada1ade-5045-4246-88f7-c02bc9272c81,The 1980 British Grand Prix  took place in the second quarter of the year,contradict,neutral,neutral,0.5569741772867537,NLI confidence,
+remediation-anli-b3295208-2e83-46e3-92bb-4afa1e556d3b,The bowfin fish was named after the submarine.,contradict,neutral,neutral,0.5483966920736031,NLI confidence,
+remediation-anli-4847f37a-de25-4528-b686-af36edcb8c71,I don't object to Pandas being in the library unlike some other book,contradict,neutral,neutral,0.5295475720041655,NLI confidence,
+remediation-anli-6960f84c-683c-4c4f-9232-3cf7ea4986b4,Maureen Caird was born in the summer. ,contradict,neutral,neutral,0.4723970548061344,NLI confidence,
+rem-conf-026-contradict,Renewable energy sources are limited exclusively to coal and oil.,contradict,contradict,neutral,0.9997473196476004,relevance filter,Proposition relevance -1.92 is at or below the irrelevance floor -1.50; topic overlap is insufficient.
+rem-conf-039-contradict,Smartphones are limited exclusively to making phone calls.,contradict,contradict,neutral,0.9998215468314561,relevance filter,Proposition relevance -3.34 is at or below the irrelevance floor -1.50; topic overlap is insufficient.

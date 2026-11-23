@@ -1,0 +1,31 @@
+difficulty	expected	claim
+easy	SUPPORTED	The Eiffel Tower is located in Paris, France.
+easy	SUPPORTED	Mount Everest is the tallest mountain above sea level on Earth.
+easy	SUPPORTED	The Great Wall of China is located in China.
+easy	UNSUPPORTED	The capital of Australia is Sydney.
+easy	SUPPORTED	Water is composed of hydrogen and oxygen atoms.
+easy	SUPPORTED	The Pacific Ocean is the largest ocean on Earth.
+easy	UNSUPPORTED	Albert Einstein was born in France.
+easy	SUPPORTED	The human body has 206 bones in adulthood.
+easy	SUPPORTED	Photosynthesis occurs in plant chloroplasts.
+easy	UNSUPPORTED	The Amazon rainforest is located primarily in Africa.
+medium	SUPPORTED	Microsoft acquired GitHub in 2018.
+medium	SUPPORTED	The James Webb Space Telescope launched in December 2021.
+medium	UNSUPPORTED	Tesla was founded by Jeff Bezos.
+medium	SUPPORTED	The World Health Organization is headquartered in Geneva, Switzerland.
+medium	SUPPORTED	Netflix began as a DVD rental by mail service.
+medium	UNSUPPORTED	The Panama Canal connects the Atlantic and Indian Oceans.
+medium	SUPPORTED	SpaceX was founded by Elon Musk in 2002.
+medium	SUPPORTED	The Eurozone uses the euro as its common currency.
+medium	UNSUPPORTED	The International Space Station is owned solely by the United States.
+medium	SUPPORTED	Bitcoin was created by a person or group using the pseudonym Satoshi Nakamoto.
+hard	SUPPORTED	CRISPR-Cas9 is a gene-editing technology adapted from a bacterial immune defense system.
+hard	UNSUPPORTED	The Voyager 1 spacecraft has exited the solar system entirely and lost all contact with Earth.
+hard	SUPPORTED	The Higgs boson was first experimentally confirmed by CERN in 2012.
+hard	UNSUPPORTED	mRNA vaccines work by introducing a weakened live virus into the body.
+hard	SUPPORTED	Antibiotic resistance can spread between bacteria through horizontal gene transfer.
+hard	UNSUPPORTED	The Kyoto Protocol set legally binding emissions targets for all countries including developing nations equally.
+hard	SUPPORTED	Quantum entanglement was described by Einstein as "spooky action at a distance."
+hard	UNSUPPORTED	The Human Genome Project found that humans have approximately 100,000 protein-coding genes.
+hard	SUPPORTED	Coral bleaching is primarily caused by sustained increases in ocean water temperature.
+hard	UNSUPPORTED	Nuclear fusion is currently used as the primary source of commercial electricity generation worldwide.

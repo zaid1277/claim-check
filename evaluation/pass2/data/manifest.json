@@ -1,0 +1,9 @@
+{
+  "anli-source.json": "663c5819e335152b0bd2ed17c28b47c62a35c424f70f224459ebfe990906806a",
+  "anli-provenance.json": "c3b668afe60047670fc65ba005e351007f46f8dfb4cdcb4a3789205dd80b9763",
+  "verdicts.tsv": "a5edfa059c03b856cff3eba4b0c5b737fe9d70466f47945dc0dcad06fd7e4ced",
+  "verdicts.json": "5052be4b438d93a97ff4fbc2760af4bf3e183860a0530374791ba8191d8b9433",
+  "core.tsv": "541b5ace175ac0cac5a13bd027deeb5f63857216e0ec9e057de4c1a8cace4c95",
+  "nli.json": "5df9866e367fcf1309668f71c7fcba711c0a65ad99c4c6237dfc0d6e04e57a01",
+  "retrieval.json": "3bb5f279b82dd06838c5396a26672dcc0b8de5f6eff1547ba627ffa8a7e91792"
+}

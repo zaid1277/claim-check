@@ -1,0 +1,302 @@
+[
+  {
+    "id": "final-fact-000",
+    "file": "images/00.png",
+    "transcript": "The University of Cape Town was founded in 1830.\n\nThis extract contains a factual statement for review.\nCheck the evidence before accepting the conclusion.",
+    "corrected_text": "The University of Cape Town was founded in 1830.",
+    "conditions": {
+      "dark": true,
+      "font": 24,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-001",
+    "file": "images/01.png",
+    "transcript": "A standard tennis game begins at love-all.",
+    "corrected_text": "A standard tennis game begins at love-all.",
+    "conditions": {
+      "dark": false,
+      "font": 18,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-002",
+    "file": "images/02.png",
+    "transcript": "Nokia was founded in Finland.",
+    "corrected_text": "Nokia was founded in Finland.",
+    "conditions": {
+      "dark": false,
+      "font": 14,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": true,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-003",
+    "file": "images/03.png",
+    "transcript": "The Taj Mahal is in Agra.\n\nThis extract contains a factual statement for review.\nCheck the evidence before accepting the conclusion.",
+    "corrected_text": "The Taj Mahal is in Agra.",
+    "conditions": {
+      "dark": false,
+      "font": 28,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-004",
+    "file": "images/04.jpg",
+    "transcript": "Python uses indentation to define code blocks.",
+    "corrected_text": "Python uses indentation to define code blocks.",
+    "conditions": {
+      "dark": true,
+      "font": 20,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": 65,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-005",
+    "file": "images/05.png",
+    "transcript": "Git is a distributed version control system.",
+    "corrected_text": "Git is a distributed version control system.",
+    "conditions": {
+      "dark": false,
+      "font": 24,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-006",
+    "file": "images/06.png",
+    "transcript": "Human mitochondrial DNA is usually inherited maternally.\n\nThis extract contains a factual statement for review.\nCheck the evidence before accepting the conclusion.",
+    "corrected_text": "Human mitochondrial DNA is usually inherited maternally.",
+    "conditions": {
+      "dark": false,
+      "font": 18,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-007",
+    "file": "images/07.png",
+    "transcript": "The Magna Carta was first issued in 1216.",
+    "corrected_text": "The Magna Carta was first issued in 1216.",
+    "conditions": {
+      "dark": false,
+      "font": 14,
+      "family": "Verdana",
+      "blur": ".35px",
+      "jpeg_quality": null,
+      "wrapped": true,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-008",
+    "file": "images/08.png",
+    "transcript": "The Danube flows into the Baltic Sea.",
+    "corrected_text": "The Danube flows into the Baltic Sea.",
+    "conditions": {
+      "dark": true,
+      "font": 28,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-009",
+    "file": "images/09.jpg",
+    "transcript": "The Suez Canal opened in 1870.\n\nThis extract contains a factual statement for review.\nCheck the evidence before accepting the conclusion.",
+    "corrected_text": "The Suez Canal opened in 1870.",
+    "conditions": {
+      "dark": false,
+      "font": 20,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": 65,
+      "wrapped": false,
+      "spacing": true
+    }
+  },
+  {
+    "id": "final-fact-010",
+    "file": "images/10.png",
+    "transcript": "The Wright brothers' first powered flight took place in 1904.",
+    "corrected_text": "The Wright brothers' first powered flight took place in 1904.",
+    "conditions": {
+      "dark": false,
+      "font": 24,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-011",
+    "file": "images/11.png",
+    "transcript": "Concorde entered commercial service in 1976.",
+    "corrected_text": "Concorde entered commercial service in 1976.",
+    "conditions": {
+      "dark": false,
+      "font": 18,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-012",
+    "file": "images/12.png",
+    "transcript": "The Paris Agreement was adopted in 2015.\n\nThis extract contains a factual statement for review.\nCheck the evidence before accepting the conclusion.",
+    "corrected_text": "The Paris Agreement was adopted in 2015.",
+    "conditions": {
+      "dark": true,
+      "font": 14,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": true,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-013",
+    "file": "images/13.png",
+    "transcript": "Electric current is measured in amperes.",
+    "corrected_text": "Electric current is measured in amperes.",
+    "conditions": {
+      "dark": false,
+      "font": 28,
+      "family": "Arial",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-014",
+    "file": "images/14.jpg",
+    "transcript": "The International Court of Justice is based in Brussels.",
+    "corrected_text": "The International Court of Justice is based in Brussels.",
+    "conditions": {
+      "dark": false,
+      "font": 20,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": 65,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-015",
+    "file": "images/15.png",
+    "transcript": "The speed of light in vacuum is exactly 299792458 metres per second.\n\nThis extract contains a factual statement for review.\nCheck the evidence before accepting the conclusion.",
+    "corrected_text": "The speed of light in vacuum is exactly 299792458 metres per second.",
+    "conditions": {
+      "dark": false,
+      "font": 24,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-016",
+    "file": "images/16.png",
+    "transcript": "Neptune was discovered in 1846.",
+    "corrected_text": "Neptune was discovered in 1846.",
+    "conditions": {
+      "dark": true,
+      "font": 18,
+      "family": "Georgia",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-017",
+    "file": "images/17.png",
+    "transcript": "Sound can propagate through a perfect vacuum.",
+    "corrected_text": "Sound can propagate through a perfect vacuum.",
+    "conditions": {
+      "dark": false,
+      "font": 14,
+      "family": "Arial",
+      "blur": ".35px",
+      "jpeg_quality": null,
+      "wrapped": true,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-018",
+    "file": "images/18.png",
+    "transcript": "The euro entered circulation as banknotes and coins in 2001.\n\nThis extract contains a factual statement for review.\nCheck the evidence before accepting the conclusion.",
+    "corrected_text": "The euro entered circulation as banknotes and coins in 2001.",
+    "conditions": {
+      "dark": false,
+      "font": 28,
+      "family": "Times New Roman",
+      "blur": "0px",
+      "jpeg_quality": null,
+      "wrapped": false,
+      "spacing": false
+    }
+  },
+  {
+    "id": "final-fact-019",
+    "file": "images/19.jpg",
+    "transcript": "A standard Ethernet MAC address contains 64 bits.",
+    "corrected_text": "A standard Ethernet MAC address contains 64 bits.",
+    "conditions": {
+      "dark": false,
+      "font": 20,
+      "family": "Verdana",
+      "blur": "0px",
+      "jpeg_quality": 65,
+      "wrapped": false,
+      "spacing": false
+    }
+  }
+]

@@ -1,0 +1,115 @@
+system,task,id,difficulty,claim,expected,predicted,primary_cause,diagnostic
+pass1,nli,core-02-contradict,unassigned,The Luma River flows into the sea.,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+pass1,nli,core-05-support,unassigned,The expedition did not reach the summit.,support,contradict,NLI contradiction error,
+pass1,nli,core-08-contradict,unassigned,The experiment proves the hypothesis.,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+pass1,nli,core-11-contradict,unassigned,Release 7.1 supports encrypted backups.,contradict,neutral,entity mismatch,No unambiguous subject was identified.
+pass1,nli,core-20-neutral,unassigned,Arden opened an office and hired a director.,neutral,contradict,NLI contradiction error,
+pass1,nli,core-23-neutral,unassigned,The tournament began on 12 July.,neutral,support,NLI support error,
+pass1,nli,core-29-neutral,unassigned,The council has 18 members.,neutral,support,NLI support error,
+pass1,nli,core-32-contradict,unassigned,The study proves that the supplement prevents infection.,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+pass1,nli,anli-0342769e-7062-45bf-a357-049d33e9790c,unassigned,Justin Smith is 42 years old,support,neutral,NLI neutral error,
+pass1,nli,anli-081466d9-4767-44c7-a8c5-e8243bc97681,unassigned,Engine was jointly released more than 998 days ago.,support,neutral,NLI neutral error,
+pass1,nli,anli-1907eba8-4d2c-444a-8073-c2a6b4e3671c,unassigned,The Tiki Bar was made after the 20th century,support,neutral,NLI neutral error,
+pass1,nli,anli-7837e94e-69b7-4f0b-b46e-a4a65737f56f,unassigned,Mark was born in the late eighties ,support,neutral,NLI neutral error,
+pass1,nli,anli-baad2b04-2600-41fe-a1a7-a3d7c5ddb0d6,unassigned,Henrik Ibsen was born in 1828,support,neutral,NLI contradiction error,The passage does not explicitly address the same predicate.
+pass1,nli,anli-1c5611b4-0b5d-4eef-b9e0-339e4d417877,unassigned,The corruption is occurring at the highest levels.,support,neutral,NLI neutral error,
+pass1,nli,anli-9d58813e-1250-4357-9e13-51bcbd37061a,unassigned,Neymar was covering from foot surgery from March to early June,support,neutral,NLI neutral error,
+pass1,nli,anli-273a4e12-ffc3-4348-af4e-e5f3d5f89182,unassigned,The 2007–08 Tour de Ski lasted less than 20 days.,support,neutral,NLI contradiction error,The passage does not explicitly address the same predicate.
+pass1,nli,anli-89e9f216-1132-4ae7-a396-78f9643b5fd9,unassigned,Björn Kristian Ulvaeus was born the the twenty fifth day of the fourth month of a year,support,neutral,NLI neutral error,
+pass1,nli,anli-78d8d389-a43f-4973-94f2-6607cfd11fc0,unassigned,The American Hairless Terrier is strongly immune to allergies,support,neutral,NLI neutral error,
+pass1,nli,anli-3048994f-356d-4eda-be4b-762b331db719,unassigned,John Wellborn Root was awarded the AIA Gold Medal posthumously. ,support,neutral,NLI neutral error,
+pass1,nli,anli-bb723af2-59ed-462c-afeb-6ab0b3856a86,unassigned,The song made the band much more popular,support,neutral,NLI neutral error,
+pass1,nli,anli-8cb6f2ea-0d9c-4f5d-95fb-05ecc8889104,unassigned,The two men injured in the accident were in Australia.,support,neutral,NLI neutral error,
+pass1,nli,anli-616b7d65-8f61-4390-a5cf-30c6f5547ef7,unassigned,The Socialist Party of Maine is a legitimate party,support,contradict,NLI contradiction error,
+pass1,nli,anli-14604855-97f7-40ce-84c6-fbd3db0905a3,unassigned,The Dream Synopsis was released after 2015,support,neutral,NLI neutral error,
+pass1,nli,anli-2036768a-c8a2-4b9d-9138-82509ddebec6,unassigned,Channels was released after 2005,support,neutral,NLI neutral error,
+pass1,nli,anli-260745a4-b449-4fab-8541-d945ba70f351,unassigned,Dmitri Shostakovich may have been lying about his life in this book.,support,neutral,NLI neutral error,
+pass1,nli,anli-9846cd5a-9814-4de3-ad46-f2361b072bc2,unassigned,Carter brown was a man.,support,neutral,NLI neutral error,
+pass1,nli,anli-fb210304-784c-4b39-af74-fdc27ad0249c,unassigned,ABN AMRO finds Laura Crosbie to be a competent person that they would like to have as an employee.,support,neutral,NLI neutral error,
+pass1,nli,anli-c635c4bf-bbb4-4704-8136-94f86ef0d6fe,unassigned,One adult was injured in the explosion.,support,neutral,NLI neutral error,
+pass1,nli,anli-8253f738-4073-49cc-916e-e768406762e2,unassigned,St Mary Magdalene's Church has been visited by people in England.,support,neutral,NLI neutral error,
+pass1,nli,anli-79115bb2-1fc7-4cca-9ff4-31a4cc8e3708,unassigned,High Fidelity the book was based in London but the movie was not.,support,contradict,NLI contradiction error,
+pass1,nli,anli-9d4d8faf-aea4-4207-a27d-ba8ad5010225,unassigned,Another film was selected as a nominee for the Best Foreign Language Film at the Academy Awards.,support,neutral,NLI neutral error,
+pass1,nli,anli-b0214041-75bb-44fe-8cb6-f8aad59791d8,unassigned,Most people in the country should have their raincoats ready,contradict,neutral,NLI neutral error,
+pass1,nli,anli-ffbaf962-b11c-4a52-9226-d6556d230977,unassigned,Star Wars: Episode II – Attack of the Clones is a 2002 American epic space opera film directed by Lucas and Jonathan Hales and written by George Lucas,contradict,support,NLI support error,
+pass1,nli,anli-5a665067-7b31-4044-a48f-44c1b9e27c16,unassigned,Jesus is a just a phone call away.,contradict,neutral,NLI neutral error,
+pass1,nli,anli-62835041-98b2-41a9-bdd1-58d9d6f8e37d,unassigned,5 people were inducted in the class of 2018,contradict,neutral,NLI neutral error,
+pass1,nli,anli-85c94554-3908-4af0-81cf-093255b14cdc,unassigned,Two teenage sisters went missing,contradict,support,NLI support error,
+pass1,nli,anli-a6614f3a-53cd-45f6-b642-f5720687af11,unassigned,Rooster stars Pat Williams and Paul McCormick.,contradict,support,NLI support error,
+pass1,nli,anli-94a0c994-27d9-4f94-8afb-ddeac1f91632,unassigned,PP17 has three P's,contradict,neutral,NLI neutral error,
+pass1,nli,anli-d240671b-edbc-4e6e-b0c0-c38fb4d73b4c,unassigned,The End was released in 20166,contradict,neutral,NLI neutral error,
+pass1,nli,anli-a68f453f-d3d8-496d-b3c6-c9d374ede5e9,unassigned,The writer is paraphrasing Chomsky.,contradict,neutral,NLI neutral error,
+pass1,nli,anli-00362a0c-f0b3-4b9c-94bf-e9c029e47c82,unassigned,Jain lived a very short life,contradict,neutral,NLI neutral error,
+pass1,nli,anli-f6f0221e-79ae-4534-a22e-c09eb34d74c8,unassigned,Pablo Aurrecochea has been playing for CA Atlanta for 60 years.,contradict,neutral,NLI neutral error,
+pass1,nli,anli-eaa8d0f1-534b-4ac0-a6b2-ab8dca5af7c1,unassigned,You can't reach the sea directly from Djibouti,contradict,neutral,NLI neutral error,
+pass1,nli,anli-e19c3e47-af3c-4b7d-8247-2ad7c5270da5,unassigned,Al Overton died before the age of 70.,contradict,support,NLI support error,
+pass1,nli,anli-5e78a47c-453e-4c76-85d1-bc9e7be2cb4b,unassigned,Southern Nevada is part of South America.,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+pass1,nli,anli-4c102f7d-f7a7-4422-ac4b-be18b1379c66,unassigned,Senator Aruwa represented Kaduna Central Senatorial zone at National Assembly for more than 10 years.,contradict,neutral,NLI neutral error,
+pass1,nli,anli-1c804aec-ac75-447d-8f27-059680518185,unassigned,Brown contains a q,contradict,neutral,NLI neutral error,
+pass1,nli,anli-660b3162-17e6-4cdb-81df-f77e9f787bd9,unassigned,Stanley Hugh Gallimore was the best footballer in September 1995.,contradict,neutral,NLI neutral error,
+pass1,nli,anli-03d80f6a-00bd-493e-b623-5c9eaf9f2f68,unassigned,The Bucklow rural district was split into different parts befire 1970,contradict,neutral,NLI neutral error,Contradiction confidence is below the required operating point.
+pass1,nli,anli-0a3b5422-169c-4a8d-9f4c-0aab9980e16f,unassigned,Silver City was released and won 3 Television and Radio School awards. ,contradict,support,NLI support error,
+pass1,nli,anli-5dd6ec44-8da2-4804-b32d-ccb213982ed2,unassigned,There are more than 3 Owenite experiments in New York.,contradict,neutral,NLI neutral error,
+pass1,nli,anli-d51a3d52-fe84-49c2-bb93-d9e2dd2d505a,unassigned,Adrienne Maloof is more than 1961 years old.,contradict,support,NLI support error,
+pass1,nli,anli-ec3033a2-0d90-4b70-bc1f-72bd71693657,unassigned,The Sports Car Club of America's premier open wheel racing series had already run ten times prior to the 1976 SCCA/USAC Formula 5000 Championship.,contradict,support,NLI support error,
+pass1,nli,anli-12fa0264-7ecf-4e3f-9437-d00e1bcf8abc,unassigned,Mike Hoffman played ice hockey in 1980,contradict,neutral,NLI neutral error,Contradiction confidence is below the required operating point.
+pass1,nli,anli-bf628cf5-6948-4595-a6d0-daf99beb47b9,unassigned,Form and meaning are the only aspects of language linguistics is concerned with.,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+pass1,nli,anli-ac7f621c-4802-4dbc-84a7-db0c2cf7d774,unassigned,The International University of Rabatat or IUR is a semi-public university.,contradict,support,NLI support error,
+pass1,nli,anli-f4cde660-538e-4d1d-b525-53696e76cbd1,unassigned,Films having political themes were popular in 2000.,neutral,support,NLI support error,
+pass1,nli,anli-08c7abe5-776d-4514-9d19-15fb1c3f5696,unassigned,The Cornerstone Christian Lady Crusaders have one a state championship in the past.,neutral,support,NLI support error,
+pass1,nli,anli-2f04b0b9-a7bc-4ddb-ab8c-af1e78801285,unassigned,"If people visit the iTunes page, they will download the podcast.",neutral,support,NLI support error,
+pass1,nli,anli-640cc795-0688-41b9-a1b2-6c42a26232eb,unassigned,The Volkswagen Golf was the best selling car in the United States in 2001.,neutral,contradict,NLI contradiction error,
+pass1,nli,anli-c9855358-5fd2-432e-ab3e-3fe28441d6c6,unassigned,Canada bay has had a population of 1000.,neutral,contradict,NLI contradiction error,
+pass1,nli,anli-e0dd6378-b57b-4e9a-8222-aa8ae6a32bb2,unassigned,The Nebraska Cornhuskers was established in 1985. ,neutral,support,NLI support error,
+pass1,nli,anli-7693775a-2b2d-492c-a22f-0db8bb2b084e,unassigned,James Risen won a Pulitzer Prize for his work with The New York Times,neutral,support,NLI support error,
+pass1,verdicts,e2e-013,easy,The Titanic sank in 1922.,UNSUPPORTED,INSUFFICIENT_EVIDENCE,entity mismatch,The passage does not explicitly identify the same subject.
+pass1,verdicts,e2e-032,easy,The Eagles won the match.,MIXED_EVIDENCE,SUPPORTED,relevance error,The passage does not explicitly address the same predicate.
+pass1,verdicts,e2e-041,medium,The county's inflation rate was 2 percent in 2020.,MIXED_EVIDENCE,SUPPORTED,entity mismatch,The passage does not explicitly identify the same subject.
+pass1,verdicts,e2e-046,medium,The application encrypts stored passwords.,INSUFFICIENT_EVIDENCE,UNSUPPORTED,NLI contradiction error,
+pass1,verdicts,e2e-061,medium,The race was held on 3 May.,MIXED_EVIDENCE,SUPPORTED,relevance error,The passage does not explicitly address the same predicate.
+pass1,verdicts,e2e-072,medium,The monitoring station recorded 18 millimeters of rain.,UNSUPPORTED,INSUFFICIENT_EVIDENCE,entity mismatch,The passage does not explicitly identify the same subject.
+pass1,verdicts,e2e-074,medium,The permit is valid for three years.,INSUFFICIENT_EVIDENCE,SUPPORTED,NLI support error,
+pass1,verdicts,e2e-078,hard,Larch reported revenue of $9 million in 2024.,MIXED_EVIDENCE,SUPPORTED,relevance error,The measurement refers to a different or unspecified period.; The passage does not explicitly address the same predicate.
+pass1,verdicts,e2e-084,hard,Every sample passed the test.,UNSUPPORTED,INSUFFICIENT_EVIDENCE,relevance error,The passage does not explicitly address the same predicate.
+pass1,verdicts,e2e-093,hard,Orion won the literature prize.,INSUFFICIENT_EVIDENCE,UNSUPPORTED,relevance error,The passage does not explicitly address the same predicate.
+pass1,verdicts,e2e-098,hard,The monitoring program measured rainfall and tracked river levels.,SUPPORTED,INSUFFICIENT_EVIDENCE,insufficient evidence,
+pass2,nli,core-20-neutral,unassigned,Arden opened an office and hired a director.,neutral,contradict,NLI contradiction error,
+pass2,nli,core-32-neutral,unassigned,The study proves that the supplement prevents infection.,neutral,contradict,NLI contradiction error,
+pass2,nli,anli-0342769e-7062-45bf-a357-049d33e9790c,unassigned,Justin Smith is 42 years old,support,neutral,NLI contradiction error,Contradiction confidence is below the required operating point.
+pass2,nli,anli-1907eba8-4d2c-444a-8073-c2a6b4e3671c,unassigned,The Tiki Bar was made after the 20th century,support,neutral,relevance error,Proposition relevance 1.11 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-7837e94e-69b7-4f0b-b46e-a4a65737f56f,unassigned,Mark was born in the late eighties ,support,neutral,NLI neutral error,Proposition relevance -9.20 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-baad2b04-2600-41fe-a1a7-a3d7c5ddb0d6,unassigned,Henrik Ibsen was born in 1828,support,neutral,NLI neutral error,Proposition relevance -1.36 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-1c5611b4-0b5d-4eef-b9e0-339e4d417877,unassigned,The corruption is occurring at the highest levels.,support,neutral,NLI neutral error,Proposition relevance -7.64 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-78d8d389-a43f-4973-94f2-6607cfd11fc0,unassigned,The American Hairless Terrier is strongly immune to allergies,support,neutral,NLI neutral error,
+pass2,nli,anli-3048994f-356d-4eda-be4b-762b331db719,unassigned,John Wellborn Root was awarded the AIA Gold Medal posthumously. ,support,neutral,NLI contradiction error,Contradiction confidence is below the required operating point.
+pass2,nli,anli-481cf377-b769-46e6-87bd-07935c8906e6,unassigned,Annacone and Rensburg beat another team the previous year.,support,neutral,NLI neutral error,
+pass2,nli,anli-bb723af2-59ed-462c-afeb-6ab0b3856a86,unassigned,The song made the band much more popular,support,neutral,relevance error,Proposition relevance -1.78 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-9846cd5a-9814-4de3-ad46-f2361b072bc2,unassigned,Carter brown was a man.,support,neutral,relevance error,Proposition relevance -4.16 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-fb210304-784c-4b39-af74-fdc27ad0249c,unassigned,ABN AMRO finds Laura Crosbie to be a competent person that they would like to have as an employee.,support,neutral,NLI neutral error,
+pass2,nli,anli-8253f738-4073-49cc-916e-e768406762e2,unassigned,St Mary Magdalene's Church has been visited by people in England.,support,neutral,NLI neutral error,
+pass2,nli,anli-9d4d8faf-aea4-4207-a27d-ba8ad5010225,unassigned,Another film was selected as a nominee for the Best Foreign Language Film at the Academy Awards.,support,neutral,NLI neutral error,
+pass2,nli,anli-b0214041-75bb-44fe-8cb6-f8aad59791d8,unassigned,Most people in the country should have their raincoats ready,contradict,neutral,NLI neutral error,Proposition relevance -10.03 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-ffbaf962-b11c-4a52-9226-d6556d230977,unassigned,Star Wars: Episode II – Attack of the Clones is a 2002 American epic space opera film directed by Lucas and Jonathan Hales and written by George Lucas,contradict,neutral,NLI neutral error,
+pass2,nli,anli-5a665067-7b31-4044-a48f-44c1b9e27c16,unassigned,Jesus is a just a phone call away.,contradict,neutral,NLI neutral error,Proposition relevance -9.81 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-62835041-98b2-41a9-bdd1-58d9d6f8e37d,unassigned,5 people were inducted in the class of 2018,contradict,neutral,NLI neutral error,
+pass2,nli,anli-85c94554-3908-4af0-81cf-093255b14cdc,unassigned,Two teenage sisters went missing,contradict,support,NLI support error,
+pass2,nli,anli-94a0c994-27d9-4f94-8afb-ddeac1f91632,unassigned,PP17 has three P's,contradict,neutral,NLI neutral error,Proposition relevance -1.14 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-a68f453f-d3d8-496d-b3c6-c9d374ede5e9,unassigned,The writer is paraphrasing Chomsky.,contradict,neutral,NLI support error,Proposition relevance -1.75 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-00362a0c-f0b3-4b9c-94bf-e9c029e47c82,unassigned,Jain lived a very short life,contradict,neutral,relevance error,Proposition relevance 0.42 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-eaa8d0f1-534b-4ac0-a6b2-ab8dca5af7c1,unassigned,You can't reach the sea directly from Djibouti,contradict,neutral,NLI neutral error,Proposition relevance -0.33 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-e19c3e47-af3c-4b7d-8247-2ad7c5270da5,unassigned,Al Overton died before the age of 70.,contradict,support,NLI support error,
+pass2,nli,anli-4c102f7d-f7a7-4422-ac4b-be18b1379c66,unassigned,Senator Aruwa represented Kaduna Central Senatorial zone at National Assembly for more than 10 years.,contradict,support,NLI support error,
+pass2,nli,anli-1c804aec-ac75-447d-8f27-059680518185,unassigned,Brown contains a q,contradict,neutral,relevance error,Proposition relevance -8.50 is below 2.00; topic overlap is insufficient.
+pass2,nli,anli-03d80f6a-00bd-493e-b623-5c9eaf9f2f68,unassigned,The Bucklow rural district was split into different parts befire 1970,contradict,neutral,NLI neutral error,Contradiction confidence is below the required operating point.
+pass2,nli,anli-5dd6ec44-8da2-4804-b32d-ccb213982ed2,unassigned,There are more than 3 Owenite experiments in New York.,contradict,neutral,NLI neutral error,
+pass2,nli,anli-ec3033a2-0d90-4b70-bc1f-72bd71693657,unassigned,The Sports Car Club of America's premier open wheel racing series had already run ten times prior to the 1976 SCCA/USAC Formula 5000 Championship.,contradict,neutral,NLI neutral error,
+pass2,nli,anli-ac7f621c-4802-4dbc-84a7-db0c2cf7d774,unassigned,The International University of Rabatat or IUR is a semi-public university.,contradict,support,NLI support error,
+pass2,nli,anli-c6757715-31e8-4191-8d88-5e8ff60b0091,unassigned,The Quilts of Valor program was started by my mother,neutral,support,NLI support error,
+pass2,nli,anli-da7f51b4-f016-4a28-9ba1-2ca4d340afc9,unassigned,Demi Lovato: Live in Concert was cancelled,neutral,contradict,NLI contradiction error,
+pass2,nli,anli-59f27457-52b0-44b9-99ab-a67e7bda82ef,unassigned,Some officers were not patrolling on Christmas.,neutral,support,NLI support error,
+pass2,nli,anli-7693775a-2b2d-492c-a22f-0db8bb2b084e,unassigned,James Risen won a Pulitzer Prize for his work with The New York Times,neutral,support,NLI support error,
+pass2,nli,anli-4aaa22d2-4d9d-44d2-98cf-a4a00be609e4,unassigned,it was held really close to New York City on Long Island.,neutral,support,NLI support error,
+pass2,verdicts,e2e-084,hard,Every sample passed the test.,UNSUPPORTED,INSUFFICIENT_EVIDENCE,relevance error,The relevance score rejects an explicit counterexample.
+pass2,verdicts,e2e-091,hard,The harvest failure caused the migration.,INSUFFICIENT_EVIDENCE,UNSUPPORTED,NLI contradiction error,Unestablished causation is classified as disproof.
+pass2,verdicts,e2e-093,hard,Orion won the literature prize.,INSUFFICIENT_EVIDENCE,UNSUPPORTED,entity mismatch,A music group and a literature-prize claim are conflated.
+pass2,verdicts,e2e-098,hard,The monitoring program measured rainfall and tracked river levels.,SUPPORTED,INSUFFICIENT_EVIDENCE,claim decomposition,Coordinated predicates remain unsplit; partial passages never establish the conjunction.

@@ -1,0 +1,73 @@
+id,claim,winning,raw,retained,confidence,category,reason
+final-anli-45314859-aaf3-405b-8adc-cb5a9f2d5f4f,The Shins have two guitarists.,support,neutral,neutral,0.4973834156155152,NLI prediction,
+final-anli-c9cd3d59-f67d-4a2c-a29b-0d7af38056dc,A six year old horse can not participate in the event,support,support,neutral,0.9769330549337468,NLI prediction,Proposition relevance -2.26 is below 2.00; topic overlap is insufficient.
+final-anli-459470ee-9f25-4fb6-956a-52d47cae5dd5,David only loves daffodils. ,neutral,neutral,neutral,0.9470419633749866,NLI prediction,
+final-anli-4d250533-c4d3-49bf-af7e-999032f2bf37,Catherine Marie Cortez Masto was Attorney General for less than 6 years.,support,support,support,0.9630762947646894,NLI prediction,
+final-anli-9c9c8632-ff92-49bd-b2fd-9568bf5c25a0,the study was on the poler bear decline,contradict,contradict,neutral,0.9965010966187795,relevance filter,Proposition relevance -10.59 is below 2.00; topic overlap is insufficient.
+final-anli-2344b4d2-d676-477e-970e-bd625ddcb8e9,"The reporters were subpoenaed to testify less than a week ago, according to this person's memory.",support,support,support,0.9929902897894336,NLI prediction,
+final-anli-2317a7dd-17a2-4706-b594-2d58834fe67a,They went to an arcade for his son's birthday.,contradict,contradict,neutral,0.9207280482042005,relevance filter,Proposition relevance 1.81 is below 2.00; topic overlap is insufficient.
+final-anli-a86eabe3-8483-41ad-a2b4-f583fa09107c,We need the independence to make sure that the office tv show will not interfere with the military structure,neutral,neutral,neutral,0.996495201458616,NLI prediction,
+final-anli-0094fa74-1df1-4bb8-9372-85fa35081797,Gary LeVox sings lead in a band called the contemporary.,support,support,support,0.8466281983563007,NLI prediction,
+final-anli-0d691e46-7f9d-4840-bb3d-b60c9588e2cb,"The dog said, ""Can I have some food?""",support,support,neutral,0.9941600302662059,NLI prediction,Proposition relevance -0.23 is below 2.00; topic overlap is insufficient.
+final-anli-ccf3c1a8-dbfd-4bbf-990c-05a78beadc14,Spencer Abraham has a xx,contradict,contradict,neutral,0.9318848371500357,relevance filter,Proposition relevance -3.46 is below 2.00; topic overlap is insufficient.
+final-anli-74020c2f-2467-4519-9570-102fad5dc879,Pietrusza Wola has a bigger population than the United States.,neutral,neutral,neutral,0.8735696843174747,NLI prediction,
+final-anli-97d7bbbf-4b31-49ca-838b-5b9a867ef9ec,tom was very happy when the cat came back,neutral,neutral,neutral,0.8117942963846351,NLI prediction,
+final-anli-24bb4a82-d1ce-4a20-8299-be1ed6e95db9,The book was released in 1986.,support,support,support,0.9755625083904879,NLI prediction,
+final-anli-6285732c-e82b-4b30-9e5d-fed3835bda4d,"Robert Eric Hayes, Jr was elected to the episcopacy in a year whose digits sum up to 3.",support,support,support,0.9413790826213265,NLI prediction,
+final-anli-9dded95f-f7be-4d70-901e-52ff7e89066b,Nickelodeon Studios is located on Sunset in Hollywood.,support,support,support,0.8322252553893231,NLI prediction,
+final-anli-10f9b13a-5845-49c1-be1f-c36f9ca9b31c,Lee Jae-jin plays multiple musical instruments as a member of rock band F.T Island.,support,support,support,0.7059959788129645,NLI prediction,
+final-anli-6869e30b-53cd-45dc-86a5-7316f275d8d3,This passage is about education,contradict,contradict,neutral,0.863535668734974,relevance filter,Proposition relevance -11.09 is below 2.00; topic overlap is insufficient.
+final-anli-087d8d63-fef7-44ad-a1c4-53121dfbfcc9,The opposing country has labour concessions.,support,support,support,0.9664092308146176,NLI prediction,
+final-anli-835e5aa1-3563-4ec5-b8d0-91c2c9fc3b5b,Melee weapons are good for ranged and hand-to-hand combat.,neutral,neutral,neutral,0.5246884704388751,NLI prediction,
+final-anli-20f42222-d8f4-4dfb-873e-be32579da0e8,Felix Anthony Alderisio was nicknamed after the city of Chicago.,neutral,neutral,neutral,0.5773780133951778,NLI prediction,
+final-anli-566f7da3-0ebb-49b8-ae45-e35783a204ab,Luria was part of teaching his religion in the modern era,contradict,contradict,neutral,0.9823864949605894,relevance filter,Proposition relevance 0.86 is below 2.00; topic overlap is insufficient.
+final-anli-dff0f0be-858b-4776-9778-7540c15cfbfb,The film starred Kelsey T. Howard.,neutral,neutral,neutral,0.8520540684324714,NLI prediction,
+final-anli-5148ce96-b2ef-46e9-817e-9999655c13a9,Julie Summers was brought into this world during the later years of the 1960's,support,neutral,neutral,0.5902542797315399,NLI prediction,
+final-anli-12a3ac8f-b4f4-427a-a8b8-9611f496476e,Eliz Kazan lived to be 101 years old before she passed away.,contradict,contradict,neutral,0.8974348741618491,relevance filter,Proposition relevance 1.00 is below 2.00; topic overlap is insufficient.
+final-anli-4b9b965f-7086-42ff-89f2-82c226a80e51,Johnson hosted Making North America when he turned 50.,neutral,neutral,neutral,0.8026710818137494,NLI prediction,
+final-anli-a1b8041d-e444-4523-9f70-9abf6ee1e171,"the topic will be domestic affairs, moderated on rules and questions agreed to by the candidates.",support,support,support,0.9507164895443871,NLI prediction,
+final-anli-96134ceb-14a4-485a-8890-76998a2eec60,Dana Andrews played a small role in Johnny Reno,neutral,neutral,neutral,0.9957290101612304,NLI prediction,
+final-anli-2ef10773-8d68-4643-aba0-a35fd21fe46f,McCafferty was the lead singer of Nazareth for 47 years,support,support,support,0.6707780467968116,NLI prediction,
+final-anli-56bde6fc-7c87-4020-9516-de73ed544a73,"Crackle premiered Joe Dirt 2: Beautiful Loser 17 years after the release of the original ""Joe Dirt"" film.",support,support,support,0.8768030800459254,NLI prediction,
+final-anli-5f67cfd2-4cd2-45ab-8c21-1c64c8aea126,strike a pose to fix your nose,contradict,contradict,neutral,0.9936317858576662,relevance filter,Proposition relevance -6.61 is below 2.00; topic overlap is insufficient.
+final-anli-51babfbb-e3b8-40a1-881d-ad39e913d76c,He got the bagel with the money.,support,support,neutral,0.9870800902035958,NLI prediction,Proposition relevance -1.80 is below 2.00; topic overlap is insufficient.
+final-anli-cd7e428e-50d3-4b41-b912-eec6af668b91,Lexington County is North of North Carolina.,contradict,contradict,neutral,0.7016922145260615,NLI confidence,Contradiction confidence is below the required operating point.
+final-anli-26d5a4b7-0042-4c88-aa1a-f581d3f81f18,"I went to New York last year to sing, i wanted to go to the market but i got lost in central park since it was so dark and rainy, so i went back to the hotel",contradict,neutral,neutral,0.5112594251753413,NLI confidence,
+final-anli-260d0847-791d-4262-943f-a21f4184b80c,Lucas Franchoys was the first member of his family named so.,neutral,neutral,neutral,0.9963854718502045,NLI prediction,
+final-anli-c9f56b6a-8708-485d-baed-990282705a74,Rodolfo Rincón Taracena died at the age of 52.,support,support,support,0.7542088271264797,NLI prediction,
+final-anli-bf84fdd5-0b17-4792-9a2f-923a23b7fd20,Francesca was a closeted homosexual in the show.,neutral,neutral,neutral,0.501154100232424,NLI prediction,
+final-anli-d183af83-7b45-4ce0-a193-87a99fb78764,Sulejman Vokshi fought for Albania in World War 1.,neutral,neutral,neutral,0.8880987988032045,NLI prediction,
+final-anli-c26ed065-5888-4d9c-a197-16b2957afe6e,21 Laps Entertainment is an American director-producer run by Shawn Levy.,support,support,support,0.9927756360576956,NLI prediction,
+final-anli-f1a0bb7f-67e0-4345-a8ec-c954b2fe9959,the grave of Wang Chuzhi was discovered in 1980,support,support,support,0.9798082767804323,NLI prediction,
+final-anli-3d9cc2e1-0320-43b3-ba20-6b8d7e87bde3,Ricochet IM originally developed the human being known as John Brooks.,support,support,support,0.997158854611273,NLI prediction,
+final-anli-fc58d0e8-db46-4d63-ab2d-1d5ff4ce1dd3,September only has eleven days.,contradict,contradict,neutral,0.9961936140975047,relevance filter,Proposition relevance -7.77 is below 2.00; topic overlap is insufficient.
+final-anli-c49d30b8-8501-452e-830f-0cd5d84dafe4,A French sauce spoon is also called a saucy spoon.,support,support,support,0.9629749318920454,NLI prediction,
+final-anli-33854ce7-c65f-4be9-b98f-2f96bae21684,It was released online on a site similar to  YouTube.,support,neutral,neutral,0.6427590892486121,NLI prediction,Proposition relevance 0.68 is below 2.00; topic overlap is insufficient.
+final-anli-bcac1ee9-0205-4cd7-9f5e-57f0717cfa0b,The Hague is larger in size than the Netherlands.,neutral,neutral,neutral,0.9127795351933878,NLI prediction,Proposition relevance -1.49 is below 2.00; topic overlap is insufficient.
+final-anli-c9f05320-f2db-4ae6-beaf-c63165db5bc7,Two Men And A Truck is a franchised moving company with 410 locations all over the world.,contradict,contradict,neutral,0.7636930481660875,NLI confidence,Contradiction confidence is below the required operating point.
+final-anli-7f18b5df-8b2a-4f00-8648-bcba3abb0526,"Steve Ripley is the creator and songwriter for country rock band The Lawn Tractors.
+",neutral,neutral,neutral,0.9267414225753365,NLI prediction,
+final-anli-bac8e95d-630c-4b15-b295-aa9e0b20f2b0,Ekaterina continued performing as a singles skater after she died.,contradict,neutral,neutral,0.5095946229484865,NLI confidence,
+final-anli-3dddf769-08b6-4910-8926-da04d8479a7c,There are four towers that are taller than the Mercantil Tower in Caracas.,support,neutral,neutral,0.485410135707493,NLI prediction,
+final-anli-5e8676be-68a2-4c71-bf27-912c7c90d408,RJ Rockers Brewing Company is from the Southern Hemisphere.,support,support,support,0.9915435237848035,NLI prediction,
+final-anli-931be8bf-4b13-4c27-a01b-e53f0ca0ca30,"The currency conversions that were mentioned were relevant as of 3 years after May 7th, 2009.",support,support,neutral,0.9924050683310388,NLI prediction,The measurement concerns a different reporting period.
+final-anli-b1783298-14cd-4183-a784-185589f07a54,Luis Walter Alvarez was 79 when he died.,support,support,support,0.8834413995761445,NLI prediction,
+final-anli-a173c607-66da-4dfb-95a6-c3aebd694179,"They bought the grey model, but didn't deliberate for very long. ",neutral,neutral,neutral,0.5957139382119159,NLI prediction,Proposition relevance -0.59 is below 2.00; topic overlap is insufficient.
+final-anli-cb2fa337-3bd2-4007-ae71-9d7bbf973d1a,"""Just a Lil Bit"" did not reach the the top number #5 in America.",support,support,support,0.997991497091456,NLI prediction,
+final-anli-bea91447-4e8a-4ec1-bea9-0db1592e498f,Showtime was released before 9/11.,contradict,contradict,neutral,0.7125418846142784,NLI confidence,Contradiction confidence is below the required operating point.
+final-anli-3edeb180-1fd9-448d-af69-f9c27044a868,"Laura Ellen Ziskin has starred at a film what name is ""Pretty Woman"" .",neutral,neutral,neutral,0.8442340948231597,NLI prediction,
+final-anli-e3bcc872-d53e-4499-b570-4c21a7f85e99,The album My Morning jacket received critical acclaim in the UK in the late 90's,neutral,neutral,neutral,0.9800989783734106,NLI prediction,
+final-anli-73aa5120-e154-45ac-ad7e-e93c6ce83e74,Maastricht is larger than Mestreech ,neutral,neutral,neutral,0.8974618846887548,NLI prediction,
+final-anli-efd0fc90-4cf4-4f28-909b-bc41c9ebe600,The Enrolled Missouri Militia was made in an odd year.,support,support,support,0.8564117153498297,NLI prediction,
+final-anli-78a33038-75c3-42aa-b7e0-f0241a47b51e,Mahmud was born in the year after 1921.,support,support,neutral,0.7887110831764775,NLI prediction,Proposition relevance 1.47 is below 2.00; topic overlap is insufficient.
+final-anli-7181bff2-d5fb-4331-9186-6d4e4c5bccf7,KNCUwas founded by Charles Dunsa,support,support,support,0.9383677694649626,NLI prediction,
+final-anli-592cea29-255c-45e4-89d5-bfbe35c5bfef,"Tommy David morrison was born January 2, 1970.",contradict,contradict,neutral,0.9993980121965113,temporal/context filter,The measurement concerns a different reporting period.
+final-anli-67ebba10-d480-4011-8823-8f1241185488,You can use your electricity bill and your social security card as forms of identification.,neutral,neutral,neutral,0.9102097381813856,NLI prediction,Proposition relevance -10.12 is below 2.00; topic overlap is insufficient.
+final-anli-71dce27e-fec7-4b4e-8c0b-6fed6d968996,Lara Gilchrist has not been involved in more than three shows. ,neutral,neutral,neutral,0.9892092643653995,NLI prediction,
+final-anli-f828490b-a727-4dec-8918-3d60b25f63f9,There were no other Splinter Cell games after 2002.,neutral,neutral,neutral,0.9852464263015474,NLI prediction,
+final-anli-87a4e677-ecdc-4792-917a-45821a5beba7,Hendrik Wagenvoort was a dutch scholar that specialized in the language of modern Rome,neutral,neutral,neutral,0.7931389012678973,NLI prediction,
+final-anli-71b97721-6998-431a-b3d0-eb6566963663,4 months passed between when the film was acquired for distribution and when it was released.,support,support,neutral,0.9395881110452284,NLI prediction,Proposition relevance 0.60 is below 2.00; topic overlap is insufficient.
+final-anli-74e4ff38-0191-444d-a91e-edefdaf23cfa,Eldrid Nordbø also was in the Labour Party in Sweden.,neutral,neutral,neutral,0.9967225552822354,NLI prediction,
+final-anli-2cc602b3-d8ce-4a87-a4ba-0b2d01bd2ffa,This K-pop boy band is based off of the Korea that is controlled by Kim-Jong Un,neutral,neutral,neutral,0.9540704513878547,NLI prediction,Proposition relevance 1.55 is below 2.00; topic overlap is insufficient.
+final-anli-acf05a1d-40ad-4b26-8c97-058599964bbc,"Insert the value in pounds you're converting into the blank space below. This will be represented by the "" lb "" in the formula. You will use this formula to determine the amount of kilograms.. Kilos are lighter than pounds.",neutral,neutral,neutral,0.9664075230617005,NLI prediction,
+final-probe-05-contradict,Model K ranked first on the translation benchmark.,neutral,neutral,neutral,0.9316094611190995,NLI prediction,Proposition relevance -11.09 is below 2.00; topic overlap is insufficient.

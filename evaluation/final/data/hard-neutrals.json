@@ -1,0 +1,82 @@
+[
+  {
+    "claim": "Grace Hopper was born in 1906.",
+    "passage": "Her father, an insurance broker, firmly believed that his daughters should receive the same educational opportunities as his son, a forward-thinking stance that greatly influenced Grace\u2019s development. Her mother, who had studied geometry and loved mathematics, also helped spark Grace\u2019s early interest in numbers and problem-solving. StoriesThe Legacy of Grace Hopper The world is waking up to the contributions of Grace Murray Hopper \u201928, computer pioneer, Navy Rear Admiral, and former Vassar Assistant Professor. It\u2019s about time. From an early age, Grace was filled with curiosity and determination.",
+    "url": "https://www.vassar.edu/grace-hopper/life",
+    "similarity": 0.6777327169705044,
+    "id": "mined-06",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  },
+  {
+    "claim": "Grace Hopper was born in 1906.",
+    "passage": "She graduated from Vassar in 1928 and then attended Yale University, where she earned a master's degree in mathematics. In 1930, she married Vincent Foster Hopper. One year later, Grace Hopper started teaching at Vassar while also attending Yale to work toward her Ph.D. in mathematics. She earned this degree in 1934. World War II Hopper continued to teach as an associate professor at Vassar until she joined the U.S. Naval Reserve in 1943. Hopper chose the Navy to follow in her grandfather's footsteps. In 1944, she was commissioned as a lieutenant.",
+    "url": "https://www.hp.com/us-en/tech-takes/engineering/explainer/computer-scientist-grace-hopper.html",
+    "similarity": 0.6039046368049629,
+    "id": "mined-07",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  },
+  {
+    "claim": "Grace Hopper was born in 1906.",
+    "passage": "- \u201cGrace Murray Hopper\u201d Grace Murray Hopper-Computer Science- Yale University, Accessed 27 March 27, 2017, http://www.cs.yale.edu/homes/tap/Files/hopper-story.html - \u201cNamed for Rear Admiral \u201cAmazing\u201d Grace Hopper\u201d US Navy COMDERSON NINE, Accessed 27 March 2017, http://www.public.navy.mil/surfor/ddg70/Pages/namesake.aspx#.WNmCa2jys2w - PHOTO: United States Navy MLA \u2013 Norwood, Arlisha. \u201cGrace Hopper.\" National Women's History Museum. National Women's History Museum, 2017. Date accessed. Chicago- Norwood, Arlisha. \"Grace Hopper.\" National Women's History Museum. 2017. www.womenshistory.org/education-resources/biographies/grace-hopper. Books: - Billings, Charlene W. Grace Hopper, Navy Admiral and Computer Pioneer. New Jersey: Enslow Publishing, 1989 - Hopper, Grace Murray, Understanding Computers, Massachusetts: West Publishing Co, 1984. - Marx, Christy.",
+    "url": "https://www.womenshistory.org/education-resources/biographies/grace-hopper",
+    "similarity": 0.5972946517624834,
+    "id": "mined-08",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  },
+  {
+    "claim": "Grace Hopper was born in 1906.",
+    "passage": "Later in life, Grace would describe her childhood as a place full of educated relatives, supportive parents, and a house full of books that fed her \u201cinsatiable curiosity.\u201d Grace attended the Hardridge School in Plainfield, New Jersey, before enrolling in Vassar College at the age of 18. In 1928, she graduated with a degree in mathematics. She went on to graduate school in mathematics at Yale, earning her master\u2019s degree in 1930 and her Ph.D. in 1934. In 1930, Grace met and married Vincent Hopper. The couple had no children and divorced in 1945.",
+    "url": "https://wams.nyhistory.org/life-story/grace-hopper",
+    "similarity": 0.5867167076339566,
+    "id": "mined-09",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  },
+  {
+    "claim": "SpaceX acquired Blue Origin.",
+    "passage": "SpaceX, despite its significant achievements with the Falcon Heavy and Starlink satellites, has faced issues such as the explosion of a Falcon 9 rocket in 2015 and the loss of a top-secret U.S. government payload in 2018. Blue Origin, on the other hand, has seen fewer launches but is not immune to challenges, having encountered a booster failure in one of its New Shepard test flights. Navigating regulations imposed by entities such as the Department of Defense and other federal agencies is a vital part of both SpaceX\u2019s and Blue Origin\u2019s operations.",
+    "url": "https://spacevoyageventures.com/spacex-vs-blue-origin-the-new-space-race-and-what-it-means-for-exploration/",
+    "similarity": 0.703441709344103,
+    "id": "mined-10",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  },
+  {
+    "claim": "SpaceX acquired Blue Origin.",
+    "passage": "The primary difference lies in their long-term goals; Blue Origin aims to create a future where millions live and work in space, while SpaceX focuses on making life multiplanetary, specifically aiming to colonize Mars. SpaceX has transformed the industry with its cost-effective approach, reuse of launch vehicles, and the ambitious goal of Mars colonization, encouraging a new era of commercial space exploration. Blue Origin has accomplished significant milestones such as the development of reusable rockets like the New Shepard and advancements in rocket engine technology.",
+    "url": "https://spacevoyageventures.com/spacex-vs-blue-origin-the-new-space-race-and-what-it-means-for-exploration/",
+    "similarity": 0.6754013874115106,
+    "id": "mined-15",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  },
+  {
+    "claim": "SpaceX acquired Blue Origin.",
+    "passage": "This historic collaboration has revitalized American spaceflight capabilities and reduced the country\u2019s reliance on foreign rocket launches. On the other hand, Blue Origin is expanding its foothold through contracts under NASA\u2019s Artemis program aimed at returning humans to the moon. The company\u2019s Blue Moon lander is a contender designed to deliver payloads to the lunar surface, positioning Blue Origin as a potential key player in future lunar exploration. The competition between SpaceX and Blue Origin highlights the shift from government-led space exploration to a new era where private companies not only supplement but also spearhead space missions.",
+    "url": "https://spacevoyageventures.com/spacex-vs-blue-origin-the-new-space-race-and-what-it-means-for-exploration/",
+    "similarity": 0.6673684109936594,
+    "id": "mined-18",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  },
+  {
+    "claim": "Marie Curie won the Nobel Prize in Literature.",
+    "passage": "Curie died in 1934, aged 66, at the Sancellemoz sanatorium in Passy, Haute-Savoie, France, of aplastic anaemia likely from exposure to radiation in the course of her scientific research and in the course of her radiological work at field hospitals during the First World War.[12] In addition to her Nobel Prizes, she received numerous other honours and tributes; in 1995, she became the first woman to be entombed on her own merits in the Paris Panth\u00e9on,[13] and Poland declared 2011 the Year of Marie Curie during the International Year of Chemistry.",
+    "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "similarity": 0.6801003691097921,
+    "id": "mined-27",
+    "label": "neutral",
+    "split": "development",
+    "review": "Passage does not assert the queried birth date, acquisition, or award category; no external truth used to fill the gap."
+  }
+]

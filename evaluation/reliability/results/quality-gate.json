@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "raw_nli_macro_f1_improved": true,
+    "verdict_accuracy_improved": true,
+    "gated_false_contradiction_not_worse": true,
+    "gated_contradiction_precision_not_worse": true
+  },
+  "passed": true,
+  "scope": "Small controlled held-out corpus, not a production-readiness certification."
+}

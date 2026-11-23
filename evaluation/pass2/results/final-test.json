@@ -1,0 +1,5523 @@
+{
+  "configuration": {
+    "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "output": "evaluation/pass2/results/final-test.json",
+    "split": "test",
+    "unlock_test": true,
+    "seal_test": false,
+    "policy": "production",
+    "rerank": false,
+    "cutoff": 0,
+    "temperature": 1,
+    "nli_only": false,
+    "minimum_evidence": 0.5,
+    "dominance_ratio": 2
+  },
+  "metrics": {
+    "nli": {
+      "test": {
+        "count": 111,
+        "accuracy": 0.6756756756756757,
+        "macro_f1": 0.6787835590401521,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            24,
+            0,
+            13
+          ],
+          [
+            4,
+            21,
+            12
+          ],
+          [
+            4,
+            3,
+            30
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.75,
+            "recall": 0.6486486486486487,
+            "f1": 0.6956521739130435,
+            "count": 37
+          },
+          "contradict": {
+            "precision": 0.875,
+            "recall": 0.5675675675675675,
+            "f1": 0.6885245901639344,
+            "count": 37
+          },
+          "neutral": {
+            "precision": 0.5454545454545454,
+            "recall": 0.8108108108108109,
+            "f1": 0.6521739130434783,
+            "count": 37
+          }
+        },
+        "false_contradiction_rate": 0.04054054054054054,
+        "raw": {
+          "count": 111,
+          "accuracy": 0.6666666666666666,
+          "macro_f1": 0.6672198514303777,
+          "labels": [
+            "support",
+            "contradict",
+            "neutral"
+          ],
+          "confusion_matrix": [
+            [
+              27,
+              2,
+              8
+            ],
+            [
+              5,
+              24,
+              8
+            ],
+            [
+              5,
+              9,
+              23
+            ]
+          ],
+          "per_label": {
+            "support": {
+              "precision": 0.7297297297297297,
+              "recall": 0.7297297297297297,
+              "f1": 0.7297297297297297,
+              "count": 37
+            },
+            "contradict": {
+              "precision": 0.6857142857142857,
+              "recall": 0.6486486486486487,
+              "f1": 0.6666666666666666,
+              "count": 37
+            },
+            "neutral": {
+              "precision": 0.5897435897435898,
+              "recall": 0.6216216216216216,
+              "f1": 0.6052631578947368,
+              "count": 37
+            }
+          },
+          "false_contradiction_rate": 0.14864864864864866
+        },
+        "by_origin": {
+          "authored": {
+            "count": 36,
+            "accuracy": 0.9444444444444444,
+            "macro_f1": 0.9440559440559441,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                12,
+                0,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                2,
+                10
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 12
+              },
+              "contradict": {
+                "precision": 0.8571428571428571,
+                "recall": 1.0,
+                "f1": 0.9230769230769231,
+                "count": 12
+              },
+              "neutral": {
+                "precision": 1.0,
+                "recall": 0.8333333333333334,
+                "f1": 0.9090909090909091,
+                "count": 12
+              }
+            },
+            "false_contradiction_rate": 0.08333333333333333
+          },
+          "ANLI": {
+            "count": 75,
+            "accuracy": 0.5466666666666666,
+            "macro_f1": 0.5396825396825397,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                12,
+                0,
+                13
+              ],
+              [
+                4,
+                9,
+                12
+              ],
+              [
+                4,
+                1,
+                20
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.6,
+                "recall": 0.48,
+                "f1": 0.5333333333333333,
+                "count": 25
+              },
+              "contradict": {
+                "precision": 0.9,
+                "recall": 0.36,
+                "f1": 0.5142857142857142,
+                "count": 25
+              },
+              "neutral": {
+                "precision": 0.4444444444444444,
+                "recall": 0.8,
+                "f1": 0.5714285714285714,
+                "count": 25
+              }
+            },
+            "false_contradiction_rate": 0.02
+          }
+        },
+        "mean_seconds_cached": 0.14264989832434793
+      }
+    },
+    "retrieval": {
+      "test": {
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.43548387096774194,
+        "mean_seconds_cached": 0.0008112311935556429
+      }
+    },
+    "verdicts": {
+      "test": {
+        "count": 31,
+        "accuracy": 0.8709677419354839,
+        "macro_f1": 0.8759398496240601,
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            8,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            5
+          ]
+        ],
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1": 0.9473684210526315,
+            "count": 10
+          },
+          "UNSUPPORTED": {
+            "precision": 0.8,
+            "recall": 0.8888888888888888,
+            "f1": 0.8421052631578947,
+            "count": 9
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "count": 5
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 0.7142857142857143,
+            "recall": 0.7142857142857143,
+            "f1": 0.7142857142857143,
+            "count": 7
+          }
+        },
+        "decision_coverage": 0.7741935483870968,
+        "abstention_rate": 0.22580645161290325,
+        "selective_accuracy": 0.9166666666666666,
+        "incorrect_confident_verdict_rate": 0.06451612903225806,
+        "definitive_coverage": 0.6129032258064516,
+        "definitive_accuracy": 0.8947368421052632,
+        "by_difficulty": {
+          "easy": {
+            "count": 11,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 5
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 4
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 1
+              }
+            },
+            "decision_coverage": 0.9090909090909091,
+            "abstention_rate": 0.09090909090909094,
+            "selective_accuracy": 1.0,
+            "incorrect_confident_verdict_rate": 0.0,
+            "definitive_coverage": 0.8181818181818182,
+            "definitive_accuracy": 1.0
+          },
+          "medium": {
+            "count": 12,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              }
+            },
+            "decision_coverage": 0.75,
+            "abstention_rate": 0.25,
+            "selective_accuracy": 1.0,
+            "incorrect_confident_verdict_rate": 0.0,
+            "definitive_coverage": 0.5,
+            "definitive_accuracy": 1.0
+          },
+          "hard": {
+            "count": 8,
+            "accuracy": 0.5,
+            "macro_f1": 0.6,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "count": 2
+              },
+              "UNSUPPORTED": {
+                "precision": 0.3333333333333333,
+                "recall": 0.5,
+                "f1": 0.4,
+                "count": 2
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.3333333333333333,
+                "recall": 0.3333333333333333,
+                "f1": 0.3333333333333333,
+                "count": 3
+              }
+            },
+            "decision_coverage": 0.625,
+            "abstention_rate": 0.375,
+            "selective_accuracy": 0.6,
+            "incorrect_confident_verdict_rate": 0.25,
+            "definitive_coverage": 0.5,
+            "definitive_accuracy": 0.5
+          }
+        },
+        "mean_seconds_cached": 0.3508952782906436
+      }
+    }
+  },
+  "predictions": {
+    "nli": [
+      {
+        "id": "core-02-support",
+        "split": "test",
+        "domain": "geography",
+        "difficulty": "unassigned",
+        "tag": "relationship",
+        "claim": "The Luma River flows into the sea.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9959705026903499,
+        "probabilities": {
+          "entailment": 0.9959705026903499,
+          "neutral": 0.00348866490403668,
+          "contradiction": 0.0005408324056133682
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 3.2582053340011043
+      },
+      {
+        "id": "core-02-contradict",
+        "split": "test",
+        "domain": "geography",
+        "difficulty": "unassigned",
+        "tag": "relationship",
+        "claim": "The Luma River flows into the sea.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9991215738734994,
+        "probabilities": {
+          "entailment": 0.00030695145939996476,
+          "neutral": 0.0005714746671005769,
+          "contradiction": 0.9991215738734994
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07742120900002192
+      },
+      {
+        "id": "core-02-neutral",
+        "split": "test",
+        "domain": "geography",
+        "difficulty": "unassigned",
+        "tag": "relationship",
+        "claim": "The Luma River flows into the sea.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9927203091071347,
+        "probabilities": {
+          "entailment": 0.0031720206114903312,
+          "neutral": 0.9927203091071347,
+          "contradiction": 0.0041076702813748435
+        },
+        "reason": "Proposition relevance 0.37 is below 2.00; topic overlap is insufficient.",
+        "origin": "authored",
+        "seconds": 0.07962420799958636
+      },
+      {
+        "id": "core-05-support",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "unassigned",
+        "tag": "negation",
+        "claim": "The expedition did not reach the summit.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8518163042647299,
+        "probabilities": {
+          "entailment": 0.8518163042647299,
+          "neutral": 0.01924511859628594,
+          "contradiction": 0.12893857713898413
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07748208300108672
+      },
+      {
+        "id": "core-05-contradict",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "unassigned",
+        "tag": "negation",
+        "claim": "The expedition did not reach the summit.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9996879606476041,
+        "probabilities": {
+          "entailment": 0.00014639045338495573,
+          "neutral": 0.00016564889901104422,
+          "contradiction": 0.9996879606476041
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07611945899952843
+      },
+      {
+        "id": "core-05-neutral",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "unassigned",
+        "tag": "negation",
+        "claim": "The expedition did not reach the summit.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9988184812384164,
+        "probabilities": {
+          "entailment": 0.0007624929407480593,
+          "neutral": 0.9988184812384164,
+          "contradiction": 0.00041902582083570735
+        },
+        "reason": "Proposition relevance -1.17 is below 2.00; topic overlap is insufficient.",
+        "origin": "authored",
+        "seconds": 0.0751279579999391
+      },
+      {
+        "id": "core-08-support",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "unassigned",
+        "tag": "uncertainty",
+        "claim": "The experiment proves the hypothesis.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9941421693914485,
+        "probabilities": {
+          "entailment": 0.9941421693914485,
+          "neutral": 0.005436032041302344,
+          "contradiction": 0.00042179856724906985
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07897495799988974
+      },
+      {
+        "id": "core-08-contradict",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "unassigned",
+        "tag": "uncertainty",
+        "claim": "The experiment proves the hypothesis.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9993212315294004,
+        "probabilities": {
+          "entailment": 0.00031388347939531234,
+          "neutral": 0.00036488499120424943,
+          "contradiction": 0.9993212315294004
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07596333299989055
+      },
+      {
+        "id": "core-08-neutral",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "unassigned",
+        "tag": "uncertainty",
+        "claim": "The experiment proves the hypothesis.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5902673949307082,
+        "probabilities": {
+          "entailment": 0.01879893033527488,
+          "neutral": 0.39093367473401686,
+          "contradiction": 0.5902673949307082
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07637945799979207
+      },
+      {
+        "id": "core-11-support",
+        "split": "test",
+        "domain": "computing",
+        "difficulty": "unassigned",
+        "tag": "version",
+        "claim": "Release 7.1 supports encrypted backups.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.997775029976549,
+        "probabilities": {
+          "entailment": 0.997775029976549,
+          "neutral": 0.001840928205708203,
+          "contradiction": 0.00038404181774265636
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07462316700002702
+      },
+      {
+        "id": "core-11-contradict",
+        "split": "test",
+        "domain": "computing",
+        "difficulty": "unassigned",
+        "tag": "version",
+        "claim": "Release 7.1 supports encrypted backups.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9992379433618694,
+        "probabilities": {
+          "entailment": 0.0003656717030456109,
+          "neutral": 0.0003963849350849201,
+          "contradiction": 0.9992379433618694
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.08199679199969978
+      },
+      {
+        "id": "core-11-neutral",
+        "split": "test",
+        "domain": "computing",
+        "difficulty": "unassigned",
+        "tag": "version",
+        "claim": "Release 7.1 supports encrypted backups.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7238057984970905,
+        "probabilities": {
+          "entailment": 0.013949437682977552,
+          "neutral": 0.262244763819932,
+          "contradiction": 0.7238057984970905
+        },
+        "reason": "The evidence concerns a different product version.",
+        "origin": "authored",
+        "seconds": 0.0807107079999696
+      },
+      {
+        "id": "core-14-support",
+        "split": "test",
+        "domain": "technology",
+        "difficulty": "unassigned",
+        "tag": "ranking",
+        "claim": "The prototype is the fastest device in the trial.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9831150390038749,
+        "probabilities": {
+          "entailment": 0.9831150390038749,
+          "neutral": 0.015882946187164307,
+          "contradiction": 0.0010020148089606223
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07309416699899884
+      },
+      {
+        "id": "core-14-contradict",
+        "split": "test",
+        "domain": "technology",
+        "difficulty": "unassigned",
+        "tag": "ranking",
+        "claim": "The prototype is the fastest device in the trial.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.97396941730981,
+        "probabilities": {
+          "entailment": 0.005664991777940672,
+          "neutral": 0.02036559091224926,
+          "contradiction": 0.97396941730981
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.075524249999944
+      },
+      {
+        "id": "core-14-neutral",
+        "split": "test",
+        "domain": "technology",
+        "difficulty": "unassigned",
+        "tag": "ranking",
+        "claim": "The prototype is the fastest device in the trial.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8211664218523117,
+        "probabilities": {
+          "entailment": 0.0015433195571332098,
+          "neutral": 0.8211664218523117,
+          "contradiction": 0.1772902585905551
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07580666699868743
+      },
+      {
+        "id": "core-17-support",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "unassigned",
+        "tag": "period",
+        "claim": "The city's unemployment rate was 6 percent in 2022.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9973170912670983,
+        "probabilities": {
+          "entailment": 0.9973170912670983,
+          "neutral": 0.00220454845196251,
+          "contradiction": 0.0004783602809390895
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07840674999897601
+      },
+      {
+        "id": "core-17-contradict",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "unassigned",
+        "tag": "period",
+        "claim": "The city's unemployment rate was 6 percent in 2022.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9974975366979095,
+        "probabilities": {
+          "entailment": 0.0007257328941252877,
+          "neutral": 0.0017767304079651857,
+          "contradiction": 0.9974975366979095
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07493412499934493
+      },
+      {
+        "id": "core-17-neutral",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "unassigned",
+        "tag": "period",
+        "claim": "The city's unemployment rate was 6 percent in 2022.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9378151840528222,
+        "probabilities": {
+          "entailment": 0.007904988258930387,
+          "neutral": 0.9378151840528222,
+          "contradiction": 0.054279827688247566
+        },
+        "reason": "The measurement concerns a different reporting period.",
+        "origin": "authored",
+        "seconds": 0.0750177909994818
+      },
+      {
+        "id": "core-20-support",
+        "split": "test",
+        "domain": "business",
+        "difficulty": "unassigned",
+        "tag": "compound",
+        "claim": "Arden opened an office and hired a director.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9980464853957511,
+        "probabilities": {
+          "entailment": 0.9980464853957511,
+          "neutral": 0.001573783723869923,
+          "contradiction": 0.0003797308803788865
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07632050000029267
+      },
+      {
+        "id": "core-20-contradict",
+        "split": "test",
+        "domain": "business",
+        "difficulty": "unassigned",
+        "tag": "compound",
+        "claim": "Arden opened an office and hired a director.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9992782876569288,
+        "probabilities": {
+          "entailment": 0.00026164552222297045,
+          "neutral": 0.00046006682084827224,
+          "contradiction": 0.9992782876569288
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07266612499915936
+      },
+      {
+        "id": "core-20-neutral",
+        "split": "test",
+        "domain": "business",
+        "difficulty": "unassigned",
+        "tag": "compound",
+        "claim": "Arden opened an office and hired a director.",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9908209008818681,
+        "probabilities": {
+          "entailment": 0.001317166219908783,
+          "neutral": 0.007861932898223033,
+          "contradiction": 0.9908209008818681
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.0798263329998008
+      },
+      {
+        "id": "core-23-support",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "unassigned",
+        "tag": "date",
+        "claim": "The tournament began on 12 July.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9959826901751022,
+        "probabilities": {
+          "entailment": 0.9959826901751022,
+          "neutral": 0.0036315687149457774,
+          "contradiction": 0.0003857411099519752
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07578304200069397
+      },
+      {
+        "id": "core-23-contradict",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "unassigned",
+        "tag": "date",
+        "claim": "The tournament began on 12 July.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9991993213834856,
+        "probabilities": {
+          "entailment": 0.0002675638488154217,
+          "neutral": 0.0005331147676989571,
+          "contradiction": 0.9991993213834856
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07589383300000918
+      },
+      {
+        "id": "core-23-neutral",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "unassigned",
+        "tag": "date",
+        "claim": "The tournament began on 12 July.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.6587106743132449,
+        "probabilities": {
+          "entailment": 0.012434986220317662,
+          "neutral": 0.3288543394664375,
+          "contradiction": 0.6587106743132449
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "authored",
+        "seconds": 0.08615145799922175
+      },
+      {
+        "id": "core-26-support",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "unassigned",
+        "tag": "partial",
+        "claim": "The play won two awards and toured abroad.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9976866897430754,
+        "probabilities": {
+          "entailment": 0.9976866897430754,
+          "neutral": 0.0021019650116601988,
+          "contradiction": 0.00021134524526451184
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07467804199950479
+      },
+      {
+        "id": "core-26-contradict",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "unassigned",
+        "tag": "partial",
+        "claim": "The play won two awards and toured abroad.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9993938685538086,
+        "probabilities": {
+          "entailment": 0.0001350121509750061,
+          "neutral": 0.0004711192952164975,
+          "contradiction": 0.9993938685538086
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07090541599973221
+      },
+      {
+        "id": "core-26-neutral",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "unassigned",
+        "tag": "partial",
+        "claim": "The play won two awards and toured abroad.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9882163920073572,
+        "probabilities": {
+          "entailment": 0.007111314463446989,
+          "neutral": 0.9882163920073572,
+          "contradiction": 0.00467229352919576
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07631020799999533
+      },
+      {
+        "id": "core-29-support",
+        "split": "test",
+        "domain": "public_institutions",
+        "difficulty": "unassigned",
+        "tag": "quantity",
+        "claim": "The council has 18 members.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9924110972128443,
+        "probabilities": {
+          "entailment": 0.9924110972128443,
+          "neutral": 0.0069518182121778085,
+          "contradiction": 0.0006370845749777807
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07674379200034309
+      },
+      {
+        "id": "core-29-contradict",
+        "split": "test",
+        "domain": "public_institutions",
+        "difficulty": "unassigned",
+        "tag": "quantity",
+        "claim": "The council has 18 members.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9907156768532696,
+        "probabilities": {
+          "entailment": 0.0019744697086722116,
+          "neutral": 0.007309853438058364,
+          "contradiction": 0.9907156768532696
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07637383400106046
+      },
+      {
+        "id": "core-29-neutral",
+        "split": "test",
+        "domain": "public_institutions",
+        "difficulty": "unassigned",
+        "tag": "quantity",
+        "claim": "The council has 18 members.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9980246705423012,
+        "probabilities": {
+          "entailment": 0.0010839732528571012,
+          "neutral": 0.9980246705423012,
+          "contradiction": 0.0008913562048418667
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07508416699965892
+      },
+      {
+        "id": "core-32-support",
+        "split": "test",
+        "domain": "health",
+        "difficulty": "unassigned",
+        "tag": "causation",
+        "claim": "The study proves that the supplement prevents infection.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9948718659247686,
+        "probabilities": {
+          "entailment": 0.9948718659247686,
+          "neutral": 0.004546301334568472,
+          "contradiction": 0.0005818327406629426
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07376183300038974
+      },
+      {
+        "id": "core-32-contradict",
+        "split": "test",
+        "domain": "health",
+        "difficulty": "unassigned",
+        "tag": "causation",
+        "claim": "The study proves that the supplement prevents infection.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9987352866543115,
+        "probabilities": {
+          "entailment": 0.0006555219114711109,
+          "neutral": 0.0006091914342174744,
+          "contradiction": 0.9987352866543115
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07195854199926544
+      },
+      {
+        "id": "core-32-neutral",
+        "split": "test",
+        "domain": "health",
+        "difficulty": "unassigned",
+        "tag": "causation",
+        "claim": "The study proves that the supplement prevents infection.",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9992325859935616,
+        "probabilities": {
+          "entailment": 0.00014904082967023835,
+          "neutral": 0.0006183731767681461,
+          "contradiction": 0.9992325859935616
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.0727147090001381
+      },
+      {
+        "id": "core-35-support",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "unassigned",
+        "tag": "negation",
+        "claim": "The species is not native to the island.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9965146479028654,
+        "probabilities": {
+          "entailment": 0.9965146479028654,
+          "neutral": 0.0027737560687056844,
+          "contradiction": 0.0007115960284289721
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07031658400046581
+      },
+      {
+        "id": "core-35-contradict",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "unassigned",
+        "tag": "negation",
+        "claim": "The species is not native to the island.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9989444337011618,
+        "probabilities": {
+          "entailment": 0.0005167410006389369,
+          "neutral": 0.0005388252981991915,
+          "contradiction": 0.9989444337011618
+        },
+        "reason": null,
+        "origin": "authored",
+        "seconds": 0.07672754099985468
+      },
+      {
+        "id": "core-35-neutral",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "unassigned",
+        "tag": "negation",
+        "claim": "The species is not native to the island.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9055250862738817,
+        "probabilities": {
+          "entailment": 0.0036320274429250464,
+          "neutral": 0.9055250862738817,
+          "contradiction": 0.0908428862831931
+        },
+        "reason": "Proposition relevance 1.65 is below 2.00; topic overlap is insufficient.",
+        "origin": "authored",
+        "seconds": 0.07891700000072888
+      },
+      {
+        "id": "anli-0342769e-7062-45bf-a357-049d33e9790c",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Justin Smith is 42 years old",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8403923697898723,
+        "probabilities": {
+          "entailment": 0.1438911063517349,
+          "neutral": 0.01571652385839272,
+          "contradiction": 0.8403923697898723
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.10099516700029199
+      },
+      {
+        "id": "anli-081466d9-4767-44c7-a8c5-e8243bc97681",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Engine was jointly released more than 998 days ago.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9975371029734938,
+        "probabilities": {
+          "entailment": 0.9975371029734938,
+          "neutral": 0.0005553183368922378,
+          "contradiction": 0.0019075786896139532
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1083403749998979
+      },
+      {
+        "id": "anli-1907eba8-4d2c-444a-8073-c2a6b4e3671c",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The Tiki Bar was made after the 20th century",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9916040328338517,
+        "probabilities": {
+          "entailment": 0.9916040328338517,
+          "neutral": 0.003484657010688825,
+          "contradiction": 0.004911310155459443
+        },
+        "reason": "Proposition relevance 1.11 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10487237500092306
+      },
+      {
+        "id": "anli-7837e94e-69b7-4f0b-b46e-a4a65737f56f",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Mark was born in the late eighties ",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8849201677354835,
+        "probabilities": {
+          "entailment": 0.002099352351830738,
+          "neutral": 0.8849201677354835,
+          "contradiction": 0.11298047991268564
+        },
+        "reason": "Proposition relevance -9.20 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.1340082499991695
+      },
+      {
+        "id": "anli-baad2b04-2600-41fe-a1a7-a3d7c5ddb0d6",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Henrik Ibsen was born in 1828",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.919205699594079,
+        "probabilities": {
+          "entailment": 0.03506969610921454,
+          "neutral": 0.919205699594079,
+          "contradiction": 0.045724604296706384
+        },
+        "reason": "Proposition relevance -1.36 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11194612500003132
+      },
+      {
+        "id": "anli-1c5611b4-0b5d-4eef-b9e0-339e4d417877",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The corruption is occurring at the highest levels.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9979336682034579,
+        "probabilities": {
+          "entailment": 0.0018300043326453007,
+          "neutral": 0.9979336682034579,
+          "contradiction": 0.00023632746389688707
+        },
+        "reason": "Proposition relevance -7.64 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11434408300010546
+      },
+      {
+        "id": "anli-9d58813e-1250-4357-9e13-51bcbd37061a",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Neymar was covering from foot surgery from March to early June",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9157671048781681,
+        "probabilities": {
+          "entailment": 0.9157671048781681,
+          "neutral": 0.05145589319177696,
+          "contradiction": 0.032777001930054984
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12252704200000153
+      },
+      {
+        "id": "anli-273a4e12-ffc3-4348-af4e-e5f3d5f89182",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The 2007\u201308 Tour de Ski lasted less than 20 days.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.981087437254041,
+        "probabilities": {
+          "entailment": 0.981087437254041,
+          "neutral": 0.0029410412540844776,
+          "contradiction": 0.01597152149187454
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10977479199937079
+      },
+      {
+        "id": "anli-89e9f216-1132-4ae7-a396-78f9643b5fd9",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Bj\u00f6rn Kristian Ulvaeus was born the the twenty fifth day of the fourth month of a year",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.6892023279328556,
+        "probabilities": {
+          "entailment": 0.6892023279328556,
+          "neutral": 0.009403973220901854,
+          "contradiction": 0.3013936988462425
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1252047500001936
+      },
+      {
+        "id": "anli-78d8d389-a43f-4973-94f2-6607cfd11fc0",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The American Hairless Terrier is strongly immune to allergies",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8352611265500258,
+        "probabilities": {
+          "entailment": 0.0024225218362018013,
+          "neutral": 0.8352611265500258,
+          "contradiction": 0.1623163516137723
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11783470800037321
+      },
+      {
+        "id": "anli-3048994f-356d-4eda-be4b-762b331db719",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "John Wellborn Root was awarded the AIA Gold Medal posthumously. ",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.796296021513333,
+        "probabilities": {
+          "entailment": 0.0513190167254863,
+          "neutral": 0.15238496176118058,
+          "contradiction": 0.796296021513333
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.1114027920011722
+      },
+      {
+        "id": "anli-481cf377-b769-46e6-87bd-07935c8906e6",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Annacone and Rensburg beat another team the previous year.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6207220133865287,
+        "probabilities": {
+          "entailment": 0.6207220133865287,
+          "neutral": 0.37806257205654625,
+          "contradiction": 0.0012154145569250594
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11045537500103819
+      },
+      {
+        "id": "anli-bb723af2-59ed-462c-afeb-6ab0b3856a86",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The song made the band much more popular",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.683230191082628,
+        "probabilities": {
+          "entailment": 0.683230191082628,
+          "neutral": 0.31544389644238136,
+          "contradiction": 0.0013259124749907733
+        },
+        "reason": "Proposition relevance -1.78 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11043304200029525
+      },
+      {
+        "id": "anli-8cb6f2ea-0d9c-4f5d-95fb-05ecc8889104",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The two men injured in the accident were in Australia.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8657568339430266,
+        "probabilities": {
+          "entailment": 0.8657568339430266,
+          "neutral": 0.1286696514949398,
+          "contradiction": 0.005573514562033548
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.14115195900012623
+      },
+      {
+        "id": "anli-616b7d65-8f61-4390-a5cf-30c6f5547ef7",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The Socialist Party of Maine is a legitimate party",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.7413089964277079,
+        "probabilities": {
+          "entailment": 0.7413089964277079,
+          "neutral": 0.2541669139503076,
+          "contradiction": 0.004524089621984422
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10147029200015822
+      },
+      {
+        "id": "anli-14604855-97f7-40ce-84c6-fbd3db0905a3",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Dream Synopsis was released after 2015",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9988070979988514,
+        "probabilities": {
+          "entailment": 0.9988070979988514,
+          "neutral": 0.0005458941551962923,
+          "contradiction": 0.0006470078459523736
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1103749579997384
+      },
+      {
+        "id": "anli-2036768a-c8a2-4b9d-9138-82509ddebec6",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Channels was released after 2005",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.998418705997226,
+        "probabilities": {
+          "entailment": 0.998418705997226,
+          "neutral": 0.0005469763547541967,
+          "contradiction": 0.001034317648019678
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10767129200030467
+      },
+      {
+        "id": "anli-260745a4-b449-4fab-8541-d945ba70f351",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Dmitri Shostakovich may have been lying about his life in this book.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9589972795598081,
+        "probabilities": {
+          "entailment": 0.9589972795598081,
+          "neutral": 0.03985382830445468,
+          "contradiction": 0.001148892135737332
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11351791700144531
+      },
+      {
+        "id": "anli-9846cd5a-9814-4de3-ad46-f2361b072bc2",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Carter brown was a man.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9781451125230889,
+        "probabilities": {
+          "entailment": 0.9781451125230889,
+          "neutral": 0.004812689959003101,
+          "contradiction": 0.01704219751790805
+        },
+        "reason": "Proposition relevance -4.16 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.13361066700053925
+      },
+      {
+        "id": "anli-fb210304-784c-4b39-af74-fdc27ad0249c",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "ABN AMRO finds Laura Crosbie to be a competent person that they would like to have as an employee.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9954688941333445,
+        "probabilities": {
+          "entailment": 0.0042657170794041625,
+          "neutral": 0.9954688941333445,
+          "contradiction": 0.000265388787251294
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12128120900160866
+      },
+      {
+        "id": "anli-c635c4bf-bbb4-4704-8136-94f86ef0d6fe",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "One adult was injured in the explosion.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.7726182964636322,
+        "probabilities": {
+          "entailment": 0.7726182964636322,
+          "neutral": 0.035940367581779806,
+          "contradiction": 0.19144133595458795
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13194266599930415
+      },
+      {
+        "id": "anli-8253f738-4073-49cc-916e-e768406762e2",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "St Mary Magdalene's Church has been visited by people in England.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8938769864251253,
+        "probabilities": {
+          "entailment": 0.1046320084404272,
+          "neutral": 0.8938769864251253,
+          "contradiction": 0.001491005134447615
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11318137499984005
+      },
+      {
+        "id": "anli-79115bb2-1fc7-4cca-9ff4-31a4cc8e3708",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "High Fidelity the book was based in London but the movie was not.",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.99470709802246,
+        "probabilities": {
+          "entailment": 0.99470709802246,
+          "neutral": 0.002680738916582234,
+          "contradiction": 0.0026121630609576892
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11207837499932793
+      },
+      {
+        "id": "anli-9d4d8faf-aea4-4207-a27d-ba8ad5010225",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Another film was selected as a nominee for the Best Foreign Language Film at the Academy Awards.",
+        "expected": "support",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6699921396520896,
+        "probabilities": {
+          "entailment": 0.3270131858342495,
+          "neutral": 0.6699921396520896,
+          "contradiction": 0.0029946745136608323
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11932004200025403
+      },
+      {
+        "id": "anli-6865649e-8977-4415-8a93-649f33a3d04a",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Base 2: Guilty as Charged was made after 1999",
+        "expected": "support",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9967330058129467,
+        "probabilities": {
+          "entailment": 0.9967330058129467,
+          "neutral": 0.0019445685187502537,
+          "contradiction": 0.0013224256683030554
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10337479199915833
+      },
+      {
+        "id": "anli-b0214041-75bb-44fe-8cb6-f8aad59791d8",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Most people in the country should have their raincoats ready",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9961324851295997,
+        "probabilities": {
+          "entailment": 0.003344905681551537,
+          "neutral": 0.9961324851295997,
+          "contradiction": 0.0005226091888485647
+        },
+        "reason": "Proposition relevance -10.03 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11932870899909176
+      },
+      {
+        "id": "anli-ffbaf962-b11c-4a52-9226-d6556d230977",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Star Wars: Episode II \u2013 Attack of the Clones is a 2002 American epic space opera film directed by Lucas and Jonathan Hales and written by George Lucas",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5785407567967695,
+        "probabilities": {
+          "entailment": 0.3804166243027329,
+          "neutral": 0.041042618900497665,
+          "contradiction": 0.5785407567967695
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12665816600019753
+      },
+      {
+        "id": "anli-5a665067-7b31-4044-a48f-44c1b9e27c16",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Jesus is a just a phone call away.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9942396504360098,
+        "probabilities": {
+          "entailment": 0.0014891884218275803,
+          "neutral": 0.9942396504360098,
+          "contradiction": 0.004271161142162656
+        },
+        "reason": "Proposition relevance -9.81 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11992183300026227
+      },
+      {
+        "id": "anli-62835041-98b2-41a9-bdd1-58d9d6f8e37d",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "5 people were inducted in the class of 2018",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.633422056166636,
+        "probabilities": {
+          "entailment": 0.633422056166636,
+          "neutral": 0.004715047388149268,
+          "contradiction": 0.36186289644521463
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13935283299906587
+      },
+      {
+        "id": "anli-85c94554-3908-4af0-81cf-093255b14cdc",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Two teenage sisters went missing",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9883366346621797,
+        "probabilities": {
+          "entailment": 0.9883366346621797,
+          "neutral": 0.001529855631128005,
+          "contradiction": 0.010133509706692322
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13983495799948287
+      },
+      {
+        "id": "anli-a6614f3a-53cd-45f6-b642-f5720687af11",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Rooster stars Pat Williams and Paul McCormick.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9096438305128307,
+        "probabilities": {
+          "entailment": 0.08361973497139301,
+          "neutral": 0.0067364345157763655,
+          "contradiction": 0.9096438305128307
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10430162500051665
+      },
+      {
+        "id": "anli-94a0c994-27d9-4f94-8afb-ddeac1f91632",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "PP17 has three P's",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6143631012272098,
+        "probabilities": {
+          "entailment": 0.6143631012272098,
+          "neutral": 0.04680782807693996,
+          "contradiction": 0.3388290706958503
+        },
+        "reason": "Proposition relevance -1.14 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10043312500056345
+      },
+      {
+        "id": "anli-d240671b-edbc-4e6e-b0c0-c38fb4d73b4c",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The End was released in 20166",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9827550593760066,
+        "probabilities": {
+          "entailment": 0.009751431721027536,
+          "neutral": 0.007493508902965926,
+          "contradiction": 0.9827550593760066
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10071179199985636
+      },
+      {
+        "id": "anli-a68f453f-d3d8-496d-b3c6-c9d374ede5e9",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The writer is paraphrasing Chomsky.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.8714530957304588,
+        "probabilities": {
+          "entailment": 0.8714530957304588,
+          "neutral": 0.11659538099906365,
+          "contradiction": 0.011951523270477474
+        },
+        "reason": "Proposition relevance -1.75 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09145266700033972
+      },
+      {
+        "id": "anli-00362a0c-f0b3-4b9c-94bf-e9c029e47c82",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Jain lived a very short life",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8348176683911728,
+        "probabilities": {
+          "entailment": 0.0318082198099654,
+          "neutral": 0.13337411179886177,
+          "contradiction": 0.8348176683911728
+        },
+        "reason": "Proposition relevance 0.42 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10513887500019337
+      },
+      {
+        "id": "anli-f6f0221e-79ae-4534-a22e-c09eb34d74c8",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Pablo Aurrecochea has been playing for CA Atlanta for 60 years.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9983661549664465,
+        "probabilities": {
+          "entailment": 0.00013729209492858242,
+          "neutral": 0.001496552938624828,
+          "contradiction": 0.9983661549664465
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10117795900077908
+      },
+      {
+        "id": "anli-eaa8d0f1-534b-4ac0-a6b2-ab8dca5af7c1",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "You can't reach the sea directly from Djibouti",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9310737729206268,
+        "probabilities": {
+          "entailment": 0.05173175132570415,
+          "neutral": 0.9310737729206268,
+          "contradiction": 0.017194475753669152
+        },
+        "reason": "Proposition relevance -0.33 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10364866700001585
+      },
+      {
+        "id": "anli-e19c3e47-af3c-4b7d-8247-2ad7c5270da5",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Al Overton died before the age of 70.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.7944034730064474,
+        "probabilities": {
+          "entailment": 0.7944034730064474,
+          "neutral": 0.0022702819056311116,
+          "contradiction": 0.2033262450879214
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10549066699968535
+      },
+      {
+        "id": "anli-5e78a47c-453e-4c76-85d1-bc9e7be2cb4b",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Southern Nevada is part of South America.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9975695027832139,
+        "probabilities": {
+          "entailment": 0.00031286924814002363,
+          "neutral": 0.0021176279686459655,
+          "contradiction": 0.9975695027832139
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11258737499883864
+      },
+      {
+        "id": "anli-4c102f7d-f7a7-4422-ac4b-be18b1379c66",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Senator Aruwa represented Kaduna Central Senatorial zone at National Assembly for more than 10 years.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.7525769374927087,
+        "probabilities": {
+          "entailment": 0.7525769374927087,
+          "neutral": 0.00784994190534879,
+          "contradiction": 0.2395731206019426
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.14047604099869204
+      },
+      {
+        "id": "anli-1c804aec-ac75-447d-8f27-059680518185",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Brown contains a q",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7303333212849812,
+        "probabilities": {
+          "entailment": 0.035181314681690314,
+          "neutral": 0.2344853640333285,
+          "contradiction": 0.7303333212849812
+        },
+        "reason": "Proposition relevance -8.50 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.1103471249989525
+      },
+      {
+        "id": "anli-660b3162-17e6-4cdb-81df-f77e9f787bd9",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Stanley Hugh Gallimore was the best footballer in September 1995.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9968775773213262,
+        "probabilities": {
+          "entailment": 0.00017652293015824549,
+          "neutral": 0.00294589974851547,
+          "contradiction": 0.9968775773213262
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11155095899994194
+      },
+      {
+        "id": "anli-03d80f6a-00bd-493e-b623-5c9eaf9f2f68",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Bucklow rural district was split into different parts befire 1970",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8365932417238252,
+        "probabilities": {
+          "entailment": 0.10410592175072973,
+          "neutral": 0.059300836525445134,
+          "contradiction": 0.8365932417238252
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.1146498749985767
+      },
+      {
+        "id": "anli-0a3b5422-169c-4a8d-9f4c-0aab9980e16f",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Silver City was released and won 3 Television and Radio School awards. ",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9581641716403414,
+        "probabilities": {
+          "entailment": 0.02339869677027181,
+          "neutral": 0.01843713158938683,
+          "contradiction": 0.9581641716403414
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12591695900118793
+      },
+      {
+        "id": "anli-5dd6ec44-8da2-4804-b32d-ccb213982ed2",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "There are more than 3 Owenite experiments in New York.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9080626566360448,
+        "probabilities": {
+          "entailment": 0.00544686241780831,
+          "neutral": 0.9080626566360448,
+          "contradiction": 0.08649048094614684
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1122712500000489
+      },
+      {
+        "id": "anli-d51a3d52-fe84-49c2-bb93-d9e2dd2d505a",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Adrienne Maloof is more than 1961 years old.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.990735200089225,
+        "probabilities": {
+          "entailment": 0.007216180303391664,
+          "neutral": 0.0020486196073834662,
+          "contradiction": 0.990735200089225
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11660633299834444
+      },
+      {
+        "id": "anli-ec3033a2-0d90-4b70-bc1f-72bd71693657",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Sports Car Club of America's premier open wheel racing series had already run ten times prior to the 1976 SCCA/USAC Formula 5000 Championship.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5167241848378136,
+        "probabilities": {
+          "entailment": 0.5167241848378136,
+          "neutral": 0.006472928112849274,
+          "contradiction": 0.4768028870493371
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13182262500049546
+      },
+      {
+        "id": "anli-12fa0264-7ecf-4e3f-9437-d00e1bcf8abc",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Mike Hoffman played ice hockey in 1980",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9885304961620707,
+        "probabilities": {
+          "entailment": 0.0031384954095182126,
+          "neutral": 0.008331008428411172,
+          "contradiction": 0.9885304961620707
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.5548643750007614
+      },
+      {
+        "id": "anli-bf628cf5-6948-4595-a6d0-daf99beb47b9",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Form and meaning are the only aspects of language linguistics is concerned with.",
+        "expected": "contradict",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9842151205934732,
+        "probabilities": {
+          "entailment": 0.0006159828293040312,
+          "neutral": 0.015168896577222887,
+          "contradiction": 0.9842151205934732
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.3389720840004884
+      },
+      {
+        "id": "anli-ac7f621c-4802-4dbc-84a7-db0c2cf7d774",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The International University of Rabatat or IUR is a semi-public university.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9910638965075665,
+        "probabilities": {
+          "entailment": 0.9910638965075665,
+          "neutral": 0.002272038336261207,
+          "contradiction": 0.006664065156172387
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.2631933749999007
+      },
+      {
+        "id": "anli-c6757715-31e8-4191-8d88-5e8ff60b0091",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Quilts of Valor program was started by my mother",
+        "expected": "neutral",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9269202467143557,
+        "probabilities": {
+          "entailment": 0.9269202467143557,
+          "neutral": 0.06886304599411,
+          "contradiction": 0.004216707291534335
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.2407301670009474
+      },
+      {
+        "id": "anli-31f84ba0-4d82-4f86-af7c-a419c90d120a",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Sportivo Atl\u00e9tico Club has a baseball team",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9778603693648417,
+        "probabilities": {
+          "entailment": 0.0013695519111034816,
+          "neutral": 0.9778603693648417,
+          "contradiction": 0.02077007872405496
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11983629200040014
+      },
+      {
+        "id": "anli-e6067ce1-fe8a-403b-ae4e-2eff94589439",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Gabriel Garcia Marquez was a journalist.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9539934746565978,
+        "probabilities": {
+          "entailment": 0.0034500982131500683,
+          "neutral": 0.042556427130252275,
+          "contradiction": 0.9539934746565978
+        },
+        "reason": "Proposition relevance 0.54 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.1185537919991475
+      },
+      {
+        "id": "anli-7881f1be-6a6e-4161-ab33-0017c85bee49",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Dialogue takes precedence over music in traditional Yakshagana theatre.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9977785151335791,
+        "probabilities": {
+          "entailment": 0.0013275892312005204,
+          "neutral": 0.9977785151335791,
+          "contradiction": 0.0008938956352202897
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1317908750006609
+      },
+      {
+        "id": "anli-f4cde660-538e-4d1d-b525-53696e76cbd1",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Films having political themes were popular in 2000.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9977267122672454,
+        "probabilities": {
+          "entailment": 0.0019300267372230097,
+          "neutral": 0.9977267122672454,
+          "contradiction": 0.0003432609955315625
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09830591600075422
+      },
+      {
+        "id": "anli-08c7abe5-776d-4514-9d19-15fb1c3f5696",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Cornerstone Christian Lady Crusaders have one a state championship in the past.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9984267116305547,
+        "probabilities": {
+          "entailment": 0.0012467134548820298,
+          "neutral": 0.9984267116305547,
+          "contradiction": 0.00032657491456317264
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13552241700017476
+      },
+      {
+        "id": "anli-da7f51b4-f016-4a28-9ba1-2ca4d340afc9",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Demi Lovato: Live in Concert was cancelled",
+        "expected": "neutral",
+        "predicted": "contradict",
+        "raw": "contradict",
+        "confidence": 0.9667234923276914,
+        "probabilities": {
+          "entailment": 0.0010985315020537374,
+          "neutral": 0.03217797617025483,
+          "contradiction": 0.9667234923276914
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1346682499988674
+      },
+      {
+        "id": "anli-4f5c9462-8173-415b-9fb8-70eaa745cf8f",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "He was in Guns N' Roses",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7481907058369769,
+        "probabilities": {
+          "entailment": 0.0004734017711090046,
+          "neutral": 0.25133589239191406,
+          "contradiction": 0.7481907058369769
+        },
+        "reason": "Proposition relevance -8.58 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.12786783299998206
+      },
+      {
+        "id": "anli-2f04b0b9-a7bc-4ddb-ab8c-af1e78801285",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "If people visit the iTunes page, they will download the podcast.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.7624868015061583,
+        "probabilities": {
+          "entailment": 0.7624868015061583,
+          "neutral": 0.22861157458143289,
+          "contradiction": 0.008901623912408833
+        },
+        "reason": "Proposition relevance 0.16 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.12944112500008487
+      },
+      {
+        "id": "anli-b1004899-b5ed-47da-8f03-39764782110f",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Marcellite Wall talked to Magoo.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9978524596840808,
+        "probabilities": {
+          "entailment": 0.0008650570561378427,
+          "neutral": 0.9978524596840808,
+          "contradiction": 0.0012824832597811693
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11577954200038221
+      },
+      {
+        "id": "anli-59f27457-52b0-44b9-99ab-a67e7bda82ef",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Some officers were not patrolling on Christmas.",
+        "expected": "neutral",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.827024383048221,
+        "probabilities": {
+          "entailment": 0.827024383048221,
+          "neutral": 0.16481477732885688,
+          "contradiction": 0.008160839622921955
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.16851716700148245
+      },
+      {
+        "id": "anli-640cc795-0688-41b9-a1b2-6c42a26232eb",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Volkswagen Golf was the best selling car in the United States in 2001.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8152905810131178,
+        "probabilities": {
+          "entailment": 0.004742623820645082,
+          "neutral": 0.17996679516623706,
+          "contradiction": 0.8152905810131178
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.14518683300047996
+      },
+      {
+        "id": "anli-380f8963-813c-4e00-9f81-5a27fb3d8f87",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Hipmunk was operating in 2015.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.7948816111732553,
+        "probabilities": {
+          "entailment": 0.19710760424293516,
+          "neutral": 0.7948816111732553,
+          "contradiction": 0.008010784583809643
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.14019570799973735
+      },
+      {
+        "id": "anli-b1e8172e-1523-4def-be70-7eba60255344",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Kanji Kunieda released a book in 1946",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9003172405434012,
+        "probabilities": {
+          "entailment": 0.0936464641227301,
+          "neutral": 0.9003172405434012,
+          "contradiction": 0.006036295333868606
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1772099169993453
+      },
+      {
+        "id": "anli-ad76dfad-b020-4938-a1cb-3db8207f7199",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "It took Mindless Self Indulgence two years to release Tight.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9958793316541388,
+        "probabilities": {
+          "entailment": 0.0005624453779612021,
+          "neutral": 0.9958793316541388,
+          "contradiction": 0.00355822296790011
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12850554099895817
+      },
+      {
+        "id": "anli-8032ea3e-99bf-4233-a725-cb14e1fcb3a3",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The station is ugly.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.945876509576529,
+        "probabilities": {
+          "entailment": 0.000623861242920741,
+          "neutral": 0.053499629180550255,
+          "contradiction": 0.945876509576529
+        },
+        "reason": "Proposition relevance -7.52 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.1086278750008205
+      },
+      {
+        "id": "anli-c9855358-5fd2-432e-ab3e-3fe28441d6c6",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Canada bay has had a population of 1000.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9936147410259093,
+        "probabilities": {
+          "entailment": 0.0022420458726220187,
+          "neutral": 0.9936147410259093,
+          "contradiction": 0.004143213101468719
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11567283300064446
+      },
+      {
+        "id": "anli-e0dd6378-b57b-4e9a-8222-aa8ae6a32bb2",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The Nebraska Cornhuskers was established in 1985. ",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9252176589966674,
+        "probabilities": {
+          "entailment": 0.026339372780363204,
+          "neutral": 0.9252176589966674,
+          "contradiction": 0.048442968222969354
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10774337499969988
+      },
+      {
+        "id": "anli-7693775a-2b2d-492c-a22f-0db8bb2b084e",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "James Risen won a Pulitzer Prize for his work with The New York Times",
+        "expected": "neutral",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9856901697625327,
+        "probabilities": {
+          "entailment": 0.9856901697625327,
+          "neutral": 0.012004847812037553,
+          "contradiction": 0.0023049824254298707
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12731125000027532
+      },
+      {
+        "id": "anli-b50ffd78-e678-4ecc-9757-c1d5e3e57718",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "PES 2 was not allowed on PC",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9803330611485007,
+        "probabilities": {
+          "entailment": 0.008141846984709336,
+          "neutral": 0.9803330611485007,
+          "contradiction": 0.01152509186679012
+        },
+        "reason": "Proposition relevance -10.92 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10630479199971887
+      },
+      {
+        "id": "anli-7a49069b-f6e9-4180-9e47-44944124bfdc",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Julia Stiles and Luke Mably were at least 40 years old when they starred in The Prince and Me in 2004.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.997386683721981,
+        "probabilities": {
+          "entailment": 0.0010935689287147894,
+          "neutral": 0.997386683721981,
+          "contradiction": 0.0015197473493041352
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11805500000082247
+      },
+      {
+        "id": "anli-4aaa22d2-4d9d-44d2-98cf-a4a00be609e4",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "it was held really close to New York City on Long Island.",
+        "expected": "neutral",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8595725660389356,
+        "probabilities": {
+          "entailment": 0.8595725660389356,
+          "neutral": 0.13378440272382724,
+          "contradiction": 0.006643031237237264
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11027137500059325
+      },
+      {
+        "id": "anli-032751e2-c0b4-4fc0-b29a-791a15a60546",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The ward existed as a division of the town from 1620 through the twentieth century.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5761700002495422,
+        "probabilities": {
+          "entailment": 0.5761700002495422,
+          "neutral": 0.4055539993107522,
+          "contradiction": 0.018276000439705533
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11780700000053912
+      },
+      {
+        "id": "anli-95df1f5b-8648-4b7a-aaea-a6e07a444ca5",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The population in Crystal Lake was lower in 1990 than in 1983.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9379102073082227,
+        "probabilities": {
+          "entailment": 0.025051829271229446,
+          "neutral": 0.9379102073082227,
+          "contradiction": 0.03703796342054805
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1179666250009177
+      },
+      {
+        "id": "anli-4f846091-e8c1-4a74-8ae1-e0a3e774f3b9",
+        "split": "test",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Gene Cernan will be the last man to walk on the moon.",
+        "expected": "neutral",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.516805232382171,
+        "probabilities": {
+          "entailment": 0.45365505737004325,
+          "neutral": 0.516805232382171,
+          "contradiction": 0.029539710247785875
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.18389716599995154
+      }
+    ],
+    "retrieval": [
+      {
+        "id": "e2e-004",
+        "split": "test",
+        "domain": "geography",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The Pacific is an ocean.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0023407909993693465
+      },
+      {
+        "id": "e2e-007",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The chemical symbol for gold is Au.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.002035999999861815
+      },
+      {
+        "id": "e2e-013",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The Titanic sank in 1922.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0010098340007971274
+      },
+      {
+        "id": "e2e-019",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Jane Austen wrote Pride and Prejudice.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0008461249999527354
+      },
+      {
+        "id": "e2e-020",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Vincent van Gogh painted the Mona Lisa.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0009300000001530861
+      },
+      {
+        "id": "e2e-021",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "A standard violin has four strings.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0007319169999391306
+      },
+      {
+        "id": "e2e-022",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "A standard soccer team fields twelve players.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.000632708999546594
+      },
+      {
+        "id": "e2e-025",
+        "split": "test",
+        "domain": "health",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Adult humans normally have three lungs.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0006321249984466704
+      },
+      {
+        "id": "e2e-026",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Photosynthesis uses light energy.",
+        "indices": [
+          0
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 1.0,
+        "seconds": 0.0006252500006667105
+      },
+      {
+        "id": "e2e-032",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The Eagles won the match.",
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.6666666666666666,
+        "seconds": 0.0006839580000814749
+      },
+      {
+        "id": "e2e-033",
+        "split": "test",
+        "domain": "health",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The pharmacy closes at six.",
+        "indices": [
+          1,
+          0
+        ],
+        "recall5": null,
+        "recall10": null,
+        "precision5": 0.0,
+        "seconds": 0.0006652909996773815
+      },
+      {
+        "id": "e2e-039",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The district's output grew by 3 percent in 2022.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0006407920009223744
+      },
+      {
+        "id": "e2e-040",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The exchange rate was 1.25 units per dollar in June.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0006327499995677499
+      },
+      {
+        "id": "e2e-041",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The county's inflation rate was 2 percent in 2020.",
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.6666666666666666,
+        "seconds": 0.000716749998900923
+      },
+      {
+        "id": "e2e-044",
+        "split": "test",
+        "domain": "computing",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The service retains logs for thirty days.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0012582910003402503
+      },
+      {
+        "id": "e2e-046",
+        "split": "test",
+        "domain": "computing",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The application encrypts stored passwords.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": null,
+        "recall10": null,
+        "precision5": 0.0,
+        "seconds": 0.0009316670002590399
+      },
+      {
+        "id": "e2e-051",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The solution's pH was 7.2.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0008010420006030472
+      },
+      {
+        "id": "e2e-055",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The treaty was ratified in 1843.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0006266249984037131
+      },
+      {
+        "id": "e2e-061",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The race was held on 3 May.",
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.6666666666666666,
+        "seconds": 0.0007252499999594875
+      },
+      {
+        "id": "e2e-065",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The film was released in 2008.",
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.6666666666666666,
+        "seconds": 0.0006735830011166399
+      },
+      {
+        "id": "e2e-066",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The composer received the prize in 1996.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": null,
+        "recall10": null,
+        "precision5": 0.0,
+        "seconds": 0.0006355420009640511
+      },
+      {
+        "id": "e2e-072",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The monitoring station recorded 18 millimeters of rain.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0006423750000976725
+      },
+      {
+        "id": "e2e-074",
+        "split": "test",
+        "domain": "public_institutions",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The permit is valid for three years.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": null,
+        "recall10": null,
+        "precision5": 0.0,
+        "seconds": 0.000637625000308617
+      },
+      {
+        "id": "e2e-078",
+        "split": "test",
+        "domain": "business",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "Larch reported revenue of $9 million in 2024.",
+        "indices": [
+          2,
+          0,
+          1
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.6666666666666666,
+        "seconds": 0.0006766249989595963
+      },
+      {
+        "id": "e2e-081",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The city currently has an unemployment rate of 4 percent.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": null,
+        "recall10": null,
+        "precision5": 0.0,
+        "seconds": 0.000613792000876856
+      },
+      {
+        "id": "e2e-084",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "Every sample passed the test.",
+        "indices": [
+          1,
+          0
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.5,
+        "seconds": 0.0006184579997352557
+      },
+      {
+        "id": "e2e-091",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The harvest failure caused the migration.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": null,
+        "recall10": null,
+        "precision5": 0.0,
+        "seconds": 0.0006132910002634162
+      },
+      {
+        "id": "e2e-092",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The survey began in 1881 and ended in 1884.",
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.6666666666666666,
+        "seconds": 0.0006716669995512348
+      },
+      {
+        "id": "e2e-093",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "Orion won the literature prize.",
+        "indices": [
+          0,
+          1
+        ],
+        "recall5": null,
+        "recall10": null,
+        "precision5": 0.0,
+        "seconds": 0.000617666999460198
+      },
+      {
+        "id": "e2e-094",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The novel was published before the author's death.",
+        "indices": [
+          0,
+          1,
+          10
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.3333333333333333,
+        "seconds": 0.0006134160012152279
+      },
+      {
+        "id": "e2e-098",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The monitoring program measured rainfall and tracked river levels.",
+        "indices": [
+          1,
+          0,
+          2
+        ],
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.6666666666666666,
+        "seconds": 0.0006669590002275072
+      }
+    ],
+    "verdicts": [
+      {
+        "id": "e2e-004",
+        "split": "test",
+        "domain": "geography",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The Pacific is an ocean.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "The Pacific is an ocean.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cThe Pacific Ocean is one of Earth's oceans.\u201d",
+          "support_total": 0.8156105545976929,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-4",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The Pacific Ocean is one of Earth's oceans.",
+              "similarity": 0.8596716210096045,
+              "stance": "support",
+              "stance_confidence": 0.9986806646984996,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8156105545976929,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The Pacific is an ocean."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-4",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Ships cross the Pacific daily.",
+              "similarity": 0.6460951484546188,
+              "stance": "neutral",
+              "stance_confidence": 0.9756522453731483,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.34670030027294557,
+              "raw_stance": "support",
+              "exclusion_reason": "Proposition relevance -5.06 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The Pacific is an ocean."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The Pacific is an ocean.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.8156105545976929,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.2681335830002354
+      },
+      {
+        "id": "e2e-007",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The chemical symbol for gold is Au.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "The chemical symbol for gold is Au.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cGold is represented by the chemical symbol Au.\u201d",
+          "support_total": 0.9208310113433319,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-7",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "Gold is represented by the chemical symbol Au.",
+              "similarity": 0.9716837167728429,
+              "stance": "support",
+              "stance_confidence": 0.9975424972986683,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9208310113433319,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The chemical symbol for gold is Au."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-7",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Gold has been used in jewelry for centuries.",
+              "similarity": 0.5862648736185704,
+              "stance": "neutral",
+              "stance_confidence": 0.9748464004867973,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3143350109784008,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -7.63 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The chemical symbol for gold is Au."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The chemical symbol for gold is Au.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.9208310113433319,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.45980066700030875
+      },
+      {
+        "id": "e2e-013",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The Titanic sank in 1922.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "The Titanic sank in 1922.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cThe Titanic sank in April 1912, not 1922.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.8369925083337356,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-13",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The Titanic sank in April 1912, not 1922.",
+              "similarity": 0.882448398485058,
+              "stance": "contradict",
+              "stance_confidence": 0.9984093654960345,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8369925083337356,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The Titanic sank in 1922."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-13",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The Titanic was an ocean liner.",
+              "similarity": 0.6562495031751875,
+              "stance": "neutral",
+              "stance_confidence": 0.9953649166797127,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.35926425262699035,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 0.71 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The Titanic sank in 1922."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The Titanic sank in 1922.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.8369925083337356,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.39126958300039405
+      },
+      {
+        "id": "e2e-019",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Jane Austen wrote Pride and Prejudice.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "Jane Austen wrote Pride and Prejudice.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cPride and Prejudice is a novel by Jane Austen.\u201d",
+          "support_total": 0.8645844418795867,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-19",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "Pride and Prejudice is a novel by Jane Austen.",
+              "similarity": 0.9119579233841036,
+              "stance": "support",
+              "stance_confidence": 0.9979505225546709,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8645844418795867,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Jane Austen wrote Pride and Prejudice."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-19",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Jane Austen lived in England.",
+              "similarity": 0.7039702885332891,
+              "stance": "neutral",
+              "stance_confidence": 0.9951767839722341,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3853161882650104,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -0.67 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Jane Austen wrote Pride and Prejudice."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Jane Austen wrote Pride and Prejudice.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.8645844418795867,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 1.0708899590008514
+      },
+      {
+        "id": "e2e-020",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Vincent van Gogh painted the Mona Lisa.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "Vincent van Gogh painted the Mona Lisa.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cLeonardo da Vinci painted the Mona Lisa; Vincent van Gogh did not.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.7708474528862249,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-20",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "Leonardo da Vinci painted the Mona Lisa; Vincent van Gogh did not.",
+              "similarity": 0.8135763513488907,
+              "stance": "contradict",
+              "stance_confidence": 0.9973475385732038,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7708474528862249,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Vincent van Gogh painted the Mona Lisa."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-20",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The Mona Lisa is displayed in a museum.",
+              "similarity": 0.5494163970225953,
+              "stance": "neutral",
+              "stance_confidence": 0.9076298925210491,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.27426670995840613,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -0.49 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Vincent van Gogh painted the Mona Lisa."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Vincent van Gogh painted the Mona Lisa.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.7708474528862249,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.17664070899991202
+      },
+      {
+        "id": "e2e-021",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "A standard violin has four strings.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "A standard violin has four strings.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cThe standard violin has four strings.\u201d",
+          "support_total": 0.9410379865087426,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-21",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The standard violin has four strings.",
+              "similarity": 0.9931336652860219,
+              "stance": "support",
+              "stance_confidence": 0.9974148860444356,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9410379865087426,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "A standard violin has four strings."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-21",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Violins are played with bows.",
+              "similarity": 0.6091434662538681,
+              "stance": "neutral",
+              "stance_confidence": 0.9866924243797311,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.33057048393220617,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -0.78 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "A standard violin has four strings."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "A standard violin has four strings.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.9410379865087426,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.26252979099990625
+      },
+      {
+        "id": "e2e-022",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "A standard soccer team fields twelve players.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "A standard soccer team fields twelve players.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cA standard soccer team fields eleven players, not twelve.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.8881512395406989,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-22",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "A standard soccer team fields eleven players, not twelve.",
+              "similarity": 0.9378892416685838,
+              "stance": "contradict",
+              "stance_confidence": 0.9968085783333325,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8881512395406989,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "A standard soccer team fields twelve players."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-22",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Soccer is played on a rectangular field.",
+              "similarity": 0.5710842235802727,
+              "stance": "neutral",
+              "stance_confidence": 0.9987251527453936,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3136958981341308,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 0.36 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "A standard soccer team fields twelve players."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "A standard soccer team fields twelve players.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.8881512395406989,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.19319170900052995
+      },
+      {
+        "id": "e2e-025",
+        "split": "test",
+        "domain": "health",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Adult humans normally have three lungs.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "Adult humans normally have three lungs.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cAdult humans normally have two lungs, not three.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.9165737845261173,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-25",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "Adult humans normally have two lungs, not three.",
+              "similarity": 0.9670041029972162,
+              "stance": "contradict",
+              "stance_confidence": 0.9977356942303164,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9165737845261173,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Adult humans normally have three lungs."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-25",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Lungs are part of the respiratory system.",
+              "similarity": 0.5863339368177847,
+              "stance": "neutral",
+              "stance_confidence": 0.9975803479838063,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.32170336699897045,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -4.24 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Adult humans normally have three lungs."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Adult humans normally have three lungs.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.9165737845261173,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.20082920800086868
+      },
+      {
+        "id": "e2e-026",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "Photosynthesis uses light energy.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "Photosynthesis uses light energy.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cDuring photosynthesis, organisms use energy from light.\u201d",
+          "support_total": 0.8607225613970587,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-26",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "During photosynthesis, organisms use energy from light.",
+              "similarity": 0.9109169793404911,
+              "stance": "support",
+              "stance_confidence": 0.9946282365874609,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8607225613970587,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Photosynthesis uses light energy."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Photosynthesis uses light energy.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.8607225613970587,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0
+              ]
+            }
+          ]
+        },
+        "seconds": 0.09961641700101609
+      },
+      {
+        "id": "e2e-032",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The Eagles won the match.",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "assessment": {
+          "claim": "The Eagles won the match.",
+          "verdict": "MIXED_EVIDENCE",
+          "explanation": "The retained passages contain substantial disagreement. [1] support: \u201cThe Eagles won the match.\u201d [2] contradict: \u201cThe Eagles lost the match.\u201d",
+          "support_total": 0.9480987927164028,
+          "contradict_total": 0.8605919134337056,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-32",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The Eagles won the match.",
+              "similarity": 1.0,
+              "stance": "support",
+              "stance_confidence": 0.997998729175161,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9480987927164028,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The Eagles won the match."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-32",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "The Eagles lost the match.",
+              "similarity": 0.9061954834998636,
+              "stance": "contradict",
+              "stance_confidence": 0.9996587283445613,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8605919134337056,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The Eagles won the match."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-32",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The Eagles played at home.",
+              "similarity": 0.7192488778200106,
+              "stance": "neutral",
+              "stance_confidence": 0.9983943418958537,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.39495170551674247,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 1.66 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The Eagles won the match."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The Eagles won the match.",
+              "verdict": "MIXED_EVIDENCE",
+              "support_total": 0.9480987927164028,
+              "contradict_total": 0.8605919134337056,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "seconds": 0.35418004200073483
+      },
+      {
+        "id": "e2e-033",
+        "split": "test",
+        "domain": "health",
+        "difficulty": "easy",
+        "tag": "",
+        "claim": "The pharmacy closes at six.",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The pharmacy closes at six.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-33",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The pharmacy has a waiting area.",
+              "similarity": 0.6573813062140842,
+              "stance": "neutral",
+              "stance_confidence": 0.9983255756099959,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3609543140067846,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -3.65 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The pharmacy closes at six."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-33",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The pharmacy sells prescription medicines.",
+              "similarity": 0.5805115312689831,
+              "stance": "neutral",
+              "stance_confidence": 0.9982516437885859,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.5505217608111168,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -7.23 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The pharmacy closes at six."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The pharmacy closes at six.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.3034477919991332
+      },
+      {
+        "id": "e2e-039",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The district's output grew by 3 percent in 2022.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "The district's output grew by 3 percent in 2022.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cDistrict output increased 3% during 2022.\u201d",
+          "support_total": 0.87823127872548,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-39",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "District output increased 3% during 2022.",
+              "similarity": 0.926129119455415,
+              "stance": "support",
+              "stance_confidence": 0.9981912437321575,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.87823127872548,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The district's output grew by 3 percent in 2022."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-39",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The district's population grew in 2022.",
+              "similarity": 0.7501131359187133,
+              "stance": "neutral",
+              "stance_confidence": 0.99308878606375,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.4097109189579932,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 1.94 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The district's output grew by 3 percent in 2022."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The district's output grew by 3 percent in 2022.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.87823127872548,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.2149688329991477
+      },
+      {
+        "id": "e2e-040",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The exchange rate was 1.25 units per dollar in June.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "The exchange rate was 1.25 units per dollar in June.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cThe June exchange rate was 1.52 units per dollar, not 1.25.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.8521062495331803,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-40",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The June exchange rate was 1.52 units per dollar, not 1.25.",
+              "similarity": 0.90862486940986,
+              "stance": "contradict",
+              "stance_confidence": 0.9871554005115354,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8521062495331803,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The exchange rate was 1.25 units per dollar in June."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-40",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The exchange rate was published in June.",
+              "similarity": 0.7388729424986241,
+              "stance": "neutral",
+              "stance_confidence": 0.9984745489549386,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.40576020539797714,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 1.93 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The exchange rate was 1.25 units per dollar in June."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The exchange rate was 1.25 units per dollar in June.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.8521062495331803,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.28739608300020336
+      },
+      {
+        "id": "e2e-041",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The county's inflation rate was 2 percent in 2020.",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "assessment": {
+          "claim": "The county's inflation rate was 2 percent in 2020.",
+          "verdict": "MIXED_EVIDENCE",
+          "explanation": "The retained passages contain substantial disagreement. [1] support: \u201cThe county recorded 2% inflation in 2020.\u201d [2] contradict: \u201cThe county recorded 4% inflation in 2020.\u201d",
+          "support_total": 0.897503530152522,
+          "contradict_total": 0.8024515063322291,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-41",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The county recorded 2% inflation in 2020.",
+              "similarity": 0.9463089964474389,
+              "stance": "support",
+              "stance_confidence": 0.9983425726712516,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.897503530152522,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The county's inflation rate was 2 percent in 2020."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-41",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "The county recorded 4% inflation in 2020.",
+              "similarity": 0.8461772456853272,
+              "stance": "contradict",
+              "stance_confidence": 0.9982374265513004,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8024515063322291,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The county's inflation rate was 2 percent in 2020."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-41",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The county collects economic statistics.",
+              "similarity": 0.3799710744879139,
+              "stance": "neutral",
+              "stance_confidence": 0.9979708922476133,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.20856003972924328,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -5.70 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The county's inflation rate was 2 percent in 2020."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The county's inflation rate was 2 percent in 2020.",
+              "verdict": "MIXED_EVIDENCE",
+              "support_total": 0.897503530152522,
+              "contradict_total": 0.8024515063322291,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "seconds": 0.26615549999951327
+      },
+      {
+        "id": "e2e-044",
+        "split": "test",
+        "domain": "computing",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The service retains logs for thirty days.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "The service retains logs for thirty days.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cThe service retains logs for only thirteen days.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.8803460786559835,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-44",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The service retains logs for only thirteen days.",
+              "similarity": 0.9274750933942402,
+              "stance": "contradict",
+              "stance_confidence": 0.999142822697741,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8803460786559835,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The service retains logs for thirty days."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-44",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The service stores logs in text format.",
+              "similarity": 0.5904259620078545,
+              "stance": "neutral",
+              "stance_confidence": 0.9990011703673055,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3244099248835989,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -1.71 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The service retains logs for thirty days."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The service retains logs for thirty days.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.8803460786559835,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.2723697090004862
+      },
+      {
+        "id": "e2e-046",
+        "split": "test",
+        "domain": "computing",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The application encrypts stored passwords.",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The application encrypts stored passwords.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-46",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The application encrypts network traffic.",
+              "similarity": 0.686534180251307,
+              "stance": "neutral",
+              "stance_confidence": 0.870038242035751,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.5674454417191374,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 1.47 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The application encrypts stored passwords."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-46",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The application requires a password to sign in.",
+              "similarity": 0.5486337000219493,
+              "stance": "neutral",
+              "stance_confidence": 0.993370295185439,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.2997480312967159,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -2.60 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The application encrypts stored passwords."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The application encrypts stored passwords.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.3674265000008745
+      },
+      {
+        "id": "e2e-051",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The solution's pH was 7.2.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "The solution's pH was 7.2.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cThe measured pH of the solution was 7.2.\u201d",
+          "support_total": 0.8678433585503899,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-51",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The measured pH of the solution was 7.2.",
+              "similarity": 0.9165241597817351,
+              "stance": "support",
+              "stance_confidence": 0.9967214885065697,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8678433585503899,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The solution's pH was 7.2."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-51",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The solution was stored at room temperature.",
+              "similarity": 0.49193152414133334,
+              "stance": "neutral",
+              "stance_confidence": 0.9993088838408469,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.27037534827369136,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -8.46 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The solution's pH was 7.2."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The solution's pH was 7.2.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.8678433585503899,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.24321933399914997
+      },
+      {
+        "id": "e2e-055",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The treaty was ratified in 1843.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "The treaty was ratified in 1843.",
+          "verdict": "SUPPORTED",
+          "explanation": "The retained passages predominantly support the claim. [1] support: \u201cRatification of the treaty occurred in 1843.\u201d",
+          "support_total": 0.9189835605793607,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-55",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "Ratification of the treaty occurred in 1843.",
+              "similarity": 0.9693298481559457,
+              "stance": "support",
+              "stance_confidence": 0.997958660036743,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9189835605793607,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The treaty was ratified in 1843."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-55",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The treaty was discussed by diplomats.",
+              "similarity": 0.6044451916475677,
+              "stance": "neutral",
+              "stance_confidence": 0.9987363052269673,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3320247465800639,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -2.45 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The treaty was ratified in 1843."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The treaty was ratified in 1843.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.9189835605793607,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.23583283400148503
+      },
+      {
+        "id": "e2e-061",
+        "split": "test",
+        "domain": "sport",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The race was held on 3 May.",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "assessment": {
+          "claim": "The race was held on 3 May.",
+          "verdict": "MIXED_EVIDENCE",
+          "explanation": "The retained passages contain substantial disagreement. [1] support: \u201cThe race took place on May 3.\u201d [2] contradict: \u201cThe race took place on May 4, not May 3.\u201d",
+          "support_total": 0.9051067521206783,
+          "contradict_total": 0.8811914178972838,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-61",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The race took place on May 3.",
+              "similarity": 0.9550200349367531,
+              "stance": "support",
+              "stance_confidence": 0.997616714568517,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9051067521206783,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The race was held on 3 May."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-61",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "The race took place on May 4, not May 3.",
+              "similarity": 0.928747837639087,
+              "stance": "contradict",
+              "stance_confidence": 0.9987317073426594,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8811914178972838,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The race was held on 3 May."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-61",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The race was held outdoors.",
+              "similarity": 0.6894607105941365,
+              "stance": "neutral",
+              "stance_confidence": 0.9991529681302763,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.37888219346963753,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 1.41 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The race was held on 3 May."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The race was held on 3 May.",
+              "verdict": "MIXED_EVIDENCE",
+              "support_total": 0.9051067521206783,
+              "contradict_total": 0.8811914178972838,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "seconds": 0.4671674580004037
+      },
+      {
+        "id": "e2e-065",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The film was released in 2008.",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "assessment": {
+          "claim": "The film was released in 2008.",
+          "verdict": "MIXED_EVIDENCE",
+          "explanation": "The retained passages contain substantial disagreement. [1] support: \u201cThe film's release was in 2008.\u201d [2] contradict: \u201cThe film was released in 2009, not 2008.\u201d",
+          "support_total": 0.9298743437751198,
+          "contradict_total": 0.8949539299947523,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-65",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The film's release was in 2008.",
+              "similarity": 0.9803914079421258,
+              "stance": "support",
+              "stance_confidence": 0.9983921633556724,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9298743437751198,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The film was released in 2008."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-65",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "The film was released in 2009, not 2008.",
+              "similarity": 0.9430300745722964,
+              "stance": "contradict",
+              "stance_confidence": 0.9989678948922079,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8949539299947523,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The film was released in 2008."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-65",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The film was shown at a festival.",
+              "similarity": 0.3943173370190646,
+              "stance": "neutral",
+              "stance_confidence": 0.9989229338682292,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.21664094714360524,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -2.87 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The film was released in 2008."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The film was released in 2008.",
+              "verdict": "MIXED_EVIDENCE",
+              "support_total": 0.9298743437751198,
+              "contradict_total": 0.8949539299947523,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "seconds": 0.36314095799934876
+      },
+      {
+        "id": "e2e-066",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The composer received the prize in 1996.",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The composer received the prize in 1996.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-66",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The composer was nominated for the prize in 1996.",
+              "similarity": 0.9654599320993563,
+              "stance": "neutral",
+              "stance_confidence": 0.5710852679925911,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.5237919468561162,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The composer received the prize in 1996."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-66",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The composer wrote orchestral music.",
+              "similarity": 0.581849786346368,
+              "stance": "neutral",
+              "stance_confidence": 0.9994640097069453,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3198458562798787,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -3.20 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The composer received the prize in 1996."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The composer received the prize in 1996.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.2704870840007061
+      },
+      {
+        "id": "e2e-072",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The monitoring station recorded 18 millimeters of rain.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "The monitoring station recorded 18 millimeters of rain.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cThe station recorded 81 millimeters of rain, not 18.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.8252858856394416,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-72",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The station recorded 81 millimeters of rain, not 18.",
+              "similarity": 0.8739513248407573,
+              "stance": "contradict",
+              "stance_confidence": 0.9940164402656093,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8252858856394416,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The monitoring station recorded 18 millimeters of rain."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-72",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The monitoring station is automated.",
+              "similarity": 0.38440471768541024,
+              "stance": "neutral",
+              "stance_confidence": 0.9987878809035574,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.21116632536248764,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -3.99 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The monitoring station recorded 18 millimeters of rain."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The monitoring station recorded 18 millimeters of rain.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.8252858856394416,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.2969701250003709
+      },
+      {
+        "id": "e2e-074",
+        "split": "test",
+        "domain": "public_institutions",
+        "difficulty": "medium",
+        "tag": "",
+        "claim": "The permit is valid for three years.",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The permit is valid for three years.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-74",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The permit application can take three years to process.",
+              "similarity": 0.8268329760324546,
+              "stance": "neutral",
+              "stance_confidence": 0.9796291770311235,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7694902224602247,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The permit is valid for three years."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-74",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The permit must be displayed publicly.",
+              "similarity": 0.523065390833399,
+              "stance": "neutral",
+              "stance_confidence": 0.9993882288170801,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.2875099669752774,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -1.68 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The permit is valid for three years."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The permit is valid for three years.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.5455796669994015
+      },
+      {
+        "id": "e2e-078",
+        "split": "test",
+        "domain": "business",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "Larch reported revenue of $9 million in 2024.",
+        "expected": "MIXED_EVIDENCE",
+        "predicted": "MIXED_EVIDENCE",
+        "assessment": {
+          "claim": "Larch reported revenue of $9 million in 2024.",
+          "verdict": "MIXED_EVIDENCE",
+          "explanation": "The retained passages contain substantial disagreement. [2] support: \u201cLarch's 2024 revenue was $9 million.\u201d [3] contradict: \u201cLarch's 2024 revenue was $7 million.\u201d",
+          "support_total": 0.9037119931596996,
+          "contradict_total": 0.8286463243453309,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-78",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Larch reported revenue of $9 million in 2023.",
+              "similarity": 0.9820443867745183,
+              "stance": "neutral",
+              "stance_confidence": 0.809657783582803,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.43731593486668424,
+              "raw_stance": "neutral",
+              "exclusion_reason": "The measurement concerns a different reporting period.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Larch reported revenue of $9 million in 2024."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-78",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "Larch's 2024 revenue was $9 million.",
+              "similarity": 0.9544458356485412,
+              "stance": "support",
+              "stance_confidence": 0.9966786450767852,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9037119931596996,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Larch reported revenue of $9 million in 2024."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-78",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "Larch's 2024 revenue was $7 million.",
+              "similarity": 0.8741869610528712,
+              "stance": "contradict",
+              "stance_confidence": 0.997794897025242,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8286463243453309,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Larch reported revenue of $9 million in 2024."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Larch reported revenue of $9 million in 2024.",
+              "verdict": "MIXED_EVIDENCE",
+              "support_total": 0.9037119931596996,
+              "contradict_total": 0.8286463243453309,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "seconds": 0.6410948750017269
+      },
+      {
+        "id": "e2e-081",
+        "split": "test",
+        "domain": "economics",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The city currently has an unemployment rate of 4 percent.",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The city currently has an unemployment rate of 4 percent.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-81",
+              "domain": "record0.example.gov",
+              "published_at": "2001-01-01",
+              "passage": "The city's unemployment rate was 4 percent in 2012.",
+              "similarity": 0.8386809851190804,
+              "stance": "neutral",
+              "stance_confidence": 0.5358961990895899,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.42697365456532665,
+              "raw_stance": "neutral",
+              "exclusion_reason": "The publication date is outside the current-evidence window.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The city currently has an unemployment rate of 4 percent."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-81",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The city publishes labor statistics.",
+              "similarity": 0.5023052865214137,
+              "stance": "neutral",
+              "stance_confidence": 0.9990249465719007,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.27599853161641125,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Currentness cannot be established without a usable publication date.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The city currently has an unemployment rate of 4 percent."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The city currently has an unemployment rate of 4 percent.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.34743054099999426
+      },
+      {
+        "id": "e2e-084",
+        "split": "test",
+        "domain": "science",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "Every sample passed the test.",
+        "expected": "UNSUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "Every sample passed the test.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-84",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The samples were labeled before testing.",
+              "similarity": 0.5912497526646018,
+              "stance": "neutral",
+              "stance_confidence": 0.9989843765927876,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3248570960669579,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -1.99 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Every sample passed the test."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-84",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "One of the samples failed the test.",
+              "similarity": 0.541397457581728,
+              "stance": "neutral",
+              "stance_confidence": 0.999416151403156,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.5140272952639947,
+              "raw_stance": "contradict",
+              "exclusion_reason": "Proposition relevance 0.52 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "Every sample passed the test."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Every sample passed the test.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.5404187499989348
+      },
+      {
+        "id": "e2e-091",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The harvest failure caused the migration.",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "The harvest failure caused the migration.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cThe migration occurred after the harvest failure, but its causes are not established.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.7914221704522743,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-91",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The migration occurred after the harvest failure, but its causes are not established.",
+              "similarity": 0.8750009171515905,
+              "stance": "contradict",
+              "stance_confidence": 0.9520858236458325,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7914221704522743,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The harvest failure caused the migration."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-91",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The migration affected several villages.",
+              "similarity": 0.5279138881919317,
+              "stance": "neutral",
+              "stance_confidence": 0.9982804931239514,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.28985337514717335,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -5.64 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The harvest failure caused the migration."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The harvest failure caused the migration.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.7914221704522743,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.2537918330017419
+      },
+      {
+        "id": "e2e-092",
+        "split": "test",
+        "domain": "history",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The survey began in 1881 and ended in 1884.",
+        "expected": "SUPPORTED",
+        "predicted": "SUPPORTED",
+        "assessment": {
+          "claim": "The survey began in 1881 and ended in 1884.",
+          "verdict": "SUPPORTED",
+          "explanation": "Each proposition was assessed separately. The survey began in 1881. \u2014 supported. The survey ended in 1884. \u2014 supported.",
+          "support_total": 1.89427989368544,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-92",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The survey began in 1881.",
+              "similarity": 1.0,
+              "stance": "support",
+              "stance_confidence": 0.9975703772493721,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9476918583869035,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The survey began in 1881."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-92",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "The survey ended in 1884.",
+              "similarity": 0.7449067755670125,
+              "stance": "neutral",
+              "stance_confidence": 0.9868376021725138,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.698346915430479,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 0.90 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The survey began in 1881."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-92",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The survey documented local roads.",
+              "similarity": 0.44876273425399155,
+              "stance": "neutral",
+              "stance_confidence": 0.9993800039600969,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.2466664767247439,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -3.16 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The survey began in 1881."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-92",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "The survey ended in 1884.",
+              "similarity": 1.0,
+              "stance": "support",
+              "stance_confidence": 0.9964084582089858,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.9465880352985365,
+              "raw_stance": "support",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The survey ended in 1884."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-92",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The survey began in 1881.",
+              "similarity": 0.7449067755670125,
+              "stance": "neutral",
+              "stance_confidence": 0.9830652672264583,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.6956773794625052,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance 0.32 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The survey ended in 1884."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-92",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The survey documented local roads.",
+              "similarity": 0.42354521075019125,
+              "stance": "neutral",
+              "stance_confidence": 0.999387583634455,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.2328072036023688,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -4.77 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The survey ended in 1884."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The survey began in 1881.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.9476918583869035,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "claim": "The survey ended in 1884.",
+              "verdict": "SUPPORTED",
+              "support_total": 0.9465880352985365,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        },
+        "seconds": 0.6559722920010245
+      },
+      {
+        "id": "e2e-093",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "Orion won the literature prize.",
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "Orion won the literature prize.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cOrion, a music group, won a performance award.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.6179926813689615,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-93",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "Orion, a music group, won a performance award.",
+              "similarity": 0.6537760067873742,
+              "stance": "contradict",
+              "stance_confidence": 0.9950175675059519,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.6179926813689615,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "Orion won the literature prize."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-93",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "Several organizations use the name Orion.",
+              "similarity": 0.5115875336479642,
+              "stance": "neutral",
+              "stance_confidence": 0.9658234991950589,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.2717567940408457,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -2.26 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "Orion won the literature prize."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "Orion won the literature prize.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.6179926813689615,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.1805879580006149
+      },
+      {
+        "id": "e2e-094",
+        "split": "test",
+        "domain": "culture",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The novel was published before the author's death.",
+        "expected": "UNSUPPORTED",
+        "predicted": "UNSUPPORTED",
+        "assessment": {
+          "claim": "The novel was published before the author's death.",
+          "verdict": "UNSUPPORTED",
+          "explanation": "The retained passages predominantly contradict the claim. [1] contradict: \u201cThe novel was first published two years after the author's death.\u201d",
+          "support_total": 0.0,
+          "contradict_total": 0.8132593777932435,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-94",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The novel was first published two years after the author's death.",
+              "similarity": 0.8565314409614966,
+              "stance": "contradict",
+              "stance_confidence": 0.9994525151105793,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8132593777932435,
+              "raw_stance": "contradict",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": true,
+              "atomic_claim": "The novel was published before the author's death."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context0.example.org/case-94",
+              "domain": "context0.example.org",
+              "published_at": null,
+              "passage": "The author wrote several novels.",
+              "similarity": 0.6893022830576668,
+              "stance": "neutral",
+              "stance_confidence": 0.9938742084014442,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.3767938685077858,
+              "raw_stance": "neutral",
+              "exclusion_reason": "Proposition relevance -0.69 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The novel was published before the author's death."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://context9.example.org/case-94",
+              "domain": "context9.example.org",
+              "published_at": null,
+              "passage": "The manuscript contains illustrations.",
+              "similarity": 0.40771524437864093,
+              "stance": "neutral",
+              "stance_confidence": 0.7072528296458137,
+              "source_type": "general",
+              "source_weight": 0.55,
+              "evidence_score": 0.15859676815209056,
+              "raw_stance": "contradict",
+              "exclusion_reason": "Proposition relevance -6.67 is below 2.00; topic overlap is insufficient.",
+              "independence_group": "example.org",
+              "counted": false,
+              "atomic_claim": "The novel was published before the author's death."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The novel was published before the author's death.",
+              "verdict": "UNSUPPORTED",
+              "support_total": 0.0,
+              "contradict_total": 0.8132593777932435,
+              "evidence_indices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        "seconds": 0.43490545799977554
+      },
+      {
+        "id": "e2e-098",
+        "split": "test",
+        "domain": "environment",
+        "difficulty": "hard",
+        "tag": "",
+        "claim": "The monitoring program measured rainfall and tracked river levels.",
+        "expected": "SUPPORTED",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "assessment": {
+          "claim": "The monitoring program measured rainfall and tracked river levels.",
+          "verdict": "INSUFFICIENT_EVIDENCE",
+          "explanation": "The retained evidence is too weak or incomplete for a supported assessment.",
+          "support_total": 0.0,
+          "contradict_total": 0.0,
+          "evidence": [
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record1.example.gov/case-98",
+              "domain": "record1.example.gov",
+              "published_at": null,
+              "passage": "The monitoring program tracked river levels.",
+              "similarity": 0.8719458231098072,
+              "stance": "neutral",
+              "stance_confidence": 0.9945115493040094,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.8238021818775894,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The monitoring program measured rainfall and tracked river levels."
+            },
+            {
+              "title": "Controlled authored evidence",
+              "url": "https://record0.example.gov/case-98",
+              "domain": "record0.example.gov",
+              "published_at": null,
+              "passage": "The monitoring program measured rainfall.",
+              "similarity": 0.8390415834865541,
+              "stance": "neutral",
+              "stance_confidence": 0.9990267630742766,
+              "source_type": "official",
+              "source_weight": 0.95,
+              "evidence_score": 0.7963137473735231,
+              "raw_stance": "neutral",
+              "exclusion_reason": null,
+              "independence_group": "example.gov",
+              "counted": false,
+              "atomic_claim": "The monitoring program measured rainfall and tracked river levels."
+            }
+          ],
+          "atomic_claims": [
+            {
+              "claim": "The monitoring program measured rainfall and tracked river levels.",
+              "verdict": "INSUFFICIENT_EVIDENCE",
+              "support_total": 0.0,
+              "contradict_total": 0.0,
+              "evidence_indices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "seconds": 0.2123083750011574
+      }
+    ]
+  },
+  "peak_rss": 1112178688
+}

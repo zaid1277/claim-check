@@ -1,0 +1,2224 @@
+{
+  "readiness_targets": {
+    "raw_nli_macro_f1_at_least_085": false,
+    "contradiction_precision_at_least_090": false,
+    "contradiction_recall_at_least_075": false,
+    "false_contradiction_rate_at_most_003": false,
+    "easy_accuracy_at_least_090": true,
+    "medium_accuracy_at_least_080": true,
+    "overall_accuracy_at_least_080": true,
+    "hard_accuracy_at_least_065": false
+  },
+  "ready": false,
+  "baseline": {
+    "nli": {
+      "development": {
+        "count": 186,
+        "accuracy": 0.44623655913978494,
+        "macro_f1": 0.4105444242056264,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            21,
+            4,
+            37
+          ],
+          [
+            16,
+            12,
+            34
+          ],
+          [
+            9,
+            3,
+            50
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.45652173913043476,
+            "recall": 0.3387096774193548,
+            "f1": 0.3888888888888889,
+            "count": 62
+          },
+          "contradict": {
+            "precision": 0.631578947368421,
+            "recall": 0.1935483870967742,
+            "f1": 0.2962962962962963,
+            "count": 62
+          },
+          "neutral": {
+            "precision": 0.4132231404958678,
+            "recall": 0.8064516129032258,
+            "f1": 0.546448087431694,
+            "count": 62
+          }
+        },
+        "false_contradiction_rate": 0.056451612903225805,
+        "raw": {
+          "count": 186,
+          "accuracy": 0.40860215053763443,
+          "macro_f1": 0.40548256596589555,
+          "labels": [
+            "support",
+            "contradict",
+            "neutral"
+          ],
+          "confusion_matrix": [
+            [
+              21,
+              18,
+              23
+            ],
+            [
+              16,
+              23,
+              23
+            ],
+            [
+              10,
+              20,
+              32
+            ]
+          ],
+          "per_label": {
+            "support": {
+              "precision": 0.44680851063829785,
+              "recall": 0.3387096774193548,
+              "f1": 0.3853211009174312,
+              "count": 62
+            },
+            "contradict": {
+              "precision": 0.3770491803278688,
+              "recall": 0.3709677419354839,
+              "f1": 0.37398373983739835,
+              "count": 62
+            },
+            "neutral": {
+              "precision": 0.41025641025641024,
+              "recall": 0.5161290322580645,
+              "f1": 0.45714285714285713,
+              "count": 62
+            }
+          },
+          "false_contradiction_rate": 0.3064516129032258
+        },
+        "by_origin": {
+          "authored": {
+            "count": 36,
+            "accuracy": 0.7777777777777778,
+            "macro_f1": 0.765432098765432,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                12,
+                0,
+                0
+              ],
+              [
+                1,
+                6,
+                5
+              ],
+              [
+                2,
+                0,
+                10
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.8,
+                "recall": 1.0,
+                "f1": 0.8888888888888888,
+                "count": 12
+              },
+              "contradict": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "count": 12
+              },
+              "neutral": {
+                "precision": 0.6666666666666666,
+                "recall": 0.8333333333333334,
+                "f1": 0.7407407407407407,
+                "count": 12
+              }
+            },
+            "false_contradiction_rate": 0.0
+          },
+          "ANLI": {
+            "count": 150,
+            "accuracy": 0.36666666666666664,
+            "macro_f1": 0.3085063085063085,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                9,
+                4,
+                37
+              ],
+              [
+                15,
+                6,
+                29
+              ],
+              [
+                7,
+                3,
+                40
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.2903225806451613,
+                "recall": 0.18,
+                "f1": 0.2222222222222222,
+                "count": 50
+              },
+              "contradict": {
+                "precision": 0.46153846153846156,
+                "recall": 0.12,
+                "f1": 0.19047619047619047,
+                "count": 50
+              },
+              "neutral": {
+                "precision": 0.37735849056603776,
+                "recall": 0.8,
+                "f1": 0.5128205128205128,
+                "count": 50
+              }
+            },
+            "false_contradiction_rate": 0.07
+          }
+        },
+        "mean_seconds_cached": 0.08086587772049825
+      },
+      "validation": {
+        "count": 111,
+        "accuracy": 0.4774774774774775,
+        "macro_f1": 0.4518075756042286,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            18,
+            1,
+            18
+          ],
+          [
+            4,
+            7,
+            26
+          ],
+          [
+            8,
+            1,
+            28
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.6,
+            "recall": 0.4864864864864865,
+            "f1": 0.5373134328358209,
+            "count": 37
+          },
+          "contradict": {
+            "precision": 0.7777777777777778,
+            "recall": 0.1891891891891892,
+            "f1": 0.30434782608695654,
+            "count": 37
+          },
+          "neutral": {
+            "precision": 0.3888888888888889,
+            "recall": 0.7567567567567568,
+            "f1": 0.5137614678899083,
+            "count": 37
+          }
+        },
+        "false_contradiction_rate": 0.02702702702702703,
+        "raw": {
+          "count": 111,
+          "accuracy": 0.5225225225225225,
+          "macro_f1": 0.5270812269971403,
+          "labels": [
+            "support",
+            "contradict",
+            "neutral"
+          ],
+          "confusion_matrix": [
+            [
+              18,
+              3,
+              16
+            ],
+            [
+              4,
+              21,
+              12
+            ],
+            [
+              8,
+              10,
+              19
+            ]
+          ],
+          "per_label": {
+            "support": {
+              "precision": 0.6,
+              "recall": 0.4864864864864865,
+              "f1": 0.5373134328358209,
+              "count": 37
+            },
+            "contradict": {
+              "precision": 0.6176470588235294,
+              "recall": 0.5675675675675675,
+              "f1": 0.5915492957746479,
+              "count": 37
+            },
+            "neutral": {
+              "precision": 0.40425531914893614,
+              "recall": 0.5135135135135135,
+              "f1": 0.4523809523809524,
+              "count": 37
+            }
+          },
+          "false_contradiction_rate": 0.17567567567567569
+        },
+        "by_origin": {
+          "authored": {
+            "count": 36,
+            "accuracy": 0.75,
+            "macro_f1": 0.7232258064516129,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                12,
+                0,
+                0
+              ],
+              [
+                0,
+                4,
+                8
+              ],
+              [
+                1,
+                0,
+                11
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.9230769230769231,
+                "recall": 1.0,
+                "f1": 0.96,
+                "count": 12
+              },
+              "contradict": {
+                "precision": 1.0,
+                "recall": 0.3333333333333333,
+                "f1": 0.5,
+                "count": 12
+              },
+              "neutral": {
+                "precision": 0.5789473684210527,
+                "recall": 0.9166666666666666,
+                "f1": 0.7096774193548387,
+                "count": 12
+              }
+            },
+            "false_contradiction_rate": 0.0
+          },
+          "ANLI": {
+            "count": 75,
+            "accuracy": 0.3466666666666667,
+            "macro_f1": 0.3072039072039072,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                6,
+                1,
+                18
+              ],
+              [
+                4,
+                3,
+                18
+              ],
+              [
+                7,
+                1,
+                17
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.35294117647058826,
+                "recall": 0.24,
+                "f1": 0.2857142857142857,
+                "count": 25
+              },
+              "contradict": {
+                "precision": 0.6,
+                "recall": 0.12,
+                "f1": 0.2,
+                "count": 25
+              },
+              "neutral": {
+                "precision": 0.32075471698113206,
+                "recall": 0.68,
+                "f1": 0.4358974358974359,
+                "count": 25
+              }
+            },
+            "false_contradiction_rate": 0.04
+          }
+        },
+        "mean_seconds_cached": 0.05521385733337812
+      },
+      "test": {
+        "count": 111,
+        "accuracy": 0.43243243243243246,
+        "macro_f1": 0.40771981748674313,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            13,
+            3,
+            21
+          ],
+          [
+            8,
+            8,
+            21
+          ],
+          [
+            7,
+            3,
+            27
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.4642857142857143,
+            "recall": 0.35135135135135137,
+            "f1": 0.4,
+            "count": 37
+          },
+          "contradict": {
+            "precision": 0.5714285714285714,
+            "recall": 0.21621621621621623,
+            "f1": 0.3137254901960784,
+            "count": 37
+          },
+          "neutral": {
+            "precision": 0.391304347826087,
+            "recall": 0.7297297297297297,
+            "f1": 0.5094339622641509,
+            "count": 37
+          }
+        },
+        "false_contradiction_rate": 0.08108108108108109,
+        "raw": {
+          "count": 111,
+          "accuracy": 0.40540540540540543,
+          "macro_f1": 0.40697167755991287,
+          "labels": [
+            "support",
+            "contradict",
+            "neutral"
+          ],
+          "confusion_matrix": [
+            [
+              13,
+              5,
+              19
+            ],
+            [
+              8,
+              16,
+              13
+            ],
+            [
+              7,
+              14,
+              16
+            ]
+          ],
+          "per_label": {
+            "support": {
+              "precision": 0.4642857142857143,
+              "recall": 0.35135135135135137,
+              "f1": 0.4,
+              "count": 37
+            },
+            "contradict": {
+              "precision": 0.45714285714285713,
+              "recall": 0.43243243243243246,
+              "f1": 0.4444444444444444,
+              "count": 37
+            },
+            "neutral": {
+              "precision": 0.3333333333333333,
+              "recall": 0.43243243243243246,
+              "f1": 0.3764705882352941,
+              "count": 37
+            }
+          },
+          "false_contradiction_rate": 0.25675675675675674
+        },
+        "by_origin": {
+          "authored": {
+            "count": 36,
+            "accuracy": 0.7777777777777778,
+            "macro_f1": 0.7757575757575758,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                11,
+                1,
+                0
+              ],
+              [
+                0,
+                8,
+                4
+              ],
+              [
+                2,
+                1,
+                9
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.8461538461538461,
+                "recall": 0.9166666666666666,
+                "f1": 0.88,
+                "count": 12
+              },
+              "contradict": {
+                "precision": 0.8,
+                "recall": 0.6666666666666666,
+                "f1": 0.7272727272727273,
+                "count": 12
+              },
+              "neutral": {
+                "precision": 0.6923076923076923,
+                "recall": 0.75,
+                "f1": 0.72,
+                "count": 12
+              }
+            },
+            "false_contradiction_rate": 0.08333333333333333
+          },
+          "ANLI": {
+            "count": 75,
+            "accuracy": 0.26666666666666666,
+            "macro_f1": 0.18148148148148147,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                2,
+                21
+              ],
+              [
+                8,
+                0,
+                17
+              ],
+              [
+                5,
+                2,
+                18
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.13333333333333333,
+                "recall": 0.08,
+                "f1": 0.1,
+                "count": 25
+              },
+              "contradict": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 25
+              },
+              "neutral": {
+                "precision": 0.32142857142857145,
+                "recall": 0.72,
+                "f1": 0.4444444444444444,
+                "count": 25
+              }
+            },
+            "false_contradiction_rate": 0.08
+          }
+        },
+        "mean_seconds_cached": 0.05198376911698483
+      }
+    },
+    "retrieval": {
+      "development": {
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.445578231292517,
+        "mean_seconds_cached": 0.01658012330632601
+      },
+      "validation": {
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.4333333333333333,
+        "mean_seconds_cached": 0.010131397999975889
+      },
+      "test": {
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.43548387096774194,
+        "mean_seconds_cached": 0.009547573870863304
+      }
+    },
+    "verdicts": {
+      "development": {
+        "count": 49,
+        "accuracy": 0.7755102040816326,
+        "macro_f1": 0.7469423558897244,
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            17,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            0,
+            2
+          ],
+          [
+            4,
+            0,
+            4,
+            0
+          ],
+          [
+            4,
+            1,
+            0,
+            6
+          ]
+        ],
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 0.68,
+            "recall": 1.0,
+            "f1": 0.8095238095238095,
+            "count": 17
+          },
+          "UNSUPPORTED": {
+            "precision": 0.9166666666666666,
+            "recall": 0.8461538461538461,
+            "f1": 0.88,
+            "count": 13
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "count": 8
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 0.75,
+            "recall": 0.5454545454545454,
+            "f1": 0.631578947368421,
+            "count": 11
+          }
+        },
+        "decision_coverage": 0.8367346938775511,
+        "abstention_rate": 0.16326530612244894,
+        "selective_accuracy": 0.7804878048780488,
+        "incorrect_confident_verdict_rate": 0.1836734693877551,
+        "definitive_coverage": 0.7551020408163265,
+        "definitive_accuracy": 0.7567567567567568,
+        "by_difficulty": {
+          "easy": {
+            "count": 17,
+            "accuracy": 0.8823529411764706,
+            "macro_f1": 0.6625668449197861,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                5,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.8888888888888888,
+                "recall": 1.0,
+                "f1": 0.9411764705882353,
+                "count": 8
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 0.8333333333333334,
+                "f1": 0.9090909090909091,
+                "count": 6
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "f1": 0.8,
+                "count": 2
+              }
+            },
+            "decision_coverage": 0.8235294117647058,
+            "abstention_rate": 0.17647058823529416,
+            "selective_accuracy": 0.9285714285714286,
+            "incorrect_confident_verdict_rate": 0.058823529411764705,
+            "definitive_coverage": 0.8235294117647058,
+            "definitive_accuracy": 0.9285714285714286
+          },
+          "medium": {
+            "count": 20,
+            "accuracy": 0.75,
+            "macro_f1": 0.748015873015873,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                4,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                4,
+                0
+              ],
+              [
+                3,
+                0,
+                0,
+                2
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.5555555555555556,
+                "recall": 1.0,
+                "f1": 0.7142857142857143,
+                "count": 5
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 0.8,
+                "f1": 0.8888888888888888,
+                "count": 5
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 0.8,
+                "f1": 0.8888888888888888,
+                "count": 5
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.6666666666666666,
+                "recall": 0.4,
+                "f1": 0.5,
+                "count": 5
+              }
+            },
+            "decision_coverage": 0.85,
+            "abstention_rate": 0.15000000000000002,
+            "selective_accuracy": 0.7647058823529411,
+            "incorrect_confident_verdict_rate": 0.2,
+            "definitive_coverage": 0.65,
+            "definitive_accuracy": 0.6923076923076923
+          },
+          "hard": {
+            "count": 12,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5484848484848485,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                2
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.5714285714285714,
+                "recall": 1.0,
+                "f1": 0.7272727272727273,
+                "count": 4
+              },
+              "UNSUPPORTED": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "f1": 0.8,
+                "count": 2
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 2
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "count": 4
+              }
+            },
+            "decision_coverage": 0.8333333333333334,
+            "abstention_rate": 0.16666666666666663,
+            "selective_accuracy": 0.6,
+            "incorrect_confident_verdict_rate": 0.3333333333333333,
+            "definitive_coverage": 0.8333333333333334,
+            "definitive_accuracy": 0.6
+          }
+        },
+        "mean_seconds_cached": 0.15713650846949034
+      },
+      "validation": {
+        "count": 20,
+        "accuracy": 0.65,
+        "macro_f1": 0.5943181818181819,
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            2
+          ]
+        ],
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 0.6,
+            "recall": 1.0,
+            "f1": 0.75,
+            "count": 6
+          },
+          "UNSUPPORTED": {
+            "precision": 0.6666666666666666,
+            "recall": 0.8,
+            "f1": 0.7272727272727273,
+            "count": 5
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4,
+            "count": 4
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 0.6666666666666666,
+            "recall": 0.4,
+            "f1": 0.5,
+            "count": 5
+          }
+        },
+        "decision_coverage": 0.85,
+        "abstention_rate": 0.15000000000000002,
+        "selective_accuracy": 0.6470588235294118,
+        "incorrect_confident_verdict_rate": 0.3,
+        "definitive_coverage": 0.8,
+        "definitive_accuracy": 0.625,
+        "by_difficulty": {
+          "easy": {
+            "count": 7,
+            "accuracy": 0.8571428571428571,
+            "macro_f1": 0.7142857142857143,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571,
+                "count": 3
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 2
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 1
+              }
+            },
+            "decision_coverage": 0.8571428571428571,
+            "abstention_rate": 0.1428571428571429,
+            "selective_accuracy": 0.8333333333333334,
+            "incorrect_confident_verdict_rate": 0.14285714285714285,
+            "definitive_coverage": 0.8571428571428571,
+            "definitive_accuracy": 0.8333333333333334
+          },
+          "medium": {
+            "count": 8,
+            "accuracy": 0.5,
+            "macro_f1": 0.45833333333333326,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                0
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "count": 2
+              },
+              "UNSUPPORTED": {
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5,
+                "count": 2
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "count": 2
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 2
+              }
+            },
+            "decision_coverage": 0.875,
+            "abstention_rate": 0.125,
+            "selective_accuracy": 0.5714285714285714,
+            "incorrect_confident_verdict_rate": 0.375,
+            "definitive_coverage": 0.75,
+            "definitive_accuracy": 0.5
+          },
+          "hard": {
+            "count": 5,
+            "accuracy": 0.6,
+            "macro_f1": 0.5,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "count": 1
+              },
+              "UNSUPPORTED": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "count": 1
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "count": 2
+              }
+            },
+            "decision_coverage": 0.8,
+            "abstention_rate": 0.19999999999999996,
+            "selective_accuracy": 0.5,
+            "incorrect_confident_verdict_rate": 0.4,
+            "definitive_coverage": 0.8,
+            "definitive_accuracy": 0.5
+          }
+        },
+        "mean_seconds_cached": 0.15923163120014577
+      },
+      "test": {
+        "count": 31,
+        "accuracy": 0.6451612903225806,
+        "macro_f1": 0.5806372549019608,
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            6,
+            0,
+            3
+          ],
+          [
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            4
+          ]
+        ],
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 0.6428571428571429,
+            "recall": 0.9,
+            "f1": 0.75,
+            "count": 10
+          },
+          "UNSUPPORTED": {
+            "precision": 0.75,
+            "recall": 0.6666666666666666,
+            "f1": 0.7058823529411765,
+            "count": 9
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333,
+            "count": 5
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 0.5,
+            "recall": 0.5714285714285714,
+            "f1": 0.5333333333333333,
+            "count": 7
+          }
+        },
+        "decision_coverage": 0.7419354838709677,
+        "abstention_rate": 0.25806451612903225,
+        "selective_accuracy": 0.6956521739130435,
+        "incorrect_confident_verdict_rate": 0.22580645161290322,
+        "definitive_coverage": 0.7096774193548387,
+        "definitive_accuracy": 0.6818181818181818,
+        "by_difficulty": {
+          "easy": {
+            "count": 11,
+            "accuracy": 0.8181818181818182,
+            "macro_f1": 0.6082251082251082,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.8333333333333334,
+                "recall": 1.0,
+                "f1": 0.9090909090909091,
+                "count": 5
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "count": 4
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "count": 1
+              }
+            },
+            "decision_coverage": 0.8181818181818182,
+            "abstention_rate": 0.18181818181818177,
+            "selective_accuracy": 0.8888888888888888,
+            "incorrect_confident_verdict_rate": 0.09090909090909091,
+            "definitive_coverage": 0.8181818181818182,
+            "definitive_accuracy": 0.8888888888888888
+          },
+          "medium": {
+            "count": 12,
+            "accuracy": 0.5833333333333334,
+            "macro_f1": 0.5583333333333333,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                2,
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "count": 3
+              },
+              "UNSUPPORTED": {
+                "precision": 0.6666666666666666,
+                "recall": 0.6666666666666666,
+                "f1": 0.6666666666666666,
+                "count": 3
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 0.3333333333333333,
+                "f1": 0.5,
+                "count": 3
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.5,
+                "recall": 0.3333333333333333,
+                "f1": 0.4,
+                "count": 3
+              }
+            },
+            "decision_coverage": 0.8333333333333334,
+            "abstention_rate": 0.16666666666666663,
+            "selective_accuracy": 0.6,
+            "incorrect_confident_verdict_rate": 0.3333333333333333,
+            "definitive_coverage": 0.75,
+            "definitive_accuracy": 0.5555555555555556
+          },
+          "hard": {
+            "count": 8,
+            "accuracy": 0.5,
+            "macro_f1": 0.39285714285714285,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                2
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5,
+                "count": 2
+              },
+              "UNSUPPORTED": {
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5,
+                "count": 2
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.5,
+                "recall": 0.6666666666666666,
+                "f1": 0.5714285714285714,
+                "count": 3
+              }
+            },
+            "decision_coverage": 0.5,
+            "abstention_rate": 0.5,
+            "selective_accuracy": 0.5,
+            "incorrect_confident_verdict_rate": 0.25,
+            "definitive_coverage": 0.5,
+            "definitive_accuracy": 0.5
+          }
+        },
+        "mean_seconds_cached": 0.14317938432249055
+      }
+    }
+  },
+  "final": {
+    "nli": {
+      "test": {
+        "count": 111,
+        "accuracy": 0.6756756756756757,
+        "macro_f1": 0.6787835590401521,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            24,
+            0,
+            13
+          ],
+          [
+            4,
+            21,
+            12
+          ],
+          [
+            4,
+            3,
+            30
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.75,
+            "recall": 0.6486486486486487,
+            "f1": 0.6956521739130435,
+            "count": 37
+          },
+          "contradict": {
+            "precision": 0.875,
+            "recall": 0.5675675675675675,
+            "f1": 0.6885245901639344,
+            "count": 37
+          },
+          "neutral": {
+            "precision": 0.5454545454545454,
+            "recall": 0.8108108108108109,
+            "f1": 0.6521739130434783,
+            "count": 37
+          }
+        },
+        "false_contradiction_rate": 0.04054054054054054,
+        "raw": {
+          "count": 111,
+          "accuracy": 0.6666666666666666,
+          "macro_f1": 0.6672198514303777,
+          "labels": [
+            "support",
+            "contradict",
+            "neutral"
+          ],
+          "confusion_matrix": [
+            [
+              27,
+              2,
+              8
+            ],
+            [
+              5,
+              24,
+              8
+            ],
+            [
+              5,
+              9,
+              23
+            ]
+          ],
+          "per_label": {
+            "support": {
+              "precision": 0.7297297297297297,
+              "recall": 0.7297297297297297,
+              "f1": 0.7297297297297297,
+              "count": 37
+            },
+            "contradict": {
+              "precision": 0.6857142857142857,
+              "recall": 0.6486486486486487,
+              "f1": 0.6666666666666666,
+              "count": 37
+            },
+            "neutral": {
+              "precision": 0.5897435897435898,
+              "recall": 0.6216216216216216,
+              "f1": 0.6052631578947368,
+              "count": 37
+            }
+          },
+          "false_contradiction_rate": 0.14864864864864866
+        },
+        "by_origin": {
+          "authored": {
+            "count": 36,
+            "accuracy": 0.9444444444444444,
+            "macro_f1": 0.9440559440559441,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                12,
+                0,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                2,
+                10
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 12
+              },
+              "contradict": {
+                "precision": 0.8571428571428571,
+                "recall": 1.0,
+                "f1": 0.9230769230769231,
+                "count": 12
+              },
+              "neutral": {
+                "precision": 1.0,
+                "recall": 0.8333333333333334,
+                "f1": 0.9090909090909091,
+                "count": 12
+              }
+            },
+            "false_contradiction_rate": 0.08333333333333333
+          },
+          "ANLI": {
+            "count": 75,
+            "accuracy": 0.5466666666666666,
+            "macro_f1": 0.5396825396825397,
+            "labels": [
+              "support",
+              "contradict",
+              "neutral"
+            ],
+            "confusion_matrix": [
+              [
+                12,
+                0,
+                13
+              ],
+              [
+                4,
+                9,
+                12
+              ],
+              [
+                4,
+                1,
+                20
+              ]
+            ],
+            "per_label": {
+              "support": {
+                "precision": 0.6,
+                "recall": 0.48,
+                "f1": 0.5333333333333333,
+                "count": 25
+              },
+              "contradict": {
+                "precision": 0.9,
+                "recall": 0.36,
+                "f1": 0.5142857142857142,
+                "count": 25
+              },
+              "neutral": {
+                "precision": 0.4444444444444444,
+                "recall": 0.8,
+                "f1": 0.5714285714285714,
+                "count": 25
+              }
+            },
+            "false_contradiction_rate": 0.02
+          }
+        },
+        "mean_seconds_cached": 0.14264989832434793
+      }
+    },
+    "retrieval": {
+      "test": {
+        "recall5": 1.0,
+        "recall10": 1.0,
+        "precision5": 0.43548387096774194,
+        "mean_seconds_cached": 0.0008112311935556429
+      }
+    },
+    "verdicts": {
+      "test": {
+        "count": 31,
+        "accuracy": 0.8709677419354839,
+        "macro_f1": 0.8759398496240601,
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            8,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            5
+          ]
+        ],
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1": 0.9473684210526315,
+            "count": 10
+          },
+          "UNSUPPORTED": {
+            "precision": 0.8,
+            "recall": 0.8888888888888888,
+            "f1": 0.8421052631578947,
+            "count": 9
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "count": 5
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 0.7142857142857143,
+            "recall": 0.7142857142857143,
+            "f1": 0.7142857142857143,
+            "count": 7
+          }
+        },
+        "decision_coverage": 0.7741935483870968,
+        "abstention_rate": 0.22580645161290325,
+        "selective_accuracy": 0.9166666666666666,
+        "incorrect_confident_verdict_rate": 0.06451612903225806,
+        "definitive_coverage": 0.6129032258064516,
+        "definitive_accuracy": 0.8947368421052632,
+        "by_difficulty": {
+          "easy": {
+            "count": 11,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 5
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 4
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 1
+              }
+            },
+            "decision_coverage": 0.9090909090909091,
+            "abstention_rate": 0.09090909090909094,
+            "selective_accuracy": 1.0,
+            "incorrect_confident_verdict_rate": 0.0,
+            "definitive_coverage": 0.8181818181818182,
+            "definitive_accuracy": 1.0
+          },
+          "medium": {
+            "count": 12,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              },
+              "UNSUPPORTED": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 3
+              }
+            },
+            "decision_coverage": 0.75,
+            "abstention_rate": 0.25,
+            "selective_accuracy": 1.0,
+            "incorrect_confident_verdict_rate": 0.0,
+            "definitive_coverage": 0.5,
+            "definitive_accuracy": 1.0
+          },
+          "hard": {
+            "count": 8,
+            "accuracy": 0.5,
+            "macro_f1": 0.6,
+            "labels": [
+              "SUPPORTED",
+              "UNSUPPORTED",
+              "MIXED_EVIDENCE",
+              "INSUFFICIENT_EVIDENCE"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                1
+              ]
+            ],
+            "per_label": {
+              "SUPPORTED": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "count": 2
+              },
+              "UNSUPPORTED": {
+                "precision": 0.3333333333333333,
+                "recall": 0.5,
+                "f1": 0.4,
+                "count": 2
+              },
+              "MIXED_EVIDENCE": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "count": 1
+              },
+              "INSUFFICIENT_EVIDENCE": {
+                "precision": 0.3333333333333333,
+                "recall": 0.3333333333333333,
+                "f1": 0.3333333333333333,
+                "count": 3
+              }
+            },
+            "decision_coverage": 0.625,
+            "abstention_rate": 0.375,
+            "selective_accuracy": 0.6,
+            "incorrect_confident_verdict_rate": 0.25,
+            "definitive_coverage": 0.5,
+            "definitive_accuracy": 0.5
+          }
+        },
+        "mean_seconds_cached": 0.3508952782906436
+      }
+    }
+  },
+  "error_counts": {
+    "pass1": {
+      "nli": {
+        "relevance error": 5,
+        "NLI contradiction error": 8,
+        "entity mismatch": 1,
+        "NLI support error": 15,
+        "NLI neutral error": 34
+      },
+      "verdicts": {
+        "entity mismatch": 3,
+        "relevance error": 5,
+        "NLI contradiction error": 1,
+        "NLI support error": 1,
+        "insufficient evidence": 1
+      }
+    },
+    "pass2": {
+      "nli": {
+        "NLI contradiction error": 5,
+        "relevance error": 5,
+        "NLI neutral error": 17,
+        "NLI support error": 9
+      },
+      "verdicts": {
+        "relevance error": 1,
+        "NLI contradiction error": 1,
+        "entity mismatch": 1,
+        "claim decomposition": 1
+      }
+    }
+  },
+  "numeric_date_proxy": {
+    "pass1": {
+      "nli": {
+        "count": 44,
+        "accuracy": 0.36363636363636365,
+        "macro_f1": 0.35191378669639545,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            5,
+            0,
+            7
+          ],
+          [
+            5,
+            3,
+            10
+          ],
+          [
+            4,
+            2,
+            8
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.35714285714285715,
+            "recall": 0.4166666666666667,
+            "f1": 0.38461538461538464,
+            "count": 12
+          },
+          "contradict": {
+            "precision": 0.6,
+            "recall": 0.16666666666666666,
+            "f1": 0.2608695652173913,
+            "count": 18
+          },
+          "neutral": {
+            "precision": 0.32,
+            "recall": 0.5714285714285714,
+            "f1": 0.41025641025641024,
+            "count": 14
+          }
+        },
+        "false_contradiction_rate": 0.07692307692307693
+      },
+      "verdicts": {
+        "count": 13,
+        "accuracy": 0.6153846153846154,
+        "macro_f1": 0.5734848484848485,
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 0.5714285714285714,
+            "recall": 1.0,
+            "f1": 0.7272727272727273,
+            "count": 4
+          },
+          "UNSUPPORTED": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "count": 3
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4,
+            "count": 4
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "count": 2
+          }
+        },
+        "decision_coverage": 0.6923076923076923,
+        "abstention_rate": 0.3076923076923077,
+        "selective_accuracy": 0.6666666666666666,
+        "incorrect_confident_verdict_rate": 0.23076923076923078,
+        "definitive_coverage": 0.6153846153846154,
+        "definitive_accuracy": 0.625
+      }
+    },
+    "pass2": {
+      "nli": {
+        "count": 44,
+        "accuracy": 0.75,
+        "macro_f1": 0.7512170555648817,
+        "labels": [
+          "support",
+          "contradict",
+          "neutral"
+        ],
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            3
+          ],
+          [
+            2,
+            10,
+            6
+          ],
+          [
+            0,
+            0,
+            14
+          ]
+        ],
+        "per_label": {
+          "support": {
+            "precision": 0.8181818181818182,
+            "recall": 0.75,
+            "f1": 0.782608695652174,
+            "count": 12
+          },
+          "contradict": {
+            "precision": 1.0,
+            "recall": 0.5555555555555556,
+            "f1": 0.7142857142857143,
+            "count": 18
+          },
+          "neutral": {
+            "precision": 0.6086956521739131,
+            "recall": 1.0,
+            "f1": 0.7567567567567568,
+            "count": 14
+          }
+        },
+        "false_contradiction_rate": 0.0
+      },
+      "verdicts": {
+        "count": 13,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "labels": [
+          "SUPPORTED",
+          "UNSUPPORTED",
+          "MIXED_EVIDENCE",
+          "INSUFFICIENT_EVIDENCE"
+        ],
+        "confusion_matrix": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_label": {
+          "SUPPORTED": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "count": 4
+          },
+          "UNSUPPORTED": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "count": 3
+          },
+          "MIXED_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "count": 4
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "count": 2
+          }
+        },
+        "decision_coverage": 0.8461538461538461,
+        "abstention_rate": 0.15384615384615385,
+        "selective_accuracy": 1.0,
+        "incorrect_confident_verdict_rate": 0.0,
+        "definitive_coverage": 0.5384615384615384,
+        "definitive_accuracy": 1.0
+      }
+    }
+  },
+  "numeric_date_definition": "Digit-containing claims; incomplete proxy.",
+  "easy_final_failures": [],
+  "test_policy": "Locked system; no reasoning changes after final test."
+}

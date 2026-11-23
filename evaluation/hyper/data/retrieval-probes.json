@@ -1,0 +1,95 @@
+[
+  {
+    "id": "probe-diversity-001",
+    "kind": "source-diversity",
+    "claim": "Acme Robotics was founded in 2010.",
+    "expected": "UNSUPPORTED",
+    "queries": {
+      "Acme Robotics was founded in 2010.": [
+        {"url": "https://dominant.example/a", "domain": "dominant.example", "passage": "Acme Robotics was founded in 2010 by a group of engineers in Austin."},
+        {"url": "https://dominant.example/b", "domain": "dominant.example", "passage": "Acme Robotics, founded in 2010, makes industrial robots for warehouses."},
+        {"url": "https://dominant.example/c", "domain": "dominant.example", "passage": "In 2010, Acme Robotics opened its first factory in Austin, Texas."},
+        {"url": "https://dominant.example/d", "domain": "dominant.example", "passage": "Acme Robotics has grown since its founding in 2010 to over 500 employees."},
+        {"url": "https://registry.gov/x", "domain": "registry.gov", "passage": "Corporate records show Acme Robotics was incorporated in 2011, one year after its founders' first prototype."}
+      ]
+    },
+    "note": "One dominant domain returns four near-identical supporting passages; a single, differently-worded contradicting passage from a distinct registry domain should not be crowded out of the retrieval window."
+  },
+  {
+    "id": "probe-diversity-002",
+    "kind": "source-diversity",
+    "claim": "Meridian Bank's headquarters are in Chicago.",
+    "expected": "UNSUPPORTED",
+    "queries": {
+      "Meridian Bank's headquarters are in Chicago.": [
+        {"url": "https://news-aggregator.example/1", "domain": "news-aggregator.example", "passage": "Meridian Bank, headquartered in Chicago, reported strong quarterly earnings."},
+        {"url": "https://news-aggregator.example/2", "domain": "news-aggregator.example", "passage": "Analysts at the Chicago-based Meridian Bank expect rates to hold steady."},
+        {"url": "https://news-aggregator.example/3", "domain": "news-aggregator.example", "passage": "Meridian Bank's Chicago headquarters hosted an investor event this week."},
+        {"url": "https://regulator.gov/filing", "domain": "regulator.gov", "passage": "Regulatory filings list Meridian Bank's principal office as Minneapolis, Minnesota."}
+      ]
+    },
+    "note": "Three syndicated wire passages from one aggregator vs. one authoritative regulatory filing from a different domain with the correct, contradicting location."
+  },
+  {
+    "id": "probe-depth-001",
+    "kind": "retrieval-depth",
+    "claim": "The Halden Bridge spans 940 meters.",
+    "expected": "SUPPORTED",
+    "queries": {
+      "The Halden Bridge spans 940 meters.": [
+        {"url": "https://filler.example/1", "domain": "filler.example", "passage": "Bridges are structures that span physical obstacles for the purpose of travel."},
+        {"url": "https://filler.example/2", "domain": "filler.example", "passage": "Norway has an extensive network of bridges connecting its fjords and islands."},
+        {"url": "https://filler.example/3", "domain": "filler.example", "passage": "Bridge engineering has advanced considerably over the past century."},
+        {"url": "https://filler.example/4", "domain": "filler.example", "passage": "Many Norwegian bridges are engineering landmarks recognized internationally."},
+        {"url": "https://filler.example/5", "domain": "filler.example", "passage": "Suspension bridges use cables to support the deck across long spans."},
+        {"url": "https://filler.example/6", "domain": "filler.example", "passage": "Cantilever bridges rely on projecting beams anchored at only one end."},
+        {"url": "https://filler.example/7", "domain": "filler.example", "passage": "Truss bridges distribute load through a connected framework of triangles."},
+        {"url": "https://filler.example/8", "domain": "filler.example", "passage": "Norway invests heavily in transportation infrastructure each year."},
+        {"url": "https://filler.example/9", "domain": "filler.example", "passage": "Fjord crossings in Norway often require both bridges and ferries."},
+        {"url": "https://filler.example/10", "domain": "filler.example", "passage": "Bridge maintenance schedules vary by structure type and traffic load."},
+        {"url": "https://engineering-record.example/halden", "domain": "engineering-record.example", "passage": "The Halden Bridge, opened in 2019, has a total span of 940 meters across the fjord."}
+      ]
+    },
+    "note": "Ten topically-similar but uninformative filler passages outrank the one directly relevant passage by generic topical similarity; the relevant passage should still reach NLI."
+  },
+  {
+    "id": "probe-twosided-001",
+    "kind": "two-sided",
+    "claim": "Vantage Systems acquired Corelux in 2021.",
+    "expected": "UNSUPPORTED",
+    "queries": {
+      "Vantage Systems acquired Corelux in 2021.": [
+        {"url": "https://press-release.example/1", "domain": "press-release.example", "passage": "Vantage Systems completed its planned expansion into the software sector in 2021, growing rapidly."},
+        {"url": "https://press-release.example/2", "domain": "press-release.example", "passage": "In 2021, Vantage Systems announced a major partnership with Corelux to co-develop new products."},
+        {"url": "https://trade-journal.example/report", "domain": "trade-journal.example", "passage": "Vantage Systems never acquired Corelux; the two companies instead formed a joint venture in 2021, each retaining independent ownership."}
+      ]
+    },
+    "note": "Two press-release passages are lexically close to the claim (both mention Vantage Systems, Corelux, 2021) but only describe a partnership, not an acquisition; a genuinely contradicting passage exists but is less superficially similar in wording."
+  },
+  {
+    "id": "probe-followup-001",
+    "kind": "follow-up-needed",
+    "claim": "Solvex Pharma's new drug reduced hospitalizations by 40% in its phase 3 trial.",
+    "expected": "SUPPORTED",
+    "queries": {
+      "Solvex Pharma's new drug reduced hospitalizations by 40% in its phase 3 trial.": [
+        {"url": "https://company-about.example/solvex", "domain": "company-about.example", "passage": "Solvex Pharma is a biopharmaceutical company focused on cardiovascular and respiratory disease treatments, founded in 2009."}
+      ],
+      "Solvex Pharma's new drug reduced hospitalizations by 40% in its phase 3 trial. evidence research": [
+        {"url": "https://company-about.example/solvex", "domain": "company-about.example", "passage": "Solvex Pharma is a biopharmaceutical company focused on cardiovascular and respiratory disease treatments, founded in 2009."}
+      ],
+      "Solvex Pharma's new drug reduced hospitalizations by 40% in its phase 3 trial. official statistics": [
+        {"url": "https://company-about.example/solvex", "domain": "company-about.example", "passage": "Solvex Pharma is a biopharmaceutical company focused on cardiovascular and respiratory disease treatments, founded in 2009."}
+      ]
+    },
+    "follow_up_results": [
+      {
+        "trigger_words": ["phase", "trial", "hospitalizations"],
+        "results": [
+          {"url": "https://clinical-trials-registry.example/solvex-p3", "domain": "clinical-trials-registry.example", "passage": "Solvex Pharma's phase 3 trial results showed a 40% reduction in hospitalizations among treated patients compared to placebo."}
+        ]
+      }
+    ],
+    "note": "The claim's own wording only surfaces a generic company-about page under the standard query variants; a targeted follow-up query built from entity + trial phase + outcome metric surfaces the actual trial result. follow_up_results matches by trigger word overlap, not exact query text, since the generator's exact phrasing shouldn't need to be hand-predicted -- this mirrors how a real search engine tolerates reworded queries."
+  }
+]

@@ -1,0 +1,2577 @@
+[
+  {
+    "domain": "geography",
+    "difficulty": "easy",
+    "tag": "location",
+    "group": "p000",
+    "split": "development",
+    "id": "p000",
+    "claim": "Tokyo is the capital of Japan.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p000",
+        "passage": "Japan's capital city is Tokyo.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p000",
+        "passage": "Tokyo is Japan's most populous city.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p000",
+        "passage": "Tokyo is Japan's most populous city.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p000",
+        "passage": "Tokyo is Japan's most populous city.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p000",
+        "passage": "Tokyo is Japan's most populous city.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p000",
+        "passage": "Tokyo is Japan's most populous city.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "geography",
+    "difficulty": "medium",
+    "tag": "quantity",
+    "group": "p001",
+    "split": "development",
+    "id": "p001",
+    "claim": "Lake Arin has an area of 240 square kilometres.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p001",
+        "passage": "The surface area of Lake Arin is 204 square kilometres, not 240.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p001",
+        "passage": "Lake Arin has a shoreline measuring 240 kilometres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p001",
+        "passage": "Lake Arin has a shoreline measuring 240 kilometres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p001",
+        "passage": "Lake Arin has a shoreline measuring 240 kilometres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p001",
+        "passage": "Lake Arin has a shoreline measuring 240 kilometres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p001",
+        "passage": "Lake Arin has a shoreline measuring 240 kilometres.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "geography",
+    "difficulty": "difficult",
+    "tag": "compound",
+    "group": "p002",
+    "split": "validation",
+    "id": "p002",
+    "claim": "Norvale borders Eastland and has a population of two million.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p002",
+        "passage": "Norvale shares a border with Eastland. Its population is two million.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p002",
+        "passage": "Norvale has two million residents but does not share a border with Eastland.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p002",
+        "passage": "Norvale shares a border with Eastland. Its population is not reported.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p002",
+        "passage": "Norvale shares a border with Eastland. Its population is not reported.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p002",
+        "passage": "Norvale shares a border with Eastland. Its population is not reported.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p002",
+        "passage": "Norvale shares a border with Eastland. Its population is not reported.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p002",
+        "passage": "Norvale shares a border with Eastland. Its population is not reported.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "geography",
+    "difficulty": "easy",
+    "tag": "negation",
+    "group": "p003",
+    "split": "development",
+    "id": "p003",
+    "claim": "Sydney is the capital of Australia.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p003",
+        "passage": "Sydney contains a famous opera house.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p003",
+        "passage": "Sydney contains a famous opera house.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p003",
+        "passage": "Sydney contains a famous opera house.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p003",
+        "passage": "Sydney contains a famous opera house.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p003",
+        "passage": "Sydney contains a famous opera house.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p003",
+        "passage": "Sydney contains a famous opera house.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "geography",
+    "difficulty": "medium",
+    "tag": "entity_ambiguity",
+    "group": "p004",
+    "split": "test",
+    "id": "p004",
+    "claim": "The town of Springfield in North County lies on the Alder River.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p004",
+        "passage": "North County's Springfield sits beside the Alder River.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p004",
+        "passage": "Springfield in South County lies on the Alder River.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p004",
+        "passage": "Springfield in South County lies on the Alder River.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p004",
+        "passage": "Springfield in South County lies on the Alder River.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p004",
+        "passage": "Springfield in South County lies on the Alder River.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p004",
+        "passage": "Springfield in South County lies on the Alder River.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "geography",
+    "difficulty": "difficult",
+    "tag": "indirect",
+    "group": "p005",
+    "split": "test",
+    "id": "p005",
+    "claim": "Port Selby lies north of Westhaven.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p005",
+        "passage": "Port Selby lies south of Westhaven.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p005",
+        "passage": "Port Selby and Westhaven both have passenger ports.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p005",
+        "passage": "Port Selby and Westhaven both have passenger ports.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p005",
+        "passage": "Port Selby and Westhaven both have passenger ports.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p005",
+        "passage": "Port Selby and Westhaven both have passenger ports.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p005",
+        "passage": "Port Selby and Westhaven both have passenger ports.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "history",
+    "difficulty": "easy",
+    "tag": "date",
+    "group": "p006",
+    "split": "development",
+    "id": "p006",
+    "claim": "The archive opened in 1924.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p006",
+        "passage": "The archive first opened its doors in 1924.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p006",
+        "passage": "The archive opened in 1942, not 1924.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p006",
+        "passage": "The archive contains records from 1924.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p006",
+        "passage": "The archive contains records from 1924.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p006",
+        "passage": "The archive contains records from 1924.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p006",
+        "passage": "The archive contains records from 1924.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p006",
+        "passage": "The archive contains records from 1924.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "history",
+    "difficulty": "medium",
+    "tag": "relationship",
+    "group": "p007",
+    "split": "validation",
+    "id": "p007",
+    "claim": "Mira succeeded Tomas as director of the institute.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p007",
+        "passage": "Mira and Tomas both worked at the institute.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p007",
+        "passage": "Mira and Tomas both worked at the institute.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p007",
+        "passage": "Mira and Tomas both worked at the institute.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p007",
+        "passage": "Mira and Tomas both worked at the institute.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p007",
+        "passage": "Mira and Tomas both worked at the institute.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p007",
+        "passage": "Mira and Tomas both worked at the institute.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "history",
+    "difficulty": "difficult",
+    "tag": "causation",
+    "group": "p008",
+    "split": "development",
+    "id": "p008",
+    "claim": "The drought caused the kingdom's collapse.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p008",
+        "passage": "The historical study attributes the kingdom's collapse to the drought.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p008",
+        "passage": "A drought occurred before the kingdom collapsed, but the study did not establish a cause.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p008",
+        "passage": "A drought occurred before the kingdom collapsed, but the study did not establish a cause.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p008",
+        "passage": "A drought occurred before the kingdom collapsed, but the study did not establish a cause.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p008",
+        "passage": "A drought occurred before the kingdom collapsed, but the study did not establish a cause.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p008",
+        "passage": "A drought occurred before the kingdom collapsed, but the study did not establish a cause.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "history",
+    "difficulty": "easy",
+    "tag": "paraphrase",
+    "group": "p009",
+    "split": "test",
+    "id": "p009",
+    "claim": "The treaty was signed in Geneva.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p009",
+        "passage": "Delegates signed the treaty in Vienna, not Geneva.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p009",
+        "passage": "Delegates discussed the treaty in Geneva.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p009",
+        "passage": "Delegates discussed the treaty in Geneva.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p009",
+        "passage": "Delegates discussed the treaty in Geneva.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p009",
+        "passage": "Delegates discussed the treaty in Geneva.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p009",
+        "passage": "Delegates discussed the treaty in Geneva.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "history",
+    "difficulty": "medium",
+    "tag": "near_miss",
+    "group": "p010",
+    "split": "test",
+    "id": "p010",
+    "claim": "The expedition reached the summit on 12 July 1953.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p010",
+        "passage": "The summit was reached by the expedition on July 12, 1953.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p010",
+        "passage": "The expedition reached the summit on July 21, 1953, not July 12.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p010",
+        "passage": "The expedition left base camp on July 12, 1953.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p010",
+        "passage": "The expedition left base camp on July 12, 1953.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p010",
+        "passage": "The expedition left base camp on July 12, 1953.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p010",
+        "passage": "The expedition left base camp on July 12, 1953.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p010",
+        "passage": "The expedition left base camp on July 12, 1953.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "history",
+    "difficulty": "difficult",
+    "tag": "partial_support",
+    "group": "p011",
+    "split": "development",
+    "id": "p011",
+    "claim": "The museum opened in 1902 and closed in 1980.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p011",
+        "passage": "The museum opened in 1902; its closing date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p011",
+        "passage": "The museum opened in 1902; its closing date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p011",
+        "passage": "The museum opened in 1902; its closing date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p011",
+        "passage": "The museum opened in 1902; its closing date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p011",
+        "passage": "The museum opened in 1902; its closing date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p011",
+        "passage": "The museum opened in 1902; its closing date is unknown.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "science",
+    "difficulty": "easy",
+    "tag": "condition",
+    "group": "p012",
+    "split": "validation",
+    "id": "p012",
+    "claim": "Pure water freezes at about 0 degrees Celsius at standard atmospheric pressure.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p012",
+        "passage": "At standard atmospheric pressure, pure water's freezing point is approximately 0 degrees Celsius.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p012",
+        "passage": "Water's boiling point at standard atmospheric pressure is about 100 degrees Celsius.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p012",
+        "passage": "Water's boiling point at standard atmospheric pressure is about 100 degrees Celsius.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p012",
+        "passage": "Water's boiling point at standard atmospheric pressure is about 100 degrees Celsius.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p012",
+        "passage": "Water's boiling point at standard atmospheric pressure is about 100 degrees Celsius.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p012",
+        "passage": "Water's boiling point at standard atmospheric pressure is about 100 degrees Celsius.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "science",
+    "difficulty": "medium",
+    "tag": "negation",
+    "group": "p013",
+    "split": "development",
+    "id": "p013",
+    "claim": "The trial found no reduction in infection rates.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p013",
+        "passage": "The trial recorded a significant reduction in infection rates.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p013",
+        "passage": "The trial measured infection rates, but its results have not been published.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p013",
+        "passage": "The trial measured infection rates, but its results have not been published.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p013",
+        "passage": "The trial measured infection rates, but its results have not been published.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p013",
+        "passage": "The trial measured infection rates, but its results have not been published.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p013",
+        "passage": "The trial measured infection rates, but its results have not been published.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "science",
+    "difficulty": "difficult",
+    "tag": "uncertainty",
+    "group": "p014",
+    "split": "test",
+    "id": "p014",
+    "claim": "The treatment definitely prevents the disease.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p014",
+        "passage": "The study established that the treatment always prevents the disease.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p014",
+        "passage": "The study found cases of the disease despite treatment, so prevention is not guaranteed.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p014",
+        "passage": "Preliminary results suggest the treatment might reduce disease risk.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p014",
+        "passage": "Preliminary results suggest the treatment might reduce disease risk.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p014",
+        "passage": "Preliminary results suggest the treatment might reduce disease risk.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p014",
+        "passage": "Preliminary results suggest the treatment might reduce disease risk.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p014",
+        "passage": "Preliminary results suggest the treatment might reduce disease risk.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "science",
+    "difficulty": "easy",
+    "tag": "entity",
+    "group": "p015",
+    "split": "test",
+    "id": "p015",
+    "claim": "Mars has two natural moons.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p015",
+        "passage": "Phobos orbits Mars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p015",
+        "passage": "Phobos orbits Mars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p015",
+        "passage": "Phobos orbits Mars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p015",
+        "passage": "Phobos orbits Mars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p015",
+        "passage": "Phobos orbits Mars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p015",
+        "passage": "Phobos orbits Mars.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "science",
+    "difficulty": "medium",
+    "tag": "units",
+    "group": "p016",
+    "split": "development",
+    "id": "p016",
+    "claim": "The specimen weighed 25 milligrams.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p016",
+        "passage": "The specimen's mass was measured as 0.025 grams.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p016",
+        "passage": "The specimen was 25 millimetres long.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p016",
+        "passage": "The specimen was 25 millimetres long.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p016",
+        "passage": "The specimen was 25 millimetres long.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p016",
+        "passage": "The specimen was 25 millimetres long.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p016",
+        "passage": "The specimen was 25 millimetres long.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "science",
+    "difficulty": "difficult",
+    "tag": "quantifier",
+    "group": "p017",
+    "split": "development",
+    "id": "p017",
+    "claim": "All sampled birds carried the marker.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p017",
+        "passage": "Some birds in the sample did not carry the marker.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p017",
+        "passage": "Some birds in the sample carried the marker.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p017",
+        "passage": "Some birds in the sample carried the marker.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p017",
+        "passage": "Some birds in the sample carried the marker.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p017",
+        "passage": "Some birds in the sample carried the marker.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p017",
+        "passage": "Some birds in the sample carried the marker.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "technology",
+    "difficulty": "easy",
+    "tag": "relationship",
+    "group": "p018",
+    "split": "development",
+    "id": "p018",
+    "claim": "The Orion processor was designed by Helix.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p018",
+        "passage": "Helix designed the Orion processor.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p018",
+        "passage": "Nova, not Helix, designed the Orion processor.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p018",
+        "passage": "Helix manufactures devices that contain Orion processors.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p018",
+        "passage": "Helix manufactures devices that contain Orion processors.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p018",
+        "passage": "Helix manufactures devices that contain Orion processors.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p018",
+        "passage": "Helix manufactures devices that contain Orion processors.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p018",
+        "passage": "Helix manufactures devices that contain Orion processors.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "technology",
+    "difficulty": "medium",
+    "tag": "numerical",
+    "group": "p019",
+    "split": "test",
+    "id": "p019",
+    "claim": "The device contains 16 gigabytes of memory.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p019",
+        "passage": "The device has 16 gigabytes of storage; its memory specification is unavailable.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p019",
+        "passage": "The device has 16 gigabytes of storage; its memory specification is unavailable.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p019",
+        "passage": "The device has 16 gigabytes of storage; its memory specification is unavailable.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p019",
+        "passage": "The device has 16 gigabytes of storage; its memory specification is unavailable.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p019",
+        "passage": "The device has 16 gigabytes of storage; its memory specification is unavailable.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p019",
+        "passage": "The device has 16 gigabytes of storage; its memory specification is unavailable.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "technology",
+    "difficulty": "difficult",
+    "tag": "version",
+    "group": "p020",
+    "split": "test",
+    "id": "p020",
+    "claim": "Version 4.2 supports offline editing.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p020",
+        "passage": "Offline editing is available in version 4.2.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p020",
+        "passage": "Version 4.1 supports offline editing; version 4.2 has not been tested.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p020",
+        "passage": "Version 4.1 supports offline editing; version 4.2 has not been tested.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p020",
+        "passage": "Version 4.1 supports offline editing; version 4.2 has not been tested.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p020",
+        "passage": "Version 4.1 supports offline editing; version 4.2 has not been tested.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p020",
+        "passage": "Version 4.1 supports offline editing; version 4.2 has not been tested.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "technology",
+    "difficulty": "easy",
+    "tag": "date",
+    "group": "p021",
+    "split": "development",
+    "id": "p021",
+    "claim": "The software launched in 2018.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p021",
+        "passage": "The software launched in 2019, not 2018.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p021",
+        "passage": "Development of the software began in 2018.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p021",
+        "passage": "Development of the software began in 2018.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p021",
+        "passage": "Development of the software began in 2018.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p021",
+        "passage": "Development of the software began in 2018.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p021",
+        "passage": "Development of the software began in 2018.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "technology",
+    "difficulty": "medium",
+    "tag": "compound",
+    "group": "p022",
+    "split": "development",
+    "id": "p022",
+    "claim": "The server uses Linux and has 64 gigabytes of memory.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p022",
+        "passage": "The server runs Linux. It has 64 gigabytes of RAM.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p022",
+        "passage": "The server runs Windows instead of Linux and has 64 gigabytes of RAM.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p022",
+        "passage": "The server runs Linux, but its memory capacity is unspecified.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p022",
+        "passage": "The server runs Linux, but its memory capacity is unspecified.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p022",
+        "passage": "The server runs Linux, but its memory capacity is unspecified.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p022",
+        "passage": "The server runs Linux, but its memory capacity is unspecified.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p022",
+        "passage": "The server runs Linux, but its memory capacity is unspecified.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "technology",
+    "difficulty": "difficult",
+    "tag": "scope",
+    "group": "p023",
+    "split": "validation",
+    "id": "p023",
+    "claim": "The patch fixes every reported vulnerability.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p023",
+        "passage": "The patch fixes one reported vulnerability.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p023",
+        "passage": "The patch fixes one reported vulnerability.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p023",
+        "passage": "The patch fixes one reported vulnerability.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p023",
+        "passage": "The patch fixes one reported vulnerability.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p023",
+        "passage": "The patch fixes one reported vulnerability.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p023",
+        "passage": "The patch fixes one reported vulnerability.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "sport",
+    "difficulty": "easy",
+    "tag": "location",
+    "group": "p024",
+    "split": "test",
+    "id": "p024",
+    "claim": "The final was played in Lisbon.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p024",
+        "passage": "Lisbon hosted the final match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p024",
+        "passage": "Lisbon hosted a semifinal match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p024",
+        "passage": "Lisbon hosted a semifinal match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p024",
+        "passage": "Lisbon hosted a semifinal match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p024",
+        "passage": "Lisbon hosted a semifinal match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p024",
+        "passage": "Lisbon hosted a semifinal match.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "sport",
+    "difficulty": "medium",
+    "tag": "numerical",
+    "group": "p025",
+    "split": "test",
+    "id": "p025",
+    "claim": "Riverside won the match by three goals to one.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p025",
+        "passage": "Riverside lost the match by one goal to three.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p025",
+        "passage": "Riverside had three shots on target in the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p025",
+        "passage": "Riverside had three shots on target in the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p025",
+        "passage": "Riverside had three shots on target in the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p025",
+        "passage": "Riverside had three shots on target in the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p025",
+        "passage": "Riverside had three shots on target in the match.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "sport",
+    "difficulty": "difficult",
+    "tag": "record",
+    "group": "p026",
+    "split": "development",
+    "id": "p026",
+    "claim": "Lena holds the women's national 100-metre record.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p026",
+        "passage": "Lena is the current holder of the women's national record in the 100 metres.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p026",
+        "passage": "Lena no longer holds the women's national 100-metre record; Mara broke it.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p026",
+        "passage": "Lena holds the women's club record in the 100 metres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p026",
+        "passage": "Lena holds the women's club record in the 100 metres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p026",
+        "passage": "Lena holds the women's club record in the 100 metres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p026",
+        "passage": "Lena holds the women's club record in the 100 metres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p026",
+        "passage": "Lena holds the women's club record in the 100 metres.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "sport",
+    "difficulty": "easy",
+    "tag": "negation",
+    "group": "p027",
+    "split": "development",
+    "id": "p027",
+    "claim": "The match ended in a draw.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p027",
+        "passage": "Both teams scored during the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p027",
+        "passage": "Both teams scored during the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p027",
+        "passage": "Both teams scored during the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p027",
+        "passage": "Both teams scored during the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p027",
+        "passage": "Both teams scored during the match.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p027",
+        "passage": "Both teams scored during the match.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "sport",
+    "difficulty": "medium",
+    "tag": "date",
+    "group": "p028",
+    "split": "validation",
+    "id": "p028",
+    "claim": "The club was founded in 1897.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p028",
+        "passage": "The club's founding year is 1897.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p028",
+        "passage": "The club won its first title in 1897.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p028",
+        "passage": "The club won its first title in 1897.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p028",
+        "passage": "The club won its first title in 1897.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p028",
+        "passage": "The club won its first title in 1897.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p028",
+        "passage": "The club won its first title in 1897.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "sport",
+    "difficulty": "difficult",
+    "tag": "compound",
+    "group": "p029",
+    "split": "development",
+    "id": "p029",
+    "claim": "The athlete won gold in 2016 and retired in 2020.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p029",
+        "passage": "The athlete won gold in 2016 but did not retire in 2020.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p029",
+        "passage": "The athlete won gold in 2016; no retirement date is given.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p029",
+        "passage": "The athlete won gold in 2016; no retirement date is given.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p029",
+        "passage": "The athlete won gold in 2016; no retirement date is given.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p029",
+        "passage": "The athlete won gold in 2016; no retirement date is given.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p029",
+        "passage": "The athlete won gold in 2016; no retirement date is given.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "economics",
+    "difficulty": "easy",
+    "tag": "quantity",
+    "group": "p030",
+    "split": "test",
+    "id": "p030",
+    "claim": "The factory employs 500 people.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p030",
+        "passage": "There are 500 employees at the factory.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p030",
+        "passage": "The factory employs 50 people, not 500.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p030",
+        "passage": "The factory produces 500 units per day.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p030",
+        "passage": "The factory produces 500 units per day.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p030",
+        "passage": "The factory produces 500 units per day.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p030",
+        "passage": "The factory produces 500 units per day.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p030",
+        "passage": "The factory produces 500 units per day.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "economics",
+    "difficulty": "medium",
+    "tag": "period",
+    "group": "p031",
+    "split": "development",
+    "id": "p031",
+    "claim": "Revenue was 10 million dollars in 2024.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p031",
+        "passage": "Revenue in 2023 was 10 million dollars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p031",
+        "passage": "Revenue in 2023 was 10 million dollars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p031",
+        "passage": "Revenue in 2023 was 10 million dollars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p031",
+        "passage": "Revenue in 2023 was 10 million dollars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p031",
+        "passage": "Revenue in 2023 was 10 million dollars.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p031",
+        "passage": "Revenue in 2023 was 10 million dollars.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "economics",
+    "difficulty": "difficult",
+    "tag": "compound",
+    "group": "p032",
+    "split": "development",
+    "id": "p032",
+    "claim": "The company earned 10 billion dollars in 2024 and employed 50000 people.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p032",
+        "passage": "The company earned 10 billion dollars in 2024.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p032",
+        "passage": "Its workforce numbered 50000 people..",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "economics",
+    "difficulty": "easy",
+    "tag": "negation",
+    "group": "p033",
+    "split": "validation",
+    "id": "p033",
+    "claim": "The bank raised its interest rate.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p033",
+        "passage": "The bank lowered its interest rate instead of raising it.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p033",
+        "passage": "The bank announced an interest-rate decision.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p033",
+        "passage": "The bank announced an interest-rate decision.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p033",
+        "passage": "The bank announced an interest-rate decision.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p033",
+        "passage": "The bank announced an interest-rate decision.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p033",
+        "passage": "The bank announced an interest-rate decision.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "economics",
+    "difficulty": "medium",
+    "tag": "percentage",
+    "group": "p034",
+    "split": "development",
+    "id": "p034",
+    "claim": "Unemployment fell from 8 percent to 6 percent.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p034",
+        "passage": "Unemployment decreased to 6 percent from 8 percent.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p034",
+        "passage": "Unemployment increased from 6 percent to 8 percent.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p034",
+        "passage": "Unemployment remained above 5 percent.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p034",
+        "passage": "Unemployment remained above 5 percent.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p034",
+        "passage": "Unemployment remained above 5 percent.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p034",
+        "passage": "Unemployment remained above 5 percent.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p034",
+        "passage": "Unemployment remained above 5 percent.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "economics",
+    "difficulty": "difficult",
+    "tag": "causation",
+    "group": "p035",
+    "split": "test",
+    "id": "p035",
+    "claim": "The tax increase caused unemployment to rise.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p035",
+        "passage": "Unemployment rose after the tax increase, but the analysis found no causal evidence.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p035",
+        "passage": "Unemployment rose after the tax increase, but the analysis found no causal evidence.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p035",
+        "passage": "Unemployment rose after the tax increase, but the analysis found no causal evidence.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p035",
+        "passage": "Unemployment rose after the tax increase, but the analysis found no causal evidence.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p035",
+        "passage": "Unemployment rose after the tax increase, but the analysis found no causal evidence.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p035",
+        "passage": "Unemployment rose after the tax increase, but the analysis found no causal evidence.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "culture",
+    "difficulty": "easy",
+    "tag": "author",
+    "group": "p036",
+    "split": "development",
+    "id": "p036",
+    "claim": "Nora Vale wrote The Glass Orchard.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p036",
+        "passage": "The Glass Orchard was written by Nora Vale.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p036",
+        "passage": "Nora Vale reviewed The Glass Orchard.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p036",
+        "passage": "Nora Vale reviewed The Glass Orchard.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p036",
+        "passage": "Nora Vale reviewed The Glass Orchard.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p036",
+        "passage": "Nora Vale reviewed The Glass Orchard.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p036",
+        "passage": "Nora Vale reviewed The Glass Orchard.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "culture",
+    "difficulty": "medium",
+    "tag": "date",
+    "group": "p037",
+    "split": "development",
+    "id": "p037",
+    "claim": "The film premiered on 6 May 2008.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p037",
+        "passage": "The premiere was on May 8, 2006, not May 6, 2008.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p037",
+        "passage": "Filming started on May 6, 2008.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p037",
+        "passage": "Filming started on May 6, 2008.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p037",
+        "passage": "Filming started on May 6, 2008.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p037",
+        "passage": "Filming started on May 6, 2008.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p037",
+        "passage": "Filming started on May 6, 2008.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "culture",
+    "difficulty": "difficult",
+    "tag": "coreference",
+    "group": "p038",
+    "split": "validation",
+    "id": "p038",
+    "claim": "Iris composed the opera.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p038",
+        "passage": "Iris joined the theatre in 1990. She composed the opera the following year.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p038",
+        "passage": "Iris performed in the opera, but did not compose it.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p038",
+        "passage": "Iris joined the theatre and the opera premiered there.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p038",
+        "passage": "Iris joined the theatre and the opera premiered there.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p038",
+        "passage": "Iris joined the theatre and the opera premiered there.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p038",
+        "passage": "Iris joined the theatre and the opera premiered there.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p038",
+        "passage": "Iris joined the theatre and the opera premiered there.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "culture",
+    "difficulty": "easy",
+    "tag": "location",
+    "group": "p039",
+    "split": "development",
+    "id": "p039",
+    "claim": "The painting is displayed in Madrid.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p039",
+        "passage": "The painter was born in Madrid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p039",
+        "passage": "The painter was born in Madrid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p039",
+        "passage": "The painter was born in Madrid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p039",
+        "passage": "The painter was born in Madrid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p039",
+        "passage": "The painter was born in Madrid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p039",
+        "passage": "The painter was born in Madrid.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "culture",
+    "difficulty": "medium",
+    "tag": "negation",
+    "group": "p040",
+    "split": "test",
+    "id": "p040",
+    "claim": "The novel was not published anonymously.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p040",
+        "passage": "The author's name appeared on the published novel.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p040",
+        "passage": "The publisher printed the novel in a limited edition.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p040",
+        "passage": "The publisher printed the novel in a limited edition.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p040",
+        "passage": "The publisher printed the novel in a limited edition.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p040",
+        "passage": "The publisher printed the novel in a limited edition.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p040",
+        "passage": "The publisher printed the novel in a limited edition.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "culture",
+    "difficulty": "difficult",
+    "tag": "partial_support",
+    "group": "p041",
+    "split": "test",
+    "id": "p041",
+    "claim": "The album won an award and sold a million copies.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p041",
+        "passage": "The album received no awards although sales reached a million copies.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p041",
+        "passage": "The album received an award, but sales figures were not released.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p041",
+        "passage": "The album received an award, but sales figures were not released.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p041",
+        "passage": "The album received an award, but sales figures were not released.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p041",
+        "passage": "The album received an award, but sales figures were not released.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p041",
+        "passage": "The album received an award, but sales figures were not released.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "institutions",
+    "difficulty": "easy",
+    "tag": "location",
+    "group": "p042",
+    "split": "development",
+    "id": "p042",
+    "claim": "The agency is headquartered in Brussels.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p042",
+        "passage": "The agency's headquarters are in Brussels.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p042",
+        "passage": "The agency is headquartered in Strasbourg rather than Brussels.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p042",
+        "passage": "The agency held a meeting in Brussels.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p042",
+        "passage": "The agency held a meeting in Brussels.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p042",
+        "passage": "The agency held a meeting in Brussels.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p042",
+        "passage": "The agency held a meeting in Brussels.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p042",
+        "passage": "The agency held a meeting in Brussels.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "institutions",
+    "difficulty": "medium",
+    "tag": "term",
+    "group": "p043",
+    "split": "validation",
+    "id": "p043",
+    "claim": "The council chair serves a four-year term.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p043",
+        "passage": "Council elections took place four years ago.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p043",
+        "passage": "Council elections took place four years ago.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p043",
+        "passage": "Council elections took place four years ago.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p043",
+        "passage": "Council elections took place four years ago.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p043",
+        "passage": "Council elections took place four years ago.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p043",
+        "passage": "Council elections took place four years ago.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "institutions",
+    "difficulty": "difficult",
+    "tag": "legal_scope",
+    "group": "p044",
+    "split": "development",
+    "id": "p044",
+    "claim": "The regulation applies to every employer.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p044",
+        "passage": "All employers fall within the scope of the regulation.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p044",
+        "passage": "The regulation applies to large employers.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p044",
+        "passage": "The regulation applies to large employers.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p044",
+        "passage": "The regulation applies to large employers.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p044",
+        "passage": "The regulation applies to large employers.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p044",
+        "passage": "The regulation applies to large employers.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "institutions",
+    "difficulty": "easy",
+    "tag": "negation",
+    "group": "p045",
+    "split": "test",
+    "id": "p045",
+    "claim": "The library opens on Sundays.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p045",
+        "passage": "The library is closed on Sundays.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p045",
+        "passage": "The library lends books for seven days.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p045",
+        "passage": "The library lends books for seven days.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p045",
+        "passage": "The library lends books for seven days.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p045",
+        "passage": "The library lends books for seven days.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p045",
+        "passage": "The library lends books for seven days.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "institutions",
+    "difficulty": "medium",
+    "tag": "quantity",
+    "group": "p046",
+    "split": "test",
+    "id": "p046",
+    "claim": "The assembly has 120 elected members.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p046",
+        "passage": "There are 120 elected representatives in the assembly.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p046",
+        "passage": "The assembly contains 102 elected members, not 120.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p046",
+        "passage": "The assembly building has 120 offices.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p046",
+        "passage": "The assembly building has 120 offices.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p046",
+        "passage": "The assembly building has 120 offices.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p046",
+        "passage": "The assembly building has 120 offices.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p046",
+        "passage": "The assembly building has 120 offices.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "institutions",
+    "difficulty": "difficult",
+    "tag": "time_sensitive",
+    "group": "p047",
+    "split": "development",
+    "id": "p047",
+    "claim": "The agency currently accepts paper applications.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p047",
+        "passage": "In 2010, the agency accepted paper applications; current policy is not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p047",
+        "passage": "In 2010, the agency accepted paper applications; current policy is not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p047",
+        "passage": "In 2010, the agency accepted paper applications; current policy is not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p047",
+        "passage": "In 2010, the agency accepted paper applications; current policy is not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p047",
+        "passage": "In 2010, the agency accepted paper applications; current policy is not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p047",
+        "passage": "In 2010, the agency accepted paper applications; current policy is not stated.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "general",
+    "difficulty": "easy",
+    "tag": "material",
+    "group": "p048",
+    "split": "validation",
+    "id": "p048",
+    "claim": "The bridge is made of steel.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p048",
+        "passage": "Steel is the material used to construct the bridge.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p048",
+        "passage": "The bridge spans a river near a steel factory.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p048",
+        "passage": "The bridge spans a river near a steel factory.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p048",
+        "passage": "The bridge spans a river near a steel factory.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p048",
+        "passage": "The bridge spans a river near a steel factory.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p048",
+        "passage": "The bridge spans a river near a steel factory.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "general",
+    "difficulty": "medium",
+    "tag": "comparison",
+    "group": "p049",
+    "split": "development",
+    "id": "p049",
+    "claim": "The red container holds more than the blue container.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p049",
+        "passage": "The red container holds 8 litres, while the blue container holds 12 litres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p049",
+        "passage": "Both containers are used to store water.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p049",
+        "passage": "Both containers are used to store water.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p049",
+        "passage": "Both containers are used to store water.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p049",
+        "passage": "Both containers are used to store water.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p049",
+        "passage": "Both containers are used to store water.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "general",
+    "difficulty": "difficult",
+    "tag": "entity_ambiguity",
+    "group": "p050",
+    "split": "test",
+    "id": "p050",
+    "claim": "Alex Kim at North College won the prize.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p050",
+        "passage": "The prize went to North College's Alex Kim.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p050",
+        "passage": "North College's Alex Kim did not win the prize.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p050",
+        "passage": "Alex Kim at South College won the prize.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p050",
+        "passage": "Alex Kim at South College won the prize.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p050",
+        "passage": "Alex Kim at South College won the prize.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p050",
+        "passage": "Alex Kim at South College won the prize.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p050",
+        "passage": "Alex Kim at South College won the prize.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "general",
+    "difficulty": "easy",
+    "tag": "quantity",
+    "group": "p051",
+    "split": "test",
+    "id": "p051",
+    "claim": "The room has three windows.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p051",
+        "passage": "Three people entered the room.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p051",
+        "passage": "Three people entered the room.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p051",
+        "passage": "Three people entered the room.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p051",
+        "passage": "Three people entered the room.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p051",
+        "passage": "Three people entered the room.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p051",
+        "passage": "Three people entered the room.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "general",
+    "difficulty": "medium",
+    "tag": "condition",
+    "group": "p052",
+    "split": "development",
+    "id": "p052",
+    "claim": "The machine stops when the lid is opened.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p052",
+        "passage": "Opening the lid causes the machine to stop.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p052",
+        "passage": "The machine has a hinged lid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p052",
+        "passage": "The machine has a hinged lid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p052",
+        "passage": "The machine has a hinged lid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p052",
+        "passage": "The machine has a hinged lid.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p052",
+        "passage": "The machine has a hinged lid.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "general",
+    "difficulty": "difficult",
+    "tag": "multi_source",
+    "group": "p053",
+    "split": "development",
+    "id": "p053",
+    "claim": "The project began in 2012 and finished in 2019.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p053",
+        "passage": "The project began in 2012 but was not finished until 2021.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p053",
+        "passage": "The project began in 2012; the completion date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p053",
+        "passage": "The project began in 2012; the completion date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p053",
+        "passage": "The project began in 2012; the completion date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p053",
+        "passage": "The project began in 2012; the completion date is unknown.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p053",
+        "passage": "The project began in 2012; the completion date is unknown.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "environment",
+    "difficulty": "easy",
+    "tag": "location",
+    "group": "p054",
+    "split": "development",
+    "id": "p054",
+    "claim": "The reserve lies in the coastal region.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p054",
+        "passage": "The reserve is located in the coastal region.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p054",
+        "passage": "The reserve is inland, outside the coastal region.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p054",
+        "passage": "The reserve protects coastal bird species.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p054",
+        "passage": "The reserve protects coastal bird species.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p054",
+        "passage": "The reserve protects coastal bird species.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p054",
+        "passage": "The reserve protects coastal bird species.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p054",
+        "passage": "The reserve protects coastal bird species.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "environment",
+    "difficulty": "medium",
+    "tag": "numerical",
+    "group": "p055",
+    "split": "test",
+    "id": "p055",
+    "claim": "The survey counted 350 nesting pairs.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p055",
+        "passage": "The survey covered 350 hectares of nesting habitat.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p055",
+        "passage": "The survey covered 350 hectares of nesting habitat.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p055",
+        "passage": "The survey covered 350 hectares of nesting habitat.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p055",
+        "passage": "The survey covered 350 hectares of nesting habitat.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p055",
+        "passage": "The survey covered 350 hectares of nesting habitat.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p055",
+        "passage": "The survey covered 350 hectares of nesting habitat.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "domain": "environment",
+    "difficulty": "difficult",
+    "tag": "uncertainty",
+    "group": "p056",
+    "split": "test",
+    "id": "p056",
+    "claim": "The species is certainly extinct.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p056",
+        "passage": "The report establishes that no living members of the species remain.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p056",
+        "passage": "The species has not been observed recently, but survival cannot be ruled out.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p056",
+        "passage": "The species has not been observed recently, but survival cannot be ruled out.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p056",
+        "passage": "The species has not been observed recently, but survival cannot be ruled out.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p056",
+        "passage": "The species has not been observed recently, but survival cannot be ruled out.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p056",
+        "passage": "The species has not been observed recently, but survival cannot be ruled out.",
+        "published_at": null
+      }
+    ],
+    "expected": "SUPPORTED"
+  },
+  {
+    "domain": "environment",
+    "difficulty": "easy",
+    "tag": "negation",
+    "group": "p057",
+    "split": "development",
+    "id": "p057",
+    "claim": "The reservoir is empty.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p057",
+        "passage": "The reservoir still contains water.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p057",
+        "passage": "The reservoir has a capacity of two million litres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p057",
+        "passage": "The reservoir has a capacity of two million litres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p057",
+        "passage": "The reservoir has a capacity of two million litres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p057",
+        "passage": "The reservoir has a capacity of two million litres.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p057",
+        "passage": "The reservoir has a capacity of two million litres.",
+        "published_at": null
+      }
+    ],
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "domain": "environment",
+    "difficulty": "medium",
+    "tag": "date",
+    "group": "p058",
+    "split": "development",
+    "id": "p058",
+    "claim": "The protected area was established in 1976.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p058",
+        "passage": "The area received protected status in 1976.",
+        "published_at": null
+      },
+      {
+        "url": "https://source1.example.gov/p058",
+        "passage": "The area was established as a protected zone in 1967, not 1976.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p058",
+        "passage": "The first wildlife survey in the area was conducted in 1976.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p058",
+        "passage": "The first wildlife survey in the area was conducted in 1976.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p058",
+        "passage": "The first wildlife survey in the area was conducted in 1976.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p058",
+        "passage": "The first wildlife survey in the area was conducted in 1976.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p058",
+        "passage": "The first wildlife survey in the area was conducted in 1976.",
+        "published_at": null
+      }
+    ],
+    "expected": "MIXED_EVIDENCE"
+  },
+  {
+    "domain": "environment",
+    "difficulty": "difficult",
+    "tag": "partial_support",
+    "group": "p059",
+    "split": "validation",
+    "id": "p059",
+    "claim": "The park bans hunting and permits fishing.",
+    "sources": [
+      {
+        "url": "https://source0.example.gov/p059",
+        "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p059",
+        "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p059",
+        "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p059",
+        "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p059",
+        "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+        "published_at": null
+      },
+      {
+        "url": "https://noise.example.org/p059",
+        "passage": "Hunting is prohibited in the park; fishing rules are not stated.",
+        "published_at": null
+      }
+    ],
+    "expected": "INSUFFICIENT_EVIDENCE"
+  }
+]

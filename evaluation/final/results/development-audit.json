@@ -1,0 +1,1796 @@
+{
+  "development": {
+    "missed_contradictions": [
+      {
+        "id": "final-anli-63bcc2a3-d4ad-480a-a226-58b53aee74dd",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Abesim has two high schools, St. James Seminary and Olistar Senior High School. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5043968461162949,
+        "probabilities": {
+          "entailment": 0.19743315556673421,
+          "neutral": 0.5043968461162949,
+          "contradiction": 0.2981699983169709
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1321708329996909,
+        "passage": "Abesim is a town in Sunyani Municipal District in the Brong-Ahafo Region of Ghana. Abesim is very close to the regional capital town of the Brong-Ahafo Region, Sunyani. Abesim is known for the St. James Seminary and Secondary School. It is also known for the Olistar Senior High School. The school is a second cycle institution.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-bd409b37-49c6-4afc-9229-a0ef590d58bd",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "They agree somewhat on the issue of health",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9041981432950909,
+        "probabilities": {
+          "entailment": 0.06209850130544178,
+          "neutral": 0.9041981432950909,
+          "contradiction": 0.03370335539946725
+        },
+        "reason": "Proposition relevance -2.82 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10863475000223843,
+        "passage": "Finally, although we agree completely with the protection of health, as I mentioned earlier, we have not forgotten that this is a provincial jurisdiction and that Bill C-71 allowed the federal government once again to interfere in a sector that the provinces are quite capable of managing on their own, as evidenced by the recent tobacco legislation passed in Quebec City.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-a4f0ef88-7b6d-47db-bcc5-8911f622db22",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The community of Castile and Leon was founded in 1947.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8192294859240732,
+        "probabilities": {
+          "entailment": 0.13678902286111666,
+          "neutral": 0.8192294859240732,
+          "contradiction": 0.04398149121481022
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10422524999739835,
+        "passage": "Club Deportivo Aguilar is a football team based in Aguilar de Campoo in the autonomous community of Castile and Le\u00f3n. Founded in 1947, it plays in the Primera Provincial. Its stadium is \"Ciudad Deportiva Alberto Fern\u00e1ndez\" with a capacity of 6,000 seats.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-31d2bcf2-966b-434c-a0d2-6bdd263b4c11",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The ALGOL 60 programming language was designed with the goal of a much wider scope of application and more rigorously defined syntax and semantics.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5018631746967642,
+        "probabilities": {
+          "entailment": 0.28971447970417347,
+          "neutral": 0.20842234559906236,
+          "contradiction": 0.5018631746967642
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1068711660009285,
+        "passage": "ALGOL 68 (short for ALGOrithmic Language 1968) is an imperative computer programming language that was conceived as a successor to the ALGOL 60 programming language, designed with the goal of a much wider scope of application and more rigorously defined syntax and semantics.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-36235f9c-bf04-4013-b0a8-c235d5a8a476",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "she used the kedin website",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9855831549349048,
+        "probabilities": {
+          "entailment": 0.011929278587150803,
+          "neutral": 0.0024875664779444567,
+          "contradiction": 0.9855831549349048
+        },
+        "reason": "Proposition relevance -7.58 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09467399999994086,
+        "passage": "Linked<br>I tried to do some work yesterday. I had to use a linkedin website. After I was done, people starting adding me. I was confused as to why they added me. I realized it was because I had been logged in.",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-137b924e-754d-4c44-9308-9e320727916f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Lamarck Island is located closer to the north pole than the south pole.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5177036779338011,
+        "probabilities": {
+          "entailment": 0.27474604512494527,
+          "neutral": 0.5177036779338011,
+          "contradiction": 0.20755027694125364
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1081390420004027,
+        "passage": "Lamarck Island is a rocky island 250 m long, lying 300 m east of Petrel Island and 300 m north-east of Rostand Island in the G\u00e9ologie Archipelago, off the Ad\u00e9lie Coast of Antarctica. It was charted in 1951 by the French Antarctic Expedition and named by them after Jean-Baptiste Lamarck, the French naturalist.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-310af2c5-071f-4803-b19a-0c40f6aefa06",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Garibaldi was an all male band that Xavier Ortiz Ramirez used to be in.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9982425046402095,
+        "probabilities": {
+          "entailment": 0.001143969501439007,
+          "neutral": 0.9982425046402095,
+          "contradiction": 0.0006135258583514382
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12471216699850629,
+        "passage": "Xavier Ortiz Ramirez (born June 29) is a Mexican actor, singer, model, producer, TV host, Dentist/surgeon and entrepreneur, owner of bar-restaurant \"la santa bar\" in Guadalajara, Mexico. former member of the musical group \"Garibaldi (band)\". On April 17, 1999 he married another former member of the group Garibaldi, which lasted 15 years 10 as couple and 5 years as husband and wife.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-832ea463-55eb-42e8-8090-2459ab35f3a8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "the county was organised  February 28 and has a population of 1845",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6135197762953392,
+        "probabilities": {
+          "entailment": 0.07023156357869483,
+          "neutral": 0.31624866012596614,
+          "contradiction": 0.6135197762953392
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10456329199951142,
+        "passage": "Putnam County is a county located in North Central Missouri. As of the 2010 census, the population was 4,979. Its county seat is Unionville. The county was organized February 28, 1845 and named for Israel Putnam, a hero in the French and Indian War and a general in the American Revolutionary War.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-fabf4411-bc42-445d-baf9-c668c54b14e4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Only people taller than seven feet are allowed a debit card",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9915967552321744,
+        "probabilities": {
+          "entailment": 0.0005192892645261281,
+          "neutral": 0.9915967552321744,
+          "contradiction": 0.007883955503299695
+        },
+        "reason": "Proposition relevance -8.85 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09277162500075065,
+        "passage": "How to get a debit card<br>Gather your personal information. To open an account, you need to have some personal information before you go into the bank. You will need your social security number.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-b4071fff-2d8e-4df1-a4ce-2dcbd9136f81",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "More than half of the Hispanic vote  went to the governor",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.8025939806324834,
+        "probabilities": {
+          "entailment": 0.8025939806324834,
+          "neutral": 0.00855009065573586,
+          "contradiction": 0.18885592871178075
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12046491699948092,
+        "passage": "Let me just tell you who the jury is. The people of Texas. There's only been one governor ever elected to back-to-back four-year terms, and that was me. And I was able to do so with a lot of Democrat votes, nearly 50% of the Hispanic vote, about 27% of the African-American vote, because people know I'm a conservative person and a compassionate person.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-e7994e94-1b40-4c59-95a7-b45ce60ab691",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Armenian Film Festival is not in North America.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.982257017745984,
+        "probabilities": {
+          "entailment": 0.01167403963281117,
+          "neutral": 0.0060689426212049225,
+          "contradiction": 0.982257017745984
+        },
+        "reason": "Proposition relevance 0.62 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10666129200035357,
+        "passage": "Aram is a 2002 French action film. It takes place in France between 1993 and 2001, wherein French-Armenian fighters supply arms to Nagorno-Karabakh and kill a visiting Turkish general. The film was released in 2002 in theatres in France, and made its American debut in 2004 at the Armenian Film Festival in San Francisco.",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-04098ae7-515a-41d7-9232-7152f5d331a1",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Col de Manse (1268 m ) is a mountain.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.99363415404841,
+        "probabilities": {
+          "entailment": 0.99363415404841,
+          "neutral": 0.00149758760778714,
+          "contradiction": 0.004868258343802771
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12126200000056997,
+        "passage": "The Col de Manse (1268 m ) is a mountain pass located in the Massif des \u00c9crins approximately 9 km north-east of Gap in the Hautes-Alpes department of France. The pass connects Gap with the high Champsaur valley and the ski resort of Orci\u00e8res-Merlette. The road over the col is used occasionally by the Tour de France cycle race with the tour crossing the pass twice in 2013.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-bad5f282-3410-4f8f-b60d-35a08a37f8b8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Being in the top #100 album chart for the US, Lament was very popular with the American speaking audience. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9958188768898643,
+        "probabilities": {
+          "entailment": 0.0026666112731080923,
+          "neutral": 0.9958188768898643,
+          "contradiction": 0.0015145118370277861
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12650608299736632,
+        "passage": "Lament is the seventh studio album by British new wave band Ultravox, released in the UK on 6 April 1984. It was the last album featuring original drummer Warren Cann until the band's reunion album \"Brilliant\" in 2012. The album peaked at #8 on the UK album chart and was certified Gold by the BPI in June 1984 for 100,000 copies sold. It also reached #25 in Germany and #115 in the United States.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-6a0e7a59-c6d7-47cc-bd49-a3f02adba0e4",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The 26th episode is the last episode of the series. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.839593149067909,
+        "probabilities": {
+          "entailment": 0.0012218698532571904,
+          "neutral": 0.1591849810788337,
+          "contradiction": 0.839593149067909
+        },
+        "reason": "Proposition relevance 1.90 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.12373312500130851,
+        "passage": "\"The Bear and the Maiden Fair\" is the seventh episode of the third season of HBO's fantasy television series \"Game of Thrones\", and the 27th episode of the series overall. The episode was written by George R. R. Martin, the author of the \"A Song of Ice and Fire\" novels on which the series is based, and was directed by Michelle MacLaren, her directorial debut for the series.",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-6edd8b9e-67d5-4e3c-8006-39d8f80ebe6f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Joona Veteli has met Elvis Presley. ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9982683187553351,
+        "probabilities": {
+          "entailment": 0.000268313187578669,
+          "neutral": 0.9982683187553351,
+          "contradiction": 0.0014633680570862316
+        },
+        "reason": "Proposition relevance 0.38 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.2464552920027927,
+        "passage": "Joona Veteli (born 21 April 1995) is a Finnish football player currently playing for Norwegian OBOS-ligaen side Fredrikstad. Veteli plays in the position of centre midfielder but can also operate as an attacking midfielder, defensive midfielder, right-back and winger.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-aee510f5-cee9-48d3-948a-d7d80381cb2d",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "the 198th brigade ended its active status in 1971 ",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7060850098152883,
+        "probabilities": {
+          "entailment": 0.27806157725413794,
+          "neutral": 0.015853412930573837,
+          "contradiction": 0.7060850098152883
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.12062074999994365,
+        "passage": "The 198th Infantry Brigade, was first formed as part of the United States Army Reserve's 99th Division. It was active from 1967 through 1971 and has been active since 2007 as an Infantry Training Brigade as part of the US Army Infantry School at Fort Benning, Georgia.",
+        "category": "NLI confidence"
+      },
+      {
+        "id": "final-anli-13d4cd9c-8095-4600-a6fb-b8d617cf28c0",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The Southern League is below the Wessex Football League.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9832795453744521,
+        "probabilities": {
+          "entailment": 0.9832795453744521,
+          "neutral": 0.00782104368067121,
+          "contradiction": 0.0088994109448767
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11185775000194553,
+        "passage": "The 1996\u201397 Wessex Football League was the 11th season of the Wessex Football League. The league champions for the second time in their history were A.F.C. Lymington, after remaining unbeaten for the whole season. There was no promotion to the Southern League, but Petersfield Town finished bottom and were relegated.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-f58a5fa2-30b8-46fc-ac52-cdcfd29b47e9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The French army General, Gustave Mesny, was imprisoned by the French in World War II.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9746023749592407,
+        "probabilities": {
+          "entailment": 0.9746023749592407,
+          "neutral": 0.019927928841723248,
+          "contradiction": 0.005469696199036093
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12133858300148859,
+        "passage": "Friedrich Wilhelm Konrad von Brodowski, known at \"Fritz\", (November 26, 1886 \u2013 October 28, 1944) was a German army general, controversially killed while in French custody during World War II. His death led to the murder, by way of a reprisal, of an imprisoned French army general, Gustave Mesny.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-8b98a526-6378-4251-a5bb-343ba7276fe7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Nick Carter and Red Club was the third part of a trilogy.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8309912909155253,
+        "probabilities": {
+          "entailment": 0.15227783708371828,
+          "neutral": 0.8309912909155253,
+          "contradiction": 0.01673087200075639
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11007366699777776,
+        "passage": "Nick Carter and Red Club (French: \"Nick Carter et le tr\u00e8fle rouge\" ) is a 1965 French action film directed by . The film features the successful literary character Nick Carter and is based on a novel by Claude Rank. The film is a sequel to \"Nick Carter va tout casser\" (1964).",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-b9d73b38-9ab5-4169-b40b-41d5554f1262",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Susan Sadlowski Garza has roots in the southeast section of Chicago, and has been a long term successful Alderman for at least three terms.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5609643959767544,
+        "probabilities": {
+          "entailment": 0.0015522762803297974,
+          "neutral": 0.5609643959767544,
+          "contradiction": 0.4374833277429158
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12170824999702745,
+        "passage": "Susan Sadlowski Garza is a member of the Chicago City Council serving as Alderman for the 10th ward. The 10th ward is located on Chicago's southeast side and includes East Side, Hegewisch, Jeffrey Manor, South Chicago and South Deering. She is serving her first term after defeating Rahm Emanuel ally John Pope in the 2015 election.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-73066dd9-6ab8-493e-896e-7c436bd497c7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Thirteen Ghosts was filmed before the 21st century.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9594180990952431,
+        "probabilities": {
+          "entailment": 0.9594180990952431,
+          "neutral": 0.0037241914209686254,
+          "contradiction": 0.03685770948378822
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11160341600043466,
+        "passage": "Thirteen Ghosts (also known as 13 Ghosts and stylized as THIR13EN Ghosts) is a 2001 Canadian-American supernatural horror film directed by Steve Beck. It is a remake of the 1960 film \"13 Ghosts\" by William Castle. It follows the remake of another one of Castle's films, \"House on Haunted Hill\", and was shot entirely around Lower Mainland, British Columbia.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-7449e122-3ffb-4332-bda6-6a6dc49f35fa",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Karl Ernst Manfred Freiherr was 60 years old when he died.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6296596799824464,
+        "probabilities": {
+          "entailment": 0.6296596799824464,
+          "neutral": 0.010768711759981722,
+          "contradiction": 0.3595716082575719
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12474354100049823,
+        "passage": "Karl Ernst Manfred Freiherr von Richthofen (24 May 1855\u00a0\u2013 28 November 1939) was a German \"General der Kavallerie\" (General of the Cavalry) during World War I and recipient of the order Pour le M\u00e9rite, known informally as the Blue Max. Richthofen was a great uncle of his more famous namesake Manfred von Richthofen, known as the Red Baron, who was his godson and named after him.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-5e6c13cb-c6d1-4813-b56a-1933efc9e8f8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "ABS starts with a B.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7975004758457241,
+        "probabilities": {
+          "entailment": 0.16671690799222427,
+          "neutral": 0.03578261616205163,
+          "contradiction": 0.7975004758457241
+        },
+        "reason": "Proposition relevance -1.59 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10317566700177849,
+        "passage": "ABS is the Australian Broadcasting Corporation's television station in Adelaide, South Australia. It began broadcasting on 11 March 1960 from studios in the suburb of Collinswood. The station's transmitter is located at Mount Lofty, and is one of a series of relay transmitters located throughout the state.",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-30defd6e-1e47-415a-9008-d0c6677d0371",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The population was 76,729",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.9652273296585172,
+        "probabilities": {
+          "entailment": 0.0028356527906641064,
+          "neutral": 0.03193701755081869,
+          "contradiction": 0.9652273296585172
+        },
+        "reason": "Proposition relevance 0.96 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10633933300050558,
+        "passage": "Johns Creek is a city located in Fulton County in the U.S. state of Georgia. According to the 2010 U.S. Census, the population was 76,728. The city is an affluent northeastern suburb of Atlanta. In 2017 Johns Creek ranked third on the \"USA TODAY\" list of \"50 best cities to live in.\"",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-bde07ed6-fb53-46bd-8ef7-171a76a44a7f",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "USS \"Nicholson\" was built in 1275 AD.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5867720256771385,
+        "probabilities": {
+          "entailment": 0.0029883350430095277,
+          "neutral": 0.41023963927985196,
+          "contradiction": 0.5867720256771385
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10685754099904443,
+        "passage": "USS \"Nicholson\" (DD-982), a \"Spruance\"-class destroyer, was the fourth ship of the United States Navy to be named for a family which was prominent in early American naval history, including James Nicholson, the senior Continental Navy Captain, and Samuel Nicholson, the first captain of USS \"Constitution\".",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-1aa7af09-95de-4978-9796-9f7874504e15",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Te Rerenga is State Highway 25.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5794469145468337,
+        "probabilities": {
+          "entailment": 0.25499706178088655,
+          "neutral": 0.16555602367227978,
+          "contradiction": 0.5794469145468337
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11167929099974572,
+        "passage": "Te Rerenga is a locality on the Whangapoua Harbour, Coromandel Peninsula, New Zealand. State Highway 25 runs through it. Coromandel is 12\u00a0km to the west. Whitianga lies to the south east. The Waitekuri and Opitonui Rivers flow from the Coromandel Range in the west and south through the area to drain in the Whangapoua Harbour.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-7868176a-caad-4fa7-926e-908b8a574fa8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "the accurate measurement of human gait has so far eluded researchers.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.997292798540618,
+        "probabilities": {
+          "entailment": 0.0015150548089355406,
+          "neutral": 0.997292798540618,
+          "contradiction": 0.001192146650446461
+        },
+        "reason": "Proposition relevance -6.80 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.09330204200159642,
+        "passage": "How to measure your gait speed<br>Evaluate your need for a gait test. Not everyone will need to measure their gait speed. Generally, this test is reserved for those that are suspected to have difficulty walking or have difficulty balancing.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-06e645d6-0077-4904-bf73-ef727f0a06b7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "George W. Bush was president on December 10, 1998.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8037516098703879,
+        "probabilities": {
+          "entailment": 0.04468047383370297,
+          "neutral": 0.15156791629590918,
+          "contradiction": 0.8037516098703879
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.14828141700127162,
+        "passage": "The motion reads as follows: ``That this House request that the government convey to the governor of the state of Texas, the hon. George W. Bush, and to parole authorities of this state, its very serious concern about the violation of the Vienna Convention on Consular Relations in the case of Mr. Stanley Faulder, a Canadian citizen who is to be executed on December 10, 1998 at Huntsville State Prison; and further, that the government convey this House's respectful request that the execution be stayed pending a judicial review of the case to ensure that due process has been followed''.",
+        "category": "NLI confidence"
+      },
+      {
+        "id": "final-anli-84881fc2-cde6-4672-a66d-b360525d3af7",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "If you press the power button on a PC, please be aware that some radiation can spill over.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9986955257176021,
+        "probabilities": {
+          "entailment": 0.0008200217461750716,
+          "neutral": 0.9986955257176021,
+          "contradiction": 0.0004844525362229446
+        },
+        "reason": "Proposition relevance -4.88 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10508904100061045,
+        "passage": "How to downgrade your avg subscription on windows<br>Turn on your computer. Press the power button on your computer to turn it on. [substeps] The location of the power button will depend on your pc.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-c3e4e3e9-9b9f-4c06-851a-ce254f47ec53",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Miffy's Adventures Big and Small is made using csi",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9725573396074948,
+        "probabilities": {
+          "entailment": 0.9725573396074948,
+          "neutral": 0.01644220893846243,
+          "contradiction": 0.01100045145404298
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12360633299977053,
+        "passage": "Miffy's Adventures Big and Small (Dutch: \"Nijntjes avonturen groot en klein\" ) is a Dutch-British CGI-animated television series, based on the \"Miffy\" book series by Dutch artist Dick Bruna. It is a continuation of the \"Miffy and Friends\" series, which aired from 2003 until 2007. The show airs on KRO in the Netherlands.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-9e935288-7c2f-494d-b4d5-4429e49f73b9",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "NASA has a research center and airport it owns in Ohio. ",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.7869801782737382,
+        "probabilities": {
+          "entailment": 0.7869801782737382,
+          "neutral": 0.1877340503604358,
+          "contradiction": 0.025285771365825903
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10469345800083829,
+        "passage": "NASA John H. Glenn Research Center at Lewis Field is a NASA center, located within the cities of Brook Park and Cleveland between Cleveland Hopkins International Airport and the Cleveland Metroparks's Rocky River Reservation, with a subsidiary facility in Sandusky, Ohio. Its director is Janet L. Kavandi.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-8b3a14cf-d4bb-4b9e-8380-60d4fb7149c0",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "William Lewis Moody Jr. lived to be 88 years old",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6479061633852548,
+        "probabilities": {
+          "entailment": 0.3406240875356949,
+          "neutral": 0.011469749079050436,
+          "contradiction": 0.6479061633852548
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11152666600173688,
+        "passage": "William Lewis Moody Jr. (January 25, 1865 \u2013 July 21, 1954) was an American financier and entrepreneur from Galveston, Texas, who founded a private bank, an insurance company, and one of the largest charitable foundations in the United States. Moody was active in the day-to-day operations of his companies until two days before his death.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-53764fb8-45e7-4d35-817e-a229f8b70a36",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The song was written by someone with a first name not starting with a C",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.9321081872650262,
+        "probabilities": {
+          "entailment": 0.9321081872650262,
+          "neutral": 0.0032431673896350837,
+          "contradiction": 0.06464864534533875
+        },
+        "reason": "Proposition relevance -6.73 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11605450000206474,
+        "passage": "\"Drivin' Around Song\" is a song recorded by American country rap singer Colt Ford and country music singer Jason Aldean. It is the third single from his fourth studio album, \"Declaration of Independence\". The song was written by Chris Tompkins and Craig Wiseman.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-d170016a-5287-418c-a87b-76ae817fe840",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Strikes began on New Year's day.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.8744341880798522,
+        "probabilities": {
+          "entailment": 0.10999956224345266,
+          "neutral": 0.015566249676695097,
+          "contradiction": 0.8744341880798522
+        },
+        "reason": "Proposition relevance -1.97 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11230879200229538,
+        "passage": "In the negotiations over the past two years, it is understandable that table 2 union members had no hesitation using their right to strike, which they had obtained on December 16, 1998. So, in a perfectly legal context, the union is exercising its means of pressure by holding rotating strikes across the country since January 18.",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-f43ddfdf-1786-436d-a45e-b514b8556be8",
+        "split": "development",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Archie's friend took his secret to the grave.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8361508493611954,
+        "probabilities": {
+          "entailment": 0.04547205953005495,
+          "neutral": 0.8361508493611954,
+          "contradiction": 0.11837709110874947
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09533970900156419,
+        "passage": "The Murder<br>Archie was found murdered in his home. The police looked for answers for years. They could never solve the case. Finally, Archie's friend confessed to the murder. He wanted to clear his conscience before he died.",
+        "category": "NLI prediction/confidence"
+      }
+    ],
+    "numeric_activations": []
+  },
+  "validation": {
+    "missed_contradictions": [
+      {
+        "id": "final-anli-699abb8e-9395-4fd5-bd3d-9e0cef572bf3",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The novel \"All Quiet on the Western front\" influenced Erich Maria Remarque to become a German Resistance fighter against the National Socialism.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7706127225361714,
+        "probabilities": {
+          "entailment": 0.0036263651012843194,
+          "neutral": 0.22576091236254434,
+          "contradiction": 0.7706127225361714
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.10896299999876646,
+        "passage": "August Perk (October 25, 1897, Lohne / Lingen, Germany; \u2013 May 12, 1945, Braunschweig, Germany) was a German Resistance fighter against the National Socialism. His brief friendship with Erich Maria Remarque influenced Remarque's novel \"All Quiet on the Western Front\".",
+        "category": "NLI confidence"
+      },
+      {
+        "id": "final-anli-1a3b05c9-0578-4b2f-8734-99aee9abaf14",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "The Britain Burma Society was founded by no more than 5 members.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.6426600584287969,
+        "probabilities": {
+          "entailment": 0.035733822275782215,
+          "neutral": 0.321606119295421,
+          "contradiction": 0.6426600584287969
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10706983300042339,
+        "passage": "The Britain Burma Society (BBS) is a society founded in 1957 under the distinguished patronage of Earl Mountbatten of Burma, Sir Hubert Rance (formerly Governor of Burma), Miss Dorothy Woodman, the Rt. Hon. Malcolm MacDonald, the Rt. Hon. Arthur Bottomley and others.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-52fde983-ede3-421b-9d37-c67946bf43b2",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Sir Edward Spragge acts in moies",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5388019872921772,
+        "probabilities": {
+          "entailment": 0.25477406114739615,
+          "neutral": 0.5388019872921772,
+          "contradiction": 0.2064239515604266
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.10622341699854587,
+        "passage": "Sir Edward Spragge (name also written as Spragg or Sprague) (circa 1620 \u2013 21 August 1673) was an Irish admiral of the Royal Navy. He was a fiery, brilliantly accomplished seaman who fought in many great actions after the restoration of King Charles II in 1660.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-265c487a-1410-4955-9c5a-7089e2533f4a",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "War in the Middle East does not impact other nations.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.957178246698867,
+        "probabilities": {
+          "entailment": 0.0007330216972073863,
+          "neutral": 0.04208873160392568,
+          "contradiction": 0.957178246698867
+        },
+        "reason": "Proposition relevance -3.45 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10568104200137896,
+        "passage": "I have, I have. First question is what's in the best interests of the United States? What's in the best interests of our people? When it comes to foreign policy that will be my guiding question. Is it in our nation's interests? Peace in the Middle East is in our nation's interests.",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-fee59139-d0f1-4895-835a-3bc32b98a59b",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "A cover of the song The heart was released four years after it's original debut.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9949441579118623,
+        "probabilities": {
+          "entailment": 0.9949441579118623,
+          "neutral": 0.0005918723147798168,
+          "contradiction": 0.004463969773357952
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12203116699674865,
+        "passage": "\"The Heart\" is a song written and originally recorded by American country music artist Kris Kristofferson on his 1986 album \"Repossessed\". It was covered by American country music artist Lacy J. Dalton on her 1989 album \"Survivor\" and released in January 1989 as the album's first single. Dalton's version of the song peaked at number 13 on the \"Billboard\" Hot Country Singles chart.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-35c0f1d6-e9a5-49f6-835b-5ac878504170",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The French novelist served in the war.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5677941852407583,
+        "probabilities": {
+          "entailment": 0.26532382781192587,
+          "neutral": 0.16688198694731587,
+          "contradiction": 0.5677941852407583
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.11173799999960465,
+        "passage": "Emile Zola Berman (November 3, 1902 \u2013 July 3, 1981) was an American criminal defense lawyer. He was named after the French novelist \u00c9mile Zola (1840\u20131902). During World War II he was an intelligence officer in the 10th Air Force in Burma where he received the Distinguished Flying Cross and the Bronze Star. He was discharged as a lieutenant colonel.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-3e744d9c-c6ec-42f4-a132-b8910eea9a0b",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "some doors were missed when checking for death",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.5728711384357417,
+        "probabilities": {
+          "entailment": 0.12529921175423558,
+          "neutral": 0.5728711384357417,
+          "contradiction": 0.3018296498100228
+        },
+        "reason": "Proposition relevance -0.44 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.15095895800186554,
+        "passage": "They looked for the signs of death at every door -- the sexton , the hearse , the assemblage of black-clad relatives , all that makes up the woeful pomp of funerals .<br>They raised their eyes , also , to the sun-gilt spire of the church , and wondered that no clang proceeded from its bell , which had always tolled till now when this figure appeared in the light of day .<br>But none had heard that a corpse was to be borne to its home that afternoon , nor was there any token of a funeral except the apparition of the Old Maid in the Winding-Sheet .<br>`` What may this portend ? ''",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-e9d927d3-2dd9-4bbb-a465-2de972ed19f0",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "It is not possible to concretely prove similar triangles without substantial error",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9932463620794355,
+        "probabilities": {
+          "entailment": 0.0005933621747041172,
+          "neutral": 0.9932463620794355,
+          "contradiction": 0.006160275745860468
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12886995799999568,
+        "passage": "How to prove similar triangles<br>Define the angle-angle (aa) theorem. Two triangles can be proved similar by the angle-angle theorem which states: if two triangles have two congruent angles, then those triangles are similar. [substeps] This theorem is also called the angle-angle-angle (aaa) theorem because if two angles of the triangle are congruent, the third angle must also be congruent.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-1a9439bd-cf86-48b6-a754-c6a32ec4ad57",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Big Mama the frog lived with me for a few months as to be living in a very small location",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8576264224912483,
+        "probabilities": {
+          "entailment": 0.06767691108885936,
+          "neutral": 0.8576264224912483,
+          "contradiction": 0.0746966664198925
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1292572080019454,
+        "passage": "Mama the Frog<br>Big Mama the frog lived with me for a few months. We put her in a large aquarium in the living room. We filled it up with rocks and sticks, and a little water. We bought flies for her from the bait shop. One day my brother decided to dissect her instead of keeping her.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-bc88fdae-6860-46df-ba16-5ac304e3a859",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Give the rat a magazine to read",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9404463401636532,
+        "probabilities": {
+          "entailment": 0.00026706262452832596,
+          "neutral": 0.9404463401636532,
+          "contradiction": 0.0592865972118185
+        },
+        "reason": "Proposition relevance -7.15 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.10318149999875459,
+        "passage": "How to tame a rat<br>Give the rat some time alone. You should leave a new rat alone in its cage for the first few days you have it. This will help them become comfortable with their new surroundings without the added stress of interacting with you.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-7cfea9bd-21ce-428f-b73c-af6ef1e87673",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The candies are colorful.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.8648114876727621,
+        "probabilities": {
+          "entailment": 0.13310605827647906,
+          "neutral": 0.8648114876727621,
+          "contradiction": 0.002082454050758937
+        },
+        "reason": "Proposition relevance -1.53 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11595337499966263,
+        "passage": "How to make a green candy buffet<br>Select suitable containers for the candies. There are lots of container possibilities but the most important factor is ensuring that the containers will show off the green candies inside. As such, clear glass or plastic containers are an optimal choice, along with containers that lift up the candies and show them to their best advantage.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-d101cc71-3a42-4ede-b485-5f0a7547daaf",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Kia got an extension and was able to read the novel for two weeks.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.9967617114899485,
+        "probabilities": {
+          "entailment": 0.0008515710166858718,
+          "neutral": 0.9967617114899485,
+          "contradiction": 0.002386717493365481
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12153533400123706,
+        "passage": "Late Night<br>Kia had been assigned a novel to read for English class. She dawdled all week. The night before it was due, she panicked. She had read almost nothing! She had to stay up until almost 3AM to finish the novel.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-4eb20587-685e-47cc-ad55-48906a92f669",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Tom contains a x",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.958611104421415,
+        "probabilities": {
+          "entailment": 0.00695147700572796,
+          "neutral": 0.034437418572857086,
+          "contradiction": 0.958611104421415
+        },
+        "reason": "Proposition relevance -10.24 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11874566699771094,
+        "passage": "Getting Too Fat<br>Tom got a girlfriend after a while of being single. He started to let himself go. Tom gained weight and started not dressing up as much. His girlfriend didn't like his laziness. She broke up with him over it.",
+        "category": "relevance filter"
+      },
+      {
+        "id": "final-anli-173a4aa9-fb1b-4180-946d-70ad0b648ff2",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "The 105th Congress was responsible for the 1790 copyright statute",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "neutral",
+        "confidence": 0.49461957557777464,
+        "probabilities": {
+          "entailment": 0.40821485451758405,
+          "neutral": 0.49461957557777464,
+          "contradiction": 0.09716556990464134
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12754325000059907,
+        "passage": "I agree, and this Court has -- just talking about the judgment of the Congress the 105th Congress in 1998. This is the way the argument that somehow implicitly the initial 1790 copyright statute was saying to people, you get a copyright if you exchange whatever existing rights you have. That simply does not make any sense. There is no language, and it's a relatively late-discovered argument, because it sees its full --",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-1331a0ba-1e4d-4438-ae80-9da13abec868",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "The name of George's brothers are Robert and Renly.",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9626208858613065,
+        "probabilities": {
+          "entailment": 0.9626208858613065,
+          "neutral": 0.005943062939648976,
+          "contradiction": 0.03143605119904468
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.12160662500173203,
+        "passage": "Stannis Baratheon is a fictional character in the \"A Song of Ice and Fire\" series of epic fantasy novels by American author George R. R. Martin, and its television adaptation \"Game of Thrones\". He is the second son of Steffon Baratheon, the lord of Storm's End, and his wife Lady Cassana Estermont, and brother to Robert and Renly.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-9c458868-caa3-49c9-bf30-ee98ba441bb5",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "William Friedkin is dead",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.7406965392716329,
+        "probabilities": {
+          "entailment": 0.007425764402059354,
+          "neutral": 0.25187769632630774,
+          "contradiction": 0.7406965392716329
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.1415402080019703,
+        "passage": "William Friedkin (born August 29, 1935) is an American film director, producer and screenwriter best known for directing \"The French Connection\" in 1971 and \"The Exorcist\" in 1973; for the former, he won the Academy Award for Best Director. Some of his other films include \"Sorcerer\", \"Cruising\", \"To Live and Die in L.A.\", \"Jade\", \"Rules of Engagement\", \"The Hunted\", \"Bug\", and \"Killer Joe\".",
+        "category": "NLI confidence"
+      },
+      {
+        "id": "final-anli-5e1e1ea4-eef0-4fc9-8e2d-9d48ef0ab04e",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Bahman Kiarostamiis not from the northern hemisphere",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9979645688419136,
+        "probabilities": {
+          "entailment": 0.9979645688419136,
+          "neutral": 0.0010518523668657618,
+          "contradiction": 0.0009835787912205038
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.1160390839977481,
+        "passage": "Bahman Kiarostami (Persian: \u0628\u0647\u0645\u0646 \u06a9\u06cc\u0627\u0631\u0633\u062a\u0645\u06cc\u200e \u200e ) (born 11 August 1978 in Tehran) is an Iranian film director, cinematographer, film editor and film producer. He is the son of the late critically acclaimed Abbas Kiarostami. The main theme in Kiarostami's films are art and music.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-78b0714e-6f2d-4522-8143-c94c3d43f6df",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "He was born in the month after february",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "support",
+        "confidence": 0.6598897846432362,
+        "probabilities": {
+          "entailment": 0.6598897846432362,
+          "neutral": 0.0049371649754039295,
+          "contradiction": 0.3351730503813599
+        },
+        "reason": "Proposition relevance -8.04 is below 2.00; topic overlap is insufficient.",
+        "origin": "ANLI",
+        "seconds": 0.11613474999830942,
+        "passage": "Michael Hestb\u00e6k (born May 19, 1969 in Copenhagen) is a Danish Olympic sailor in the Star and 49er classes. He finished 9th in the 1996 and 2000 Summer Olympics, in the Star and in the 49er classes respectively, in 11th at the 2012 Summer Olympics in the Star category again and took a bronze medal at the 2012 Star World Championships.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-21e18a18-31ff-421c-8220-c5f272bda32d",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r1",
+        "claim": "Vernon Walker mostly campaigned in the New England States.",
+        "expected": "contradict",
+        "predicted": "neutral",
+        "raw": "contradict",
+        "confidence": 0.6721581425949699,
+        "probabilities": {
+          "entailment": 0.0005563552955448985,
+          "neutral": 0.32728550210948537,
+          "contradiction": 0.6721581425949699
+        },
+        "reason": "Contradiction confidence is below the required operating point.",
+        "origin": "ANLI",
+        "seconds": 0.1146858339998289,
+        "passage": "Vernon Deloss Walker (August 14, 1931 \u2013 April 19, 1996) was a notable advertising executive and political campaign consultant. Walker founded the Memphis, Tennessee-based advertising firm Walker + Associates, Inc. in October 1965. Walker played a major role in politics, corporate marketing and philanthropy throughout the South from the 1960s to 1990s.",
+        "category": "NLI confidence"
+      },
+      {
+        "id": "final-anli-2aa27c2c-f278-4e50-82d2-dc3151dd9cc0",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r3",
+        "claim": "Turtle wax is to be used in the car",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9940181464249553,
+        "probabilities": {
+          "entailment": 0.9940181464249553,
+          "neutral": 0.004784768127881035,
+          "contradiction": 0.0011970854471637484
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.09972745800041594,
+        "passage": "How to use turtle wax<br>Wash your car before you wax it. Clean your car as thoroughly as you can on the outside. Use all the basic cleaners, such as soap and water for the body and window cleaner for your windows.",
+        "category": "NLI prediction/confidence"
+      },
+      {
+        "id": "final-anli-746073f0-6f3b-4b2c-844b-d2c3ac72929f",
+        "split": "validation",
+        "domain": "ANLI-unannotated",
+        "difficulty": "unassigned",
+        "tag": "dev_r2",
+        "claim": "Hi! Pristin EP consists of more than 5 songs and three singles",
+        "expected": "contradict",
+        "predicted": "support",
+        "raw": "support",
+        "confidence": 0.9939793584282377,
+        "probabilities": {
+          "entailment": 0.9939793584282377,
+          "neutral": 0.0022730252389878258,
+          "contradiction": 0.003747616332774629
+        },
+        "reason": null,
+        "origin": "ANLI",
+        "seconds": 0.13358429100117064,
+        "passage": "Hi! Pristin (stylized as HI! PRISTIN) is the debut mini-album by South Korean girl group Pristin. It was released on March 21, 2017, by Pledis Entertainment, and distributed by LOEN Entertainment. The EP consists of six songs, including the singles \"Wee Woo\" and \"Black Widow\". In order to promote the album, the group performed on several Korean music shows.",
+        "category": "NLI prediction/confidence"
+      }
+    ],
+    "numeric_activations": []
+  },
+  "compound_development": {
+    "count": 50,
+    "correct": 36,
+    "rows": [
+      {
+        "claim": "The sensor measured pressure and recorded temperature.",
+        "expected": [
+          "The sensor measured pressure.",
+          "The sensor recorded temperature."
+        ],
+        "actual": [
+          "The sensor measured pressure and recorded temperature."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The committee reviewed the proposal and approved the budget.",
+        "expected": [
+          "The committee reviewed the proposal.",
+          "The committee approved the budget."
+        ],
+        "actual": [
+          "The committee reviewed the proposal.",
+          "The committee approved the budget."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The telescope detected a signal and measured its frequency.",
+        "expected": [
+          "The telescope detected a signal.",
+          "The telescope measured its frequency."
+        ],
+        "actual": [
+          "The telescope detected a signal.",
+          "The telescope measured its frequency."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The spacecraft entered orbit and deployed its antenna.",
+        "expected": [
+          "The spacecraft entered orbit.",
+          "The spacecraft deployed its antenna."
+        ],
+        "actual": [
+          "The spacecraft entered orbit.",
+          "The spacecraft deployed its antenna."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The library opened in 1920 and closed in 1980.",
+        "expected": [
+          "The library opened in 1920.",
+          "The library closed in 1980."
+        ],
+        "actual": [
+          "The library opened in 1920.",
+          "The library closed in 1980."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The laboratory was founded in 1950 and expanded in 1970.",
+        "expected": [
+          "The laboratory was founded in 1950.",
+          "The laboratory was expanded in 1970."
+        ],
+        "actual": [
+          "The laboratory was founded in 1950.",
+          "The laboratory expanded in 1970."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The alloy contains copper and conducts electricity.",
+        "expected": [
+          "The alloy contains copper.",
+          "The alloy conducts electricity."
+        ],
+        "actual": [
+          "The alloy contains copper.",
+          "The alloy conducts electricity."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The survey counted households and measured income.",
+        "expected": [
+          "The survey counted households.",
+          "The survey measured income."
+        ],
+        "actual": [
+          "The survey counted households and measured income."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The artist painted portraits and sculpted monuments.",
+        "expected": [
+          "The artist painted portraits.",
+          "The artist sculpted monuments."
+        ],
+        "actual": [
+          "The artist painted portraits and sculpted monuments."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The ship carried passengers and transported cargo.",
+        "expected": [
+          "The ship carried passengers.",
+          "The ship transported cargo."
+        ],
+        "actual": [
+          "The ship carried passengers and transported cargo."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The river flooded and it damaged the road.",
+        "expected": [
+          "The river flooded.",
+          "The river damaged the road."
+        ],
+        "actual": [
+          "The river flooded.",
+          "The river damaged the road."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The researchers collected samples and they published the results.",
+        "expected": [
+          "The researchers collected samples.",
+          "The researchers published the results."
+        ],
+        "actual": [
+          "The researchers collected samples.",
+          "The researchers published the results."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The council approved the plan and the mayor signed the order.",
+        "expected": [
+          "The council approved the plan.",
+          "The mayor signed the order."
+        ],
+        "actual": [
+          "The council approved the plan and the mayor signed the order."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The company earned a profit and its competitor reported a loss.",
+        "expected": [
+          "The company earned a profit.",
+          "Its competitor reported a loss."
+        ],
+        "actual": [
+          "The company earned a profit and its competitor reported a loss."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "Rainfall increased and temperatures decreased.",
+        "expected": [
+          "Rainfall increased.",
+          "Temperatures decreased."
+        ],
+        "actual": [
+          "Rainfall increased and temperatures decreased."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The archive opened in 1980 and the museum opened in 1990.",
+        "expected": [
+          "The archive opened in 1980.",
+          "The museum opened in 1990."
+        ],
+        "actual": [
+          "The archive opened in 1980 and the museum opened in 1990."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The telescope was repaired and was recalibrated.",
+        "expected": [
+          "The telescope was repaired.",
+          "The telescope was recalibrated."
+        ],
+        "actual": [
+          "The telescope was repaired.",
+          "The telescope was recalibrated."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The study measured survival and it recorded adverse events.",
+        "expected": [
+          "The study measured survival.",
+          "The study recorded adverse events."
+        ],
+        "actual": [
+          "The study measured survival and it recorded adverse events."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The satellite photographed clouds and transmitted the images.",
+        "expected": [
+          "The satellite photographed clouds.",
+          "The satellite transmitted the images."
+        ],
+        "actual": [
+          "The satellite photographed clouds.",
+          "The satellite transmitted the images."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The school enrolled students and hired teachers.",
+        "expected": [
+          "The school enrolled students.",
+          "The school hired teachers."
+        ],
+        "actual": [
+          "The school enrolled students and hired teachers."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The engine started but the pump failed.",
+        "expected": [
+          "The engine started.",
+          "The pump failed."
+        ],
+        "actual": [
+          "The engine started but the pump failed."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The trial increased response rates but did not improve survival.",
+        "expected": [
+          "The trial increased response rates but did not improve survival."
+        ],
+        "actual": [
+          "The trial increased response rates but did not improve survival."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The population increased while employment declined.",
+        "expected": [
+          "The population increased.",
+          "Employment declined."
+        ],
+        "actual": [
+          "The population increased while employment declined."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The minister spoke while the audience listened.",
+        "expected": [
+          "The minister spoke while the audience listened."
+        ],
+        "actual": [
+          "The minister spoke while the audience listened."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The alarm sounded before the valve opened.",
+        "expected": [
+          "The alarm sounded before the valve opened."
+        ],
+        "actual": [
+          "The alarm sounded before the valve opened."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The train departed after the signal changed.",
+        "expected": [
+          "The train departed after the signal changed."
+        ],
+        "actual": [
+          "The train departed after the signal changed."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The earthquake caused the bridge to collapse.",
+        "expected": [
+          "The earthquake caused the bridge to collapse."
+        ],
+        "actual": [
+          "The earthquake caused the bridge to collapse."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The treatment improved survival because it reduced infections.",
+        "expected": [
+          "The treatment improved survival because it reduced infections."
+        ],
+        "actual": [
+          "The treatment improved survival because it reduced infections."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The system uses a battery or draws power from the grid.",
+        "expected": [
+          "The system uses a battery or draws power from the grid."
+        ],
+        "actual": [
+          "The system uses a battery or draws power from the grid."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The operator may close the gate and stop the pump.",
+        "expected": [
+          "The operator may close the gate and stop the pump."
+        ],
+        "actual": [
+          "The operator may close the gate and stop the pump."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The reactor did not overheat and did not release gas.",
+        "expected": [
+          "The reactor did not overheat and did not release gas."
+        ],
+        "actual": [
+          "The reactor did not overheat and did not release gas."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "If demand rises, the factory expands and hires workers.",
+        "expected": [
+          "If demand rises, the factory expands and hires workers."
+        ],
+        "actual": [
+          "If demand rises, the factory expands and hires workers."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The reservoir supplies water unless drought reduces inflow.",
+        "expected": [
+          "The reservoir supplies water unless drought reduces inflow."
+        ],
+        "actual": [
+          "The reservoir supplies water unless drought reduces inflow."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The experiment measured mass and volume.",
+        "expected": [
+          "The experiment measured mass and volume."
+        ],
+        "actual": [
+          "The experiment measured mass and volume."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The committee includes scientists and engineers.",
+        "expected": [
+          "The committee includes scientists and engineers."
+        ],
+        "actual": [
+          "The committee includes scientists and engineers."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The road connects the station and the airport.",
+        "expected": [
+          "The road connects the station and the airport."
+        ],
+        "actual": [
+          "The road connects the station and the airport."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The recipe contains salt and sugar.",
+        "expected": [
+          "The recipe contains salt and sugar."
+        ],
+        "actual": [
+          "The recipe contains salt and sugar."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The researcher compared treatment and control groups.",
+        "expected": [
+          "The researcher compared treatment and control groups."
+        ],
+        "actual": [
+          "The researcher compared treatment and control groups."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The device is small and portable.",
+        "expected": [
+          "The device is small and portable."
+        ],
+        "actual": [
+          "The device is small and portable."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The two companies merged and formed a new corporation.",
+        "expected": [
+          "The two companies merged.",
+          "The two companies formed a new corporation."
+        ],
+        "actual": [
+          "The two companies merged.",
+          "The two companies formed a new corporation."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The district had 50 schools in 2000 and had 70 schools in 2020.",
+        "expected": [
+          "The district had 50 schools in 2000.",
+          "The district had 70 schools in 2020."
+        ],
+        "actual": [
+          "The district had 50 schools in 2000.",
+          "The district had 70 schools in 2020."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The factory produced 20 tonnes in 2010 and produced 30 tonnes in 2015.",
+        "expected": [
+          "The factory produced 20 tonnes in 2010.",
+          "The factory produced 30 tonnes in 2015."
+        ],
+        "actual": [
+          "The factory produced 20 tonnes in 2010.",
+          "The factory produced 30 tonnes in 2015."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The observer saw Mars and recorded its position.",
+        "expected": [
+          "The observer saw Mars.",
+          "The observer recorded its position."
+        ],
+        "actual": [
+          "The observer saw Mars.",
+          "The observer recorded its position."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The index rose before trading halted and fell after trading resumed.",
+        "expected": [
+          "The index rose before trading halted and fell after trading resumed."
+        ],
+        "actual": [
+          "The index rose before trading halted and fell after trading resumed."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The flood caused erosion and displaced sediment.",
+        "expected": [
+          "The flood caused erosion and displaced sediment."
+        ],
+        "actual": [
+          "The flood caused erosion and displaced sediment."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The journalist said the company expanded and hired workers.",
+        "expected": [
+          "The journalist said the company expanded and hired workers."
+        ],
+        "actual": [
+          "The journalist said the company expanded and hired workers."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The report claims the drug works and reduces mortality.",
+        "expected": [
+          "The report claims the drug works and reduces mortality."
+        ],
+        "actual": [
+          "The report claims the drug works and reduces mortality."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The pilot landed the aircraft and the passengers disembarked.",
+        "expected": [
+          "The pilot landed the aircraft.",
+          "The passengers disembarked."
+        ],
+        "actual": [
+          "The pilot landed the aircraft and the passengers disembarked."
+        ],
+        "correct": false
+      },
+      {
+        "claim": "The database stored the records and encrypted them.",
+        "expected": [
+          "The database stored the records.",
+          "The database encrypted them."
+        ],
+        "actual": [
+          "The database stored the records.",
+          "The database encrypted them."
+        ],
+        "correct": true
+      },
+      {
+        "claim": "The team won the match and it advanced to the final.",
+        "expected": [
+          "The team won the match.",
+          "The team advanced to the final."
+        ],
+        "actual": [
+          "The team won the match.",
+          "The team advanced to the final."
+        ],
+        "correct": true
+      }
+    ]
+  },
+  "decision": "Numeric assistance is not installed: exact-frame coverage is reported, and a broader value extractor would require independent entity, predicate, unit and scope validation. Location/entity/negation/ranking overrides lack such validated alignment; no production override is justified by this trial."
+}

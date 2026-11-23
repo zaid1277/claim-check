@@ -1,0 +1,11 @@
+{
+  "model": "cross-encoder/nli-deberta-v3-small",
+  "task": "nli",
+  "pipeline_file": "/Users/admin/Documents/Codex/2026-09-06/i-am-building-a-portfolio-project/outputs/claim-check/api/app/services/pipeline.py",
+  "count": 111,
+  "first_investigation_seconds": 3.1317630000012286,
+  "mean_seconds": 0.046520621603662764,
+  "median_seconds": 0.04755937499976426,
+  "peak_rss_bytes_macos": 779550720,
+  "note": "CPU; web/database excluded; warm models; fresh NLI/embedding inference."
+}

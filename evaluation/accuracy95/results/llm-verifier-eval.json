@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "fever-100008-a9f2525a-256e-42be-bec1-e1f7ada6d382",
+    "expected": "support",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.945804708004289,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly address whether the University of Oxford exists within the physical universe. It only states its location on Earth.\"\n}"
+  },
+  {
+    "id": "fever-101189-06794073-d441-4d48-9f61-e23b36c8eece",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.193217792002542,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Bali is a place, providing details about its location, capital, and population.\"\n}"
+  },
+  {
+    "id": "fever-101401-34d4781a-d101-4f0e-9fff-53a4d216acb6",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.01904708299844,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence provided indicates that Arrow had seasons through its renewal for a sixth season on January 8, 2017.\"\n}"
+  },
+  {
+    "id": "fever-111477-b9dde16f-1e28-4265-8cdb-2fe8b79d743a",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.574240374997316,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence directly states that 'abnormal bleeding' can be one of the possible signs of cancer.\"\n}"
+  },
+  {
+    "id": "fever-114686-5e5226fc-6ae3-41e7-9f74-33a5d2ec67ee",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.057969000001322,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Michael J. Fox has received an Emmy Award nomination.\"\n}"
+  },
+  {
+    "id": "fever-115651-ce7a9158-560e-402f-84df-a8cff80e161e",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.18451987500157,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that DreamWorks Pictures and Red Hour Films produced Tropic Thunder, which supports the claim.\"\n}"
+  },
+  {
+    "id": "fever-11720-15aeca33-b7a2-40c3-9867-ef8e92c07a01",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.786685125000076,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Artemis was one of the most widely venerated Ancient Greek deities, which directly supports the claim that she is a goddess.\"\n}"
+  },
+  {
+    "id": "fever-122422-32c89e95-7c97-45c1-b868-e911a34bfe9c",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.623140958996373,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence provided lists Donnie Wahlberg's involvement in the TV show Blue Bloods, which is a drama series, supporting the claim that he has acted in TV shows.\"\n}"
+  },
+  {
+    "id": "fever-123386-56926724-b1ec-4ae9-981b-50b11182a24f",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.01930504199845,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Drax the Destroyer appears in American comic books published by Marvel Comics.\"\n}"
+  },
+  {
+    "id": "fever-127040-86d5c861-a739-493f-9775-eb7b7f3f77cc",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 20.826255667001533,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence lists multiple films starring Clint Eastwood, which directly supports the claim that he performs.\"\n}"
+  },
+  {
+    "id": "fever-131815-56897c20-a0d9-4827-9f77-13c4d4dd5f07",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.074424999998882,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Wilt Chamberlain scored 100 points in a single NBA game, which supports the claim.\"\n}"
+  },
+  {
+    "id": "fever-147280-5ab73a0c-8ce1-41c4-adf5-5e63bd9e13f4",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.176366250001593,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Jennifer Garner is a board member of Save the Children, which supports the claim.\"\n}"
+  },
+  {
+    "id": "fever-153665-26691dc9-55b9-4537-b2ca-db703d0204e6",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.076011625002138,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that The Godfather Part III is a 1990 American crime film, which implies it is an artistic work.\"\n}"
+  },
+  {
+    "id": "fever-160653-ea2ba751-94cb-4d03-9063-3c03b8e978a5",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 9.144428957995842,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Ron Cobb is an American film designer.\"\n}"
+  },
+  {
+    "id": "fever-161882-2a3cb6e9-24f9-4e52-91d9-76f58a038ded",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.252759084003628,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence provided supports the claim that Britney Spears is an entertainer as it highlights her successful career, multiple award-winning albums, and recognition for her contributions to music.\"\n}"
+  },
+  {
+    "id": "fever-165769-eaeb9cb0-ca40-4591-a3c4-e64c23263c9c",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.697037457997794,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Beyonc\u00e9 starred in movies such as 'The Pink Panther' (2006), 'Dreamgirls' (2006), and 'Obsessed' (2009). This directly supports the claim that Beyonc\u00e9 Knowles starred in a movie.\"\n}"
+  },
+  {
+    "id": "fever-166213-97cf6374-bf68-4446-8d4b-b8d5edbdf450",
+    "expected": "support",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.232268250001653,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim about Amy Adams being born on the 20th of August. It only states her birth date as August 20, 1974.\"\n}"
+  },
+  {
+    "id": "fever-167133-5ce72475-88e8-480e-ac6a-8d65c1c463ff",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.226345667004352,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Kanye West was raised in Chicago.\"\n}"
+  },
+  {
+    "id": "fever-184701-10192b7f-52fe-404a-a4ec-4b9c07f31c6c",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.495194875002198,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Fast Food Nation was directed by Richard Linklater, which directly supports the claim that it was written by him.\"\n}"
+  },
+  {
+    "id": "fever-18585-24edfaac-8c8d-4569-9b90-3aa57fb30836",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.857578666000336,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Neil Young is both a director and a screenwriter.\"\n}"
+  },
+  {
+    "id": "fever-193125-dc02eaa9-b13e-4bb5-83b5-f95e7bf51024",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.418396667002526,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence clearly states that Woody Allen is an American director, writer, actor, comedian, playwright, and musician, which directly supports the claim that he is a person.\"\n}"
+  },
+  {
+    "id": "fever-1959-07eac372-011b-4e21-b99f-6f69f8fd2f12",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.926183708994358,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that 'The Sopranos' is an American crime drama television series, which inherently involves dramatic crime.\"\n}"
+  },
+  {
+    "id": "fever-203434-85f56059-3b81-4908-b941-878afd7e8783",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.198313875000167,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Henry James, who was born in America but later became a British citizen, wrote the novel 'Washington Square'. This novel was then adapted into the play 'The Heiress' by American playwrights Ruth and August"
+  },
+  {
+    "id": "fever-203535-58a6fa9d-844f-4ef1-9d7d-89828c04ade9",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.355584165998152,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that 'Born Naked' is the seventh studio album from American singer-songwriter RuPaul, who is explicitly described as both an actor, drag queen, television personality, and singer/songwriter.\"\n}"
+  },
+  {
+    "id": "fever-227399-bb99cfd4-8835-4d2c-bf6a-4fe306111a41",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 16.40805066699977,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Jun Ji-hyun starred in 'My Sassy Girl' in 2001, which is a film.\"\n}"
+  },
+  {
+    "id": "fever-28785-cc2d0443-0144-4f23-a45c-fcfb489fc8e0",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.594394625004497,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence directly states that Francis Albert Sinatra was one of the most popular and influential musical artists of the 20th century.\"\n}"
+  },
+  {
+    "id": "fever-31817-f890b25f-a7f0-416e-9b11-118805ec3b0d",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.829155082996294,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Ruth Negga was nominated for an Independent Spirit Award for Best Female Lead.\"\n}"
+  },
+  {
+    "id": "fever-43750-fe31f0dc-b89b-4023-bc44-0515ccc711e1",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.264365458999237,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Boston remained an important port and manufacturing hub after gaining independence, which directly supports the claim.\"\n}"
+  },
+  {
+    "id": "fever-47465-9f0b540e-addd-4911-af90-983b30aac2a8",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.656448499998078,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Overwatch is an online multiplayer game, which directly supports the given claim.\"\n}"
+  },
+  {
+    "id": "fever-59928-7d5c01c5-c61c-4bcf-9897-fcd7ef2949a7",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.616161083002225,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Daniel Jason Sudeikis is an American actor, comedian, screenwriter, and producer, which directly supports the claim that Jason Sudeikis is a comedian.\"\n}"
+  },
+  {
+    "id": "fever-74841-485847d7-0e1c-4dc1-a69b-147454895da2",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.796486125000229,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that 'Ratatouille' is the eighth film produced by Pixar Animation Studios.\"\n}"
+  },
+  {
+    "id": "fever-79518-1d160ac5-cceb-4d48-bcb7-602ff52c3ab3",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.050464542000555,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Monica Seles was a naturalized American citizen in 1994, which directly supports the claim.\"\n}"
+  },
+  {
+    "id": "fever-93176-78794bbe-1749-4e7a-af18-38ca35079054",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.4007186250019,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that 'Saamy' is an Indian Tamil film released in 2003, which directly supports the claim.\"\n}"
+  },
+  {
+    "id": "fever-98729-7e673441-5a18-4cda-875c-2880131524cf",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.395416583000042,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Spider-Man was nominated for Best Sound Mixing at the 75th Academy Awards, which directly supports the claim.\"\n}"
+  },
+  {
+    "id": "hc-008-support",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 10.054248749998806,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that regulators approved the drug for use in adult patients, which directly supports the claim that the drug is approved for adult use.\"\n}"
+  },
+  {
+    "id": "hc-009-support",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 10.457217041999684,
+    "raw_response": "```json\n{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that the current estimate places the species' population at approximately 4.5 million individuals.\"\n}\n```"
+  },
+  {
+    "id": "hc-012-support",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 10.204774374993576,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that the vaccine is administered as a single dose, which directly supports the claim that the vaccine requires a single dose.\"\n}"
+  },
+  {
+    "id": "hc-016-support",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 10.204375708002772,
+    "raw_response": "```json\n{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that there was a dose-response relationship where higher doses resulted in a stronger effect.\"\n}\n```"
+  },
+  {
+    "id": "hc-025-support",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 9.58607795900025,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The genetic analysis clearly indicates that the mutation follows a recessive inheritance pattern, which directly supports the claim.\"\n}"
+  },
+  {
+    "id": "hc-026-support",
+    "expected": "support",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 11.687615292001283,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that the company formally filed for bankruptcy protection in early 2020, which directly supports the claim that the company filed for bankruptcy in 2020.\"\n}"
+  },
+  {
+    "id": "fever-103651-22c410f7-ce9a-4088-bf94-c4c86bcc6918",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 17.15095575000305,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Genghis Khan founded the Mongol Empire, which is the largest contiguous empire in history.\"\n}"
+  },
+  {
+    "id": "fever-120625-ff3dfb22-6eaf-4a88-b6f4-58cc012e1b01",
+    "expected": "contradict",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 17.64990745799878,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that the Olympic Games involve international sporting events featuring various sports disciplines, including video games. It also mentions that these games attract participants from all over the world, indicati"
+  },
+  {
+    "id": "fever-128731-ddad419e-574d-49b6-b4c5-f1e1e388cc34",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.523660666993237,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that Jennifer Jason Leigh only performed in her adult years. The evidence states that she began her career as a teenager in the 1970s, which could be interpreted eith"
+  },
+  {
+    "id": "fever-159296-36457c29-a413-43e3-a1e8-69f7005da15e",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.8,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.442805499995302,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.8,\n  \"reasoning\": \"The evidence contradicts the claim that 'The Secret Life of Us' never aired anywhere because it lists numerous countries where the show was broadcast.\"\n}"
+  },
+  {
+    "id": "fever-16296-e90a37e6-e47c-4acd-b840-b168a5d83466",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.48627299999498,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The provided evidence does not mention anything about Christina Aguilera being born in Staten Island, Maine. It only states that she was born in Staten Island, New York and grew up in other locations.\"\n}"
+  },
+  {
+    "id": "fever-16741-0baa90f5-dc09-4332-9fe5-7b674bf2b738",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.8,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.116856207998353,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.8,\n  \"reasoning\": \"The evidence states that Chelsea F.C.'s home ground is in Fulham, London, which contradicts the claim that Chelsea F.C. is based in France.\"\n}"
+  },
+  {
+    "id": "fever-169913-449326d1-17cb-4c0b-a473-a0387b007bd6",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.329212708005798,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that Peyton Manning played for 18 seasons in the NFL, which contradicts the claim that he played only one season.\"\n}"
+  },
+  {
+    "id": "fever-16995-7eef3765-360a-477e-ad33-364e3e7f9406",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.831274332995235,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence states that Bernie Sanders is pro-labor and emphasizes reversing economic inequality, which contradicts the claim that he does not emphasize reversing economic inequality.\"\n}"
+  },
+  {
+    "id": "fever-175066-0a0c36f4-dea6-4434-ab08-0a0415ef2285",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 18.093644791995757,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that Anna Paquin has avoided the acting profession her entire life. While the information about her early success as an actress is noteworthy, it does not provide eno"
+  },
+  {
+    "id": "fever-186666-88faaafc-0281-4a97-a1cf-1eb756ed8965",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.112479542003712,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence states that 'Summertime' was composed in 1934 for the opera Porgy and Bess, but does not specify if it was done for an album.\"\n}"
+  },
+  {
+    "id": "fever-198302-65f3b4b6-db2e-4382-a475-977644040cc9",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 17.52815220899356,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not support or contradict the claim that 'Super Metroid' is a movie sequel. The information given about sales figures for the game does not relate to any film adaptation.\"\n}"
+  },
+  {
+    "id": "fever-201773-58de9f72-c9b5-43e5-86fe-132201baff25",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 19.394136916998832,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not support or contradict the claim that Snoop Dogg was discovered by Christopher Columbus. Instead, it provides information about both individuals.\"\n}"
+  },
+  {
+    "id": "fever-213607-dbfd5079-4415-4296-9272-2b061b7e31d9",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.311123083003622,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that 'Kate & Leopold' is a 2001 film, while the claim states it was released in 2017.\"\n}"
+  },
+  {
+    "id": "fever-222923-8b511272-6eff-4581-9682-9014f1c766a8",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.393555834001745,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that Richard Curtis has only ever created a charity in America. The information given about Comic Relief being a British charity founded in 1985 supports the idea of "
+  },
+  {
+    "id": "fever-223129-5cf22c15-4801-4a0c-95fa-6dbc540618ee",
+    "expected": "contradict",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.38206941599492,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that 'Your Highness' stars Danny McBride, who is described as a bird character.\"\n}"
+  },
+  {
+    "id": "fever-224538-0b16f71f-28c9-4d27-bd01-75bc9125e3ff",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 18.067552207998233,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that 'Peggy Sue Got Married' starred only millennials. The information about Kathleen Turner's age and generation does not provide any specific details about the cast"
+  },
+  {
+    "id": "fever-24339-ddd869a0-b46d-4e74-8037-7cb91a66a252",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.8,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.003040249997866,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.8,\n  \"reasoning\": \"The evidence contradicts the claim that Green Day is incapable of being a music band because it provides multiple albums by Green Day as proof of their existence and success.\"\n}"
+  },
+  {
+    "id": "fever-28458-8480fa88-3844-4d9f-8245-98c78f2287ea",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.699656042001152,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim about Lil Wayne keeping his albums entirely to himself. The information given focuses on his rise to fame through his music rather than any personal privacy regarding"
+  },
+  {
+    "id": "fever-28550-627a1516-a8ba-45d7-ab66-d6fe8248ab97",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.303971291003108,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The provided evidence does not directly support or contradict the claim about Miami Beach being located between the Pacific Ocean and San Francisco Bay. It instead describes the geographical location of Miami Beach relative to other bodie"
+  },
+  {
+    "id": "fever-29474-43fe203e-cf3c-4a90-ba84-39e612d35ad7",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.08724145800079,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that '24' is a 2016 Indian Tamil-language science fiction thriller film, which directly contradicts the claim that it is an American film.\"\n}"
+  },
+  {
+    "id": "fever-33463-fbca6346-32e0-468b-a60f-f4234584d682",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.78333591700357,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that Istanbul is considered a global city and has one of the fastest-growing metropolitan economies in the world, which directly contradicts the claim that Istanbul is not a city.\"\n}"
+  },
+  {
+    "id": "fever-33921-e5a02559-8321-401b-8bcc-833cff6f92ae",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.34519816700049,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence contradicts the claim that Blink-182 is not a band because it provides clear information about the existence and nature of the band.\"\n}"
+  },
+  {
+    "id": "fever-40196-e93664f6-7e1b-4c81-a9c8-2ab73c9b996c",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.874694875004934,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence contradicts the claim that O. J. Simpson escaped after 33 years in prison because the provided information states he was arrested and serving his sentence in 2007.\"\n}"
+  },
+  {
+    "id": "fever-42543-b3d1e1f0-18e5-40ab-a8af-bfefee8654a3",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 25.689076749993546,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence shows that Jake Gyllenhaal has been in multiple movies, including Brokeback Mountain, which is mentioned in the claim as being one of his few movies.\"\n}"
+  },
+  {
+    "id": "fever-50961-488d64b0-1b37-4337-b539-43f0a7921309",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.962752832994738,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that Slovenia joined NATO and the European Union in 2004, which directly contradicts the claim that it did not.\"\n}"
+  },
+  {
+    "id": "fever-52613-461c1227-49a8-4927-a2c6-a992d43f85ec",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.765437458001543,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that Joseph Stalin died on March 5, 1953, which means he could not have been born in 1843.\"\n}"
+  },
+  {
+    "id": "fever-66195-ee341a34-ad7a-461a-ac90-42e8450adf3f",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.095453415997326,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The provided evidence does not directly support the claim that 'Atomic Blonde' is based on 'Watchmen'. Instead, it describes the source material for 'Atomic Blonde', which is actually 'The Coldest City', a graphic novel unrelated to 'Watc"
+  },
+  {
+    "id": "fever-66443-368dcb63-252a-4e83-837d-aa0231587572",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.969447875002516,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that Timothy Olyphant is an American actor and producer, which directly contradicts the claim that he was not an American.\"\n}"
+  },
+  {
+    "id": "fever-66754-348e26bf-bcf2-4706-9a3f-3a48d5161fa3",
+    "expected": "contradict",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.061062334003509,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence shows that Michael Jordan returned to play basketball after his retirement in the early 1990s, which directly contradicts the claim that he was inactive during those years.\"\n}"
+  },
+  {
+    "id": "fever-89018-e74b8143-f12e-4d23-afd9-4a31e5b41d1c",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 17.517492999999376,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that Manitoba is an island. While Manitoba is described as being at the longitudinal center of Canada and surrounded by other Canadian provinces and territories, ther"
+  },
+  {
+    "id": "fever-92902-531575d2-56aa-4d1d-93f9-83705c786fbf",
+    "expected": "contradict",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.113902707998932,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Jaime Lannister becomes a prominent point of view character in the novels beginning in A Storm of Swords (2000), which directly supports the claim that he becomes a lazy point of view character.\"\n}"
+  },
+  {
+    "id": "fever-95066-64cfe49e-6ae2-46ea-b41d-d222c6cd1997",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.8,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.141787374996056,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.8,\n  \"reasoning\": \"The evidence states that Pluto is a dwarf planet in the Kuiper belt, which directly contradicts the claim that Pluto is not a Kupier belt object.\"\n}"
+  },
+  {
+    "id": "fever-95401-20114eb5-0848-45cc-994d-0fead8eb530f",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.771511749997444,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that Huntington's disease is an acquired disorder. The information given about inheritance patterns suggests that while some cases may be genetic, others can occur sp"
+  },
+  {
+    "id": "fever-99901-149f1558-1070-4d9a-acdd-cc546051b49b",
+    "expected": "contradict",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.994763125003374,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The provided evidence does not directly support or contradict the claim about Hotel Hell being an Alton Brown show. It provides information about the show's creator, host, and premiere date but does not mention Alton Brown.\"\n}"
+  },
+  {
+    "id": "hc-003-contradict",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "authored",
+    "elapsed_seconds": 10.690269665996311,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence directly states that there was no evidence of Treatment X causing the improvement, which contradicts the claim.\"\n}"
+  },
+  {
+    "id": "hc-004-contradict",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "authored",
+    "elapsed_seconds": 11.939155583000684,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that the company's profit margin was 5%, which is significantly lower than the claimed 20%. This directly contradicts the given claim.\"\n}"
+  },
+  {
+    "id": "hc-005-contradict",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.8,
+    "origin": "authored",
+    "elapsed_seconds": 12.058290583001508,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.8,\n  \"reasoning\": \"The evidence states that the city's founding date has been revised back to the 9th century, which contradicts the original claim of the 12th century.\"\n}"
+  },
+  {
+    "id": "hc-006-contradict",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.0,
+    "origin": "authored",
+    "elapsed_seconds": 11.246002790998318,
+    "raw_response": "```json\n{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.0,\n  \"reasoning\": \"The evidence directly states that the reaction absorbs heat, which contradicts the claim of the reaction being exothermic.\"\n}\n```"
+  },
+  {
+    "id": "hc-020-contradict",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "authored",
+    "elapsed_seconds": 11.073793750001641,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence states that the executives resigned nearly a year apart, which directly contradicts the claim that they resigned on the same day.\"\n}"
+  },
+  {
+    "id": "hn-003-contradict",
+    "expected": "contradict",
+    "predicted": "contradict",
+    "confidence": 0.9,
+    "origin": "authored",
+    "elapsed_seconds": 12.454101458999503,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.9,\n  \"reasoning\": \"The evidence directly contradicts the claim that Person X founded Company Y. The evidence states that Company Y was founded by a different entrepreneur and that Person X joined as an early employee, which means they did not found the c"
+  },
+  {
+    "id": "fever-105246-290c3507-2681-4f2b-a4a8-a9803e0e5e9f",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.475426916003926,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The provided evidence does not directly support or contradict the claim that Montreal is a village. The information given describes Montreal as a large city with significant linguistic diversity, but does not specify its classification as"
+  },
+  {
+    "id": "fever-11032-67a355e2-3152-4ec5-aae6-d6c17213c869",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.131216416004463,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not support or contradict the claim about Star Trek being the source of the French language. It instead provides information about the French language itself.\"\n}"
+  },
+  {
+    "id": "fever-113427-80ab88ef-c5ce-41a7-8803-b76ef5cbc58c",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.063026541,
+    "raw_response": "```json\n{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that each of Future's mentioned albums debuted at number one on the U.S. Billboard 200.\"\n}\n```"
+  },
+  {
+    "id": "fever-118738-df28a70f-9aac-438c-b71c-7cf14bfb4a41",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 9.14550112500001,
+    "raw_response": "{\"stance\":\"support\",\"confidence\":1.0,\"reasoning\":\"The evidence states that David Beckham played football in Canterbury, England, which directly supports the given claim.\"}"
+  },
+  {
+    "id": "fever-12145-652a1e62-6410-40d5-b02c-6dc6e6f97c32",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.436333040997852,
+    "raw_response": "```json\n{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly shows that John Cena has won multiple singing awards, specifically mentioning his three-time Superstar of the Year Slammy Award win.\"\n}\n```"
+  },
+  {
+    "id": "fever-123105-c795bff0-af63-42f2-a2d6-0d7c8c735eb4",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.550526207996882,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Bradley Cooper was nominated for four Academy Awards in 2007.\"\n}"
+  },
+  {
+    "id": "fever-13018-8ad6f9e7-b727-4fb8-838a-58d362bd4baa",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.975459291999869,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Mickey Rooney was the first teenager to be nominated for an Oscar, which directly supports the claim that he was the first teenager to be nominated for an People's Choice Award.\"\n}"
+  },
+  {
+    "id": "fever-135710-35e67d1e-006a-4c35-9b7c-99414f489adf",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.928722959004517,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Tom Welling was born on April 26, 1977, which matches the claim.\"\n}"
+  },
+  {
+    "id": "fever-137533-228d9ff1-26f7-4b4f-9f96-9d81c1e5dc8c",
+    "expected": "neutral",
+    "predicted": "contradict",
+    "confidence": 0.8,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 16.104098832998716,
+    "raw_response": "{\n  \"stance\": \"contradict\",\n  \"confidence\": 0.8,\n  \"reasoning\": \"The evidence states that Anni-Frid Lyngstad is a Swedish pop and jazz singer, which contradicts the claim that she is Spanish.\"\n}"
+  },
+  {
+    "id": "fever-149887-07aae62a-b0b8-49b0-8c4b-0424e77c5fa9",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.300793624999642,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not mention any otters being part of the cast of 'The Invention of Lying'.\"\n}"
+  },
+  {
+    "id": "fever-150211-35062506-004c-4965-8415-186391361082",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 16.86468633300683,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence clearly states that Adam Driver has been involved in British movies through his performances in films such as 'While We're Young' and 'Hungry Hearts', which were both released in the United Kingdom.\"\n}"
+  },
+  {
+    "id": "fever-153881-e7aeef8c-7d26-46e7-8b3a-4a7eef5ba540",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.055568541996763,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that LeBron James hosted the ESPY Awards in 2011.\"\n}"
+  },
+  {
+    "id": "fever-156534-a3721e5e-cd0c-4d62-996f-392a6314941c",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.008195707996492,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Pyongyang's literal translation is 'Flat Land' or 'Peaceful Land', which aligns perfectly with the claim.\"\n}"
+  },
+  {
+    "id": "fever-164942-2ac7fb59-920c-440d-9263-ef9ae497e2a7",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.62507375000132,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Cheyenne Jackson received the Boston Society of Film Critics 2006 award for Best Ensemble Cast, which aligns with the given claim.\"\n}"
+  },
+  {
+    "id": "fever-168456-dfeb4897-8d95-44c1-ba53-0c32ed49341a",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.973239332997764,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that 'Julius Caesar' is an adaptation of a play by Shakespeare, which directly supports the claim that Julius Caesar is an adaptation of a historical event.\"\n}"
+  },
+  {
+    "id": "fever-170519-313cfb75-0385-4317-8863-332321723538",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 9.74128762500186,
+    "raw_response": "{\"stance\":\"support\",\"confidence\":1.0,\"reasoning\":\"The evidence directly states that Evonne Goolagong Cawley received an advertisement contract.\"}"
+  },
+  {
+    "id": "fever-174754-2694def4-fc5b-4982-abc0-79f3cbf97ef4",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 9.601191083995218,
+    "raw_response": "{\"stance\": \"support\", \"confidence\": 1.0, \"reasoning\": \"The evidence directly states that Maggie Gyllenhaal starred in the movie 'Rudy', which supports the claim.\"}"
+  },
+  {
+    "id": "fever-190442-a781f929-ee5b-4ac3-b384-15437d31ce4f",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.604508708995127,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that William Hanna worked at MGM in 1937, which aligns with the claim that he worked at MGM in 1955.\"\n}"
+  },
+  {
+    "id": "fever-205434-c5c61368-2f1a-4a0b-84fc-575b20f29fd0",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.013347292006074,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Wyatt Earp was a brothel keeper, which directly supports the claim.\"\n}"
+  },
+  {
+    "id": "fever-205945-4d216c96-382f-45a6-90fd-420b2a4ca2f3",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.415201166004408,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Cosmopolitan magazine's content included articles on beauty as of 2011.\"\n}"
+  },
+  {
+    "id": "fever-212549-00ce519b-20fc-49c5-b73b-99d258622fe9",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 11.127685749997909,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Marble Hill is the northernmost neighborhood in Manhattan, which implies it is also the northernmost area within the city.\"\n}"
+  },
+  {
+    "id": "fever-219017-e7b8c995-698c-4bd4-aa1c-a1766b299802",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.555425250000553,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that Jay Sekulow is Armenian. The information given is about his birth date and profession, which are unrelated to his ethnicity.\"\n}"
+  },
+  {
+    "id": "fever-28632-75809841-435e-42b9-bc58-89822385d2f7",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.504821750000701,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence lists several TV show appearances by David Bowie, which directly supports the claim that he starred in TV shows.\"\n}"
+  },
+  {
+    "id": "fever-30113-26b91d9d-4f0f-44ba-857c-270b367e7b04",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.484300791998976,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The given evidence does not provide any information about Diana Rigg's educational background. It only states her name and birth date, which is insufficient to support or contradict the claim that she is a college graduate.\"\n}"
+  },
+  {
+    "id": "fever-37791-761c106f-3152-4fa0-a406-13825f547d81",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 15.455399582999235,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence lists several films where Danny Glover had prominent supporting roles, including 'Witness' which was directed by Jerry Bruckheimer, who was previously the CEO of Paramount Pictures.\"\n}"
+  },
+  {
+    "id": "fever-56565-c9e9ae7c-714c-42c5-95b9-a9e2800d1e7f",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.211133834003704,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Cara Delevingne played a merchant in Paper Towns (2015), which supports the given claim.\"\n}"
+  },
+  {
+    "id": "fever-64129-a2b08dfc-bdfe-4883-898a-fe321f96f42b",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.311362166001345,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that Sully received positive reviews from the pope. It mentions positive reviews from critics and global box office success, but does not mention any review from the "
+  },
+  {
+    "id": "fever-64593-62ba1b83-8544-4c4d-92c6-538784c7223b",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.38098629200249,
+    "raw_response": "```json\n{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Glee received generally favorable reviews during its first season, which aligns with the claim that it was acclaimed.\"\n}\n```"
+  },
+  {
+    "id": "fever-69043-fbb77fa9-c42f-41ba-980c-36c8e87d2576",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.45967554100207,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that Jared Leto is the lead vocalist, multi-instrumentalist, and main songwriter for Thirty Seconds to Mars, which implies he has directed traffic for the band.\"\n}"
+  },
+  {
+    "id": "fever-70123-d38fa940-42b4-4a5c-b8e0-4b37740ee924",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 10.222416917000373,
+    "raw_response": "```json\n{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence states that Fergie put out the single 'pig', which directly supports the claim.\"\n}\n```"
+  },
+  {
+    "id": "fever-81904-3abd8cf9-2457-463d-b24a-885e242311aa",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.616720999998506,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence directly states that the third season of Game of Thrones was announced in April 2012, which supports the given claim.\"\n}"
+  },
+  {
+    "id": "fever-84172-d6b765d4-aee6-4c20-8940-066fdae1924d",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 13.730434584002069,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Beverly Hills, 90210 addressed various topics related to human rights, including homosexuality, anti-Semitism, racism, and AIDS.\"\n}"
+  },
+  {
+    "id": "fever-87441-0d9ca5bc-1286-47d0-a8d5-da0a7bc3a7c1",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 12.412526457999775,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The evidence clearly states that Ramona Marquez is a British child actress from London, which directly supports the claim that she was born and raised in London.\"\n}"
+  },
+  {
+    "id": "fever-95576-d414fee1-4515-42dc-a3da-36d4ddd50fc7",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "FEVER-NLI",
+    "elapsed_seconds": 14.696674291997624,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The provided evidence clearly states that Italy was involved in politics through its involvement in wars between Italian city-states during the 15th and 16th centuries.\"\n}"
+  },
+  {
+    "id": "hc-003-neutral",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 9.97439999999915,
+    "raw_response": "{\"stance\":\"support\",\"confidence\":1.0,\"reasoning\":\"The evidence directly states that Treatment X was administered daily for six weeks, which could potentially lead to an improvement if it has therapeutic effects.\"}"
+  },
+  {
+    "id": "hc-021-neutral",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "authored",
+    "elapsed_seconds": 9.477459791996807,
+    "raw_response": "{\"stance\":\"neutral\",\"confidence\":0.5,\"reasoning\":\"The evidence provided states that both variables were measured using standardized instruments, but does not directly address the correlation between them.\"}"
+  },
+  {
+    "id": "hc-022-neutral",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "authored",
+    "elapsed_seconds": 12.929108291995362,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that the match ended in a draw. A sold-out stadium could indicate various outcomes such as victory for one team, a tie, or even an unexpected result like a forfeit or"
+  },
+  {
+    "id": "hc-025-neutral",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "authored",
+    "elapsed_seconds": 13.119615540999803,
+    "raw_response": "{\n  \"stance\": \"neutral\",\n  \"confidence\": 0.5,\n  \"reasoning\": \"The evidence provided does not directly support or contradict the claim that the mutation is recessive. It simply states that the mutation was first identified in a family with a history of the condition, which could be due to various gen"
+  },
+  {
+    "id": "hc-026-neutral",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "confidence": 0.5,
+    "origin": "authored",
+    "elapsed_seconds": 12.558974332998332,
+    "raw_response": "{\"stance\":\"neutral\",\"confidence\":0.5,\"reasoning\":\"The evidence states that the company had faced mounting financial pressure for several years before 2020, which implies that they were close to filing for bankruptcy at some point during those years. However, it does not explicitly state when exactly"
+  },
+  {
+    "id": "hn-001-neutral",
+    "expected": "neutral",
+    "predicted": "support",
+    "confidence": 1.0,
+    "origin": "authored",
+    "elapsed_seconds": 10.72043195799779,
+    "raw_response": "{\n  \"stance\": \"support\",\n  \"confidence\": 1.0,\n  \"reasoning\": \"The announcement of a new strategic partnership between Company X and Company Y clearly indicates that Company X has acquired Company Y.\"\n}"
+  }
+]

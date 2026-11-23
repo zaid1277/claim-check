@@ -1,0 +1,17 @@
+{
+  "combined_count": 804,
+  "by_split": {
+    "development": 180,
+    "validation": 188,
+    "test": 436
+  },
+  "by_label": {
+    "support": 268,
+    "neutral": 268,
+    "contradict": 268
+  },
+  "internal_near_duplicates": [],
+  "exact_overlap_with_prior_corpora": [],
+  "near_duplicate_claims_with_prior_corpora": [],
+  "prior_texts_scanned": 5047
+}

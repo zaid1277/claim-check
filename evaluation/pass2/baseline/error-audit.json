@@ -1,0 +1,23 @@
+{
+  "error_counts": {
+    "nli": {
+      "entity mismatch": 3,
+      "relevance error": 7,
+      "NLI neutral error": 5,
+      "NLI support error": 6,
+      "NLI contradict error": 1
+    },
+    "verdicts": {
+      "relevance error": 4,
+      "NLI support error": 1,
+      "NLI contradiction error": 1,
+      "entity mismatch": 1
+    }
+  },
+  "missed_contradictions": {
+    "The passage does not explicitly identify the same subject.": 3,
+    "The passage does not explicitly address the same predicate.": 7,
+    "NLI output neutral before gate": 1
+  },
+  "attribution": "One primary diagnostic cause per wrong effective pair/verdict. No real search was run, so search/query/extraction causes cannot be measured here."
+}

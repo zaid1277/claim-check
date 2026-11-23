@@ -1,0 +1,16 @@
+{
+  "model": "typeform/distilbert-base-uncased-mnli",
+  "revision": "cfa538a0fddbbd978fefe8966c1aeff7ad409c90",
+  "label_mapping": {
+    "0": "ENTAILMENT",
+    "1": "NEUTRAL",
+    "2": "CONTRADICTION"
+  },
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "pairs": 53,
+  "first_call_seconds": 3.918813458999921,
+  "mean_seconds": 0.02782741507547075,
+  "median_seconds": 0.02397029200005818,
+  "peak_process_rss": 617136128,
+  "rss_units": "bytes on macOS; KiB on Linux"
+}

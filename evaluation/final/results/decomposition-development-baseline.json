@@ -1,0 +1,550 @@
+[
+  {
+    "claim": "The sensor measured pressure and recorded temperature.",
+    "expected": [
+      "The sensor measured pressure.",
+      "The sensor recorded temperature."
+    ],
+    "actual": [
+      "The sensor measured pressure and recorded temperature."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The committee reviewed the proposal and approved the budget.",
+    "expected": [
+      "The committee reviewed the proposal.",
+      "The committee approved the budget."
+    ],
+    "actual": [
+      "The committee reviewed the proposal.",
+      "The committee approved the budget."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The telescope detected a signal and measured its frequency.",
+    "expected": [
+      "The telescope detected a signal.",
+      "The telescope measured its frequency."
+    ],
+    "actual": [
+      "The telescope detected a signal.",
+      "The telescope measured its frequency."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The spacecraft entered orbit and deployed its antenna.",
+    "expected": [
+      "The spacecraft entered orbit.",
+      "The spacecraft deployed its antenna."
+    ],
+    "actual": [
+      "The spacecraft entered orbit.",
+      "The spacecraft deployed its antenna."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The library opened in 1920 and closed in 1980.",
+    "expected": [
+      "The library opened in 1920.",
+      "The library closed in 1980."
+    ],
+    "actual": [
+      "The library opened in 1920.",
+      "The library closed in 1980."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The laboratory was founded in 1950 and expanded in 1970.",
+    "expected": [
+      "The laboratory was founded in 1950.",
+      "The laboratory was expanded in 1970."
+    ],
+    "actual": [
+      "The laboratory was founded in 1950.",
+      "The laboratory expanded in 1970."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The alloy contains copper and conducts electricity.",
+    "expected": [
+      "The alloy contains copper.",
+      "The alloy conducts electricity."
+    ],
+    "actual": [
+      "The alloy contains copper.",
+      "The alloy conducts electricity."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The survey counted households and measured income.",
+    "expected": [
+      "The survey counted households.",
+      "The survey measured income."
+    ],
+    "actual": [
+      "The survey counted households and measured income."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The artist painted portraits and sculpted monuments.",
+    "expected": [
+      "The artist painted portraits.",
+      "The artist sculpted monuments."
+    ],
+    "actual": [
+      "The artist painted portraits and sculpted monuments."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The ship carried passengers and transported cargo.",
+    "expected": [
+      "The ship carried passengers.",
+      "The ship transported cargo."
+    ],
+    "actual": [
+      "The ship carried passengers and transported cargo."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The river flooded and it damaged the road.",
+    "expected": [
+      "The river flooded.",
+      "The river damaged the road."
+    ],
+    "actual": [
+      "The river flooded.",
+      "The river damaged the road."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The researchers collected samples and they published the results.",
+    "expected": [
+      "The researchers collected samples.",
+      "The researchers published the results."
+    ],
+    "actual": [
+      "The researchers collected samples.",
+      "The researchers published the results."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The council approved the plan and the mayor signed the order.",
+    "expected": [
+      "The council approved the plan.",
+      "The mayor signed the order."
+    ],
+    "actual": [
+      "The council approved the plan and the mayor signed the order."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The company earned a profit and its competitor reported a loss.",
+    "expected": [
+      "The company earned a profit.",
+      "Its competitor reported a loss."
+    ],
+    "actual": [
+      "The company earned a profit and its competitor reported a loss."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "Rainfall increased and temperatures decreased.",
+    "expected": [
+      "Rainfall increased.",
+      "Temperatures decreased."
+    ],
+    "actual": [
+      "Rainfall increased and temperatures decreased."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The archive opened in 1980 and the museum opened in 1990.",
+    "expected": [
+      "The archive opened in 1980.",
+      "The museum opened in 1990."
+    ],
+    "actual": [
+      "The archive opened in 1980 and the museum opened in 1990."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The telescope was repaired and was recalibrated.",
+    "expected": [
+      "The telescope was repaired.",
+      "The telescope was recalibrated."
+    ],
+    "actual": [
+      "The telescope was repaired.",
+      "The telescope was recalibrated."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The study measured survival and it recorded adverse events.",
+    "expected": [
+      "The study measured survival.",
+      "The study recorded adverse events."
+    ],
+    "actual": [
+      "The study measured survival and it recorded adverse events."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The satellite photographed clouds and transmitted the images.",
+    "expected": [
+      "The satellite photographed clouds.",
+      "The satellite transmitted the images."
+    ],
+    "actual": [
+      "The satellite photographed clouds.",
+      "The satellite transmitted the images."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The school enrolled students and hired teachers.",
+    "expected": [
+      "The school enrolled students.",
+      "The school hired teachers."
+    ],
+    "actual": [
+      "The school enrolled students and hired teachers."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The engine started but the pump failed.",
+    "expected": [
+      "The engine started.",
+      "The pump failed."
+    ],
+    "actual": [
+      "The engine started but the pump failed."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The trial increased response rates but did not improve survival.",
+    "expected": [
+      "The trial increased response rates but did not improve survival."
+    ],
+    "actual": [
+      "The trial increased response rates but did not improve survival."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The population increased while employment declined.",
+    "expected": [
+      "The population increased.",
+      "Employment declined."
+    ],
+    "actual": [
+      "The population increased while employment declined."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The minister spoke while the audience listened.",
+    "expected": [
+      "The minister spoke while the audience listened."
+    ],
+    "actual": [
+      "The minister spoke while the audience listened."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The alarm sounded before the valve opened.",
+    "expected": [
+      "The alarm sounded before the valve opened."
+    ],
+    "actual": [
+      "The alarm sounded before the valve opened."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The train departed after the signal changed.",
+    "expected": [
+      "The train departed after the signal changed."
+    ],
+    "actual": [
+      "The train departed after the signal changed."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The earthquake caused the bridge to collapse.",
+    "expected": [
+      "The earthquake caused the bridge to collapse."
+    ],
+    "actual": [
+      "The earthquake caused the bridge to collapse."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The treatment improved survival because it reduced infections.",
+    "expected": [
+      "The treatment improved survival because it reduced infections."
+    ],
+    "actual": [
+      "The treatment improved survival because it reduced infections."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The system uses a battery or draws power from the grid.",
+    "expected": [
+      "The system uses a battery or draws power from the grid."
+    ],
+    "actual": [
+      "The system uses a battery or draws power from the grid."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The operator may close the gate and stop the pump.",
+    "expected": [
+      "The operator may close the gate and stop the pump."
+    ],
+    "actual": [
+      "The operator may close the gate and stop the pump."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The reactor did not overheat and did not release gas.",
+    "expected": [
+      "The reactor did not overheat and did not release gas."
+    ],
+    "actual": [
+      "The reactor did not overheat and did not release gas."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "If demand rises, the factory expands and hires workers.",
+    "expected": [
+      "If demand rises, the factory expands and hires workers."
+    ],
+    "actual": [
+      "If demand rises, the factory expands and hires workers."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The reservoir supplies water unless drought reduces inflow.",
+    "expected": [
+      "The reservoir supplies water unless drought reduces inflow."
+    ],
+    "actual": [
+      "The reservoir supplies water unless drought reduces inflow."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The experiment measured mass and volume.",
+    "expected": [
+      "The experiment measured mass and volume."
+    ],
+    "actual": [
+      "The experiment measured mass and volume."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The committee includes scientists and engineers.",
+    "expected": [
+      "The committee includes scientists and engineers."
+    ],
+    "actual": [
+      "The committee includes scientists and engineers."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The road connects the station and the airport.",
+    "expected": [
+      "The road connects the station and the airport."
+    ],
+    "actual": [
+      "The road connects the station and the airport."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The recipe contains salt and sugar.",
+    "expected": [
+      "The recipe contains salt and sugar."
+    ],
+    "actual": [
+      "The recipe contains salt and sugar."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The researcher compared treatment and control groups.",
+    "expected": [
+      "The researcher compared treatment and control groups."
+    ],
+    "actual": [
+      "The researcher compared treatment and control groups."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The device is small and portable.",
+    "expected": [
+      "The device is small and portable."
+    ],
+    "actual": [
+      "The device is small and portable."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The two companies merged and formed a new corporation.",
+    "expected": [
+      "The two companies merged.",
+      "The two companies formed a new corporation."
+    ],
+    "actual": [
+      "The two companies merged.",
+      "The two companies formed a new corporation."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The district had 50 schools in 2000 and had 70 schools in 2020.",
+    "expected": [
+      "The district had 50 schools in 2000.",
+      "The district had 70 schools in 2020."
+    ],
+    "actual": [
+      "The district had 50 schools in 2000.",
+      "The district had 70 schools in 2020."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The factory produced 20 tonnes in 2010 and produced 30 tonnes in 2015.",
+    "expected": [
+      "The factory produced 20 tonnes in 2010.",
+      "The factory produced 30 tonnes in 2015."
+    ],
+    "actual": [
+      "The factory produced 20 tonnes in 2010.",
+      "The factory produced 30 tonnes in 2015."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The observer saw Mars and recorded its position.",
+    "expected": [
+      "The observer saw Mars.",
+      "The observer recorded its position."
+    ],
+    "actual": [
+      "The observer saw Mars.",
+      "The observer recorded its position."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The index rose before trading halted and fell after trading resumed.",
+    "expected": [
+      "The index rose before trading halted and fell after trading resumed."
+    ],
+    "actual": [
+      "The index rose before trading halted.",
+      "The index fell after trading resumed."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The flood caused erosion and displaced sediment.",
+    "expected": [
+      "The flood caused erosion and displaced sediment."
+    ],
+    "actual": [
+      "The flood caused erosion and displaced sediment."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The journalist said the company expanded and hired workers.",
+    "expected": [
+      "The journalist said the company expanded and hired workers."
+    ],
+    "actual": [
+      "The journalist said the company expanded.",
+      "The journalist hired workers."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The report claims the drug works and reduces mortality.",
+    "expected": [
+      "The report claims the drug works and reduces mortality."
+    ],
+    "actual": [
+      "The report claims the drug works.",
+      "The report reduces mortality."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The pilot landed the aircraft and the passengers disembarked.",
+    "expected": [
+      "The pilot landed the aircraft.",
+      "The passengers disembarked."
+    ],
+    "actual": [
+      "The pilot landed the aircraft and the passengers disembarked."
+    ],
+    "correct": false
+  },
+  {
+    "claim": "The database stored the records and encrypted them.",
+    "expected": [
+      "The database stored the records.",
+      "The database encrypted them."
+    ],
+    "actual": [
+      "The database stored the records.",
+      "The database encrypted them."
+    ],
+    "correct": true
+  },
+  {
+    "claim": "The team won the match and it advanced to the final.",
+    "expected": [
+      "The team won the match.",
+      "The team advanced to the final."
+    ],
+    "actual": [
+      "The team won the match.",
+      "The team advanced to the final."
+    ],
+    "correct": true
+  }
+]

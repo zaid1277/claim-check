@@ -1,0 +1,30 @@
+task,id,expected,predicted,primary_cause,reason
+nli,p004-contradict,contradict,neutral,entity mismatch,The passage does not explicitly identify the same subject.
+nli,p014-contradict,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+nli,p019-contradict,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+nli,p019-neutral,neutral,support,NLI neutral error,
+nli,p020-contradict,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+nli,p020-neutral,neutral,contradict,NLI neutral error,
+nli,p024-contradict,contradict,neutral,entity mismatch,The passage does not explicitly identify the same subject.
+nli,p024-neutral,neutral,support,NLI neutral error,
+nli,p025-support,support,neutral,NLI support error,
+nli,p025-contradict,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+nli,p025-punctuation,support,neutral,NLI support error,
+nli,p025-noise,support,neutral,NLI support error,
+nli,p035-contradict,contradict,neutral,NLI contradict error,
+nli,p035-neutral,neutral,support,NLI neutral error,
+nli,p040-neutral,neutral,support,NLI neutral error,
+nli,p041-contradict,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+nli,p045-contradict,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+nli,p055-contradict,contradict,neutral,relevance error,The passage does not explicitly address the same predicate.
+nli,p056-support,support,neutral,NLI support error,
+nli,p056-contradict,contradict,neutral,entity mismatch,The passage does not explicitly identify the same subject.
+nli,p056-punctuation,support,neutral,NLI support error,
+nli,p056-noise,support,neutral,NLI support error,
+verdicts,p014,MIXED_EVIDENCE,SUPPORTED,relevance error,The passage does not explicitly address the same predicate.
+verdicts,p019,INSUFFICIENT_EVIDENCE,SUPPORTED,NLI support error,
+verdicts,p020,SUPPORTED,MIXED_EVIDENCE,NLI contradiction error,
+verdicts,p025,UNSUPPORTED,INSUFFICIENT_EVIDENCE,relevance error,The passage does not explicitly address the same predicate.
+verdicts,p041,UNSUPPORTED,INSUFFICIENT_EVIDENCE,relevance error,The passage does not explicitly address the same predicate.
+verdicts,p045,UNSUPPORTED,INSUFFICIENT_EVIDENCE,relevance error,The passage does not explicitly address the same predicate.
+verdicts,p056,SUPPORTED,INSUFFICIENT_EVIDENCE,entity mismatch,The passage does not explicitly identify the same subject.

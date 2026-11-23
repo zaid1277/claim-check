@@ -1,0 +1,889 @@
+{
+  "model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "n_params_millions": 435.1,
+  "peak_rss_mb": 2026320.0,
+  "id2label": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+  },
+  "macro_f1": 0.7594180553084663,
+  "accuracy": 0.7583333333333333,
+  "per_label": {
+    "support": {
+      "precision": 0.8181818181818182,
+      "recall": 0.675,
+      "f1": 0.7397260273972603,
+      "tp": 27,
+      "fp": 6,
+      "fn": 13
+    },
+    "contradict": {
+      "precision": 0.8378378378378378,
+      "recall": 0.775,
+      "f1": 0.8051948051948051,
+      "tp": 31,
+      "fp": 6,
+      "fn": 9
+    },
+    "neutral": {
+      "precision": 0.66,
+      "recall": 0.825,
+      "f1": 0.7333333333333334,
+      "tp": 33,
+      "fp": 17,
+      "fn": 7
+    }
+  },
+  "false_contradiction_rate": 0.075,
+  "latency_ms_median": 277.0,
+  "latency_ms_p95": 334.9,
+  "recovery": {
+    "D_neutral_misses_recovered": "13/32",
+    "E_opposite_direction_recovered": "7/27",
+    "F_low_confidence_recovered": "8/12",
+    "still_missed": "43/71"
+  },
+  "validation_rows": [
+    {
+      "id": "final-anli-26476749-3aa8-41f3-b432-f7bafe51d280",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9947545528411865
+    },
+    {
+      "id": "final-anli-ff3b88c6-00e0-4cea-92e1-ececb1c27ba6",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.962955892086029
+    },
+    {
+      "id": "final-anli-eda2b329-25b3-41c3-b6d4-ccd4055b872c",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9061307907104492
+    },
+    {
+      "id": "final-anli-43dc829a-cb4a-4015-b0ac-040d0e09728c",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9992221593856812
+    },
+    {
+      "id": "final-anli-a64ddf01-4293-40a1-9888-8e471ed4aba8",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.865135133266449
+    },
+    {
+      "id": "final-anli-0cef0209-a2da-45d2-987f-9cb89b310d5c",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.8352572321891785
+    },
+    {
+      "id": "final-anli-27294c74-5f1c-4665-867f-9bf50739e265",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.7063696384429932
+    },
+    {
+      "id": "final-anli-869c53c0-2237-4849-a046-6ce2b3de6606",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.8951278328895569
+    },
+    {
+      "id": "final-anli-d4ccec71-dcc4-4a68-851d-74ef31f4668c",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9971430897712708
+    },
+    {
+      "id": "final-anli-f9bdbaef-504d-485b-8475-0d549808ba82",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9930785298347473
+    },
+    {
+      "id": "final-anli-3ecd8001-205d-47d8-ac77-32b4e2436414",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9994939565658569
+    },
+    {
+      "id": "final-anli-94acaadd-312e-4dc6-be30-c0479103ec7b",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "support",
+      "confidence": 0.4024847745895386
+    },
+    {
+      "id": "final-anli-7026c3e8-a222-4a09-aa65-df8b6d14d2f5",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9788610339164734
+    },
+    {
+      "id": "final-anli-eef2ae2f-b055-4446-85cc-fa286d0dbd66",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9954257607460022
+    },
+    {
+      "id": "final-anli-a312c40c-0969-47f8-8a90-daea7f2b205e",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9996517896652222
+    },
+    {
+      "id": "final-anli-7758d274-1edb-4fa9-a9e4-7ff5c445a06d",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9992361068725586
+    },
+    {
+      "id": "final-anli-7a48b3a0-1c47-4143-882f-b8ad82de213e",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9992485642433167
+    },
+    {
+      "id": "final-anli-d837102a-7f67-43d7-85f9-25c1619e50f1",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.8592199087142944
+    },
+    {
+      "id": "final-anli-28a65ff6-b4b3-4435-ab3e-c1aee672cdcb",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "support",
+      "confidence": 0.641687273979187
+    },
+    {
+      "id": "final-anli-96dc4faf-4f47-4210-b88f-af4ede0178b1",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9349384307861328
+    },
+    {
+      "id": "final-anli-4337e39a-b884-42eb-b9f1-b03b814c6e50",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9982408285140991
+    },
+    {
+      "id": "final-anli-722d1dcf-813b-4975-9ff4-937d1d9d1922",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.998742401599884
+    },
+    {
+      "id": "final-anli-c1419c32-8791-4ee9-924f-d381d0c1f903",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9991703033447266
+    },
+    {
+      "id": "final-anli-232e32a3-adb3-495e-9739-3237b69a8c7e",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9996517896652222
+    },
+    {
+      "id": "final-anli-f347d4d7-56e4-49db-84c4-ced450fa0205",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9927865862846375
+    },
+    {
+      "id": "final-anli-23c540fb-ad86-45aa-8131-b26b2749036b",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9995433688163757
+    },
+    {
+      "id": "final-anli-9f8af7d9-553c-4ca5-86bd-837109ce06aa",
+      "expected": "neutral",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9028493165969849
+    },
+    {
+      "id": "final-anli-10f77f57-8d13-481f-abb6-b7b970117d80",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9908798933029175
+    },
+    {
+      "id": "final-anli-75a68f89-4443-47fd-9832-159d6bf40421",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.994734525680542
+    },
+    {
+      "id": "final-anli-1b29890e-c5c4-4411-bc55-b9cab4792bd9",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9955689311027527
+    },
+    {
+      "id": "final-anli-cd367834-b878-4c56-abdd-801e358fbbb2",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9984209537506104
+    },
+    {
+      "id": "final-anli-699abb8e-9395-4fd5-bd3d-9e0cef572bf3",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.8451730012893677
+    },
+    {
+      "id": "final-anli-1a3b05c9-0578-4b2f-8734-99aee9abaf14",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9774935245513916
+    },
+    {
+      "id": "final-anli-a2df393d-b573-415e-9887-5eeb188c5302",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9882388114929199
+    },
+    {
+      "id": "final-anli-c3212829-42a1-417f-b282-1c0e0f74a686",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9366506934165955
+    },
+    {
+      "id": "final-anli-8f888872-d746-46e6-9783-ae66cedfb374",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.8451315760612488
+    },
+    {
+      "id": "final-anli-9a3b493e-289a-4313-b55a-1b5bbe26ecd8",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9976356029510498
+    },
+    {
+      "id": "final-anli-e11e4185-4a95-488f-9f67-485d94f87500",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9966283440589905
+    },
+    {
+      "id": "final-anli-52fde983-ede3-421b-9d37-c67946bf43b2",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9445567727088928
+    },
+    {
+      "id": "final-anli-eb727677-46cb-4260-98b9-1e56d733d45e",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9960881471633911
+    },
+    {
+      "id": "final-anli-03e94583-2e5e-4008-9370-6275870241b8",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.6677348017692566
+    },
+    {
+      "id": "final-anli-265c487a-1410-4955-9c5a-7089e2533f4a",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9792921543121338
+    },
+    {
+      "id": "final-anli-39fea2f6-c25c-40f9-b199-14c1b30f7038",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9984741806983948
+    },
+    {
+      "id": "final-anli-37a8ec19-e388-4f1d-afb7-de555fd20faf",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.6539059281349182
+    },
+    {
+      "id": "final-anli-8e6f795f-bf93-4394-9381-c1d93fc68773",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.903764545917511
+    },
+    {
+      "id": "final-anli-32b265c6-81cf-423a-99eb-850b3725e10a",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9983804225921631
+    },
+    {
+      "id": "final-anli-61dbf3ae-302f-4eea-b6e1-1c04c21b4eb0",
+      "expected": "support",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9893923997879028
+    },
+    {
+      "id": "final-anli-777dac8e-3580-4549-aa1f-6b6143c6c067",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9708660840988159
+    },
+    {
+      "id": "final-anli-3d9d71d0-dfda-41ac-85f8-c9328bc33fd1",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9978083968162537
+    },
+    {
+      "id": "final-anli-fee59139-d0f1-4895-835a-3bc32b98a59b",
+      "expected": "contradict",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9960060715675354
+    },
+    {
+      "id": "final-anli-36d31e97-4808-4688-b190-112bf52238ef",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9679228663444519
+    },
+    {
+      "id": "final-anli-fe8920d7-2d5f-4c08-b831-818529687851",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9982380867004395
+    },
+    {
+      "id": "final-anli-133dd25e-7ba9-40a0-ac8a-db561ddbb81d",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9937236905097961
+    },
+    {
+      "id": "final-anli-646b3f28-7edf-40e4-bb75-9100a5399092",
+      "expected": "contradict",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9878032803535461
+    },
+    {
+      "id": "final-anli-a978d3d0-7f0e-4ffc-8f64-5d540e394074",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9992031455039978
+    },
+    {
+      "id": "final-anli-35c0f1d6-e9a5-49f6-835b-5ac878504170",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9875060319900513
+    },
+    {
+      "id": "final-anli-3e744d9c-c6ec-42f4-a132-b8910eea9a0b",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9955615997314453
+    },
+    {
+      "id": "final-anli-277f83fd-ed39-44fc-a059-429670d6670f",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9910920262336731
+    },
+    {
+      "id": "final-anli-7dfea90e-88e4-4e21-9e8e-a04db1a92086",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9921141862869263
+    },
+    {
+      "id": "final-anli-102fc50d-bf94-4fa2-a020-cbd1abaa46d4",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9993513226509094
+    },
+    {
+      "id": "final-anli-0de3b3b3-5596-4e96-befe-b745ea14f79d",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9327470064163208
+    },
+    {
+      "id": "final-anli-1d3ebf67-a09b-41fe-9652-6d7906b27bc8",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9878218770027161
+    },
+    {
+      "id": "final-anli-f1b1a1a9-a88b-4166-ac4e-9c34803415de",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9962526559829712
+    },
+    {
+      "id": "final-anli-bc916a11-36ee-445e-9949-e51078c9ec67",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.5958678722381592
+    },
+    {
+      "id": "final-anli-e9d927d3-2dd9-4bbb-a465-2de972ed19f0",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9571807980537415
+    },
+    {
+      "id": "final-anli-4c480754-1a81-4d49-95c3-9ef8beb8395e",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9282472729682922
+    },
+    {
+      "id": "final-anli-1a9439bd-cf86-48b6-a754-c6a32ec4ad57",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9155007600784302
+    },
+    {
+      "id": "final-anli-bc88fdae-6860-46df-ba16-5ac304e3a859",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.998035728931427
+    },
+    {
+      "id": "final-anli-e65d03d8-7e2c-4046-adaa-93e942c4aac5",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9983343482017517
+    },
+    {
+      "id": "final-anli-c767f653-d780-40e9-82b7-9f8ddae9b121",
+      "expected": "neutral",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9980623126029968
+    },
+    {
+      "id": "final-anli-2618b130-46bd-4fc4-8e58-f8a1d6465278",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9606118202209473
+    },
+    {
+      "id": "final-anli-7cfea9bd-21ce-428f-b73c-af6ef1e87673",
+      "expected": "contradict",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.994113028049469
+    },
+    {
+      "id": "final-anli-d101cc71-3a42-4ede-b485-5f0a7547daaf",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.968838632106781
+    },
+    {
+      "id": "final-anli-02f3ace4-0157-4fc9-8789-0e7fcb4f2ff7",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.8860116004943848
+    },
+    {
+      "id": "final-anli-76eeb0d7-4ee4-4e33-a06e-cd57c21f677a",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9538355469703674
+    },
+    {
+      "id": "final-anli-bab60e34-855d-4d9d-a8cc-d5688ead5308",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.6650018692016602
+    },
+    {
+      "id": "final-anli-235582fa-57cb-46d7-a471-a2165065e671",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.997252881526947
+    },
+    {
+      "id": "final-anli-3c6e7872-6ea5-4f22-a20b-0cda7df6cbf5",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9443029165267944
+    },
+    {
+      "id": "final-anli-09402dd7-2533-48e3-8aab-9f5ddc688938",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9990504384040833
+    },
+    {
+      "id": "final-anli-20fe6f66-f912-48cf-bf30-a22774ba102b",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9993270635604858
+    },
+    {
+      "id": "final-anli-e3adc2b3-0484-42cd-b817-8db4ff14f791",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9854538440704346
+    },
+    {
+      "id": "final-anli-4eb20587-685e-47cc-ad55-48906a92f669",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9981865286827087
+    },
+    {
+      "id": "final-anli-79a260e6-e372-4966-a629-eea8f939f003",
+      "expected": "support",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9660662412643433
+    },
+    {
+      "id": "final-anli-b169b5d8-2fdd-4bcf-89f0-b16eae9abe56",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9984112977981567
+    },
+    {
+      "id": "final-anli-90d97c65-b0fb-4b33-80ba-5c37607d4ec1",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9972407817840576
+    },
+    {
+      "id": "final-anli-5a6e0bbd-ae9c-434f-b0db-c9bdce61c5db",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9980804920196533
+    },
+    {
+      "id": "final-anli-b82253d4-a6d6-42a3-ab0b-4f5a2e3a4d6a",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9845085144042969
+    },
+    {
+      "id": "final-anli-50cc6560-89cc-411f-b69a-db309159caf9",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9988648891448975
+    },
+    {
+      "id": "final-anli-173a4aa9-fb1b-4180-946d-70ad0b648ff2",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9880107045173645
+    },
+    {
+      "id": "final-anli-3844831d-79f6-4bed-b5ae-69a038601d26",
+      "expected": "support",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9987500905990601
+    },
+    {
+      "id": "final-anli-c7eeb85c-f2c3-46db-9d24-9cda687b789d",
+      "expected": "support",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.9970000386238098
+    },
+    {
+      "id": "final-anli-24b7a52b-54b3-47c0-935a-ccf1165d2ac0",
+      "expected": "neutral",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.6834568977355957
+    },
+    {
+      "id": "final-anli-d758a1a3-7c08-4d9b-8070-d58f5eeb298c",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.998508870601654
+    },
+    {
+      "id": "final-anli-1331a0ba-1e4d-4438-ae80-9da13abec868",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "raw": "contradict",
+      "confidence": 0.5531949400901794
+    },
+    {
+      "id": "final-anli-d1ae3964-7690-4df8-bd53-deee0209d8bd",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "support",
+      "confidence": 0.4756934344768524
+    },
+    {
+      "id": "final-anli-69b11ded-9b63-488d-b13d-648c64650149",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9988947510719299
+    },
+    {
+      "id": "final-anli-e71abfdd-2277-41e8-acab-2352ab7527ba",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.998441755771637
+    },
+    {
+      "id": "final-anli-f7636d81-7337-4451-bf8d-c81cdffc1ee9",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9986336827278137
+    },
+    {
+      "id": "final-anli-2f9e10a3-2a76-4bf4-bc85-111bf671bfe5",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9987809062004089
+    },
+    {
+      "id": "final-anli-6e815d0d-4f24-4b28-8bb5-7af5dae2ab58",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9945447444915771
+    },
+    {
+      "id": "final-anli-68b5d40a-ef6a-4d74-b947-bae3198f0c82",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9896736145019531
+    },
+    {
+      "id": "final-anli-9ec001c5-fbe8-4a3f-89a7-d66cb3ac7a86",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.7630873918533325
+    },
+    {
+      "id": "final-anli-13e5d647-ca79-4fcc-8af1-1d5bc721bf5f",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9992064833641052
+    },
+    {
+      "id": "final-anli-e2687629-ef3b-4a6a-b260-55d4420edccd",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.7994909882545471
+    },
+    {
+      "id": "final-anli-9c458868-caa3-49c9-bf30-ee98ba441bb5",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9895506501197815
+    },
+    {
+      "id": "final-anli-6075e5ba-93e5-4d63-89a0-16aa47d80d25",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9993676543235779
+    },
+    {
+      "id": "final-anli-9d7716de-77b1-4fbe-bfbb-e8556013b121",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9990414977073669
+    },
+    {
+      "id": "final-anli-f37a38cd-ae6d-46b1-a081-de8f9256a1ad",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9865115880966187
+    },
+    {
+      "id": "final-anli-287f47bc-0ef9-4472-b483-ec92ca4694d4",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.995870053768158
+    },
+    {
+      "id": "final-anli-23713727-9a87-4e26-bf9f-7ee26f5c2310",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9850764870643616
+    },
+    {
+      "id": "final-anli-5e1e1ea4-eef0-4fc9-8e2d-9d48ef0ab04e",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.688660740852356
+    },
+    {
+      "id": "final-anli-78b0714e-6f2d-4522-8143-c94c3d43f6df",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9947348833084106
+    },
+    {
+      "id": "final-anli-197fe73d-27db-4b1e-b6b8-68e029e731d8",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9995726943016052
+    },
+    {
+      "id": "final-anli-a286869b-39a1-4406-9ed7-55b6e95794c4",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9989030361175537
+    },
+    {
+      "id": "final-anli-edba2ac7-ad6a-4d87-b987-80835e6880a6",
+      "expected": "neutral",
+      "predicted": "support",
+      "raw": "support",
+      "confidence": 0.715530276298523
+    },
+    {
+      "id": "final-anli-007e5be0-db5d-49b5-a279-851c0d011393",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9713229537010193
+    },
+    {
+      "id": "final-anli-21e18a18-31ff-421c-8220-c5f272bda32d",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.9995288848876953
+    },
+    {
+      "id": "final-anli-2aa27c2c-f278-4e50-82d2-dc3151dd9cc0",
+      "expected": "contradict",
+      "predicted": "contradict",
+      "raw": "contradict",
+      "confidence": 0.984245240688324
+    },
+    {
+      "id": "final-anli-746073f0-6f3b-4b2c-844b-d2c3ac72929f",
+      "expected": "contradict",
+      "predicted": "neutral",
+      "raw": "contradict",
+      "confidence": 0.5581563711166382
+    },
+    {
+      "id": "final-anli-40b906cc-2c37-481c-a5f0-3d7b3680260e",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw": "neutral",
+      "confidence": 0.9884265661239624
+    }
+  ]
+}

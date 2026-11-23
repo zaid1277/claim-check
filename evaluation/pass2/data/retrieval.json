@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "e2e-000",
+    "group": "e2e-000",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "geography",
+    "claim": "Lisbon is the capital of Portugal.",
+    "passages": [
+      "Portugal's capital city is Lisbon.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-001",
+    "group": "e2e-001",
+    "split": "validation",
+    "difficulty": "easy",
+    "domain": "geography",
+    "claim": "Oslo is the capital of Sweden.",
+    "passages": [
+      "Stockholm, not Oslo, is the capital of Sweden.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-002",
+    "group": "e2e-002",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "geography",
+    "claim": "The Nile flows through Egypt.",
+    "passages": [
+      "The Nile River passes through Egypt on its way to the Mediterranean Sea.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-003",
+    "group": "e2e-003",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "geography",
+    "claim": "Mount Kilimanjaro is in Canada.",
+    "passages": [
+      "Mount Kilimanjaro is located in Tanzania, not Canada.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-004",
+    "group": "e2e-004",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "geography",
+    "claim": "The Pacific is an ocean.",
+    "passages": [
+      "The Pacific Ocean is one of Earth's oceans.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-005",
+    "group": "e2e-005",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "science",
+    "claim": "A triangle has three sides.",
+    "passages": [
+      "A triangle is a polygon with exactly three sides.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-006",
+    "group": "e2e-006",
+    "split": "validation",
+    "difficulty": "easy",
+    "domain": "science",
+    "claim": "A square has five sides.",
+    "passages": [
+      "A square has four sides, not five.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-007",
+    "group": "e2e-007",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "science",
+    "claim": "The chemical symbol for gold is Au.",
+    "passages": [
+      "Gold is represented by the chemical symbol Au.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-008",
+    "group": "e2e-008",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "science",
+    "claim": "The chemical symbol for oxygen is He.",
+    "passages": [
+      "The chemical symbol for oxygen is O, not He.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-009",
+    "group": "e2e-009",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "science",
+    "claim": "Earth orbits the Sun.",
+    "passages": [
+      "Earth travels in an orbit around the Sun.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-010",
+    "group": "e2e-010",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "history",
+    "claim": "The first Moon landing occurred in 1969.",
+    "passages": [
+      "Humans first landed on the Moon in 1969 during Apollo 11.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-011",
+    "group": "e2e-011",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "history",
+    "claim": "The Berlin Wall fell in 1979.",
+    "passages": [
+      "The Berlin Wall fell in 1989, not 1979.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-012",
+    "group": "e2e-012",
+    "split": "validation",
+    "difficulty": "easy",
+    "domain": "history",
+    "claim": "Johannes Gutenberg developed a printing press in Europe.",
+    "passages": [
+      "Johannes Gutenberg developed a movable-type printing press in Europe.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-013",
+    "group": "e2e-013",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "history",
+    "claim": "The Titanic sank in 1922.",
+    "passages": [
+      "The Titanic sank in April 1912, not 1922.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-014",
+    "group": "e2e-014",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "computing",
+    "claim": "A byte contains eight bits.",
+    "passages": [
+      "A byte consists of eight bits.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-015",
+    "group": "e2e-015",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "computing",
+    "claim": "Binary notation uses ten digits.",
+    "passages": [
+      "Binary notation uses only two digits, zero and one.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-016",
+    "group": "e2e-016",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "computing",
+    "claim": "HTML is a markup language.",
+    "passages": [
+      "HTML is a markup language used to structure documents.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-017",
+    "group": "e2e-017",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "technology",
+    "claim": "A thermometer measures distance.",
+    "passages": [
+      "A thermometer measures temperature, not distance.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-018",
+    "group": "e2e-018",
+    "split": "validation",
+    "difficulty": "easy",
+    "domain": "technology",
+    "claim": "A microphone converts sound into an electrical signal.",
+    "passages": [
+      "A microphone converts acoustic sound waves to electrical signals.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-019",
+    "group": "e2e-019",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "culture",
+    "claim": "Jane Austen wrote Pride and Prejudice.",
+    "passages": [
+      "Pride and Prejudice is a novel by Jane Austen.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-020",
+    "group": "e2e-020",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "culture",
+    "claim": "Vincent van Gogh painted the Mona Lisa.",
+    "passages": [
+      "Leonardo da Vinci painted the Mona Lisa; Vincent van Gogh did not.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-021",
+    "group": "e2e-021",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "culture",
+    "claim": "A standard violin has four strings.",
+    "passages": [
+      "The standard violin has four strings.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-022",
+    "group": "e2e-022",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "sport",
+    "claim": "A standard soccer team fields twelve players.",
+    "passages": [
+      "A standard soccer team fields eleven players, not twelve.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-023",
+    "group": "e2e-023",
+    "split": "validation",
+    "difficulty": "easy",
+    "domain": "sport",
+    "claim": "A marathon is 42.195 kilometers long.",
+    "passages": [
+      "The official marathon distance is 42.195 kilometers.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-024",
+    "group": "e2e-024",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "health",
+    "claim": "The heart pumps blood.",
+    "passages": [
+      "The heart pumps blood around the body.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-025",
+    "group": "e2e-025",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "health",
+    "claim": "Adult humans normally have three lungs.",
+    "passages": [
+      "Adult humans normally have two lungs, not three.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-026",
+    "group": "e2e-026",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "environment",
+    "claim": "Photosynthesis uses light energy.",
+    "passages": [
+      "During photosynthesis, organisms use energy from light.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-027",
+    "group": "e2e-027",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "environment",
+    "claim": "Penguins are mammals.",
+    "passages": [
+      "Penguins are birds, not mammals.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-028",
+    "group": "e2e-028",
+    "split": "validation",
+    "difficulty": "easy",
+    "domain": "public_institutions",
+    "claim": "The local post office opens at eight.",
+    "passages": [
+      "The local post office sells stamps.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-029",
+    "group": "e2e-029",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "business",
+    "claim": "The bakery employs ten people.",
+    "passages": [
+      "The bakery sells fresh bread every morning.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-030",
+    "group": "e2e-030",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "economics",
+    "claim": "The town's sales tax is five percent.",
+    "passages": [
+      "The town collects sales tax from local purchases.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-031",
+    "group": "e2e-031",
+    "split": "validation",
+    "difficulty": "easy",
+    "domain": "culture",
+    "claim": "The theater opens on Tuesdays.",
+    "passages": [
+      "The theater welcomes visitors on Tuesdays.",
+      "The theater is closed on Tuesdays.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-032",
+    "group": "e2e-032",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "sport",
+    "claim": "The Eagles won the match.",
+    "passages": [
+      "The Eagles won the match.",
+      "The Eagles lost the match.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-033",
+    "group": "e2e-033",
+    "split": "test",
+    "difficulty": "easy",
+    "domain": "health",
+    "claim": "The pharmacy closes at six.",
+    "passages": [
+      "The pharmacy sells prescription medicines.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-034",
+    "group": "e2e-034",
+    "split": "development",
+    "difficulty": "easy",
+    "domain": "technology",
+    "claim": "The camera records audio.",
+    "passages": [
+      "The camera records audio.",
+      "The camera cannot record audio.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-035",
+    "group": "e2e-035",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "business",
+    "claim": "Marlin's revenue was $12 million in 2021.",
+    "passages": [
+      "Marlin reported 2021 revenue of twelve million dollars.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-036",
+    "group": "e2e-036",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "business",
+    "claim": "Petrel employed 750 people in 2020.",
+    "passages": [
+      "Petrel's employee count in 2020 was 570, not 750.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-037",
+    "group": "e2e-037",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "business",
+    "claim": "Cedar acquired Flint in 2017.",
+    "passages": [
+      "Cedar purchased Flint in 2017.",
+      "Cedar did not acquire Flint in 2017.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-038",
+    "group": "e2e-038",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "business",
+    "claim": "Rowan earned a profit in 2019.",
+    "passages": [
+      "Rowan's sales rose in 2019, but profit was not disclosed.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-039",
+    "group": "e2e-039",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "economics",
+    "claim": "The district's output grew by 3 percent in 2022.",
+    "passages": [
+      "District output increased 3% during 2022.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-040",
+    "group": "e2e-040",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "economics",
+    "claim": "The exchange rate was 1.25 units per dollar in June.",
+    "passages": [
+      "The June exchange rate was 1.52 units per dollar, not 1.25.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-041",
+    "group": "e2e-041",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "economics",
+    "claim": "The county's inflation rate was 2 percent in 2020.",
+    "passages": [
+      "The county recorded 2% inflation in 2020.",
+      "The county recorded 4% inflation in 2020.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-042",
+    "group": "e2e-042",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "economics",
+    "claim": "The region's median income was $40,000 in 2021.",
+    "passages": [
+      "The region's mean income was $40,000 in 2021.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-043",
+    "group": "e2e-043",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "computing",
+    "claim": "The database stores timestamps in UTC.",
+    "passages": [
+      "All timestamps in the database use Coordinated Universal Time.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-044",
+    "group": "e2e-044",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "computing",
+    "claim": "The service retains logs for thirty days.",
+    "passages": [
+      "The service retains logs for only thirteen days.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-045",
+    "group": "e2e-045",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "computing",
+    "claim": "The compiler supports recursion.",
+    "passages": [
+      "Recursive functions are supported by the compiler.",
+      "The compiler rejects all recursive functions.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-046",
+    "group": "e2e-046",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "computing",
+    "claim": "The application encrypts stored passwords.",
+    "passages": [
+      "The application encrypts network traffic.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-047",
+    "group": "e2e-047",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "technology",
+    "claim": "The battery has a capacity of 2400 milliamp hours.",
+    "passages": [
+      "The battery's rated capacity is 2400 mAh.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-048",
+    "group": "e2e-048",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "technology",
+    "claim": "The transmitter operates at 900 megahertz.",
+    "passages": [
+      "The transmitter operates at 800 megahertz, not 900.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-049",
+    "group": "e2e-049",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "technology",
+    "claim": "The printer can print on both sides automatically.",
+    "passages": [
+      "The printer supports automatic duplex printing.",
+      "The printer cannot print on both sides automatically.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-050",
+    "group": "e2e-050",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "technology",
+    "claim": "The drone can fly for twenty minutes.",
+    "passages": [
+      "The drone takes twenty minutes to charge.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-051",
+    "group": "e2e-051",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "science",
+    "claim": "The solution's pH was 7.2.",
+    "passages": [
+      "The measured pH of the solution was 7.2.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-052",
+    "group": "e2e-052",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "science",
+    "claim": "The measured wavelength was 450 nanometers.",
+    "passages": [
+      "The measured wavelength was 540 nanometers, not 450.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-053",
+    "group": "e2e-053",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "science",
+    "claim": "The material conducts electricity.",
+    "passages": [
+      "Tests show that the material conducts electricity.",
+      "Tests show that the material does not conduct electricity.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-054",
+    "group": "e2e-054",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "science",
+    "claim": "The reaction releases heat.",
+    "passages": [
+      "The reaction produces a gas.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-055",
+    "group": "e2e-055",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "history",
+    "claim": "The treaty was ratified in 1843.",
+    "passages": [
+      "Ratification of the treaty occurred in 1843.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-056",
+    "group": "e2e-056",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "history",
+    "claim": "The fortress was built before the bridge.",
+    "passages": [
+      "The bridge was built before the fortress, and the fortress was constructed later.",
+      "Both the fortress and the bridge survive.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-057",
+    "group": "e2e-057",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "history",
+    "claim": "The manuscript was completed in 1610.",
+    "passages": [
+      "The manuscript was completed in 1610.",
+      "The manuscript was not completed until 1612.",
+      "The manuscript contains illustrations.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-058",
+    "group": "e2e-058",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "history",
+    "claim": "The census counted 8,000 residents.",
+    "passages": [
+      "The census counted 8,000 households.",
+      "The census was conducted in spring.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-059",
+    "group": "e2e-059",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "sport",
+    "claim": "The runner finished in 10.42 seconds.",
+    "passages": [
+      "The runner's recorded finishing time was 10.42 seconds.",
+      "The runner wore lane number four.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-060",
+    "group": "e2e-060",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "sport",
+    "claim": "The club scored 64 points during the season.",
+    "passages": [
+      "The club's season total was 46 points, not 64.",
+      "The club changed its coach during the season.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-061",
+    "group": "e2e-061",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "sport",
+    "claim": "The race was held on 3 May.",
+    "passages": [
+      "The race took place on May 3.",
+      "The race took place on May 4, not May 3.",
+      "The race was held outdoors.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-062",
+    "group": "e2e-062",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "sport",
+    "claim": "The swimmer holds the national record.",
+    "passages": [
+      "The swimmer holds the regional record.",
+      "The swimmer trains at the national pool.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-063",
+    "group": "e2e-063",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "culture",
+    "claim": "The collection contains 120 photographs.",
+    "passages": [
+      "There are one hundred and twenty photographs in the collection.",
+      "The collection is stored in archival boxes.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-064",
+    "group": "e2e-064",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "culture",
+    "claim": "The concert lasted ninety minutes.",
+    "passages": [
+      "The concert lasted sixty minutes, not ninety.",
+      "The concert featured a string quartet.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-065",
+    "group": "e2e-065",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "culture",
+    "claim": "The film was released in 2008.",
+    "passages": [
+      "The film's release was in 2008.",
+      "The film was released in 2009, not 2008.",
+      "The film was shown at a festival.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-066",
+    "group": "e2e-066",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "culture",
+    "claim": "The composer received the prize in 1996.",
+    "passages": [
+      "The composer was nominated for the prize in 1996.",
+      "The composer wrote orchestral music.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-067",
+    "group": "e2e-067",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "health",
+    "claim": "The trial enrolled 240 volunteers.",
+    "passages": [
+      "A total of 240 volunteers were enrolled in the trial.",
+      "The trial lasted twelve weeks.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-068",
+    "group": "e2e-068",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "health",
+    "claim": "The clinic's appointment interval is fifteen minutes.",
+    "passages": [
+      "The clinic schedules appointments at thirty-minute intervals, not fifteen.",
+      "The clinic sends appointment reminders.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-069",
+    "group": "e2e-069",
+    "split": "validation",
+    "difficulty": "medium",
+    "domain": "health",
+    "claim": "The screening program includes children.",
+    "passages": [
+      "Children are included in the screening program.",
+      "Children are excluded from the screening program.",
+      "The screening program operates in several clinics.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-070",
+    "group": "e2e-070",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "health",
+    "claim": "The treatment reduces mortality.",
+    "passages": [
+      "The treatment reduces symptoms, but mortality was not measured.",
+      "The treatment is given twice daily.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-071",
+    "group": "e2e-071",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "environment",
+    "claim": "The wetland covers 320 hectares.",
+    "passages": [
+      "The wetland's area is 320 hectares.",
+      "The wetland attracts migratory birds.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-072",
+    "group": "e2e-072",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "environment",
+    "claim": "The monitoring station recorded 18 millimeters of rain.",
+    "passages": [
+      "The station recorded 81 millimeters of rain, not 18.",
+      "The monitoring station is automated.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-073",
+    "group": "e2e-073",
+    "split": "development",
+    "difficulty": "medium",
+    "domain": "public_institutions",
+    "claim": "The board requires a two-thirds majority.",
+    "passages": [
+      "Decisions require a two-thirds majority of the board.",
+      "A simple majority of the board is sufficient; two-thirds is not required.",
+      "The board publishes its decisions.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-074",
+    "group": "e2e-074",
+    "split": "test",
+    "difficulty": "medium",
+    "domain": "public_institutions",
+    "claim": "The permit is valid for three years.",
+    "passages": [
+      "The permit application can take three years to process.",
+      "The permit must be displayed publicly.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-075",
+    "group": "e2e-075",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "business",
+    "claim": "Juniper opened a factory and hired 200 workers.",
+    "passages": [
+      "Juniper opened a factory.",
+      "Juniper hired 200 workers.",
+      "Juniper announced an advertising campaign.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-076",
+    "group": "e2e-076",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "business",
+    "claim": "Willow opened a warehouse and appointed a manager.",
+    "passages": [
+      "Willow opened a warehouse. The appointment of a manager is not reported.",
+      "Willow sells household products.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-077",
+    "group": "e2e-077",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "business",
+    "claim": "Birch increased sales and reduced costs.",
+    "passages": [
+      "Birch increased sales.",
+      "Birch increased costs rather than reducing them.",
+      "Birch publishes quarterly statements.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-078",
+    "group": "e2e-078",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "business",
+    "claim": "Larch reported revenue of $9 million in 2024.",
+    "passages": [
+      "Larch's 2024 revenue was $9 million.",
+      "Larch's 2024 revenue was $7 million.",
+      "Larch reported revenue of $9 million in 2023.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-079",
+    "group": "e2e-079",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "public_institutions",
+    "claim": "Dara is currently chair of the commission.",
+    "passages": [
+      "Dara was chair of the commission in 2001.",
+      "The commission holds public hearings.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-080",
+    "group": "e2e-080",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "public_institutions",
+    "claim": "Elin is currently director of the authority.",
+    "passages": [
+      "Elin is the current director of the authority.",
+      "Elin was not director of the authority in 2002.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-081",
+    "group": "e2e-081",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "economics",
+    "claim": "The city currently has an unemployment rate of 4 percent.",
+    "passages": [
+      "The city's unemployment rate was 4 percent in 2012.",
+      "The city publishes labor statistics.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-082",
+    "group": "e2e-082",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "economics",
+    "claim": "The district's 2025 budget was $60 million.",
+    "passages": [
+      "The district adopted a budget of sixty million dollars for 2025.",
+      "The district's 2024 budget was $50 million.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-083",
+    "group": "e2e-083",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "science",
+    "claim": "The substance always causes the reaction.",
+    "passages": [
+      "The substance sometimes causes the reaction under specific conditions.",
+      "The substance is sold in sealed containers.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-084",
+    "group": "e2e-084",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "science",
+    "claim": "Every sample passed the test.",
+    "passages": [
+      "One of the samples failed the test.",
+      "The samples were labeled before testing.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-085",
+    "group": "e2e-085",
+    "split": "validation",
+    "difficulty": "hard",
+    "domain": "health",
+    "claim": "The observational study proves that exercise prevents the illness.",
+    "passages": [
+      "The observational study found an association but did not establish causation.",
+      "The study recruited adults who exercised regularly.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-086",
+    "group": "e2e-086",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "health",
+    "claim": "The intervention reduces hospital admissions.",
+    "passages": [
+      "The trial found that the intervention reduced hospital admissions.",
+      "The trial found that the intervention increased hospital admissions.",
+      "The intervention was delivered in community clinics.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-087",
+    "group": "e2e-087",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "technology",
+    "claim": "The instrument measures pressure and records temperature.",
+    "passages": [
+      "The instrument measures pressure.",
+      "The instrument records temperature.",
+      "The instrument has a metal case.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-088",
+    "group": "e2e-088",
+    "split": "validation",
+    "difficulty": "hard",
+    "domain": "technology",
+    "claim": "Both prototypes passed inspection.",
+    "passages": [
+      "The first prototype passed inspection, but the second failed.",
+      "The prototypes were inspected on the same day.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-089",
+    "group": "e2e-089",
+    "split": "validation",
+    "difficulty": "hard",
+    "domain": "computing",
+    "claim": "Edition 3.4 exports encrypted archives.",
+    "passages": [
+      "Edition 3.3 exports encrypted archives.",
+      "Edition 3.4 has a new settings menu.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-090",
+    "group": "e2e-090",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "computing",
+    "claim": "The patch fixes the memory leak.",
+    "passages": [
+      "The patch fixes the memory leak.",
+      "The memory leak remains after the patch is installed.",
+      "The patch changes the toolbar icons.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-091",
+    "group": "e2e-091",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "history",
+    "claim": "The harvest failure caused the migration.",
+    "passages": [
+      "The migration occurred after the harvest failure, but its causes are not established.",
+      "The migration affected several villages.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-092",
+    "group": "e2e-092",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "history",
+    "claim": "The survey began in 1881 and ended in 1884.",
+    "passages": [
+      "The survey began in 1881.",
+      "The survey ended in 1884.",
+      "The survey documented local roads.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-093",
+    "group": "e2e-093",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "culture",
+    "claim": "Orion won the literature prize.",
+    "passages": [
+      "Orion, a music group, won a performance award.",
+      "Several organizations use the name Orion.",
+      "Lisbon is a popular destination for tourists.",
+      "Gold has been used in jewelry for centuries.",
+      "Computers store information digitally.",
+      "Violins are played with bows.",
+      "Customers can send parcels at the local post office.",
+      "Marlin has twelve offices.",
+      "Income statistics were collected in 2021.",
+      "The printer can print in color.",
+      "Both the fortress and the bridge survive."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-094",
+    "group": "e2e-094",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "culture",
+    "claim": "The novel was published before the author's death.",
+    "passages": [
+      "The novel was first published two years after the author's death.",
+      "The author wrote several novels.",
+      "Oslo has a busy harbor.",
+      "Oxygen is essential to many organisms.",
+      "Numbers can be written in different bases.",
+      "Soccer is played on a rectangular field.",
+      "The bakery has a blue sign.",
+      "Petrel opened an office in 2020.",
+      "The database supports indexes.",
+      "The drone has four propellers.",
+      "The manuscript contains illustrations."
+    ],
+    "relevant": [
+      0
+    ]
+  },
+  {
+    "id": "e2e-095",
+    "group": "e2e-095",
+    "split": "validation",
+    "difficulty": "hard",
+    "domain": "sport",
+    "claim": "The team won the semifinal and lost the final.",
+    "passages": [
+      "The team won the semifinal.",
+      "The team lost the final.",
+      "The team traveled by train.",
+      "Egypt contains several ancient temples.",
+      "Earth has one natural satellite.",
+      "Web browsers display documents.",
+      "Marathons are held in many cities.",
+      "The town has a budget office.",
+      "Cedar announced a product in 2017.",
+      "The service stores logs in text format.",
+      "The solution was stored at room temperature.",
+      "The census was conducted in spring."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-096",
+    "group": "e2e-096",
+    "split": "validation",
+    "difficulty": "hard",
+    "domain": "sport",
+    "claim": "The athlete completed the course without a penalty.",
+    "passages": [
+      "The athlete completed the course without a penalty.",
+      "The athlete incurred a penalty on the course.",
+      "The course was wet that morning.",
+      "Climbers visit Mount Kilimanjaro every year.",
+      "Astronauts trained extensively before traveling to the Moon.",
+      "A thermometer can have a digital display.",
+      "Blood contains different types of cells.",
+      "The theater has a red curtain.",
+      "Rowan publishes annual reports.",
+      "The compiler performs syntax checks.",
+      "The wavelength was measured with a spectrometer.",
+      "The runner wore lane number four."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-097",
+    "group": "e2e-097",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "environment",
+    "claim": "The reserve currently contains 80 nesting pairs.",
+    "passages": [
+      "The reserve contained 80 nesting pairs in 2005.",
+      "The reserve is surveyed annually.",
+      "Ships cross the Pacific daily.",
+      "The Berlin Wall divided a city.",
+      "Microphones are used in recording studios.",
+      "Lungs are part of the respiratory system.",
+      "The Eagles played at home.",
+      "The district's population grew in 2022.",
+      "The application requires a password to sign in.",
+      "The material can be cut into sheets.",
+      "The club changed its coach during the season."
+    ],
+    "relevant": []
+  },
+  {
+    "id": "e2e-098",
+    "group": "e2e-098",
+    "split": "test",
+    "difficulty": "hard",
+    "domain": "environment",
+    "claim": "The monitoring program measured rainfall and tracked river levels.",
+    "passages": [
+      "The monitoring program measured rainfall.",
+      "The monitoring program tracked river levels.",
+      "The monitoring program measured rainfall.",
+      "Triangles occur in architecture.",
+      "Printing changed how books were distributed.",
+      "Jane Austen lived in England.",
+      "Plants grow in many environments.",
+      "The pharmacy has a waiting area.",
+      "The exchange rate was published in June.",
+      "The battery weighs forty grams.",
+      "The reaction occurs in a glass vessel.",
+      "The race was held outdoors."
+    ],
+    "relevant": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "e2e-099",
+    "group": "e2e-099",
+    "split": "development",
+    "difficulty": "hard",
+    "domain": "geography",
+    "claim": "Both tunnels connect to the northern road.",
+    "passages": [
+      "The first tunnel connects to the northern road, but the second does not.",
+      "The tunnels were inspected recently.",
+      "The square is a geometric shape.",
+      "The Titanic was an ocean liner.",
+      "The Mona Lisa is displayed in a museum.",
+      "Penguins can swim.",
+      "The camera has a lens.",
+      "The county collects economic statistics.",
+      "The transmitter uses an antenna.",
+      "The treaty was discussed by diplomats.",
+      "The swimmer trains at the national pool."
+    ],
+    "relevant": [
+      0
+    ]
+  }
+]
