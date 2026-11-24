@@ -6,7 +6,7 @@ See [release verification](release-verification.md) for exact fresh results and
 
 ## Locally completed
 
-- [x] Backend suite with real-model and PostgreSQL integration: 171 passed.
+- [x] Backend suite with real-model and PostgreSQL integration: 175 passed.
 - [x] Frontend, extension, Chromium/WebKit flows, types, lint, formatting and build.
 - [x] One fresh live Tavily investigation, supporting passage and saved report.
 - [x] Ignored environment files, caches, model weights and disposable databases.
@@ -17,7 +17,7 @@ See [release verification](release-verification.md) for exact fresh results and
 
 ## GitHub and deployment checks
 
-- [ ] Push to the intended public repository and inspect rendered README/assets.
+- [x] Pushed to the public repository; README local asset/link targets checked.
 - [ ] Verify GitHub Actions on the uploaded commit; local success is not hosted CI success.
 - [ ] Publish a portfolio pre-release with accurate limitations, not a production release.
 - [ ] Validate the installed Chrome/Edge extension manually.

@@ -115,32 +115,31 @@ def _gather_evidence(claim, settings, search, embeddings, nli, queries=None):
         ):
             unique[key] = (article, passage)
     candidates = list(unique.values())
-    # Source diversity (hyper pass, group 2, phase 13): cap how many
-    # candidate passages from one registrable domain can occupy the ranking
-    # window, so a single prolific source cannot crowd out differently-
-    # sourced evidence before it ever reaches similarity ranking or NLI.
-    # collect_evidence already round-robins across distinct URLs, but many
-    # URLs can share one domain (e.g. a syndicated wire feed), which this
-    # catches. Order-preserving, so it doesn't change which passage from a
-    # capped domain is kept.
-    if settings.max_candidates_per_domain:
-        per_domain: dict[str, int] = {}
-        diverse = []
-        for article, passage in candidates:
-            group = source_group(article.url)
-            count = per_domain.get(group, 0)
-            if count >= settings.max_candidates_per_domain:
-                continue
-            per_domain[group] = count + 1
-            diverse.append((article, passage))
-        candidates = diverse
+    # Rank before applying source diversity: a page's introduction must not
+    # consume the domain's allowance before its relevant passages are compared.
     ranked = rank_passages(
         claim,
         [text for _, text in candidates],
         embeddings,
-        settings.top_k,
+        len(candidates),
         settings.min_similarity,
     )
+    selected = []
+    per_domain: dict[str, int] = {}
+    for match in ranked:
+        article, _ = candidates[match.index]
+        group = source_group(article.url)
+        count = per_domain.get(group, 0)
+        if (
+            settings.max_candidates_per_domain
+            and count >= settings.max_candidates_per_domain
+        ):
+            continue
+        selected.append(match)
+        per_domain[group] = count + 1
+        if len(selected) == settings.top_k:
+            break
+    ranked = selected
     evidence = []
     for match in ranked:
         article, passage = candidates[match.index]

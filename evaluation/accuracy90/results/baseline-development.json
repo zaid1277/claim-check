@@ -1,0 +1,1256 @@
+{
+  "summary": {
+    "n": 175,
+    "accuracy": 0.76,
+    "coverage": 0.6114285714285714,
+    "selective_accuracy": 0.9719626168224299,
+    "abstention_rate": 0.38857142857142857,
+    "false_abstentions": 39,
+    "correct_abstentions": 29,
+    "confident_errors": 3,
+    "by_difficulty": {
+      "easy": {
+        "n": 40,
+        "correct": 36,
+        "accuracy": 0.9
+      },
+      "medium": {
+        "n": 60,
+        "correct": 56,
+        "accuracy": 0.9333333333333333
+      },
+      "hard": {
+        "n": 75,
+        "correct": 41,
+        "accuracy": 0.5466666666666666
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "final-fact-000",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-001",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-002",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-003",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-004",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-005",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-006",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-007",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-008",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-009",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-010",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-011",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-012",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-013",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-014",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-015",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-016",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-017",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-018",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-019",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-020",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-021",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-022",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-023",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-024",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-025",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-026",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-027",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-028",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-029",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-030",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-031",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-032",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-033",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-034",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-035",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-036",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-037",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-038",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-039",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "easy",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-040",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-041",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-042",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-043",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-044",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-045",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-046",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-047",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-048",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-049",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-050",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-051",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-052",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-053",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-054",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-055",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-056",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-057",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-058",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-059",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-060",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-061",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-062",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-063",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-064",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-065",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-066",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-067",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-068",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-069",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-070",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-071",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-072",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-073",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-074",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-075",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-076",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-077",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-078",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-079",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-080",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-081",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-082",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-083",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-084",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-085",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-086",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-087",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-088",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-089",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-090",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-091",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-092",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-093",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-094",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-095",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-096",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-097",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-098",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-fact-099",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "medium",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-000",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-001",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-002",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-003",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-004",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-005",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-006",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-007",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-008",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-009",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-010",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-011",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-012",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-013",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "MIXED_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-014",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-015",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-016",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-017",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-018",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-019",
+      "expected": "MIXED_EVIDENCE",
+      "predicted": "MIXED_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-020",
+      "expected": "MIXED_EVIDENCE",
+      "predicted": "MIXED_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-021",
+      "expected": "MIXED_EVIDENCE",
+      "predicted": "MIXED_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-022",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-023",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-hard-024",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "authored-controlled"
+    },
+    {
+      "id": "final-scifact-1336",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-143",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1337",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-887",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1278",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-575",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-237",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1185",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1049",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1062",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-268",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-702",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-171",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-852",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-128",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1024",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-692",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1200",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-744",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-51",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-911",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-514",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1232",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-728",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-985",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-549",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1292",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-113",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1041",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-536",
+      "expected": "SUPPORTED",
+      "predicted": "MIXED_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1132",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-619",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-56",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1320",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-180",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-163",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-185",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-501",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-230",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-960",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-431",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-781",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-436",
+      "expected": "SUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1359",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-298",
+      "expected": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-54",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-1270",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-811",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-516",
+      "expected": "UNSUPPORTED",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    },
+    {
+      "id": "final-scifact-129",
+      "expected": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "difficulty": "hard",
+      "origin": "SciFact-dev"
+    }
+  ]
+}

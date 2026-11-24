@@ -163,6 +163,10 @@ attempts to reduce them are documented — see
 [`docs/claim-check-explained.md`](docs/claim-check-explained.md) for the
 full narrative of how that conclusion was reached.
 
+The [November accuracy pass and research shortlist](docs/accuracy90-research.md)
+records a small retrieval correction: development replay improved from 76.0% to
+76.57%. This is not a new independent accuracy result, and 90% has not been reached.
+
 ## Getting Started
 
 Prerequisites: Git, Node.js 24 LTS, Python 3.12, and Docker Compose (or an

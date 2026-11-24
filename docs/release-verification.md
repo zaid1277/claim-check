@@ -2,23 +2,24 @@
 
 Release scope: a public, reproducible research/portfolio preview, not a production
 verification service. No model, threshold, scoring formula, source weight or
-historical benchmark was changed in this release pass.
+historical benchmark was changed. A subsequent retrieval correction and research
+review are recorded in [the accuracy pass](accuracy90-research.md).
 
 ## Fresh checks
 
 | Check | Result |
 | --- | --- |
-| Full backend, cached real NLI and isolated PostgreSQL 17 | 171 passed, no skips, 3 dependency deprecation warnings |
+| Full backend, cached real NLI and isolated PostgreSQL 17 | 175 passed, no skips, 3 dependency deprecation warnings |
 | Frontend unit tests | 13 passed |
 | Extension tests | 2 passed |
 | Chromium and WebKit release flows | 14 passed; includes one/five selected article claims, slow API, reports, OCR correction, responsive/accessibility and setup flows |
-| Ruff lint / formatting | Passed; 166 Python files formatted |
+| Ruff lint / formatting | Passed; 169 Python files formatted |
 | ESLint / Prettier / TypeScript | Passed |
 | Production frontend build | Passed |
 | Installed Python dependency consistency | `pip check` passed |
 | Publishable file scan | No matching provider/GitHub token or private-key patterns; environment files, local state, caches and model weights ignored |
 
-The ordinary backend run skips opt-in database/model tests. The 171-test result
+The ordinary backend run skips opt-in database/model tests. The 175-test result
 above explicitly enabled both with `RUN_LOCAL_NLI_TESTS=1` and
 `TEST_DATABASE_URL` pointing at a disposable database. Tests use installed
 local dependencies, not a clean hosted CI environment.
@@ -81,3 +82,15 @@ RUN_LOCAL_NLI_TESTS=1 HF_HUB_OFFLINE=1 \
 Use a disposable database for tests. Install browser binaries with
 `cd web && npx playwright install chromium webkit` before the browser suite.
 Never commit provider credentials or local database connection files.
+
+## Clean-install findings
+
+The first hosted run exposed stale dependency locks (missing spaCy/tldextract).
+The next exposed a missing metrics-test dependency and two unit tests that
+accidentally loaded optional models. Both were corrected: locks were regenerated,
+scikit-learn declared as a development dependency, and those mechanics tests now
+inject relevance scores. Real-model coverage remains in the opt-in integration
+suite. Two lock-completeness tests prevent the first issue recurring.
+
+Final local backend verification after these repairs and the retrieval correction:
+**175 passed, no skips**. Hosted CI status must be read from GitHub Actions.

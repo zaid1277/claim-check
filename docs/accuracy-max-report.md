@@ -1,5 +1,9 @@
 # Claim Check — Accuracy Maximization Pass: Diagnostic Findings & Ceiling Estimate
 
+> Later audit (23 November 2026): the “raw NLI / zero gating” replay below
+> retains confidence-gated stances and relevance/risk weighting. It does not
+> establish a true accuracy ceiling. See [the correction](accuracy90-research.md).
+
 **This report does not build or run a final holdout, per the explicit stop
 condition.** It answers the question the instructions posed first: *before
 spending further engineering effort, where is the real bottleneck, and is
